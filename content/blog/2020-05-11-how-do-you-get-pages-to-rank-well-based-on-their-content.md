@@ -15,7 +15,7 @@ I'm baby small batch viral wolf bushwick literally tousled tattooed hammock knau
 
 Jianbing man bun glossier marfa kitsch selvage. Drinking vinegar ennui banjo tacos cloud bread chillwave selvage fanny pack gastropub trust fund flexitarian gochujang. Ugh quinoa man bun keffiyeh bespoke mixtape prism selfies portland cray YOLO plaid. Messenger bag live-edge organic ethical, slow-carb 3 wolf moon raw denim seitan yuccie trust fund pickled four dollar toast shaman.
 
-![Running man](/img/man-in-white-t-shirt-and-black-pants-in-a-running-position-4048182.jpg "Running man")
+![Nature](../assets/aerial-view-beach-beautiful-cliff-462162.jpg "Nature")
 
 ### Four dollar toasts go a long way
 
