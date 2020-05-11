@@ -1,11 +1,12 @@
 ---
 title: How do you get pages to rank well based on their content?
 date: 2020-05-11T11:34:50.930Z
+author: Ulrika Viberg
 category: Marketing
+image: ../assets/gray-bridge-and-trees-814499.jpg
 preamble: We’re your best friend when it comes to helping you find the best path
   to a successful digital strategy. We know how to handle every aspect of your
   Digital Marketing.
-author: Ulrika Viberg
 ---
 ## Flexitarian photo booth cloud bed.
 
