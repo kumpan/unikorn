@@ -9,11 +9,8 @@ class BlogList extends React.Component {
       <div className="blog-list">
         {posts.length > 0 ? (
           posts.map(({ node }) => {
-            console.log(node)
             return (
-              <div>
-                <BlogPost post={node.frontmatter} />
-              </div>
+              <BlogPost post={node.frontmatter} />
             )
           })
         ) : (

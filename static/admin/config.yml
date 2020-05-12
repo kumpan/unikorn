@@ -6,6 +6,24 @@ media_folder: content/assets
 public_folder: ../assets
 
 collections:
+  - name: startpage
+    label: Startpage
+    folder: content/startpage
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { name: shorttitle, label: Short Title }
+      - name: hero
+        label: Hero
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Preamble, name: text, widget: text }
+          - { label: Image, name: image, widget: image, required: false }
+          - { label: Button text, name: button, widget: string, required: false }
+          - { label: Button link, name: buttonlink, widget: string, required: false }
+
   - name: "blog"
     label: "Blog"
     folder: "content/blog"
@@ -21,6 +39,7 @@ collections:
       - { label: "Image", name: "image", widget: "file" }
       - { label: "Preamble", name: "preamble", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "video"
     label: "Video"
     folder: "content/video"

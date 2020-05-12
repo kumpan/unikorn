@@ -14,6 +14,15 @@ module.exports = {
   plugins: [
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-mdx`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/startpage`,
+        name: `startpage`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

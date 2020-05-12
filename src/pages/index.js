@@ -1,9 +1,9 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import BlogList from "../components/blog/blog-list.js"
+import Hero from "../components/hero.js"
 
-const BlogPosts = () => {
+const Startpage = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -12,18 +12,23 @@ const BlogPosts = () => {
             title
           }
         }
-        allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/blog/|\/video\/)/" } }
-          sort: { fields: [frontmatter___date], order: DESC }
-        )
-         {
+        allMdx(filter: { fileAbsolutePath: { regex: "/(/startpage)/" } }) {
           edges {
             node {
               frontmatter {
-                title
-                date
-                category
-                author
+                hero {
+                  heading
+                  text
+                  image {
+                    childImageSharp {
+                      fluid(maxWidth: 560) {
+                        ...GatsbyImageSharpFluid
+                      }
+                    }
+                  }
+                  button
+                  buttonlink
+                }
               }
             }
           }
@@ -31,12 +36,17 @@ const BlogPosts = () => {
       }
     `
   )
-  const posts = data.allMdx.edges
+  const pageData = data.allMdx.edges[0].node.frontmatter
   return (
   <div>
-    <BlogList posts={posts} />
+    <Hero 
+      heading={pageData.hero.heading} 
+      text={pageData.hero.text}
+      img={pageData.hero.image}
+      button={pageData.hero.button}
+    />
   </div>
   )
 }
 
-export default BlogPosts
+export default Startpage
