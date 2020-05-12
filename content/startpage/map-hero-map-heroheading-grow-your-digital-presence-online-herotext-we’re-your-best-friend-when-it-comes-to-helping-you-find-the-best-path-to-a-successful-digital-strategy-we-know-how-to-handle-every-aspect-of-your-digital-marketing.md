@@ -7,4 +7,5 @@ hero:
     Digital Marketing.
   image: ../assets/screen-shot-2020-05-12-at-12.24.54.png
   buttontext: Start growing now
+  heroimage: ../assets/screen-shot-2020-05-12-at-12.24.54.png
 ---
