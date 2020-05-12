@@ -1,4 +1,5 @@
 ---
+shorttitle: Startsida
 hero:
   heroheading: Grow your digital presence online.
   herotext: We’re your best friend when it comes to helping you find the best path
