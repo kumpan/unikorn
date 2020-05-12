@@ -1,13 +1,13 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Nav from "../components/nav.js"
+
+import Layout from "../components/layout.js"
 
 const Approach = () => {
   return (
-  <div>
-    <Nav location="/our-approach" />
-    <h1>Our Approach</h1>
-  </div>
+    <Layout location="/our-approach">
+      <h1>Our Approach</h1>
+    </Layout>
   )
 }
 

@@ -2,6 +2,8 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Hero from "../components/hero.js"
+import Footer from "../components/footer.js"
+import Layout from "../components/layout.js"
 
 const Startpage = () => {
   const data = useStaticQuery(
@@ -38,14 +40,14 @@ const Startpage = () => {
   )
   const pageData = data.allMdx.edges[0].node.frontmatter
   return (
-  <div>
-    <Hero 
-      heading={pageData.hero.heading} 
-      text={pageData.hero.text}
-      img={pageData.hero.image}
-      button={pageData.hero.button}
-    />
-  </div>
+    <Layout location="/">
+      <Hero 
+        heading={pageData.hero.heading} 
+        text={pageData.hero.text}
+        img={pageData.hero.image}
+        button={pageData.hero.button}
+      />
+    </Layout>
   )
 }
 

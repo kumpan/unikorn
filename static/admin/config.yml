@@ -56,3 +56,37 @@ collections:
       - { label: "Preamble", name: "preamble", widget: "string" }
       - { label: "Video URL", name: "video-url", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "footer"
+    label: "Footer"
+    folder: "content/footer"
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { label: "Small heading", name: "smallheading", widget: "string" }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - name: col1
+        label: Column 1
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Text, name: text, widget: markdown }
+      - name: col2
+        label: Column 2
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Text, name: text, widget: markdown }
+      - name: col3
+        label: Column 3
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Text, name: text, widget: markdown }
+      - name: col4
+        label: Column 4
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Text, name: text, widget: markdown }

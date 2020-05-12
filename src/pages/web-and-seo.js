@@ -1,13 +1,13 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Nav from "../components/nav.js"
+
+import Layout from "../components/layout.js"
 
 const WebSEO = () => {
   return (
-  <div>
-    <Nav location="/web-and-seo" />
-    <h1>Web & SEO</h1>
-  </div>
+    <Layout location="/web-and-seo">
+      <h1>Web & SEO</h1>
+    </Layout>
   )
 }
 
