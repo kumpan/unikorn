@@ -1,6 +1,6 @@
 ---
 title: How do you get pages to rank well based on their content?
-date: 2020-05-11T11:34:50.930Z
+date: 2020-05-01T11:34:50.930Z
 author: Ulrika Viberg
 category: Marketing
 image: ../assets/gray-bridge-and-trees-814499.jpg
