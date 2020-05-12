@@ -2,13 +2,13 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Nav from "../components/nav.js"
 
-const About = () => {
+const Blog = () => {
   return (
   <div>
-    <Nav location="/about" />
-    <h1>About</h1>
+    <Nav location="/blog" />
+    <h1>Blog</h1>
   </div>
   )
 }
 
-export default About
+export default Blog
