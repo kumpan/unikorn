@@ -55,6 +55,7 @@ const Blog = () => {
                 date
                 category
                 author
+                video_url
                 type
                 featured_image {
                   src {
@@ -99,6 +100,7 @@ const Blog = () => {
         alt={pageData.hero.featured_image.alt}
         button={pageData.hero.button}
         buttonlink={pageData.hero.buttonlink}
+        videoURL={pageData.hero.video_url}
       />
 
       <div className="blog-filter">

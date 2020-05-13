@@ -2,7 +2,7 @@ import React, { Component }  from "react"
 import Img from "gatsby-image"
 
 import BlogDate from "./blog-date.js"
-import VideoPopup from "../videopopup.js"
+import VideoPopup from "../video/videopopup.js"
 
 class BlogPost extends Component {
   constructor(props) {
@@ -17,8 +17,8 @@ class BlogPost extends Component {
   }
   
   render() {
-    const { type, title, author, date, featured_image } = this.props.post
-
+    const { type, title, author, date, featured_image, video_url } = this.props.post
+    
     return (
       <div className={"blog-post type-" + type}>
         <span className={"blog-type type-name-" + type}>{type}</span>
@@ -32,12 +32,12 @@ class BlogPost extends Component {
           alt={featured_image.alt}
         />
 
-        {type === 'video' &&
+        {type === 'video' && video_url &&
           <div className="video-btn" onClick={this.playVideo} onKeyDown={this.playVideo} role="button" tabIndex="0">Play</div>
         }
 
-        {this.state.showVideo &&
-          <VideoPopup />
+        {this.state.showVideo && video_url &&
+          <VideoPopup url={video_url} title={title}/>
         }
       </div>
     )
