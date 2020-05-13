@@ -2,12 +2,62 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout.js"
+import BlogList from "../components/blog/blog-list.js"
 
 const Blog = () => {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+        allMdx(
+          filter: { fileAbsolutePath: { regex: "/(/blog/|\/video\/)/" } }
+          sort: { fields: [frontmatter___date], order: DESC }
+        )
+         {
+          edges {
+            node {
+              frontmatter {
+                title
+                date
+                category
+                author
+                type
+              }
+            }
+          }
+        }
+      }
+    `
+  )
+  const posts = data.allMdx.edges
+  
+  const filterPosts = (e) => {
+    const type = "type-" + e.target.innerHTML.toLowerCase()
+    const elements = document.getElementsByClassName('blog-post')
+
+    for ( let i = 0;  i < elements.length; i++ ) {
+      if ( elements[i].classList.contains(type) ) {
+        elements[i].style.display = "block"
+      } else {
+        elements[i].style.display = "none"
+      }
+    }
+
+  }
+
   return (
-    <Layout location="/blog">
-      <h1>Blog</h1>
-    </Layout>
+  <div>
+    <div className="blog-filter">
+      <p>Sort by</p>
+      <div className="filter-video" onClick={filterPosts}>Video</div>
+      <div className="filter-blog" onClick={filterPosts}>Blog</div>
+    </div>
+    <BlogList posts={posts} />
+  </div>
   )
 }
 

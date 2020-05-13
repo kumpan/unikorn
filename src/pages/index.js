@@ -46,6 +46,7 @@ const Startpage = () => {
         text={pageData.hero.text}
         img={pageData.hero.image}
         button={pageData.hero.button}
+        buttonlink={pageData.hero.buttonlink}
       />
     </Layout>
   )

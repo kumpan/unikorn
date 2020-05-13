@@ -35,10 +35,11 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Author", name: "author", widget: "string" }
-      - { label: "Category", name: "category", widget: "select", options: ["Marketing", "Web", "Strategy"] }
+      - { label: "Category", name: "category", widget: "select", options: ["Marketing", "Web", "Strategy", "SEO"] }
       - { label: "Image", name: "image", widget: "file" }
       - { label: "Preamble", name: "preamble", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Type", name: "type", widget: "hidden", default: "blog" }
 
   - name: "video"
     label: "Video"
@@ -51,11 +52,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Author", name: "author", widget: "string" }
-      - { label: "Category", name: "category", widget: "select", options: ["Marketing", "Web", "Strategy"] }
+      - { label: "Category", name: "category", widget: "select", options: ["Marketing", "Web", "Strategy", "SEO"] }
       - { label: "Image", name: "image", widget: "file" }
       - { label: "Preamble", name: "preamble", widget: "string" }
       - { label: "Video URL", name: "video-url", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Type", name: "type", widget: "hidden", default: "video" }
 
   - name: "footer"
     label: "Footer"

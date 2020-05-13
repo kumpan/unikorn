@@ -8,17 +8,17 @@ class BlogList extends React.Component {
     return (
       <div className="blog-list">
         {posts.length > 0 ? (
-          posts.map(({ node }) => {
+          posts.map(({ node }, index) => {
             return (
-              <BlogPost post={node.frontmatter} />
+              <BlogPost key={index} post={node.frontmatter} />
             )
           })
         ) : (
           <p>
-            Just nu finns det inga inlägg
+            No posts to show
           </p>
-        )
-      }
+          )
+        }
       </div>
     )
   }

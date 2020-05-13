@@ -6,6 +6,7 @@ import PrimaryButton from "./buttons/primary.js"
 class Hero extends React.Component {
   render() {
     const { heading, text, img, button, buttonlink } = this.props
+    console.log(buttonlink)
     return (
       <div className="hero-section">
         <h1>{heading}</h1>
