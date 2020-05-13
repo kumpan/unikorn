@@ -56,6 +56,16 @@ const Blog = () => {
                 category
                 author
                 type
+                featured_image {
+                  src {
+                    childImageSharp {
+                      fluid(maxWidth: 560) {
+                        ...GatsbyImageSharpFluid
+                      }
+                    }
+                  }
+                  alt
+                }
               }
             }
           }
@@ -93,8 +103,8 @@ const Blog = () => {
 
       <div className="blog-filter">
         <p>Sort by</p>
-        <div className="filter-video" onClick={filterPosts} onKeyDown={filterPosts} role="button" tabIndex={0}>Video</div>
-        <div className="filter-blog" onClick={filterPosts} onKeyDown={filterPosts} role="button" tabIndex={0}>Blog</div>
+        <div className="filter-video" onClick={filterPosts} onKeyDown={filterPosts} role="button" tabIndex="0">Video</div>
+        <div className="filter-blog" onClick={filterPosts} onKeyDown={filterPosts} role="button" tabIndex="0">Blog</div>
       </div>
       <BlogList posts={posts} />
     </Layout>

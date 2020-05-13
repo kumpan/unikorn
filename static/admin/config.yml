@@ -64,7 +64,12 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Category", name: "category", widget: "select", options: ["Marketing", "Web", "Strategy", "SEO"] }
-      - { label: "Image", name: "image", widget: "file" }
+      - label: Featured image
+        name: featured_image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - { label: "Preamble", name: "preamble", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Type", name: "type", widget: "hidden", default: "blog" }
@@ -81,7 +86,12 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Category", name: "category", widget: "select", options: ["Marketing", "Web", "Strategy", "SEO"] }
-      - { label: "Image", name: "image", widget: "file" }
+      - label: Featured image
+        name: featured_image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - { label: "Preamble", name: "preamble", widget: "string" }
       - { label: "Video URL", name: "video-url", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }

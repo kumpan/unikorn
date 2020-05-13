@@ -1,20 +1,44 @@
 import React, { Component }  from "react"
+import Img from "gatsby-image"
+
+import BlogDate from "./blog-date.js"
+import VideoPopup from "../videopopup.js"
 
 class BlogPost extends Component {
+  constructor(props) {
+    super(props)
+    this.state = { showVideo: false }
+  }
+
+  playVideo = () => {
+    this.setState({
+      showVideo: true
+    })
+  }
+  
   render() {
-    const post = this.props.post
-    const dateYear = post.date.slice(2, 4)
-    const dateMonth = post.date.slice(5, 7)
-    const date = post.date.slice(8, 10)
+    const { type, title, author, date, featured_image } = this.props.post
 
     return (
-      <div className={"blog-post type-" + post.type}>
-        <span className={"blog-type type-name-" + post.type}>{post.type}</span>
-        <h2 className="blog-title">{post.title}</h2>
+      <div className={"blog-post type-" + type}>
+        <span className={"blog-type type-name-" + type}>{type}</span>
+        <h2 className="blog-title">{title}</h2>
         <div className="blog-info">
-          <span className="blog-author">{post.author}</span>
-          <span className="blog-date">{date}/{dateMonth}/{dateYear}</span>
+          <span className="blog-author">{author}</span>
+          <BlogDate date={date} />
         </div>
+        <Img 
+          fluid={featured_image.src.childImageSharp.fluid}
+          alt={featured_image.alt}
+        />
+
+        {type === 'video' &&
+          <div className="video-btn" onClick={this.playVideo} onKeyDown={this.playVideo} role="button" tabIndex="0">Play</div>
+        }
+
+        {this.state.showVideo &&
+          <VideoPopup />
+        }
       </div>
     )
   }
