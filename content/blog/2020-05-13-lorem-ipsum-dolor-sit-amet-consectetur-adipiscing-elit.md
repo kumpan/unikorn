@@ -3,11 +3,14 @@ title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 date: 2020-04-29T07:56:24.192Z
 author: Ulrika Viberg
 category: SEO
-image: ../assets/gray-bridge-and-trees-814499.jpg
+featured_image:
+  src: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
+  alt: Nature
 preamble: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
   sollicitudin quam velit, nec posuere ante suscipit pharetra. Integer id eros
   vulputate, aliquet ex eu, eleifend augue. "
 type: blog
+image: ../assets/gray-bridge-and-trees-814499.jpg
 ---
 ## Flexitarian photo booth cloud bed.
 
