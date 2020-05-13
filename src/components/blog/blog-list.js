@@ -1,8 +1,8 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import React, { Component } from "react"
+
 import BlogPost from './blog-post.js'
 
-class BlogList extends React.Component {
+class BlogList extends Component {
   render() {
     const posts = this.props.posts
     return (

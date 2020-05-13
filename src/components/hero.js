@@ -1,9 +1,9 @@
-import React from "react"
+import React, { Component }  from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 import PrimaryButton from "./buttons/primary.js"
 
-class Hero extends React.Component {
+class Hero extends Component {
   render() {
     const { heading, text, img, button, buttonlink } = this.props
     console.log(buttonlink)

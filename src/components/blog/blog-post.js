@@ -1,7 +1,6 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import React, { Component }  from "react"
 
-class BlogPost extends React.Component {
+class BlogPost extends Component {
   render() {
     const post = this.props.post
     const dateYear = post.date.slice(2, 4)

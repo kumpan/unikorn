@@ -1,9 +1,9 @@
-import React from "react"
+import React, { Component }  from "react"
 
 import Nav from "./nav"
 import Footer from "./footer"
 
-class Layout extends React.Component {
+class Layout extends Component {
   constructor(props) {
     super(props)
   }

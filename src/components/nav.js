@@ -1,12 +1,8 @@
-import React from "react"
+import React, { Component }  from "react"
 import { Link } from "gatsby"
-import {
-  disableBodyScroll,
-  enableBodyScroll,
-  clearAllBodyScrollLocks,
-} from "body-scroll-lock"
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from "body-scroll-lock"
 
-class Nav extends React.Component {
+class Nav extends Component {
   constructor(props) {
     super(props)
     this.state = { showMenu: false }

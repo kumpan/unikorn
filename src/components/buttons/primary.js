@@ -1,7 +1,7 @@
-import React from "react"
+import React, { Component }  from "react"
 import { Link } from "gatsby"
 
-class PrimaryButton extends React.Component {
+class PrimaryButton extends Component {
   render() {
     const { text, link } = this.props
 
