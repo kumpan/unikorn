@@ -3,11 +3,14 @@ title: How do you get pages to rank well based on their content?
 date: 2020-05-04T07:55:16.470Z
 author: Ulrika Viberg
 category: Marketing
-image: ../assets/gray-bridge-and-trees-814499.jpg
+featured_image:
+  src: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
+  alt: Nature
 preamble: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
   sollicitudin quam velit, nec posuere ante suscipit pharetra. Integer id eros
   vulputate, aliquet ex eu, eleifend augue. "
 type: blog
+image: ../assets/gray-bridge-and-trees-814499.jpg
 ---
 ## Flexitarian photo booth cloud bed.
 
