@@ -9,7 +9,7 @@ featured_image:
 preamble: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
   sollicitudin quam velit, nec posuere ante suscipit pharetra. Integer id eros
   vulputate, aliquet ex eu, eleifend augue.
-video-url: https://www.youtube.com/watch?v=Ju86mknumYM&t=228s
+video-url: https://www.youtube.com/watch?v=psGpypD5Pq0
 type: video
 image: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
 ---
