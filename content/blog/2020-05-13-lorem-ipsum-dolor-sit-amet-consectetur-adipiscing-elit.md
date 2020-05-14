@@ -1,4 +1,5 @@
 ---
+path: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 date: 2020-04-29T07:56:24.192Z
 author: Ulrika Viberg
