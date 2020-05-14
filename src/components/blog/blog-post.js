@@ -13,7 +13,8 @@ class BlogPost extends Component {
     this.state = { showVideo: false }
   }
 
-  playVideo = () => {
+  playVideo = (e) => {
+    e.preventDefault()
     this.setState({
       showVideo: true
     })
