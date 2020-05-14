@@ -4,7 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   const blogPost = path.resolve(`./src/templates/blog-post-single.js`)
-  const { slugify } = require(`./src/components/global-functions.js`)
+  const { slugify } = require(`./src/global-functions.js`)
 
   return graphql(
     `
@@ -35,7 +35,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     const blogPosts = result.data.blogPosts.edges
     
-    // Create event posts pages.
+    // Create blog posts pages.
     blogPosts.forEach((post, index) => {
       createPage({
         path: `blog/${slugify(post.node.frontmatter.path)}`,

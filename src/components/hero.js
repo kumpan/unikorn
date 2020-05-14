@@ -16,7 +16,9 @@ class Hero extends Component {
           alt={alt}
         />
 
-        { button ? <PrimaryButton text={button} link={buttonlink} /> : "" }
+        {button &&
+          <PrimaryButton text={button} link={buttonlink} />
+        }
 
       </div>
     )

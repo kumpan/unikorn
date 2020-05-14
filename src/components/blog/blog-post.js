@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 import BlogDate from "./blog-date.js"
 import VideoPopup from "../video/videopopup.js"
-import { slugify } from '../global-functions.js'
+import { slugify } from '../../global-functions.js'
 
 
 class BlogPost extends Component {
@@ -21,7 +21,7 @@ class BlogPost extends Component {
   
   render() {
     const { type, title, author, date, featured_image, video_url, path } = this.props.post
-    
+
     return (
       <Link to={"/blog/" + slugify(path)}>
         <div className={"blog-post type-" + type}>

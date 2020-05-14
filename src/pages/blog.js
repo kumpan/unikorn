@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout.js"
 import Hero from "../components/hero.js"
 import BlogList from "../components/blog/blog-list.js"
+import IconBtn from "../components/buttons/icon-btn.js"
 
 const Blog = () => {
   const data = useStaticQuery(
@@ -14,7 +15,7 @@ const Blog = () => {
             title
           }
         }
-        allMdx(
+        pageData: allMdx(
           filter: {
             fileAbsolutePath: { regex: "/(/blogpage/)/" }
           }
@@ -76,11 +77,11 @@ const Blog = () => {
     `
   )
 
-  const pageData = data.allMdx.edges[0].node.frontmatter
+  const pageData = data.pageData.edges[0].node.frontmatter
   const posts = data.posts.edges
   
   const filterPosts = (e) => {
-    const type = "type-" + e.target.innerHTML.toLowerCase()
+    const type = "type-" + e.target.innerText.toLowerCase()
     const elements = document.getElementsByClassName('blog-post')
 
     for ( let i = 0;  i < elements.length; i++ ) {
@@ -106,9 +107,10 @@ const Blog = () => {
 
       <div className="blog-filter">
         <p>Sort by</p>
-        <div className="filter-video" onClick={filterPosts} onKeyDown={filterPosts} role="button" tabIndex="0">Video</div>
-        <div className="filter-blog" onClick={filterPosts} onKeyDown={filterPosts} role="button" tabIndex="0">Blog</div>
+        <IconBtn text={'Video'} filterPosts={filterPosts} icon={'video.svg'} />
+        <IconBtn text={'Blog'} filterPosts={filterPosts} icon={'text.svg'} />
       </div>
+
       <BlogList posts={posts} />
     </Layout>
   )

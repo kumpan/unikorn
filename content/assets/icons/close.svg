@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Atom/icon/close/56</title>
+    <defs>
+        <path d="M36.7989899,17 L38.9203102,19.1213203 L30.081,27.96 L38.9203102,36.7989899 L36.7989899,38.9203102 L27.96,30.081 L19.1213203,38.9203102 L17,36.7989899 L25.838,27.96 L17,19.1213203 L19.1213203,17 L27.96,25.838 L36.7989899,17 Z" id="path-1"></path>
+    </defs>
+    <g id="Atom/icon/close/56" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="56" height="56"></rect>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#FFFFFF" xlink:href="#path-1"></use>
+        <g id="Atom/color/green" mask="url(#mask-2)" fill="#006A35">
+            <rect id="Rectangle" x="0" y="0" width="56" height="56"></rect>
+        </g>
+    </g>
+</svg>
