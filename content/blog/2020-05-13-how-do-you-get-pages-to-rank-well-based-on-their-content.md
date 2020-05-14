@@ -1,4 +1,5 @@
 ---
+path: how-do-you-get-pages-to-rank-well-based-on-their -content?
 title: How do you get pages to rank well based on their content?
 date: 2020-05-04T07:55:16.470Z
 author: Ulrika Viberg
