@@ -60,6 +60,7 @@ collections:
     editor:
      preview: false
     fields:
+      - { label: Path, name: path }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Author", name: "author", widget: "string" }
@@ -82,6 +83,7 @@ collections:
     editor:
      preview: false
     fields:
+      - { label: Path, name: path }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Author", name: "author", widget: "string" }

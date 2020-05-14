@@ -51,8 +51,9 @@ const Blog = () => {
           edges {
             node {
               frontmatter {
+                path
                 title
-                date
+                date(formatString: "DD/MM/YY")
                 category
                 author
                 video_url
