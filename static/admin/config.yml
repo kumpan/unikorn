@@ -20,54 +20,94 @@ collections:
         fields:
           - { label: Heading, name: heading, widget: string }
           - { label: Preamble, name: text, widget: text }
-          - { label: Image, name: image, widget: image, required: false }
+          - label: Featured image
+            name: featured_image
+            widget: object
+            fields:
+              - { label: Image, name: src, widget: image }
+              - { label: Alt text, name: alt, widget: string }
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
 
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
+  - name: blogpage
+    label: Blogpage
+    folder: content/blogpage
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { name: shorttitle, label: Short Title }
+      - name: hero
+        label: Hero
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Preamble, name: text, widget: text }
+          - label: Featured image
+            name: featured_image
+            widget: object
+            fields:
+              - { label: Image, name: src, widget: image }
+              - { label: Alt text, name: alt, widget: string }
+          - { label: Button text, name: button, widget: string, required: false }
+          - { label: Button link, name: buttonlink, widget: string, required: false }
+
+  - name: blog
+    label: Blog
+    folder: content/blog
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
      preview: false
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Category", name: "category", widget: "select", options: ["Marketing", "Web", "Strategy", "SEO"] }
-      - { label: "Image", name: "image", widget: "file" }
-      - { label: "Preamble", name: "preamble", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Type", name: "type", widget: "hidden", default: "blog" }
+      - { label: Path, name: path }
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Author, name: author, widget: string }
+      - { label: Category, name: category, widget: select, options: [Marketing, Web, Strategy, SEO] }
+      - label: Featured image
+        name: featured_image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
+      - { label: Preamble, name: preamble, widget: string }
+      - { label: Body, name: body, widget: markdown }
+      - { label: Type, name: type, widget: hidden, default: blog }
 
-  - name: "video"
-    label: "Video"
-    folder: "content/video"
+  - name: video
+    label: Video
+    folder: content/video
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
      preview: false
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Category", name: "category", widget: "select", options: ["Marketing", "Web", "Strategy", "SEO"] }
-      - { label: "Image", name: "image", widget: "file" }
-      - { label: "Preamble", name: "preamble", widget: "string" }
-      - { label: "Video URL", name: "video-url", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Type", name: "type", widget: "hidden", default: "video" }
+      - { label: Path, name: path }
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Author, name: author, widget: string }
+      - { label: Category, name: category, widget: select, options: [Marketing, Web, Strategy, SEO] }
+      - label: Featured image
+        name: featured_image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
+      - { label: Preamble, name: preamble, widget: string }
+      - { label: Video URL, name: video_url, widget: string }
+      - { label: Body, name: body, widget: markdown }
+      - { label: Type, name: type, widget: hidden, default: video }
 
-  - name: "footer"
-    label: "Footer"
-    folder: "content/footer"
+  - name: footer
+    label: Footer
+    folder: content/footer
     create: true
     editor:
      preview: false
     fields:
-      - { label: "Small heading", name: "smallheading", widget: "string" }
-      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: Small heading, name: smallheading, widget: string }
+      - { label: Heading, name: heading, widget: string }
       - name: col1
         label: Column 1
         widget: object

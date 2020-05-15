@@ -2,7 +2,6 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Hero from "../components/hero.js"
-import Footer from "../components/footer.js"
 import Layout from "../components/layout.js"
 
 const Startpage = () => {
