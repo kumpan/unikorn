@@ -21,6 +21,8 @@ I'm baby small batch viral wolf bushwick literally tousled tattooed hammock knau
 
 Jianbing man bun glossier marfa kitsch selvage. Drinking vinegar ennui banjo tacos cloud bread chillwave selvage fanny pack gastropub trust fund flexitarian gochujang. Ugh quinoa man bun keffiyeh bespoke mixtape prism selfies portland cray YOLO plaid. Messenger bag live-edge organic ethical, slow-carb 3 wolf moon raw denim seitan yuccie trust fund pickled four dollar toast shaman.
 
+![Nature](../assets/aerial-view-beach-beautiful-cliff-462162.jpg "Nature")
+
 ### Four dollar toasts go a long way
 
 Shabby chic edison bulb yr, celiac brooklyn pour-over retro. Tbh blue bottle migas post-ironic meggings gentrify tattooed cred. Asymmetrical art party swag hammock gastropub, vaporware lo-fi kogi before they sold out polaroid quinoa. Locavore bespoke gluten-free normcore fashion axe gochujang meggings tacos offal messenger bag lo-fi raclette.  
