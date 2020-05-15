@@ -6,6 +6,6 @@ hero:
     a successful digital strategy. We know how to handle every aspect of your
     Digital Marketing.
   featured_image:
-    src: ../assets/screen-shot-2020-05-12-at-12.24.54.png
+    src: ../assets/drawkit-phone-conversation-monochrome.svg
     alt: Illustration
 ---
