@@ -9,7 +9,7 @@ hero:
   heroheading: Grow your digital presence online.
   featured_image:
     src: ../assets/sprinter-monochrome-.svg
-    alt: Nature
+    alt: Girl running illustration
   buttonlink: /our-approach
   text: We’re your best friend when it comes to helping you find the best path to
     a successful digital strategy. We know how to handle every aspect of your
