@@ -64,7 +64,7 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Author, name: author, widget: string }
-      - { label: Category, name: category, widget: select, options: [Marketing, Web, Strategy, SEO] }
+      - { label: Category, name: category, widget: select, options: [Marketing, Web Analysis, Strategy, SEO] }
       - label: Featured image
         name: featured_image
         widget: object
@@ -74,6 +74,7 @@ collections:
       - { label: Preamble, name: preamble, widget: string }
       - { label: Body, name: body, widget: markdown }
       - { label: Type, name: type, widget: hidden, default: blog }
+      - { label: Show "Get in touch button", name: "popup_btn", widget: "boolean", default: true}
 
   - name: video
     label: Video
@@ -87,7 +88,7 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Author, name: author, widget: string }
-      - { label: Category, name: category, widget: select, options: [Marketing, Web, Strategy, SEO] }
+      - { label: Category, name: category, widget: select, options: [Marketing, Web Analysis, Strategy, SEO] }
       - label: Featured image
         name: featured_image
         widget: object
@@ -98,6 +99,7 @@ collections:
       - { label: Video URL, name: video_url, widget: string }
       - { label: Body, name: body, widget: markdown }
       - { label: Type, name: type, widget: hidden, default: video }
+      - { label: Show "Get in touch button", name: "popup_btn", widget: "boolean", default: true}
 
   - name: footer
     label: Footer

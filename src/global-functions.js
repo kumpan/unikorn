@@ -9,4 +9,12 @@ function slugify(text) {
     .replace(/-+$/, "")
 }
 
-module.exports = { slugify }
+function truncateText(text, maxLength) {
+  if(text.length >= maxLength) {
+    return text.substring(0, maxLength) + ' ...';
+  }
+
+  console.log(text)
+}
+
+module.exports = { slugify, truncateText }
