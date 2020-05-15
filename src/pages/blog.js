@@ -82,7 +82,7 @@ const Blog = () => {
   
   const filterPosts = (e) => {
     const type = "type-" + e.target.innerText.toLowerCase()
-    const elements = document.getElementsByClassName('blog-post')
+    const elements = document.getElementsByClassName("blog-post")
 
     for ( let i = 0;  i < elements.length; i++ ) {
       if ( elements[i].classList.contains(type) ) {
@@ -107,8 +107,8 @@ const Blog = () => {
 
       <div className="blog-filter">
         <p>Sort by</p>
-        <IconBtn text={'Video'} filterPosts={filterPosts} icon={'video.svg'} />
-        <IconBtn text={'Blog'} filterPosts={filterPosts} icon={'text.svg'} />
+        <IconBtn text="Video" filterPosts={filterPosts} icon="video.svg" />
+        <IconBtn text="Blog" filterPosts={filterPosts} icon="text.svg" />
       </div>
 
       <BlogList posts={posts} />

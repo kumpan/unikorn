@@ -8,7 +8,7 @@ class IconBtn extends Component {
     let iconFile = icon
     
     try {
-      iconFile = require('../../../content/assets/icons/' + icon)
+      iconFile = require("../../../content/assets/icons/" + icon)
     }
     catch(err){
       iconFile = null
@@ -26,9 +26,9 @@ class IconBtn extends Component {
           </a>
         ) : (
           <div>
-          {iconFile &&
-            <img src={iconFile} />
-          }
+            {iconFile &&
+              <img src={iconFile} alt="icon" />
+            }
             {text}
           </div>
         )}
