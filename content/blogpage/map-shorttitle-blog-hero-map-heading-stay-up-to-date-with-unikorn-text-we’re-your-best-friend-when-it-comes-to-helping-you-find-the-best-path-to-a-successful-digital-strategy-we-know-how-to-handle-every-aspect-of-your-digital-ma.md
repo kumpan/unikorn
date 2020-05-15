@@ -6,6 +6,6 @@ hero:
     a successful digital strategy. We know how to handle every aspect of your
     Digital Marketing.
   featured_image:
-    src: ../assets/drawkit-phone-conversation-monochrome.svg
+    src: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
     alt: Illustration
 ---
