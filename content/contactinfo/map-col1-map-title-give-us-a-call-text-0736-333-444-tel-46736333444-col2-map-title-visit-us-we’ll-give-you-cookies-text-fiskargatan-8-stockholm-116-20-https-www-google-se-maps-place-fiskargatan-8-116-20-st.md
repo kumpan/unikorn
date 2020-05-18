@@ -1,4 +1,5 @@
 ---
+shorttitle: Contact info
 col1:
   title: Give us a call
   text: "[0736 333 444](tel:+46736333444)"
