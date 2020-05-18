@@ -3,6 +3,7 @@ shorttitle: Web analysis
 shortdesc: "We’re your best friend when it comes to helping you find the best
   path to a successful digital strategy. "
 src: ../assets/bar.svg
+icon: ../assets/bar.svg
 hero:
   heading: Reach your community.
   text: We’re your best friend when it comes to helping you find the best path to

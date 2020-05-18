@@ -3,6 +3,7 @@ shorttitle: Content Marketing
 shortdesc: "We’re your best friend when it comes to helping you find the best
   path to a successful digital strategy. "
 src: ../assets/content.svg
+icon: ../assets/content.svg
 hero:
   heading: Reach your community.
   text: We’re your best friend when it comes to helping you find the best path to
