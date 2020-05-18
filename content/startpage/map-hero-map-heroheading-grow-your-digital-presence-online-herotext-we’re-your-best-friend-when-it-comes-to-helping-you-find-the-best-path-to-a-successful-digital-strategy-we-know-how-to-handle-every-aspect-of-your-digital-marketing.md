@@ -8,7 +8,7 @@ hero:
     Digital Marketing.
   heroheading: Grow your digital presence online.
   featured_image:
-    src: ../assets/sprinter-monochrome-.svg
+    src: ../assets/sprinter-monochrome-_animated.svg
     alt: Girl running illustration
   buttonlink: /our-approach
   text: We’re your best friend when it comes to helping you find the best path to
