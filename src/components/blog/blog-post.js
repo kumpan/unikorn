@@ -13,11 +13,18 @@ class BlogPost extends Component {
     this.state = { showVideo: false }
   }
 
-  playVideo = (e) => {
+  handleVideo = (e) => {
     e.preventDefault()
-    this.setState({
-      showVideo: true
-    })
+
+    if (this.state.showVideo === true) {
+      this.setState({
+        showVideo: false
+      })
+    } else {
+      this.setState({
+        showVideo: true
+      })
+    }
   }
   
   render() {
@@ -39,13 +46,13 @@ class BlogPost extends Component {
             />
 
             {video_url &&
-              <div className="video-btn" onClick={this.playVideo} onKeyDown={this.playVideo} role="button" tabIndex="0">Play</div>
+              <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">Play</div>
             }
 
           </div>
         </Link>
         {this.state.showVideo && video_url &&
-          <VideoPopup url={video_url} title={title} path={"blog/" + path}/>
+          <VideoPopup url={video_url} title={title} path={"blog/" + path} handleVideo={this.handleVideo}/>
         }
       </div>
     )

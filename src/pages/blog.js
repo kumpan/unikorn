@@ -79,8 +79,6 @@ const Blog = () => {
 
   const pageData = data.pageData.edges[0].node.frontmatter
   const posts = data.posts.edges
-  
-  console.log(pageData.shorttitle)
 
   const filterPosts = (e) => {
     const type = "type-" + e.target.innerText.toLowerCase()

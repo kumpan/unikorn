@@ -19,13 +19,22 @@ class BlogTemplate extends Component {
       showVideo: false,
       showContactPopup: false
     }
+
+    this.handleVideo = this.handleVideo.bind(this)
   }
 
-  playVideo = (e) => {
+  handleVideo = (e) => {
     e.preventDefault()
-    this.setState({
-      showVideo: true
-    })
+
+    if (this.state.showVideo === true) {
+      this.setState({
+        showVideo: false
+      })
+    } else {
+      this.setState({
+        showVideo: true
+      })
+    }
   }
 
   showContactPopup = (e) => {
@@ -70,7 +79,7 @@ class BlogTemplate extends Component {
                 fluid={featured_image.src.childImageSharp.fluid}
                 alt={featured_image.alt}
               />
-              <div className="video-btn" onClick={this.playVideo} onKeyDown={this.playVideo} role="button" tabIndex="0">Play</div>
+              <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">Play</div>
             </div>
           }
 
@@ -87,7 +96,7 @@ class BlogTemplate extends Component {
         }
 
         {this.state.showVideo && video_url &&
-          <VideoPopup url={video_url} title={title}/>
+          <VideoPopup url={video_url} title={title} handleVideo={this.handleVideo}/>
         }
 
         {this.state.showContactPopup &&
