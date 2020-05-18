@@ -3,7 +3,9 @@ shorttitle: Search Engine Optimization (SEO)
 shortdesc: "We’re your best friend when it comes to helping you find the best
   path to a successful digital strategy. "
 src: ../assets/plus.svg
-icon: ../assets/plus.svg
+icon:
+  src: ../assets/plus.svg
+  alt: SEO
 hero:
   heading: Reach your community.
   text: We’re your best friend when it comes to helping you find the best path to
