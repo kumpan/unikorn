@@ -60,7 +60,7 @@ class BlogTemplate extends Component {
     if(relatedPosts.length > 3) {
       relatedPosts.length = 3
     }
-
+    
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <div>

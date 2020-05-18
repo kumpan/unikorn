@@ -101,6 +101,33 @@ collections:
       - { label: Type, name: type, widget: hidden, default: video }
       - { label: Show "Get in touch button", name: "popup_btn", widget: "boolean", default: true}
 
+  - name: contactinfo
+    label: Contact info
+    folder: content/contactinfo
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: Short tite, name: shorttitle, widget: string }
+      - name: col1
+        label: Column 1
+        widget: object
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Text, name: text1, widget: markdown }
+      - name: col2
+        label: Column 2
+        widget: object
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Text, name: text2, widget: markdown }
+      - name: col3
+        label: Column 3
+        widget: object
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Text, name: text3, widget: markdown }
+
   - name: footer
     label: Footer
     folder: content/footer
