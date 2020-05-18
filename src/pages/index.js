@@ -20,12 +20,17 @@ const Startpage = () => {
                 hero {
                   heading
                   text
-                  image {
-                    childImageSharp {
-                      fluid(maxWidth: 560) {
-                        ...GatsbyImageSharpFluid
+                  featured_image {
+                    src {
+                      childImageSharp {
+                        fluid(maxWidth: 560) {
+                          ...GatsbyImageSharpFluid
+                        }
                       }
+                      extension
+                      publicURL
                     }
+                    alt
                   }
                   button
                   buttonlink
@@ -43,7 +48,7 @@ const Startpage = () => {
       <Hero 
         heading={pageData.hero.heading} 
         text={pageData.hero.text}
-        img={pageData.hero.image}
+        img={pageData.hero.featured_image.src}
         button={pageData.hero.button}
         buttonlink={pageData.hero.buttonlink}
       />

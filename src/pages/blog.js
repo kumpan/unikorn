@@ -79,7 +79,7 @@ const Blog = () => {
 
   const pageData = data.pageData.edges[0].node.frontmatter
   const posts = data.posts.edges
-  
+
   const filterPosts = (e) => {
     const type = "type-" + e.target.innerText.toLowerCase()
     const elements = document.getElementsByClassName("blog-post")
@@ -103,6 +103,7 @@ const Blog = () => {
         button={pageData.hero.button}
         buttonlink={pageData.hero.buttonlink}
         videoURL={pageData.hero.video_url}
+        shorttitle={pageData.shorttitle}
       />
 
       <div className="blog-filter">
