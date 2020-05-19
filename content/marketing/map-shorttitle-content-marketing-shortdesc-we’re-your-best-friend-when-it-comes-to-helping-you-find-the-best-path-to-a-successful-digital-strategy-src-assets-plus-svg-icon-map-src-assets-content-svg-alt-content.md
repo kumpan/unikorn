@@ -1,8 +1,12 @@
 ---
+src: ../assets/plus.svg
+posts_category: Marketing
+latest-posts-text: Read the latest posts about content marketing
 shorttitle: Content Marketing
 shortdesc: "We’re your best friend when it comes to helping you find the best
   path to a successful digital strategy. "
-src: ../assets/plus.svg
+latest_posts_text: Read the latest posts about content marketing
+posts-category: Marketing
 icon:
   src: ../assets/content.svg
   alt: Content marketing icon
@@ -16,8 +20,9 @@ hero:
     alt: Illustration
   button: Start growing now
   buttonlink: /about-us
-latest-posts-text: Read the latest posts about content marketing
-posts-category: Marketing
+  preamble: We’re your best friend when it comes to helping you find the best path
+    to a successful digital strategy. We know how to handle every aspect of your
+    Digital Marketing.
 ---
 ## Subway tile vaporware squid bucket.
 
