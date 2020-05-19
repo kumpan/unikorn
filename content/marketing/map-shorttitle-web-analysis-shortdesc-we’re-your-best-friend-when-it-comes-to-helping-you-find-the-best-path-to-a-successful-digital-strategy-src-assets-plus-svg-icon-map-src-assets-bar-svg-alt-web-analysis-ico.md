@@ -1,11 +1,11 @@
 ---
-shorttitle: Search Engine Optimization (SEO)
+shorttitle: Web Analysis
 shortdesc: "We’re your best friend when it comes to helping you find the best
   path to a successful digital strategy. "
 src: ../assets/plus.svg
 icon:
-  src: ../assets/plus.svg
-  alt: SEO icon
+  src: ../assets/bar.svg
+  alt: Web analysis icon
 hero:
   heading: Reach your community.
   text: We’re your best friend when it comes to helping you find the best path to
@@ -16,8 +16,8 @@ hero:
     alt: Illustration
   button: Start growing now
   buttonlink: /about-us
-latest-posts-text: Read the latest posts about SEO
-posts-category: SEO
+latest-posts-text: Read the latest posts about web analysis
+posts-category: Web Analysis
 ---
 ## Subway tile vaporware squid bucket.
 
