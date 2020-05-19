@@ -63,6 +63,7 @@ const Footer = () => {
     <span>{footerData.smallheading}</span>
     <h2>{footerData.heading}</h2>
     <div className="footer-row">{columnElements}</div>
+    <div className="copyright"><p>Unikorn {new Date().getFullYear()} ©</p></div>
   </div>
   )
 }

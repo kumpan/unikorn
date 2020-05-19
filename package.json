@@ -42,6 +42,7 @@
     "remark-preset-lint-recommended": "^4.0.0",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75",
+    "typeface-work-sans": "0.0.72",
     "typography": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },

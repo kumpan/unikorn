@@ -24,7 +24,7 @@ class FaqList extends Component{
   render(){
     const faqList = this.state.items.slice(0, this.state.visible).map(({question, answer}, index) => {
       return (
-        <Faq question={question} answer={answer} />
+        <Faq key={index} question={question} answer={answer} />
       );
     })
 
@@ -32,7 +32,7 @@ class FaqList extends Component{
       <div className="faq-list">
         {faqList}
         {this.state.visible < this.state.items.length &&
-          <div onClick={this.loadMore} role="button" className="load-more">View more FAQ’s</div>
+          <div onClick={this.loadMore} onKeyDown={this.loadMore} role="button" tabIndex="0" className="load-more">View more FAQ’s</div>
         }
       </div>
     )
