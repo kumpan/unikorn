@@ -6,6 +6,9 @@ video_section:
   video_url: https://www.youtube.com/watch?v=V_BQSh74sC8
   button: Learn more about us
   buttonlink: /about-us
+  video_image:
+    src: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
+    alt: Nature
 tab_fields:
   - tab_title: Marketing
     heading: Unikorn Marketing
