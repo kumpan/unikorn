@@ -1,5 +1,6 @@
 ---
 tabs_heading: We help our partners grow through well executed
+shorttitle: Startsida
 video_section:
   pre_heading: About us
   heading: Who are we?
@@ -121,7 +122,6 @@ fields:
       organisations. We call it Unikorn Strategy
     button: Read more about Unikorn strategy
     buttonlink: /marketing
-shorttitle: Startsida
 hero:
   heroimage: ../assets/screen-shot-2020-05-12-at-12.24.54.png
   heading: Grow your digital presence online.
@@ -139,4 +139,39 @@ hero:
   button: Start growing now
   image: ../assets/screen-shot-2020-05-12-at-12.24.54.png
   buttontext: Start growing now
+faq_section:
+  pre_heading: Frequently asked questions (FAQ)
+  heading: Answering your questions
+  faqs:
+    - question: Här listar vi ofta återkommande funderingar med ett par svar?
+      answer: Jianbing man bun glossier marfa kitsch selvage. Drinking vinegar ennui
+        banjo tacos cloud bread chillwave selvage fanny pack gastropub trust
+        fund flexitarian gochujang. Ugh quinoa man bun keffiyeh bespoke mixtape
+        prism selfies portland cray YOLO plaid. Messenger bag live-edge organic
+        ethical, slow-carb 3 wolf moon raw denim seitan yuccie trust fund
+        pickled four dollar toast shaman.
+    - question: Eller, det som får folk att köpa, som varför är SEO viktigt?
+      answer: Jianbing man bun glossier marfa kitsch selvage. Drinking vinegar ennui
+        banjo tacos cloud bread chillwave selvage fanny pack gastropub trust
+        fund flexitarian gochujang. Ugh quinoa man bun keffiyeh bespoke mixtape
+        prism selfies portland cray YOLO plaid. Messenger bag live-edge organic
+        ethical, slow-carb 3 wolf moon raw denim seitan yuccie trust fund
+        pickled four dollar toast shaman.
+    - answer: Jianbing man bun glossier marfa kitsch selvage. Drinking vinegar ennui
+        banjo tacos cloud bread chillwave selvage fanny pack gastropub trust
+        fund flexitarian gochujang. Ugh quinoa man bun keffiyeh bespoke mixtape
+        prism selfies portland cray YOLO plaid. Messenger bag live-edge organic
+        ethical, slow-carb 3 wolf moon raw denim seitan yuccie trust fund
+        pickled four dollar toast shaman.
+      question: This new website will surprise the world greatly!
+    - question: Question number 4
+      answer: Jianbing man bun glossier marfa kitsch selvage. Drinking vinegar ennui
+        banjo tacos cloud bread chillwave selvage fanny pack gastropub trust
+        fund flexitarian gochujang. Ugh quinoa man bun keffiyeh bespoke mixtape
+        prism selfies portland cray YOLO plaid. Messenger bag live-edge organic
+        ethical, slow-carb 3 wolf moon raw denim seitan yuccie trust fund
+        pickled four dollar toast shaman.
+  featured_image:
+    src: ../assets/choices-monochrome.svg
+    alt: Illustration
 ---
