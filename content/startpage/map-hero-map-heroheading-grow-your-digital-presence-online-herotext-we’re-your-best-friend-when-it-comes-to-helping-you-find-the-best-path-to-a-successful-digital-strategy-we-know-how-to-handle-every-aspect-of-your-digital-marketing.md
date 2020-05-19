@@ -47,4 +47,19 @@ fields:
       organisations. We call it Unikorn Strategy
     button: Read more about Unikorn strategy
     buttonlink: /marketing
+tab_fields:
+  - tab_title: Marketing
+    heading: Unikorn Marketing
+    text: Decades of Digital Marketing has formed our way of successful and
+      aggressive Digital Marketing for both Start-ups and well established
+      organisations. We call it Unikorn Marketing.
+    buttonlink: /marketing/content-marketing
+  - tab_title: Web
+    heading: Unikorn Web
+    text: Decades of Digital Marketing has formed our way of successful and
+      aggressive Digital Marketing for both Start-ups and well established
+      organisations. We call it Unikorn Web.
+    buttonlink: /marketing/web-analysis
+references_tabs_heading: What do other people say about Unikorn
+reference_tab_fields: []
 ---
