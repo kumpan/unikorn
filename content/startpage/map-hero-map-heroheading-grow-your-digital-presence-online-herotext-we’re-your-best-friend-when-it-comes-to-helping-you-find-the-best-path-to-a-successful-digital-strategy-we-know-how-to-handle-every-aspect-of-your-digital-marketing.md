@@ -17,6 +17,7 @@ hero:
   button: Start growing now
   image: ../assets/screen-shot-2020-05-12-at-12.24.54.png
   buttontext: Start growing now
+tabs_heading: We help our partners grow through well executed
 fields:
   - tab_title: Marketing
     heading: Unikorn Marketing
