@@ -28,31 +28,49 @@ collections:
               - { label: Alt text, name: alt, widget: string }
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
-  
-  - name: webseo
-    label: Web & SEO page
-    folder: content/webseo
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { name: shorttitle, label: Short Title }
-      - name: hero
-        label: Hero
+      - name: tabs_section
+        label: Tabs section
         widget: object
         fields:
+        - { name: tabs_heading, label: Tabs Heading }
+        - name: tab_fields
+          label: Tab fields
+          widget: list
+          fields:
+            - { label: Tab title, name: tab_title, widget: string }
+            - { label: Heading, name: heading, widget: string }
+            - { label: Text, name: text, widget: text }
+            - { label: Button link, name: buttonlink, widget: string }
+      - name: blog_section
+        label: Blog section
+        widget: object
+        fields:
+          - { label: Pre-heading, name: pre_heading, widget: string }
           - { label: Heading, name: heading, widget: string }
-          - { label: Preamble, name: text, widget: text }
-          - label: Featured image
-            name: featured_image
-            widget: object
-            required: false
-            fields:
-              - { label: Image, name: src, widget: image }
-              - { label: Alt text, name: alt, widget: string }
-          - { label: Button text, name: button, widget: string, required: false }
-          - { label: Button link, name: buttonlink, widget: string, required: false }
-      - { name: body, label: Text, widget: markdown }
+          - { label: Button text, name: button, widget: string }
+          - { label: Button link, name: buttonlink, widget: string }
+      - name: video_section
+        label: Video section
+        widget: object
+        fields:
+          - { label: Pre-heading, name: pre_heading, widget: string }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Video URL, name: video_url, widget: string }
+          - { label: Button text, name: button, widget: string }
+          - { label: Button link, name: buttonlink, widget: string }
+      - name: referece_section
+        label: References section
+        widget: object
+        fields:
+        - { name: references_tabs_heading, label: References heading }
+        - name: reference_tab_fields
+          label: References tab fields
+          widget: list
+          fields:
+            - { label: Tab title, name: tab_title, widget: string }
+            - { label: Heading, name: heading, widget: string }
+            - { label: Text, name: text, widget: text }
+            - { label: Reference person, name: person, widget: string }
 
   - name: about
     label: About page
