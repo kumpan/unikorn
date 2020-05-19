@@ -172,6 +172,6 @@ faq_section:
         ethical, slow-carb 3 wolf moon raw denim seitan yuccie trust fund
         pickled four dollar toast shaman.
   featured_image:
-    src: ../assets/choices-monochrome.svg
+    src: ../assets/choices-monochrome.png
     alt: Illustration
 ---
