@@ -56,9 +56,33 @@ collections:
           - { label: Pre-heading, name: pre_heading, widget: string }
           - { label: Heading, name: heading, widget: string }
           - { label: Video URL, name: video_url, widget: string }
+          - label: Video image
+            name: video_image
+            widget: object
+            fields:
+              - { label: Image, name: src, widget: image }
+              - { label: Alt text, name: alt, widget: string }
           - { label: Button text, name: button, widget: string }
           - { label: Button link, name: buttonlink, widget: string }
-      - name: referece_section
+      - name: faq_section
+        label: FAQ section
+        widget: object
+        fields:
+        - { label: Pre-heading, name: pre_heading, widget: string } 
+        - { label: Heading, name: heading }
+        - name: faqs
+          label: FAQs
+          widget: list
+          fields:
+            - { label: Question, name: question, widget: string }
+            - { label: Answer, name: answer, widget: text }
+        - label: FAQ image
+          name: featured_image
+          widget: object
+          fields:
+            - { label: Image, name: src, widget: image }
+            - { label: Alt text, name: alt, widget: string }
+      - name: references_section
         label: References section
         widget: object
         fields:

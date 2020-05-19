@@ -18,12 +18,17 @@ class TabsComponent extends Component {
     )
   
     const tabElements = allTabs.length ? (
-      allTabs.map(({ heading, text, buttonlink }, i) => {
+      allTabs.map(({ heading, text, buttonlink, person }, i) => {
         return (
           <TabPanel key={i}>
             <h2>{heading}</h2>
             <p>{text}</p>
-            <SecondaryButton text={"Read more about " + heading} link={buttonlink} />
+            {person &&
+              <em>- {person}</em>
+            }
+            {buttonlink &&
+              <SecondaryButton text={"Read more about " + heading} link={buttonlink} />
+            }
           </TabPanel>
         )
       })

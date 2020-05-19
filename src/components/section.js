@@ -5,7 +5,7 @@ class Section extends Component {
     const { children } = this.props
 
     return (
-      <section className="section">
+      <section className={this.props.class}>
         <div className="section-row">{children}</div>
       </section>
     )
