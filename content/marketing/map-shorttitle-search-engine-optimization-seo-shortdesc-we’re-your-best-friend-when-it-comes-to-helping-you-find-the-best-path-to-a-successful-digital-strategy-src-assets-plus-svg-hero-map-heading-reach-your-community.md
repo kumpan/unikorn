@@ -5,7 +5,7 @@ shortdesc: "We’re your best friend when it comes to helping you find the best
 src: ../assets/plus.svg
 icon:
   src: ../assets/plus.svg
-  alt: SEO
+  alt: SEO icon
 hero:
   heading: Reach your community.
   text: We’re your best friend when it comes to helping you find the best path to
