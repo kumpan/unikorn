@@ -22,7 +22,6 @@ tab_fields:
       aggressive Digital Marketing for both Start-ups and well established
       organisations. We call it Unikorn Web.
     buttonlink: /marketing/web-analysis
-shorttitle: Startsida
 tabs_section:
   tabs_heading: We help our partners grow through well executed
   tab_fields:
@@ -74,6 +73,23 @@ referece_section:
         lot of things. It really doesn’t matter what you write as long as you’ve
         got a beautiful piece of text.” "
       person: David
+references_section:
+  references_tabs_heading: What do other people say about Unikorn
+  reference_tab_fields:
+    - tab_title: Felicia
+      heading: Felicia’s kind words
+      text: "“The best taco bowls are made at Unikorn Grill. I love them! I'm speaking
+        for myself, number one, because I have a very good brain and I've said a
+        lot of things. It really doesn’t matter what you write as long as you’ve
+        got a beautiful piece of text.” "
+      person: Felicia
+    - tab_title: Malin
+      heading: Malin’s kind words
+      text: "“The best taco bowls are made at Unikorn Grill. I love them! I'm speaking
+        for myself, number one, because I have a very good brain and I've said a
+        lot of things. It really doesn’t matter what you write as long as you’ve
+        got a beautiful piece of text.” "
+      person: Malin, CEO of Unibet
 reference_tab_fields: []
 references_tabs_heading: What do other people say about Unikorn
 fields:
@@ -105,6 +121,7 @@ fields:
       organisations. We call it Unikorn Strategy
     button: Read more about Unikorn strategy
     buttonlink: /marketing
+shorttitle: Startsida
 hero:
   heroimage: ../assets/screen-shot-2020-05-12-at-12.24.54.png
   heading: Grow your digital presence online.
