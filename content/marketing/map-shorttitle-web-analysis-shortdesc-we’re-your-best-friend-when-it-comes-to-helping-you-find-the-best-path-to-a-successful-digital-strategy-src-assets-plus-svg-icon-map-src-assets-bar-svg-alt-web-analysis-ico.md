@@ -1,8 +1,12 @@
 ---
+src: ../assets/plus.svg
+posts_category: Web Analysis
+latest-posts-text: Read the latest posts about web analysis
 shorttitle: Web Analysis
 shortdesc: "We’re your best friend when it comes to helping you find the best
   path to a successful digital strategy. "
-src: ../assets/plus.svg
+latest_posts_text: Read the latest posts about web analysis
+posts-category: Web Analysis
 icon:
   src: ../assets/bar.svg
   alt: Web analysis icon
@@ -16,8 +20,9 @@ hero:
     alt: Illustration
   button: Start growing now
   buttonlink: /about-us
-latest-posts-text: Read the latest posts about web analysis
-posts-category: Web Analysis
+  preamble: We’re your best friend when it comes to helping you find the best path
+    to a successful digital strategy. We know how to handle every aspect of your
+    Digital Marketing.
 ---
 ## Subway tile vaporware squid bucket.
 
