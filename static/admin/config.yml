@@ -104,6 +104,58 @@ collections:
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
 
+  - name: marketingpage
+    label: Marketing page
+    folder: content/marketingpage
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { name: shorttitle, label: Short Title }
+      - name: hero
+        label: Hero
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Preamble, name: text, widget: text }
+          - { label: Button text, name: button, widget: string, required: false }
+          - { label: Button link, name: buttonlink, widget: string, required: false }
+
+  - name: marketing
+    label: Marketing subpage
+    folder: content/marketing
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { name: shorttitle, label: Short Title }
+      - { name: shortdesc, label: Short description }
+      - label: Icon
+        name: icon
+        widget: object
+        required: false
+        fields:
+          - { label: Icon, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
+      - name: hero
+        label: Hero
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Preamble, name: preamble, widget: text }
+          - label: Featured image
+            name: featured_image
+            widget: object
+            fields:
+              - { label: Image, name: src, widget: image }
+              - { label: Alt text, name: alt, widget: string }
+          - { label: Button text, name: button, widget: string, required: false }
+          - { label: Button link, name: buttonlink, widget: string, required: false }
+      - { name: body, label: Text, widget: markdown }
+      - { name: latest_posts_text, label: Latest posts text, widget: string }
+      - { name: posts_category, label: Category for posts, widget: select, options: [Marketing, Web Analysis, Strategy, SEO] }
+
   - name: blogpage
     label: Blog page
     folder: content/blogpage

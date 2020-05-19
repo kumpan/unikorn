@@ -70,6 +70,8 @@ const WebSEO = () => {
                         ...GatsbyImageSharpFluid
                       }
                     }
+                    extension
+                    publicURL
                   }
                   alt
                 }
