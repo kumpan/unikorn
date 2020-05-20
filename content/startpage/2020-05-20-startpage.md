@@ -19,6 +19,16 @@ tabs_section:
         organisations. We call it Unikorn Marketing.
       heading: Unikorn Marketing
       buttonlink: /marketing
+      buttontext: Read more about Unikorn marketing
+      buttontext_mobile: Read more
+    - tab_title: Web
+      heading: Unikorn web
+      text: Decades of Digital Marketing has formed our way of successful and
+        aggressive Digital Marketing for both Start-ups and well established
+        organisations. We call it Unikorn Marketing.
+      buttontext: Read more about Unikorn web
+      buttontext_mobile: Read more
+      buttonlink: /marketing
 blog_section:
   pre_heading: Blog
   heading: Stay up to date
