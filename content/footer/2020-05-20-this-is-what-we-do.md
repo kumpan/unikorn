@@ -19,17 +19,17 @@ col2:
 col3:
   heading: Search
   text: |-
-    * Knausgaard enamel  \
-      Pin hella migas\
-      Vaporware next level \
-      Single-origin coffee \
-      Street art
+    * Knausgaard enamel
+    * Pin hella migas
+    * Vaporware next level
+    * Single-origin coffee
+    * Street art
 col4:
   heading: Strategy
   text: |-
-    * Palo santo meditation\
-      Photo booth \
-      Keytar meh chia \
-      Seitan pitchfork \
+    * Palo santo meditation
+      Photo booth
+      Keytar meh chia
+      Seitan pitchfork
       Venmo copper
 ---
