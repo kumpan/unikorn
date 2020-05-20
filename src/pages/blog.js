@@ -34,6 +34,8 @@ const Blog = () => {
                           ...GatsbyImageSharpFluid
                         }
                       }
+                      extension
+                      publicURL
                     }
                     alt
                   }

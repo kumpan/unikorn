@@ -20,6 +20,27 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/content/webseo`,
+        name: `webseo`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/about`,
+        name: `about`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/our-approach`,
+        name: `our-approach`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/content/blogpage`,
         name: `blogpage`,
       },
@@ -29,6 +50,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/footer`,
         name: `footer`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/contactinfo`,
+        name: `contactinfo`,
       },
     },
     {
