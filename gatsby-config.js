@@ -41,8 +41,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blogpage`,
-        name: `blogpage`,
+        path: `${__dirname}/content/blog-page`,
+        name: `blog-page`,
       },
     },
     {
@@ -55,8 +55,22 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/contactinfo`,
-        name: `contactinfo`,
+        path: `${__dirname}/content/contact-info`,
+        name: `contact-info`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/marketing-page`,
+        name: `marketing-page`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/marketing`,
+        name: `marketing`,
       },
     },
     {

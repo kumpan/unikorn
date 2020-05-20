@@ -5,7 +5,7 @@ import Video from "./video.js"
 
 class VideoPopup extends Component {
   render() {
-    const { url, title, path } = this.props
+    const { url, title, path, toArticleText } = this.props
 
       return (
         <div className="video-popup" key={this.props.id}>
@@ -18,7 +18,7 @@ class VideoPopup extends Component {
           </div>
           {path &&
             <div>
-              <ArrowButton text="Read the article" link={path} />
+              <ArrowButton text={toArticleText} link={path} />
             </div>
           }
         </div>

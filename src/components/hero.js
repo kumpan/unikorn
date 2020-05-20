@@ -1,31 +1,41 @@
 import React, { Component }  from "react"
 import Img from "gatsby-image"
+import { Link } from "gatsby"
 
 import PrimaryButton from "./buttons/primary.js"
 
 class Hero extends Component {
   render() {
-    const { heading, text, img, alt, button, buttonlink, shorttitle } = this.props
+    const { heading, text, img, alt, button, buttonlink, shorttitle, parentPageLink, parentPageTitle } = this.props
 
-    const image = (img.extension === 'svg') ? (
+    let heroImage
+    if (img && img.extension === 'svg') {
+      heroImage = 
       <div className="hero-section-image">
         <object type="image/svg+xml" data={img.publicURL} aria-labelledby={alt}></object>
       </div>
-    ) : (
+    } else if (img) {
+      heroImage = 
       <div className="hero-section-image">
         <Img 
           fluid={img.childImageSharp.fluid}
           alt={alt}
         />
       </div>
-    )
+    }
 
     return (
       <div className="hero-section">
         <div className="hero-section-text">
-          {shorttitle &&
+          {((parentPageLink || shorttitle) || (parentPageLink && shorttitle)) &&
             <div className="breadcrumbs">
-              <span>{shorttitle}</span>
+              {parentPageLink &&
+                <span><Link to={"/" + parentPageLink}>{parentPageTitle}</Link> / </span>
+              }
+              
+              {shorttitle &&
+                <span>{shorttitle}</span>
+              }
             </div>
           }
           <h1>{heading}</h1>
@@ -35,9 +45,7 @@ class Hero extends Component {
             <PrimaryButton text={button} link={buttonlink} />
           }
         </div>
-
-        {image}
-
+          {heroImage}
       </div>
     )
   }

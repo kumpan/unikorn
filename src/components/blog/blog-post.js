@@ -52,7 +52,7 @@ class BlogPost extends Component {
           </div>
         </Link>
         {this.state.showVideo && video_url &&
-          <VideoPopup url={video_url} title={title} path={"blog/" + path} handleVideo={this.handleVideo}/>
+          <VideoPopup url={video_url} title={title} path={"blog/" + path} handleVideo={this.handleVideo} toArticleText={this.props.toArticleText}/>
         }
       </div>
     )

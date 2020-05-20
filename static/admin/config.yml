@@ -10,6 +10,7 @@ collections:
     label: Startpage
     folder: content/startpage
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
     editor:
       preview: false
     fields:
@@ -28,11 +29,81 @@ collections:
               - { label: Alt text, name: alt, widget: string }
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
-  
-  - name: webseo
-    label: Web & SEO page
-    folder: content/webseo
+      - name: tabs_section
+        label: Tabs section
+        widget: object
+        fields:
+        - { name: tabs_heading, label: Tabs Heading }
+        - name: tab_fields
+          label: Tab fields
+          widget: list
+          fields:
+            - { label: Tab title, name: tab_title, widget: string }
+            - { label: Heading, name: heading, widget: string }
+            - { label: Text, name: text, widget: text }
+            - { label: Button text, name: buttontext, widget: string }
+            - { label: Short button text (for mobile), name: buttontext_mobile, widget: string }
+            - { label: Button link, name: buttonlink, widget: string }
+      - name: blog_section
+        label: Blog section
+        widget: object
+        fields:
+          - { label: Pre-heading, name: pre_heading, widget: string }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Button text, name: button, widget: string }
+          - { label: Button link, name: buttonlink, widget: string }
+      - name: video_section
+        label: Video section
+        widget: object
+        fields:
+          - { label: Pre-heading, name: pre_heading, widget: string }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Video URL, name: video_url, widget: string }
+          - label: Video image
+            name: video_image
+            widget: object
+            fields:
+              - { label: Image, name: src, widget: image }
+              - { label: Alt text, name: alt, widget: string }
+          - { label: Button text, name: button, widget: string }
+          - { label: Button link, name: buttonlink, widget: string }
+      - name: faq_section
+        label: FAQ section
+        widget: object
+        fields:
+        - { label: Pre-heading, name: pre_heading, widget: string } 
+        - { label: Heading, name: heading }
+        - name: faqs
+          label: FAQs
+          widget: list
+          fields:
+            - { label: Question, name: question, widget: string }
+            - { label: Answer, name: answer, widget: text }
+        - label: FAQ image
+          name: featured_image
+          widget: object
+          fields:
+            - { label: Image, name: src, widget: image }
+            - { label: Alt text, name: alt, widget: string }
+      - name: references_section
+        label: References section
+        widget: object
+        fields:
+        - { name: references_tabs_heading, label: References heading }
+        - name: reference_tab_fields
+          label: References tab fields
+          widget: list
+          fields:
+            - { label: Tab title, name: tab_title, widget: string }
+            - { label: Heading, name: heading, widget: string }
+            - { label: Text, name: text, widget: text }
+            - { label: Reference person, name: person, widget: string }
+
+  - name: about
+    label: About page
+    folder: content/about
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
     editor:
       preview: false
     fields:
@@ -53,11 +124,12 @@ collections:
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
-
-  - name: about
-    label: About page
-    folder: content/about
+  
+  - name: webseo
+    label: Web & SEO page
+    folder: content/webseo
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
     editor:
       preview: false
     fields:
@@ -83,6 +155,7 @@ collections:
     label: Our approach page
     folder: content/our-approach
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
     editor:
       preview: false
     fields:
@@ -104,10 +177,64 @@ collections:
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
 
-  - name: blogpage
-    label: Blog page
-    folder: content/blogpage
+  - name: marketing-page
+    label: Marketing page
+    folder: content/marketing-page
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
+    editor:
+      preview: false
+    fields:
+      - { name: shorttitle, label: Short Title }
+      - name: hero
+        label: Hero
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Preamble, name: text, widget: text }
+          - { label: Button text, name: button, widget: string, required: false }
+          - { label: Button link, name: buttonlink, widget: string, required: false }
+
+  - name: marketing
+    label: Marketing subpage
+    folder: content/marketing
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
+    editor:
+      preview: false
+    fields:
+      - { name: shorttitle, label: Short Title }
+      - { name: shortdesc, label: Short description }
+      - label: Icon
+        name: icon
+        widget: object
+        required: false
+        fields:
+          - { label: Icon, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
+      - name: hero
+        label: Hero
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Preamble, name: preamble, widget: text }
+          - label: Featured image
+            name: featured_image
+            widget: object
+            fields:
+              - { label: Image, name: src, widget: image }
+              - { label: Alt text, name: alt, widget: string }
+          - { label: Button text, name: button, widget: string, required: false }
+          - { label: Button link, name: buttonlink, widget: string, required: false }
+      - { name: body, label: Text, widget: markdown }
+      - { name: latest_posts_text, label: Latest posts text, widget: string }
+      - { name: posts_category, label: Category for posts, widget: select, options: [Marketing, Web Analysis, Strategy, SEO] }
+
+  - name: blog-page
+    label: Blog page
+    folder: content/blog-page
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
     editor:
       preview: false
     fields:
@@ -128,6 +255,7 @@ collections:
               - { label: Alt text, name: alt, widget: string }
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
+      - { label: Go to article-text, name: to_article_text,  }
 
   - name: blog
     label: Blog
@@ -178,10 +306,11 @@ collections:
       - { label: Type, name: type, widget: hidden, default: video }
       - { label: Show "Get in touch button", name: "popup_btn", widget: "boolean", default: true}
 
-  - name: contactinfo
+  - name: contact-info
     label: Contact info
-    folder: content/contactinfo
+    folder: content/contact-info
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
     editor:
       preview: false
     fields:
@@ -191,24 +320,28 @@ collections:
         widget: object
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Text, name: text1, widget: markdown }
+          - { label: Text, name: text, widget: string }
+          - { label: Link, name: link, widget: string }
       - name: col2
         label: Column 2
         widget: object
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Text, name: text2, widget: markdown }
+          - { label: Text, name: text, widget: string }
+          - { label: Link, name: link, widget: string }
       - name: col3
         label: Column 3
         widget: object
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Text, name: text3, widget: markdown }
+          - { label: Text, name: text, widget: string }
+          - { label: Link, name: link, widget: string }
 
   - name: footer
     label: Footer
     folder: content/footer
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{heading}}"
     editor:
      preview: false
     fields:

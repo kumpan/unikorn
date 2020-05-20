@@ -4,6 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   const blogPost = path.resolve(`./src/templates/blog-post-single.js`)
+  const marketingPost = path.resolve(`./src/templates/marketing-post-single.js`)
   const { slugify } = require(`./src/global-functions.js`)
 
   return graphql(
@@ -26,6 +27,22 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         }
+        marketingPosts: allMdx(
+          filter: { fileAbsolutePath: { regex: "/(/marketing/)/" } }
+          sort: { fields: [frontmatter___date], order: DESC }
+          limit: 1000
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                shorttitle
+              }
+            }
+          }
+        }
       }
     `
   ).then(result => {
@@ -34,12 +51,23 @@ exports.createPages = ({ graphql, actions }) => {
     }
 
     const blogPosts = result.data.blogPosts.edges
+    const marketingPosts = result.data.marketingPosts.edges
     
     // Create blog posts pages.
     blogPosts.forEach((post, index) => {
       createPage({
         path: `blog/${slugify(post.node.frontmatter.path)}`,
         component: blogPost,
+        context: {
+          slug: post.node.fields.slug,
+        },
+      })
+    })
+
+    marketingPosts.forEach((post, index) => {
+      createPage({
+        path: `marketing/${slugify(post.node.frontmatter.shorttitle)}`,
+        component: marketingPost,
         context: {
           slug: post.node.fields.slug,
         },

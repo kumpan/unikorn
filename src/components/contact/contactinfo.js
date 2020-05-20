@@ -1,8 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import remark from "remark"
-import recommended from "remark-preset-lint-recommended"
-import remarkHtml from "remark-html"
 
 const ContactInfo = () => {
   const data = useStaticQuery(
@@ -15,7 +12,7 @@ const ContactInfo = () => {
         }
         pageData: allMdx(
           filter: {
-            fileAbsolutePath: { regex: "/(/contactinfo/)/" }
+            fileAbsolutePath: { regex: "/(/contact-info/)/" }
           }
         ) {
           edges {
@@ -24,14 +21,17 @@ const ContactInfo = () => {
                 col1 {
                   title
                   text
+                  link
                 }
                 col2 {
                   title
                   text
+                  link
                 }
                 col3 {
                   title
                   text
+                  link
                 }
               }
             }
@@ -45,19 +45,13 @@ const ContactInfo = () => {
   const columns = [contactInfoData.col1, contactInfoData.col2, contactInfoData.col3]
 
   const columnElements = columns.length ? (
-    columns.map(({ title, text }, i) => {
-
-      // Remark MD-content outside of body
-      const htmlText = remark()
-        .use(recommended)
-        .use(remarkHtml)
-        .processSync(text)
-        .toString()
-
+    columns.map(({ title, text, link }, i) => {
       return (
         <div key={i} className="contactinfo-col">
-          <p>{title}</p>
-          <div dangerouslySetInnerHTML={{ __html: htmlText }} />
+          <a href={link} target="_BLANK" rel="noopener noreferrer">
+            <p>{title}</p>
+            <strong>{text}</strong>
+          </a>
         </div>
       )
     })

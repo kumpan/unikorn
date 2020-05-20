@@ -54,8 +54,8 @@ class Nav extends Component {
                 Marketing
               </Link>
               <ul className="submenu">
-                <li className={this.props.location === "/marketing/seo" ? "active" : ""}>
-                  <Link to="/marketing/seo">
+                <li className={this.props.location === "/marketing/search-engine-optimization-seo" ? "active" : ""}>
+                  <Link to="/marketing/search-engine-optimization-seo">
                     Search Engine Optimization (SEO)
                   </Link>
                 </li>

@@ -1,5 +1,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import remark from "remark"
+import recommended from "remark-preset-lint-recommended"
+import remarkHtml from "remark-html"
 
 const Footer = () => {
   const data = useStaticQuery(
@@ -47,10 +50,16 @@ const Footer = () => {
 
   const columnElements = columns.length ? (
     columns.map(({ heading, text }, i) => {
+      const htlmText = remark()
+        .use(recommended)
+        .use(remarkHtml)
+        .processSync(text)
+        .toString()
+
       return (
         <div key={i} className="footer-col">
           <h3>{heading}</h3>
-          {text}
+          <div dangerouslySetInnerHTML={{ __html: htlmText }} />
         </div>
       )
     })
@@ -63,6 +72,7 @@ const Footer = () => {
     <span>{footerData.smallheading}</span>
     <h2>{footerData.heading}</h2>
     <div className="footer-row">{columnElements}</div>
+    <div className="copyright"><p>Unikorn {new Date().getFullYear()} ©</p></div>
   </div>
   )
 }

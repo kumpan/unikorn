@@ -1,16 +1,17 @@
 import React, { Component } from "react"
 
-import BlogPost from './blog-post.js'
+import MarketingPost from './marketing-post.js'
 
-class BlogList extends Component {
+class MarketingList extends Component {
   render() {
     const posts = this.props.posts
+    
     return (
-      <div className="blog-list">
+      <div className="marketing-list">
         {posts.length > 0 ? (
           posts.map(({ node }, index) => {
             return (
-              <BlogPost key={index} post={node.frontmatter} toArticleText={this.props.toArticleText} />
+              <MarketingPost key={index} post={node.frontmatter} />
             )
           })
         ) : (
@@ -24,4 +25,4 @@ class BlogList extends Component {
   }
 }
 
-export default BlogList
+export default MarketingList
