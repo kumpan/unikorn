@@ -1,12 +1,12 @@
 ---
 src: ../assets/plus.svg
 posts_category: SEO
-latest-posts-text: Read the latest posts about SEO
+latest-posts-text: Read the latest posts about web analysis
 shorttitle: Search Engine Optimization (SEO)
 shortdesc: "We’re your best friend when it comes to helping you find the best
   path to a successful digital strategy. "
 latest_posts_text: Read the latest posts about SEO
-posts-category: SEO
+posts-category: Web Analysis
 icon:
   src: ../assets/plus.svg
   alt: SEO icon
@@ -20,8 +20,9 @@ hero:
     alt: Illustration
   button: Start growing now
   buttonlink: /about-us
-  preamble: "We’re your best friend when it comes to helping you find the best
-    path to a successful digital strategy. "
+  preamble: We’re your best friend when it comes to helping you find the best path
+    to a successful digital strategy. We know how to handle every aspect of your
+    Digital Marketing.
 ---
 ## Subway tile vaporware squid bucket.
 

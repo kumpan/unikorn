@@ -1,12 +1,12 @@
 ---
 src: ../assets/plus.svg
 posts_category: Marketing
-latest-posts-text: Read the latest posts about content marketing
+latest-posts-text: Read the latest posts about web analysis
 shorttitle: Content Marketing
 shortdesc: "We’re your best friend when it comes to helping you find the best
   path to a successful digital strategy. "
-latest_posts_text: Read the latest posts about content marketing
-posts-category: Marketing
+latest_posts_text: Read the latest posts about marketing
+posts-category: Web Analysis
 icon:
   src: ../assets/content.svg
   alt: Content marketing icon
