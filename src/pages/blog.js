@@ -17,7 +17,7 @@ const Blog = () => {
         }
         pageData: allMdx(
           filter: {
-            fileAbsolutePath: { regex: "/(/blogpage/)/" }
+            fileAbsolutePath: { regex: "/(/blog-page/)/" }
           }
         ) {
           edges {
@@ -42,6 +42,7 @@ const Blog = () => {
                   button
                   buttonlink
                 }
+                to_article_text
               }
             }
           }
@@ -114,7 +115,7 @@ const Blog = () => {
         <IconBtn text="Blog" filterPosts={filterPosts} icon="text.svg" />
       </div>
 
-      <BlogList posts={posts} />
+      <BlogList posts={posts} toArticleText={pageData.to_article_text} />
     </Layout>
   )
 }

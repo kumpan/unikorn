@@ -141,6 +141,8 @@ export const data = graphql`
                 tab_title
                 heading
                 text
+                buttontext
+                buttontext_mobile
                 buttonlink
               }
             }

@@ -17,7 +17,7 @@ const MarketingPage = () => {
         }
         pageData: allMdx(
           filter: {
-            fileAbsolutePath: { regex: "/(/marketingpage/)/" }
+            fileAbsolutePath: { regex: "/(/marketing-page/)/" }
           }
         ) {
           edges {

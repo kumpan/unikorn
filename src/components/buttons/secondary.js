@@ -3,13 +3,16 @@ import { Link } from "gatsby"
 
 class SecondaryButton extends Component {
   render() {
-    const { text, link } = this.props
+    const { text, mobileBtn, link } = this.props
 
     return (
       <div className="secondary-btn">
         {link && !link.includes("mailto" || "call") ? (
           <Link to={link}>
-            {text}
+            <span className="large-btn-text">{text}</span>
+            {mobileBtn &&
+              <span className="small-btn-text">{mobileBtn}</span>
+            }
           </Link>
         ) : link && link.includes("mailto" || "call") ? (
           <a href={link}>
