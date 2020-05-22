@@ -11,7 +11,7 @@ hero:
   button: Start growing now
   buttonlink: /about-us
 tabs_section:
-  tabs_heading: Marketing
+  tabs_heading: We help our partners grow through well executed
   tab_fields:
     - tab_title: Marketing
       text: Decades of Digital Marketing has formed our way of successful and
