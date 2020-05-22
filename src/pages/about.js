@@ -7,7 +7,7 @@ import Layout from "../components/layout.js"
 import Container from "../components/container.js"
 import ContactInfo from "../components/contact/contactinfo.js"
 
-const WebSEO = () => {
+const About = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -70,4 +70,4 @@ const WebSEO = () => {
   )
 }
 
-export default WebSEO
+export default About
