@@ -68,6 +68,13 @@ faq_section:
 references_section:
   references_tabs_heading: What do other people say about Unikorn
   reference_tab_fields:
+    - tab_title: Olivia
+      heading: Olivias’s kind words
+      text: "“The best taco bowls are made at Unikorn Grill. I love them! I'm speaking
+        for myself, number one, because I have a very good brain and I've said a
+        lot of things. It really doesn’t matter what you write as long as you’ve
+        got a beautiful piece of text.” "
+      person: Olivia
     - tab_title: Felicia
       heading: Felicias’s kind words
       text: "“The best taco bowls are made at Unikorn Grill. I love them! I'm speaking
@@ -82,4 +89,11 @@ references_section:
         lot of things. It really doesn’t matter what you write as long as you’ve
         got a beautiful piece of text.” "
       person: Malin, CEO of Unibet
+    - tab_title: David
+      heading: David’s kind words
+      text: “The best taco bowls are made at Unikorn Grill. I love them! I'm speaking
+        for myself, number one, because I have a very good brain and I've said a
+        lot of things. It really doesn’t matter what you write as long as you’ve
+        got a beautiful piece of text.”
+      person: David
 ---
