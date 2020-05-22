@@ -29,6 +29,22 @@ tabs_section:
       buttontext: Read more about Unikorn web
       buttontext_mobile: Read more
       buttonlink: /marketing
+    - tab_title: Search
+      heading: Unikorn Search
+      text: Decades of Digital Marketing has formed our way of successful and
+        aggressive Digital Marketing for both Start-ups and well established
+        organisations. We call it Unikorn Marketing.
+      buttontext: Read more about Search
+      buttontext_mobile: Read more
+      buttonlink: /about-us
+    - tab_title: Strategy
+      heading: Unikorn Strategy
+      text: Decades of Digital Marketing has formed our way of successful and
+        aggressive Digital Marketing for both Start-ups and well established
+        organisations. We call it Unikorn Marketing.
+      buttontext: Read more about unikorn strategy
+      buttontext_mobile: Read more
+      buttonlink: /about-us
 blog_section:
   pre_heading: Blog
   heading: Stay up to date
