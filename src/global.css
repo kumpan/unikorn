@@ -16,10 +16,19 @@ body {
   width: 100%;
 }
 
+section {
+  padding: 48px 16px;
+  position: relative;
+}
+
 .container {
   max-width: 1136px;
   margin: 0 auto;
   position: relative;
+}
+
+.bg-color {
+  color: var(--white);
 }
 
 h1,
@@ -156,6 +165,8 @@ object {
 
 .pre-heading {
   font-weight: 500;
+  line-height: 19px;
+  display: block;
 }
 
 .active div {
@@ -163,6 +174,16 @@ object {
 }
 
 @media screen and (min-width: 767px) {
+  section {
+    padding: 72px 16px;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 57px;
+    padding-bottom: 15px;
+  }
+
   h3 {
     font-size: 48px;
     line-height: 57px;
@@ -177,5 +198,9 @@ object {
     font-weight: 500;
     display: block;
     line-height: 19px;
+  }
+
+  .center-desktop {
+    text-align: center;
   }
 }

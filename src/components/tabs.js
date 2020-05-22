@@ -21,16 +21,18 @@ class TabsComponent extends Component {
       allTabs.map(({ heading, text, buttontext, buttontext_mobile, buttonlink, person }, i) => {
         return (
           <TabPanel key={i}>
-            <h2>{heading}</h2>
-            <p>{text}</p>
-            {person &&
-              <em>- {person}</em>
-            }
-            {buttonlink &&
-              <div>
-                <SecondaryButton text={buttontext} mobileBtn={buttontext_mobile} link={buttonlink} />
-              </div>
-            }
+            <div>
+              <h2>{heading}</h2>
+              <p>{text}</p>
+              {person &&
+                <em>- {person}</em>
+              }
+              {buttonlink &&
+                <div>
+                  <SecondaryButton text={buttontext} mobileBtn={buttontext_mobile} link={buttonlink} />
+                </div>
+              }
+            </div>
           </TabPanel>
         )
       })

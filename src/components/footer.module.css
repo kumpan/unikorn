@@ -17,6 +17,10 @@
   position: relative;
 }
 
+.footer_col div {
+  outline: none;
+}
+
 .footer_col h5 {
   padding-bottom: 4px;
   cursor: pointer;
@@ -96,7 +100,6 @@
 
   .footer_col div {
     height: auto !important;
-    outline: none;
   }
 
   .footer_col div div {
