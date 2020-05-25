@@ -5,6 +5,7 @@ import recommended from "remark-preset-lint-recommended"
 import remarkHtml from "remark-html"
 
 import ToggleItem from "../components/toggle.js"
+import ContactInfo from "../components/contact/contactinfo.js"
 
 import Styles from "./footer.module.css"
 
@@ -19,7 +20,7 @@ const toggleClass = function(e) {
   }
 }
 
-const Footer = () => {
+const Footer = (props) => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -86,10 +87,17 @@ const Footer = () => {
 
   return (
     <div className={"footer " + Styles.footer}>
-      <div className="container">
+      {props.show_contact_info &&
+        <ContactInfo />
+      }
+      <div className={"container " + Styles.footer_wrapper}>
         <span className="pre-heading">{footerData.smallheading}</span>
         <h3>{footerData.heading}</h3>
-        <div className={Styles.footer_row}>{columnElements}</div>
+        <div className={Styles.footer_row}>
+          <div className={Styles.row}>
+            {columnElements}
+          </div>
+        </div>
         <div className={Styles.copyright}><p>Unikorn {new Date().getFullYear()} ©</p></div>
       </div>
     </div>
