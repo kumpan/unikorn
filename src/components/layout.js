@@ -8,11 +8,13 @@ class Layout extends Component {
   render() {
     const { children } = this.props
 
+    console.log(this.props.show_contact_info)
+
     return (
       <div className="main-container">
         <Nav location={this.props.location}/>
         <main>{children}</main>
-        <Footer />
+        <Footer show_contact_info={this.props.show_contact_info} />
       </div>
     )
   }

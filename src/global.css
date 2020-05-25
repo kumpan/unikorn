@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   font-weight: 400;
   font-size: 16px;
@@ -5,6 +11,16 @@ body {
   font-family: 'Work Sans';
   line-height: 24px;
 } 
+
+.main-container {
+  width: 100%;
+}
+
+.container {
+  max-width: 1168px;
+  margin: 0 auto;
+  position: relative;
+}
 
 h1,
 h2,
@@ -14,26 +30,27 @@ h5,
 h6 {
   font-family: 'Work Sans';
   font-weight: bold;
-  padding-bottom: 8px;
-  margin: 0;
+  margin: 0 0 8px 0;
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 h1 {
   font-size: 36px;
   line-height: 36px;
   color: var(--primary);
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 h2 {
   font-size: 32px;
-  line-height: 1;
-  padding-bottom: 20px;
+  line-height: 38px;
+  margin-bottom: 20px;
 }
 
 h3 {
   font-size: 28px;
-  line-height: 1;
+  line-height: 33px;
 }
 
 h4 {
@@ -43,7 +60,7 @@ h4 {
 
 h5 {
   font-size: 20px;
-  line-height: 1;
+  line-height: 24px;
 }
 
 h6 {
@@ -52,12 +69,15 @@ h6 {
 }
 
 p {
-  padding-bottom: 10px;
-  margin: 0;
+  margin: 0 0 10px 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
 
 p + ul {
-  padding-top: 16px;
+  margin-top: 16px;
 }
 
 a {
@@ -74,20 +94,20 @@ a:hover {
 
 ul {
   list-style-type: none;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   margin: 0;
   padding-left: 0;
 }
 
 ul:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 ul li {
-  padding-bottom: 12px;
   position: relative;
   padding-left: 36px;
-  font-size: 18px;
+  font-size: 16px;
+  margin-bottom: 12px;
 }
 
 ul li:before {
@@ -102,7 +122,7 @@ ul li:before {
 }
 
 ul li:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 p + h2,
@@ -124,5 +144,44 @@ h3:last-child,
 h4:last-child, 
 h5:last-child, 
 h6:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+object {
+  max-width: 100%;
+}
+
+.pre-heading {
+  font-weight: 500;
+}
+
+.active div {
+  max-height: 1000px;
+}
+
+.row {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.col {
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 767px) {
+  h3 {
+    font-size: 48px;
+    line-height: 57px;
+  }
+
+  h5 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .pre-heading {
+    font-weight: 500;
+    display: block;
+    line-height: 19px;
+  }
 }

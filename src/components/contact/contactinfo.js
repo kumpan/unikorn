@@ -1,6 +1,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
+import Styles from "./contactinfo.module.css"
+
 const ContactInfo = () => {
   const data = useStaticQuery(
     graphql`
@@ -47,7 +49,7 @@ const ContactInfo = () => {
   const columnElements = columns.length ? (
     columns.map(({ title, text, link }, i) => {
       return (
-        <div key={i} className="contactinfo-col">
+        <div key={i} className={Styles.contactinfo_col}>
           <a href={link} target="_BLANK" rel="noopener noreferrer">
             <p>{title}</p>
             <strong>{text}</strong>
@@ -60,8 +62,10 @@ const ContactInfo = () => {
   )
 
   return (
-    <div className="contact-info">
-      <div className="contact-info-row">{columnElements}</div>
+    <div className={Styles.contact_info}>
+      <div className={Styles.contact_info_row}>
+        {columnElements}
+      </div>
     </div>
   )
 }

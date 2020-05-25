@@ -9,7 +9,6 @@ import TabsComponent from "../components/tabs.js"
 import BlogList from "../components/blog/blog-list.js"
 import SecondaryButton from "../components/buttons/secondary.js"
 import VideoPopup from "../components/video/videopopup.js"
-import ContactInfo from "../components/contact/contactinfo.js"
 import FaqList from "../components/faq/faq-list.js"
 
 class Startpage extends Component {
@@ -41,7 +40,7 @@ class Startpage extends Component {
     const posts = this.props.data.posts.edges
 
     return (
-      <Layout location="/">
+      <Layout location="/" show_contact_info>
         <Hero 
           heading={pageData.hero.heading} 
           text={pageData.hero.text}
@@ -93,8 +92,6 @@ class Startpage extends Component {
           }
           <FaqList faqs={pageData.faq_section.faqs} />
         </Section>
-
-        <ContactInfo />
 
         {this.state.showVideo && pageData.video_section.video_url &&
           <VideoPopup url={pageData.video_section.video_url} title={pageData.video_section.heading} handleVideo={this.handleVideo}/>

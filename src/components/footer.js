@@ -4,7 +4,23 @@ import remark from "remark"
 import recommended from "remark-preset-lint-recommended"
 import remarkHtml from "remark-html"
 
-const Footer = () => {
+import ToggleItem from "../components/toggle.js"
+import ContactInfo from "../components/contact/contactinfo.js"
+
+import Styles from "./footer.module.css"
+
+const toggleClass = function(e) {
+  const el = document.getElementById('footer-toggle-'+e.target.dataset.id)
+
+  if (el.classList.contains(Styles.active)) {
+    el.classList.remove(Styles.active)
+
+  } else {
+    el.classList.add(Styles.active);
+  }
+}
+
+const Footer = (props) => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -57,10 +73,12 @@ const Footer = () => {
         .toString()
 
       return (
-        <div key={i} className="footer-col">
-          <h3>{heading}</h3>
-          <div dangerouslySetInnerHTML={{ __html: htlmText }} />
-        </div>
+          <div id={"footer-toggle-"+i} className={Styles.footer_col} key={i}>
+            <ToggleItem>
+              <h5 data-id={i} onClick={toggleClass} onKeyDown={toggleClass} role="presentation">{heading}</h5>
+              <div className={Styles.footer_col_text} dangerouslySetInnerHTML={{ __html: htlmText }} />
+            </ToggleItem>
+          </div>
       )
     })
   ) : (
@@ -68,12 +86,21 @@ const Footer = () => {
   )
 
   return (
-  <div className="footer">
-    <span>{footerData.smallheading}</span>
-    <h2>{footerData.heading}</h2>
-    <div className="footer-row">{columnElements}</div>
-    <div className="copyright"><p>Unikorn {new Date().getFullYear()} ©</p></div>
-  </div>
+    <div className={"footer " + Styles.footer}>
+      {props.show_contact_info &&
+        <ContactInfo />
+      }
+      <div className={"container " + Styles.footer_wrapper}>
+        <span className="pre-heading">{footerData.smallheading}</span>
+        <h3>{footerData.heading}</h3>
+        <div className={Styles.footer_row}>
+          <div className={Styles.row}>
+            {columnElements}
+          </div>
+        </div>
+        <div className={Styles.copyright}><p>Unikorn {new Date().getFullYear()} ©</p></div>
+      </div>
+    </div>
   )
 }
 
