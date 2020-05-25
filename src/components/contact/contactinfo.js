@@ -63,7 +63,9 @@ const ContactInfo = () => {
 
   return (
     <div className={Styles.contact_info}>
-      <div className={Styles.contact_info_row}>{columnElements}</div>
+      <div className={Styles.contact_info_row}>
+        {columnElements}
+      </div>
     </div>
   )
 }

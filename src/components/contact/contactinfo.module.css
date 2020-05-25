@@ -12,12 +12,11 @@
   border-bottom: 1px solid var(--white);
   background-color: var(--primary);
   text-align: center;
-  text-align: center;
 }
 
 .contactinfo_col a {
   color: var(--white);
-  padding: 17px 12px;
+  padding: 18px 12px;
   display: block;
 }
 
@@ -26,7 +25,7 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.05px;
-  padding-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 .contactinfo_col:nth-of-type(2) {
@@ -54,18 +53,15 @@
 
 @media screen and (min-width: 992px) {
   .contact_info_row {
-    position: absolute;
-    width: 95%;
-    max-width: 1136px;
-    left: 0;
-    right: 0;
+    width: 100%;
+    max-width: 1168px;
+    padding: 0 16px;
     margin: 0 auto;
-    bottom: 50%;
-    transform: translateY(50%);
+    transform: translateY(-50%);
   }
 
   .contact_info + div {
-    padding-top: 140px;
+    padding-top: 64px;
   }
 
   .contactinfo_col:nth-of-type(2) {
