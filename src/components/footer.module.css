@@ -156,5 +156,10 @@
   .footer_wrapper {
     padding: 72px 16px 0;
   }
+
+  .footer_wrapper h3 {
+    font-size: 48px;
+    line-height: 57px;
+  }
   
 }

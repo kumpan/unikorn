@@ -47,7 +47,7 @@ class MarketingTemplate extends Component {
     }
     
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={siteTitle} show_contact_info>
         <Hero 
           shorttitle={shorttitle}
           heading={hero.heading} 
@@ -59,17 +59,21 @@ class MarketingTemplate extends Component {
           parentPageTitle="Marketing"
           parentPageLink="/marketing"
         />
-        <Container>
-          <div className="content-container-text">
-            <MDXRenderer>{this.props.data.currentPost.body}</MDXRenderer>
+        <div className="bg-color-section-desktop">
+          <div className="overlay-container">
+            <Container>
+              <div className="content-container-text">
+                <MDXRenderer>{this.props.data.currentPost.body}</MDXRenderer>
+              </div>
+              {relatedPosts.length > 0 &&
+                <div className="content-container-posts">
+                  <h2>{latest_posts_text}</h2>
+                  <BlogList posts={relatedPosts} />
+                </div>
+              }
+            </Container>
           </div>
-          {relatedPosts.length > 0 &&
-            <div className="content-container-posts">
-              <h2>{latest_posts_text}</h2>
-              <BlogList posts={relatedPosts} />
-            </div>
-          }
-        </Container>
+        </div>
       </Layout>
     )
   }

@@ -47,6 +47,9 @@
   }
 }
 
+.react-tabs__tab-panel h2 {
+  margin-bottom: 20px;
+}
 
 .react-tabs__tab-panel em {
   font-style: normal;

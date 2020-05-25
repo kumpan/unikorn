@@ -6,7 +6,6 @@ import Hero from "../components/hero.js"
 import Layout from "../components/layout.js"
 import Container from "../components/container.js"
 import BlogList from "../components/blog/blog-list.js"
-import ContactInfo from "../components/contact/contactinfo.js"
 
 const WebSEO = () => {
   const data = useStaticQuery(
@@ -86,7 +85,7 @@ const WebSEO = () => {
   const posts = data.posts.edges
   
   return (
-    <Layout location="/web-and-seo">
+    <Layout location="/web-and-seo" show_contact_info>
       <Hero 
         shorttitle={pageData.shorttitle}
         heading={pageData.hero.heading} 
@@ -96,18 +95,21 @@ const WebSEO = () => {
         buttonlink={pageData.hero.buttonlink}
         alt={pageData.hero.featured_image.alt}
       />
-      <Container>
-        <div className="content-container-text">
-          <MDXRenderer>{data.allMdx.edges[0].node.body}</MDXRenderer>
+      <div className="bg-color-section-desktop">
+        <div className="overlay-container">
+          <Container>
+            <div className="content-container-text">
+              <MDXRenderer>{data.allMdx.edges[0].node.body}</MDXRenderer>
+            </div>
+            { posts.length > 0 &&
+              <div className="content-container-posts">
+                <h2>Read the latest posts about SEO</h2>
+                <BlogList posts={posts} />
+              </div>
+            }
+          </Container>
         </div>
-        { posts.length > 0 &&
-          <div className="content-container-posts">
-            <h2>Read the latest posts about SEO</h2>
-            <BlogList posts={posts} />
-          </div>
-        }
-      </Container>
-      <ContactInfo />
+      </div>
     </Layout>
   )
 }
