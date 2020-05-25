@@ -22,7 +22,7 @@ section {
 }
 
 .container {
-  max-width: 1168px;
+  max-width: 1136px;
   margin: 0 auto;
   position: relative;
 }
@@ -187,7 +187,7 @@ object {
   h2 {
     font-size: 48px;
     line-height: 57px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
   }
 
   h3 {

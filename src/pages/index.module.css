@@ -7,4 +7,9 @@
   .tabs_section {
     padding-top: 92px;
   }
+
+  .section-row {
+    max-width: 1136px;
+    margin: 0 auto;
+  }
 }

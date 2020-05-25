@@ -90,15 +90,17 @@ const Footer = (props) => {
       {props.show_contact_info &&
         <ContactInfo />
       }
-      <div className={"container " + Styles.footer_wrapper}>
-        <span className="pre-heading">{footerData.smallheading}</span>
-        <h3>{footerData.heading}</h3>
-        <div className={Styles.footer_row}>
-          <div className={Styles.row}>
-            {columnElements}
+      <div className={Styles.footer_wrapper}>
+        <div className="container">
+          <span className="pre-heading">{footerData.smallheading}</span>
+          <h3>{footerData.heading}</h3>
+          <div className={Styles.footer_row}>
+            <div className={Styles.row}>
+              {columnElements}
+            </div>
           </div>
+          <div className={Styles.copyright}><p>Unikorn {new Date().getFullYear()} ©</p></div>
         </div>
-        <div className={Styles.copyright}><p>Unikorn {new Date().getFullYear()} ©</p></div>
       </div>
     </div>
   )
