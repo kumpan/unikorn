@@ -95,6 +95,7 @@ const Blog = () => {
       }
     }
   }
+  console.log(pageData.to_article_text)
 
   return (
     <Layout location="/blog">

@@ -1,0 +1,28 @@
+.blog_list {
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 767px) { 
+  .blog_wrapper_mobile_style {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+  }
+
+  .blog_wrapper_mobile_style > div {
+    width: 50%;
+    padding: 0 8px;
+  }
+
+  .blog_wrapper_mobile_style > div:nth-of-type(3) {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .blog_wrapper_mobile_style > div, .blog_wrapper_mobile_style > div:nth-of-type(3) {
+    width: 33%;
+    margin-bottom: 0;
+  }
+}

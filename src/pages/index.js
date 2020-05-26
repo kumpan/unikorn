@@ -51,46 +51,52 @@ class Startpage extends Component {
           buttonlink={pageData.hero.buttonlink}
         />
 
-        <Section class={Styles.tabs_section + " bg-color reverse-color center-desktop"}>
+        <Section class={Styles.tabs_section + " light-text reverse-color center-desktop"}>
           <span className="pre-heading">{pageData.tabs_section.tabs_heading}</span>
           <TabsComponent tabs={pageData.tabs_section.tab_fields} />
         </Section>
 
         <Section class="blog-section">
-          <span className="pre-heading">{pageData.blog_section.pre_heading}</span>
-          <h2>{pageData.blog_section.heading}</h2>
-          <BlogList posts={posts} />
-          <SecondaryButton text={pageData.blog_section.button} link={pageData.blog_section.buttonlink} />
+          <div className="container">
+            <span className="pre-heading">{pageData.blog_section.pre_heading}</span>
+            <h2>{pageData.blog_section.heading}</h2>
+            <BlogList posts={posts} keepMobileStyling />
+            <SecondaryButton text={pageData.blog_section.button} link={pageData.blog_section.buttonlink} />
+          </div>
         </Section>
         
-        <Section class="video-section bg-color">
-          <span className="pre-heading">{pageData.video_section.pre_heading}</span>
-          <h2>{pageData.video_section.heading}</h2>
-          {pageData.video_section.video_url &&
-            <div>
-              <Img 
-                fluid={pageData.video_section.video_image.src.childImageSharp.fluid}
-                alt={pageData.video_section.video_image.alt}
-              />
-              <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">Play</div>
-            </div>
-          }
-          <SecondaryButton text={pageData.video_section.button} link={pageData.video_section.buttonlink} />
+        <Section class="video-section bg-color-section light-text">
+          <div className="container">
+            <span className="pre-heading">{pageData.video_section.pre_heading}</span>
+            <h2>{pageData.video_section.heading}</h2>
+            {pageData.video_section.video_url &&
+              <div>
+                <Img 
+                  fluid={pageData.video_section.video_image.src.childImageSharp.fluid}
+                  alt={pageData.video_section.video_image.alt}
+                />
+                <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">Play</div>
+              </div>
+            }
+            <SecondaryButton text={pageData.video_section.button} link={pageData.video_section.buttonlink} />
+          </div>
         </Section>
 
         <Section class="faq-section">
-          <span className="pre-heading">{pageData.faq_section.pre_heading}</span>
-          <h2>{pageData.faq_section.heading}</h2>
+          <div className="container">
+            <span className="pre-heading">{pageData.faq_section.pre_heading}</span>
+            <h2>{pageData.faq_section.heading}</h2>
+            <FaqList faqs={pageData.faq_section.faqs} />
+          </div>
           {pageData.faq_section.featured_image.src.childImageSharp.fluid &&
             <Img 
               fluid={pageData.faq_section.featured_image.src.childImageSharp.fluid}
               alt={pageData.faq_section.featured_image.alt}
             />
           }
-          <FaqList faqs={pageData.faq_section.faqs} />
         </Section>
 
-        <Section class={Styles.reference_section + " bg-color center-desktop"}>
+        <Section class={Styles.reference_section + " light-text center-desktop"}>
           <span className="pre-heading">{pageData.references_section.references_tabs_heading}</span>
           <TabsComponent tabs={pageData.references_section.reference_tab_fields} />
         </Section>
