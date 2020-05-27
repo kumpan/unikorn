@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 992px) {
   .blog_wrapper_mobile_style > div, .blog_wrapper_mobile_style > div:nth-of-type(3) {
-    width: 33%;
+    width: 33.33%;
     margin-bottom: 0;
   }
 }

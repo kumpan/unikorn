@@ -31,6 +31,19 @@ section {
   color: var(--white);
 }
 
+.light-text .secondary-btn a {
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.light-text .secondary-btn a:hover {
+  color: var(--primary);
+}
+
+.light-text .secondary-btn a:before {
+  background-color: var(--white);
+}
+
 .bg-color-section {
   background-color: var(--primary);
 }

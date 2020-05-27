@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import { PlayCircleIcon } from '@icons/material'
 
 import Hero from "../components/hero.js"
 import Layout from "../components/layout.js"
@@ -61,7 +62,9 @@ class Startpage extends Component {
             <span className="pre-heading">{pageData.blog_section.pre_heading}</span>
             <h2>{pageData.blog_section.heading}</h2>
             <BlogList posts={posts} keepMobileStyling />
-            <SecondaryButton text={pageData.blog_section.button} link={pageData.blog_section.buttonlink} />
+            <div className={Styles.align_right}>
+              <SecondaryButton text={pageData.blog_section.button} link={pageData.blog_section.buttonlink} arrow />
+            </div>
           </div>
         </Section>
         
@@ -75,10 +78,12 @@ class Startpage extends Component {
                   fluid={pageData.video_section.video_image.src.childImageSharp.fluid}
                   alt={pageData.video_section.video_image.alt}
                 />
-                <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">Play</div>
+                <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0"><PlayCircleIcon /></div>
               </div>
             }
-            <SecondaryButton text={pageData.video_section.button} link={pageData.video_section.buttonlink} />
+            <div className={Styles.align_right}>
+              <SecondaryButton text={pageData.video_section.button} link={pageData.video_section.buttonlink} arrow />
+            </div>
           </div>
         </Section>
 

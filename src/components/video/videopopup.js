@@ -9,8 +9,6 @@ class VideoPopup extends Component {
   render() {
     const { url, title, path, toArticleText } = this.props
 
-    console.log(path)
-
       return (
         <div className={Styles.video_popup_wrapper} key={this.props.id}>
           <div className={Styles.video_popup_close} onClick={this.props.handleVideo} onKeyDown={this.props.handleVideo} role="button" tabIndex="0">CLOSE POPUP</div>
