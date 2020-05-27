@@ -45,10 +45,10 @@ const WebSEO = () => {
           }
         }
         posts: allMdx(
+          limit: 3
           filter: { 
             fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
-            frontmatter: { category: { regex: "/SEO/" }
-          }
+            frontmatter: { category: { regex: "/SEO/" }          }
         }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {

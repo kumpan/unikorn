@@ -78,7 +78,7 @@ collections:
           widget: list
           fields:
             - { label: Question, name: question, widget: string }
-            - { label: Answer, name: answer, widget: text }
+            - { label: Answer, name: answer, widget: markdown }
         - label: FAQ image
           name: featured_image
           widget: object

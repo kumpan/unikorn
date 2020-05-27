@@ -1,0 +1,41 @@
+.faq_list {
+  max-width: 512px;
+  margin: 24px auto 0;
+}
+
+.faq_load_more_wrapper {
+  text-align: center;
+  outline: none;
+  margin-top: 24px;
+}
+
+.faq_load_more {
+  display: inline-block;
+  color: var(--primary);
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.faq_load_more:hover {
+  color: var(--darkest-primary);
+}
+
+.faq_load_more svg {
+  transition: transform 0.2s ease-in-out;
+}
+
+.faq_load_more:hover svg {
+  transform: translateY(4px);
+}
+
+.faq_load_more span {
+  display: block;
+}
+
+@media screen and (min-width: 767px) {
+  .faq_list {
+    margin-top: 72px;
+  }
+}

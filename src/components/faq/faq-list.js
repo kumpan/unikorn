@@ -1,6 +1,9 @@
 import React, { Component } from "react"
+import { ArrowDownIcon } from '@icons/material'
 
 import Faq from "./faq.js"
+
+import Styles from "./faq-list.module.css"
 
 class FaqList extends Component{
   constructor(props) {
@@ -8,7 +11,7 @@ class FaqList extends Component{
 
     this.state = {
       items: this.props.faqs,
-      visible: 2,
+      visible: 3,
       error: false
     }
 
@@ -29,10 +32,15 @@ class FaqList extends Component{
     })
 
     return(
-      <div className="faq-list">
+      <div className={Styles.faq_list}>
         {faqList}
         {this.state.visible < this.state.items.length &&
-          <div onClick={this.loadMore} onKeyDown={this.loadMore} role="button" tabIndex="0" className="load-more">View more FAQ’s</div>
+          <div className={Styles.faq_load_more_wrapper}>
+            <div className={Styles.faq_load_more} onClick={this.loadMore} onKeyDown={this.loadMore} role="button" tabIndex="0">
+              <span>View more FAQ’s</span>
+              <ArrowDownIcon />
+            </div>
+          </div>
         }
       </div>
     )

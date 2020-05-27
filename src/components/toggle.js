@@ -18,7 +18,7 @@ class ToggleItem extends Component {
   render() {
     return (
       <div>
-        <div onClick={ this.toggleHeight } onKeyDown={ this.toggleHeight } role="button" tabIndex="0">{this.props.children[0]}</div>
+        <div style={{outline: "none"}} onClick={ this.toggleHeight } onKeyDown={ this.toggleHeight } role="button" tabIndex="0">{this.props.children[0]}</div>
         <AnimateHeight duration={ 300 } height={ this.state.height }>
           {this.props.children[1]}
         </AnimateHeight>
