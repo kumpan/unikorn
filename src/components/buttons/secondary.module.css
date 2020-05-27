@@ -1,24 +1,79 @@
 .secondary_btn a {
-  display: inline-block;
   border-radius: 0px;
-  border: 2px solid var(--white);
+  border: 2px solid var(--primary);
   width: 100%;
   text-align: center;
-  color: var(--white);
+  color: var(--primary);
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
   padding: 15px;
+  z-index: 1;
+  position: relative;
+  margin-top: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondary_btn a:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: var(--primary);
+  transition: all 0.2s ease-in-out;
+}
+
+.secondary_btn a:hover:before {
+  width: 100%;
 }
 
 .secondary_btn a:hover {
   text-decoration: none;
-  background-color: var(--white);
-  color: var(--primary)
+  color: var(--white);
 }
 
 .large_btn_text {
   display: none;
+}
+
+.arrow a {
+  padding-right: 44px;
+}
+
+.arrow svg {
+  position: absolute;
+  right: 16px;
+  transition: right 0.2s ease-in-out;
+}
+
+.secondary_btn a:hover svg {
+  right: 12px;
+}
+
+@media screen and (min-width: 600px) {
+  .secondary_btn a {
+    width: auto;
+    display: inline-block;
+    padding: 16px 24px;
+  }
+
+  .arrow a {
+    padding: 16px 44px 16px 24px;
+  }
+
+  .arrow svg {
+    right: 12px;
+  }
+
+  .secondary_btn a:hover svg {
+    right: 8px;
+  }
 }
 
 @media screen and (min-width: 767px) {

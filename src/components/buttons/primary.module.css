@@ -1,0 +1,30 @@
+.primary_btn a {
+  display: inline-block;
+  border-radius: 0px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 16px 24px;
+  background-color: var(--primary);
+}
+
+.primary_btn a:hover {
+  text-decoration: none;
+  background-color: var(--darkest-primary);
+}
+
+@media screen and (min-width: 767px) {
+  .primary_btn a {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .primary_btn a {
+    padding: 24px 32px;
+  }
+}

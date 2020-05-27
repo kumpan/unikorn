@@ -3,7 +3,6 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout.js"
 import Hero from "../components/hero.js"
-import ContactInfo from "../components/contact/contactinfo.js"
 import MarketingList from "../components/marketing/marketing-list.js"
 
 const MarketingPage = () => {
@@ -68,7 +67,7 @@ const MarketingPage = () => {
   const posts = data.posts.edges
 
   return (
-    <Layout location="/marketing">
+    <Layout location="/marketing" show_contact_info>
       <Hero 
         shorttitle={pageData.shorttitle}
         heading={pageData.hero.heading} 
@@ -76,8 +75,11 @@ const MarketingPage = () => {
         button={pageData.hero.button}
         buttonlink={pageData.hero.buttonlink}
       />
-      <MarketingList posts={posts} />
-      <ContactInfo />
+      <div className="bg-color-section-desktop">
+        <div className="overlay-container">
+          <MarketingList posts={posts} />
+        </div>
+      </div>
     </Layout>
   )
 }

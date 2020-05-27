@@ -95,7 +95,7 @@ const Blog = () => {
       }
     }
   }
-
+  
   return (
     <Layout location="/blog">
       <Hero 

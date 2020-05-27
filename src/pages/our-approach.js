@@ -5,7 +5,6 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Hero from "../components/hero.js"
 import Layout from "../components/layout.js"
 import Container from "../components/container.js"
-import ContactInfo from "../components/contact/contactinfo.js"
 
 const OurApproach = () => {
   const data = useStaticQuery(
@@ -50,7 +49,7 @@ const OurApproach = () => {
   const pageData = data.allMdx.edges[0].node.frontmatter
 
   return (
-    <Layout location="/our-approach">
+    <Layout location="/our-approach" show_contact_info>
       <Hero 
         shorttitle={pageData.shorttitle}
         heading={pageData.hero.heading} 
@@ -60,12 +59,15 @@ const OurApproach = () => {
         buttonlink={pageData.hero.buttonlink}
         alt={pageData.hero.featured_image.alt}
       />
-      <Container>
-        <div className="content-container-text">
-          <MDXRenderer>{data.allMdx.edges[0].node.body}</MDXRenderer>
+      <div className="bg-color-section-desktop">
+        <div className="overlay-container">
+          <Container>
+            <div className="content-container-text">
+              <MDXRenderer>{data.allMdx.edges[0].node.body}</MDXRenderer>
+            </div>
+          </Container>
         </div>
-      </Container>
-      <ContactInfo />
+      </div>
     </Layout>
   )
 }

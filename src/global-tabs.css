@@ -1,9 +1,8 @@
 .react-tabs__tab-list {
   display: inline-block;
   overflow: hidden;
-  margin-top: 24px;
+  margin: 24px 0;
   padding-bottom: 20px;
-  margin-bottom: 24px;
   position: relative;
 }
 
@@ -15,9 +14,8 @@
   font-size: 38px;
   font-weight: 700;
   line-height: 44px;
-  padding-left: 0;
+  padding: 0 0 4px 0;
   margin-right: 24px;
-  padding-bottom: 4px;
   position: relative;
   cursor: pointer;
   outline: none;
@@ -48,6 +46,9 @@
   }
 }
 
+.react-tabs__tab-panel h2 {
+  margin-bottom: 20px;
+}
 
 .react-tabs__tab-panel em {
   font-style: normal;
@@ -68,11 +69,11 @@
 .react-tabs__tab:before {
   width: 8px;
   height: 8px;
+  top: 17px;
   right: auto;
   left: -16px;
   background-color: var(--white);
   opacity: 0.24;
-  top: 17px;
 }
 
 .tabs-wrapper:before {

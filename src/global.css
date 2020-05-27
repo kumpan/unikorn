@@ -27,8 +27,25 @@ section {
   position: relative;
 }
 
-.bg-color {
+.light-text {
   color: var(--white);
+}
+
+.light-text .secondary-btn a {
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.light-text .secondary-btn a:hover {
+  color: var(--primary);
+}
+
+.light-text .secondary-btn a:before {
+  background-color: var(--white);
+}
+
+.bg-color-section {
+  background-color: var(--primary);
 }
 
 h1,
@@ -54,7 +71,6 @@ h1 {
 h2 {
   font-size: 32px;
   line-height: 38px;
-  margin-bottom: 20px;
 }
 
 h3 {
@@ -144,7 +160,7 @@ ul + h3,
 ul + h4,
 ul + h5,
 ul + h6 {
-  margin-top: 14px;
+  margin-top: 24px;
 }
 
 h1:last-child, 
@@ -175,8 +191,94 @@ object {
   margin-right: -16px;
 }
 
-.col {
-  padding: 0 16px;
+.breadcrumbs {
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.breadcrumbs span {
+  opacity: 0.4;
+}
+
+.breadcrumbs + h1 {
+  margin-top: 8px;
+}
+
+.content-container-posts {
+  padding-top: 48px;
+  margin-top: 48px;
+  border-top: 1px solid var(--light-grey)
+}
+
+.content-container-posts h2 {
+  margin-bottom: 24px;
+}
+
+.video-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: var(--white);
+  transition: all 0.2s ease-in-out;
+  transform-origin: center center;
+}
+
+.video-btn svg {
+  width: 50px !important;
+  height: 50px !important;
+  box-shadow: 0px 0px 56px 0px rgba(36, 2, 5, 0.56);
+  border-radius: 50%;
+}
+
+.video-btn svg path {
+  transform: scale(1.29);
+  transform-origin: center;
+}
+
+.video-btn:hover, .video-btn:focus {
+  outline: none;
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+.video-btn:hover svg, .video-btn:focus svg {
+  box-shadow: 0px 0px 72px 0px rgb(152, 13, 25);
+}
+
+.blog-post-wrapper .video-btn {
+  top: 124px;
+  transform: translate(-50%, 0);
+}
+
+.blog-post-wrapper .video-btn:hover, .blog-post-wrapper .video-btn:focus {
+  transform: translate(-50%, 0) scale(1.08);
+}
+
+@media screen and (min-width: 600px) {
+  .blog-post-wrapper .video-btn {
+    right: 64px;
+    left: auto;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 52px;
+  }
+
+  .blog-post-wrapper .video-btn:hover, .blog-post-wrapper .video-btn:focus {
+    transform: translate(0, -50%) scale(1.08);
+  }
+
+  .blog-section .blog-post-wrapper .video-btn {
+    top: 124px;
+    transform: translate(-50%, 0);
+    left: 50%;
+    right: auto;
+  }
+
+  .blog-section .blog-post-wrapper .video-btn:hover, .blog-section .blog-post-wrapper .video-btn:focus {
+    transform: translate(-50%, 0) scale(1.08);
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -190,9 +292,9 @@ object {
     margin-bottom: 15px;
   }
 
-  h3 {
-    font-size: 48px;
-    line-height: 57px;
+  h3, h4 {
+    font-size: 32px;
+    line-height: 38px;
   }
 
   h5 {
@@ -208,5 +310,40 @@ object {
 
   .center-desktop {
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 72px;
+    line-height: 70px;
+  }
+
+  .bg-color-section-desktop {
+    background-color: var(--primary);
+  }
+
+  .overlay-container {
+    margin-top: -72px;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 52px;
+  }
+
+  .breadcrumbs {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: appear 0.2s linear forwards 0.2s;
+  }
+
+  @keyframes appear {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }

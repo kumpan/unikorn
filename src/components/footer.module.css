@@ -106,8 +106,7 @@
   }
 
   .row {
-    margin-left: -16px;
-    margin-right: -16px;
+    margin: 0 -16px;
   }
 
   .footer_col {
@@ -155,6 +154,11 @@
 
   .footer_wrapper {
     padding: 72px 16px 0;
+  }
+
+  .footer_wrapper h3 {
+    font-size: 48px;
+    line-height: 57px;
   }
   
 }

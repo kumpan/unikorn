@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 
 import PrimaryButton from "./buttons/primary.js"
 
+import Styles from "./hero.module.css"
+
 class Hero extends Component {
   render() {
     const { heading, text, img, alt, button, buttonlink, shorttitle, parentPageLink, parentPageTitle } = this.props
@@ -11,12 +13,12 @@ class Hero extends Component {
     let heroImage
     if (img && img.extension === 'svg') {
       heroImage = 
-      <div className="hero-section-image">
+      <div className={Styles.hero_section_image}>
         <object type="image/svg+xml" data={img.publicURL} aria-labelledby={alt}></object>
       </div>
     } else if (img) {
       heroImage = 
-      <div className="hero-section-image">
+      <div className={Styles.hero_section_image}>
         <Img 
           fluid={img.childImageSharp.fluid}
           alt={alt}
@@ -25,27 +27,29 @@ class Hero extends Component {
     }
 
     return (
-      <div className="hero-section">
-        <div className="hero-section-text">
-          {((parentPageLink || shorttitle) || (parentPageLink && shorttitle)) &&
-            <div className="breadcrumbs">
-              {parentPageLink &&
-                <span><Link to={"/" + parentPageLink}>{parentPageTitle}</Link> / </span>
-              }
-              
-              {shorttitle &&
-                <span>{shorttitle}</span>
-              }
-            </div>
-          }
-          <h1>{heading}</h1>
-          <p>{text}</p>
+      <div className={Styles.hero_section}>
+        <div className={Styles.hero_row}>
+          <div className={Styles.hero_section_text}>
+            {((parentPageLink || shorttitle) || (parentPageLink && shorttitle)) &&
+              <div className="breadcrumbs">
+                {parentPageLink &&
+                  <span><Link to={"/" + parentPageLink}>{parentPageTitle}</Link> / </span>
+                }
+                
+                {shorttitle &&
+                  <span>{shorttitle}</span>
+                }
+              </div>
+            }
+            <h1>{heading}</h1>
+            <p>{text}</p>
 
-          {button &&
-            <PrimaryButton text={button} link={buttonlink} />
-          }
+            {button &&
+              <PrimaryButton text={button} link={buttonlink} />
+            }
+          </div>
+            {heroImage}
         </div>
-          {heroImage}
       </div>
     )
   }

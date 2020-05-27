@@ -5,12 +5,16 @@ import { Link } from "gatsby"
 import BlogDate from "./blog-date.js"
 import VideoPopup from "../video/videopopup.js"
 import { slugify } from '../../global-functions.js'
+import { PlayCircleIcon, MovieIcon, FileDocumentIcon } from '@icons/material'
 
+import Styles from "./blog-post.module.css"
 
 class BlogPost extends Component {
   constructor(props) {
     super(props)
-    this.state = { showVideo: false }
+    this.state = { 
+      showVideo: false
+    }
   }
 
   handleVideo = (e) => {
@@ -30,23 +34,37 @@ class BlogPost extends Component {
   render() {
     const { type, title, author, date, featured_image, video_url, path } = this.props.post
 
+    let typeIcon
+    if (type === "video") {
+      typeIcon = <MovieIcon />
+    } else {
+      typeIcon = <FileDocumentIcon />
+    }
+
     return (
-      <div>
+      <div className={Styles.blog_post_wrapper + " blog-post-wrapper " + (this.props.keepMobileStyling ? Styles.blog_post_mobile_style : '') }>
         <Link to={"/blog/" + slugify(path)}>
-          <div className={"blog-post type-" + type}>
-            <span className={"blog-type type-name-" + type}>{type}</span>
-            <h2 className="blog-title">{title}</h2>
-            <div className="blog-info">
-              <span className="blog-author">{author}</span>
-              <BlogDate date={date} />
+          <div className={Styles.blog_post + " type-" + type}>
+            <div className={Styles.blog_post_text_wrapper}>
+              <span className={Styles.blog_cat}>
+                {typeIcon}
+                {type}
+              </span>
+              <h2 className={Styles.blog_title}>{title}</h2>
+              <div className={Styles.blog_info}>
+                <span className={Styles.blog_author}>{author}</span>
+                <BlogDate className={Styles.blog_date} date={date} />
+              </div>
             </div>
-            <Img 
-              fluid={featured_image.src.childImageSharp.fluid}
-              alt={featured_image.alt}
-            />
+            <div className={Styles.blog_post_img}>
+              <Img 
+                fluid={featured_image.src.childImageSharp.fluid}
+                alt={featured_image.alt}
+              />
+            </div>
 
             {video_url &&
-              <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">Play</div>
+              <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0"><PlayCircleIcon /></div>
             }
 
           </div>

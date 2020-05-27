@@ -8,7 +8,7 @@ class IconBtn extends Component {
     let iconFile = icon
     
     try {
-      iconFile = require("../../../content/assets/icons/" + icon)
+      iconFile = require("./icons/" + icon)
     }
     catch(err){
       iconFile = null

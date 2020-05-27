@@ -1,7 +1,16 @@
+.faq_section img {
+  display: none;
+}
+
+@media screen and (min-width: 600px) { 
+  .align_right {
+    text-align: right;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .reference_section {
-    padding-top: 85px;
-    padding-bottom: 108px;
+    padding: 85px 0 108px;
   }
 
   .tabs_section {
