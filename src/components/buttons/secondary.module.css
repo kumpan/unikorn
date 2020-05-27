@@ -1,0 +1,32 @@
+.secondary_btn a {
+  display: inline-block;
+  border-radius: 0px;
+  border: 2px solid var(--white);
+  width: 100%;
+  text-align: center;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 15px;
+}
+
+.secondary_btn a:hover {
+  text-decoration: none;
+  background-color: var(--white);
+  color: var(--primary)
+}
+
+.large_btn_text {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .large_btn_text {
+    display: block;
+  }
+
+  .small_btn_text {
+    display: none;
+  }
+}

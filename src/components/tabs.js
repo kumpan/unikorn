@@ -3,14 +3,34 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import SecondaryButton from "../components/buttons/secondary.js"
 
-class TabsComponent extends Component {  
+class TabsComponent extends Component {
+  constructor(props) {
+    super(props)
+    this.state = { 
+      activeClass: ''
+    }
+  }
+
+  toggleClass(i) {
+    if (i%2 === 0) {
+      this.setState({
+        activeClass: ''
+      })
+    } else {
+      this.setState({
+        activeClass: 'active'
+      })
+    }
+  }
+
+
   render() {
     const allTabs = this.props.tabs
 
     const tabs = allTabs.length ? (
       allTabs.map(({ tab_title }, i) => {
         return (
-          <Tab key={i}>{tab_title}</Tab>
+          <Tab key={i} onClick={() => this.toggleClass(i)}>{tab_title}</Tab>
         )
       })
     ) : (
@@ -21,16 +41,18 @@ class TabsComponent extends Component {
       allTabs.map(({ heading, text, buttontext, buttontext_mobile, buttonlink, person }, i) => {
         return (
           <TabPanel key={i}>
-            <h2>{heading}</h2>
-            <p>{text}</p>
-            {person &&
-              <em>- {person}</em>
-            }
-            {buttonlink &&
-              <div>
-                <SecondaryButton text={buttontext} mobileBtn={buttontext_mobile} link={buttonlink} />
-              </div>
-            }
+            <div>
+              <h2>{heading}</h2>
+              <p>{text}</p>
+              {person &&
+                <em>- {person}</em>
+              }
+              {buttonlink &&
+                <div>
+                  <SecondaryButton text={buttontext} mobileBtn={buttontext_mobile} link={buttonlink} />
+                </div>
+              }
+            </div>
           </TabPanel>
         )
       })
@@ -39,7 +61,7 @@ class TabsComponent extends Component {
     )
 
     return (
-      <Tabs>
+      <Tabs className={"tabs-wrapper " + this.state.activeClass}>
         <TabList>
           {tabs}
         </TabList>

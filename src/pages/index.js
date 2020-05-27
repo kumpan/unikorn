@@ -11,6 +11,8 @@ import SecondaryButton from "../components/buttons/secondary.js"
 import VideoPopup from "../components/video/videopopup.js"
 import FaqList from "../components/faq/faq-list.js"
 
+import Styles from "./index.module.css"
+
 class Startpage extends Component {
   constructor(props) {
     super(props)
@@ -49,7 +51,7 @@ class Startpage extends Component {
           buttonlink={pageData.hero.buttonlink}
         />
 
-        <Section class="tabs-section">
+        <Section class={Styles.tabs_section + " bg-color reverse-color center-desktop"}>
           <span className="pre-heading">{pageData.tabs_section.tabs_heading}</span>
           <TabsComponent tabs={pageData.tabs_section.tab_fields} />
         </Section>
@@ -61,7 +63,7 @@ class Startpage extends Component {
           <SecondaryButton text={pageData.blog_section.button} link={pageData.blog_section.buttonlink} />
         </Section>
         
-        <Section class="video-section">
+        <Section class="video-section bg-color">
           <span className="pre-heading">{pageData.video_section.pre_heading}</span>
           <h2>{pageData.video_section.heading}</h2>
           {pageData.video_section.video_url &&
@@ -76,11 +78,6 @@ class Startpage extends Component {
           <SecondaryButton text={pageData.video_section.button} link={pageData.video_section.buttonlink} />
         </Section>
 
-        <Section class="reference-section">
-          <span className="pre-heading">{pageData.references_section.references_tabs_heading}</span>
-          <TabsComponent tabs={pageData.references_section.reference_tab_fields} />
-        </Section>
-
         <Section class="faq-section">
           <span className="pre-heading">{pageData.faq_section.pre_heading}</span>
           <h2>{pageData.faq_section.heading}</h2>
@@ -91,6 +88,11 @@ class Startpage extends Component {
             />
           }
           <FaqList faqs={pageData.faq_section.faqs} />
+        </Section>
+
+        <Section class={Styles.reference_section + " bg-color center-desktop"}>
+          <span className="pre-heading">{pageData.references_section.references_tabs_heading}</span>
+          <TabsComponent tabs={pageData.references_section.reference_tab_fields} />
         </Section>
 
         {this.state.showVideo && pageData.video_section.video_url &&
