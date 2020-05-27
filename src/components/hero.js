@@ -8,17 +8,17 @@ import Styles from "./hero.module.css"
 
 class Hero extends Component {
   render() {
-    const { heading, text, img, alt, button, buttonlink, shorttitle, parentPageLink, parentPageTitle } = this.props
+    const { heading, text, img, alt, button, buttonlink, shorttitle, parentPageLink, parentPageTitle, lowerImg } = this.props
 
     let heroImage
     if (img && img.extension === 'svg') {
       heroImage = 
-      <div className={Styles.hero_section_image}>
+      <div className={Styles.hero_section_image + ' ' + (lowerImg ? Styles.lower_img : '' )}>
         <object type="image/svg+xml" data={img.publicURL} aria-labelledby={alt}></object>
       </div>
     } else if (img) {
       heroImage = 
-      <div className={Styles.hero_section_image}>
+      <div className={Styles.hero_section_image + ' ' + (lowerImg ? Styles.lower_img : '' )}>
         <Img 
           fluid={img.childImageSharp.fluid}
           alt={alt}

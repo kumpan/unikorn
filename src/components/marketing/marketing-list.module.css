@@ -1,0 +1,8 @@
+@media screen and (min-width: 767px) {
+  .marketing_list {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -8px;
+    justify-content: center;
+  }
+}

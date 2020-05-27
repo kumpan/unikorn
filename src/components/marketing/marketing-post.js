@@ -1,9 +1,10 @@
 import React, { Component }  from "react"
 import Img from "gatsby-image"
 
-import { slugify } from '../../global-functions.js'
-import SecondaryButton from '../../components/buttons/secondary.js'
+import { slugify } from "../../global-functions.js"
+import SecondaryButton from "../../components/buttons/secondary.js"
 
+import Styles from "./marketing-post.module.css"
 
 class MarketingPost extends Component {
   
@@ -12,11 +13,11 @@ class MarketingPost extends Component {
     const marketingLink = "/marketing/" + slugify(shorttitle)
 
     const marketingIcon = (icon.src.extension === 'svg') ? (
-      <div className="marketing-icon">
+      <div className={Styles.marketing_icon}>
         <object type="image/svg+xml" data={icon.src.publicURL} aria-labelledby={alt}></object>
       </div>
     ) : (
-      <div className="marketing-icon">
+      <div className={Styles.marketing_icon}>
         <Img 
           fluid={icon.src.childImageSharp.fluid}
           alt={alt}
@@ -25,11 +26,13 @@ class MarketingPost extends Component {
     )
 
     return (
-      <div className="marketing-post">
-        {marketingIcon}
-        <h3>{shorttitle}</h3>
-        <p>{shortdesc}</p>
-        <SecondaryButton link={marketingLink} text="Read more"/>
+      <div className={Styles.marketing_post_wrapper}>
+        <div className={Styles.marketing_post}>
+          {marketingIcon}
+          <h3>{shorttitle}</h3>
+          <p>{shortdesc}</p>
+          <SecondaryButton link={marketingLink} text="Read more" arrow/>
+        </div>
       </div>
     )
   }

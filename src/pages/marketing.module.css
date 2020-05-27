@@ -1,0 +1,9 @@
+.marketing_list_section {
+  padding: 0 16px 72px;
+}
+
+@media screen and (min-width: 992px) {
+  .marketing_list_section {
+    padding: 0 16px 95px;
+  }
+}

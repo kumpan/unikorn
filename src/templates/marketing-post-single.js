@@ -58,6 +58,7 @@ class MarketingTemplate extends Component {
           alt={hero.featured_image.alt}
           parentPageTitle="Marketing"
           parentPageLink="/marketing"
+          lowerImg
         />
         <div className="bg-color-section-desktop">
           <div className="overlay-container">

@@ -1,7 +1,7 @@
 :root {
   --text-body: #240205;
   --text-grey: #545454;
-  --light-grey: #d8d8d8;
+  --light-grey: #dbdbdb;
   --white: #fff;
   --primary: #f15c68;
   --primary-light: #fef9fa;
@@ -9,4 +9,5 @@
   --darkest-primary: #bb2e3a;
   --secondary: #1990dd;
   --secondary-light: #4faae5;
+  --secondary-lightest: #eff6fc;
 }
