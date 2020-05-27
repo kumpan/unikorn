@@ -82,6 +82,14 @@ faq_section:
 
 
         The best taco bowls are made in Trump Tower Grill. I love Hispanics! My text is long and beautiful, as, it has been well documented, are various other parts of my website. Lorem Ispum is a choke artist. It chokes!
+    - question: This is another question?
+      answer: >-
+        It’s about making placeholder text great again. That’s what people want,
+        they want placeholder text to be great again. I think the only card she
+        has is the Lorem card.
+
+
+        We have so many things that we have to do better... and certainly ipsum is one of them. I was going to say something extremely rough to Lorem Ipsum, to its family, and I said to myself, "I can't do it. I just can't do it. It's inappropriate. It's not nice." I think the only difference between me and the other placeholder text is that I’m more honest and my words are more beautiful.
   featured_image:
     src: ../assets/choices-monochrome.png
     alt: Illustration
