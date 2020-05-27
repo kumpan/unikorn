@@ -18,7 +18,7 @@ class TabsComponent extends Component {
       })
     } else {
       this.setState({
-        activeClass: ' active'
+        activeClass: 'active'
       })
     }
   }

@@ -20,6 +20,7 @@
   padding-bottom: 4px;
   position: relative;
   cursor: pointer;
+  outline: none;
   transition: all 0.2s ease-in-out;
 }
 
