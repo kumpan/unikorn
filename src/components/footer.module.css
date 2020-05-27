@@ -106,8 +106,7 @@
   }
 
   .row {
-    margin-left: -16px;
-    margin-right: -16px;
+    margin: 0 -16px;
   }
 
   .footer_col {

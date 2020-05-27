@@ -6,8 +6,7 @@
   .blog_wrapper_mobile_style {
     display: flex;
     flex-flow: row wrap;
-    margin-right: -8px;
-    margin-left: -8px;
+    margin: 0 -8px;
   }
 
   .blog_wrapper_mobile_style > div {

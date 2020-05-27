@@ -87,7 +87,7 @@ class Startpage extends Component {
           </div>
         </Section>
 
-        <Section class="faq-section">
+        <Section class={Styles.faq_section}>
           <div className="container">
             <span className="pre-heading">{pageData.faq_section.pre_heading}</span>
             <h2>{pageData.faq_section.heading}</h2>
