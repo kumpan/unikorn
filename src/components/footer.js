@@ -73,12 +73,12 @@ const Footer = (props) => {
         .toString()
 
       return (
-          <div id={"footer-toggle-"+i} className={Styles.footer_col} key={i}>
-            <ToggleItem>
-              <h5 data-id={i} onClick={toggleClass} onKeyDown={toggleClass} role="presentation">{heading}</h5>
-              <div className={Styles.footer_col_text} dangerouslySetInnerHTML={{ __html: htlmText }} />
-            </ToggleItem>
-          </div>
+        <div id={"footer-toggle-"+i} className={Styles.footer_col} key={i}>
+          <ToggleItem>
+            <h5 data-id={i} onClick={toggleClass} onKeyDown={toggleClass} role="presentation">{heading}</h5>
+            <div className={Styles.footer_col_text} dangerouslySetInnerHTML={{ __html: htlmText }} />
+          </ToggleItem>
+        </div>
       )
     })
   ) : (
