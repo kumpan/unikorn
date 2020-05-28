@@ -10,7 +10,7 @@
   max-height: 100%;
   max-width: 100%;
   margin-left: -6px;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .navigation_wrapper {
@@ -18,12 +18,27 @@
   z-index: 99;
   padding: 40px 0 0 0;
   width: 100%;
+  transition: all .3s ease-in-out;
+}
+
+.navigation_wrapper.active {
+  background-color: var(--white);
+  box-shadow: 0px 2px 4px -2px rgba(81, 2, 16, 0.16), 0px 12px 32px -2px rgba(81, 2, 21, .24);
+  padding: 20px 0 17px 0;
+}
+
+.navigation_wrapper.nav_up {
+  transform: translateY(-110px);
+}
+
+.navigation_wrapper.active .nav_button {
+  top: 8px;
 }
 
 .navigation_wrapper.opened .logo svg {
   fill: #fff;
   opacity: 0.4;
-  transition: all 0.2s ease-in-out 0.2s;
+  transition: all .2s ease-in-out .2s;
 }
 
 .navigation {
@@ -52,12 +67,20 @@
   z-index: 1;
 }
 
+.navigation_wrapper.active .navigation:before {
+  height: 90px;
+}
+
 .navigation_inner {
   height: 100vh;
   display: flex;
   flex-flow: column nowrap;
   padding: 112px 0 0 0;
   overflow: auto;
+}
+
+.navigation_wrapper.active .navigation_inner {
+  padding: 90px 0 0 0;
 }
 
 .navigation_inner .nav_contact_info {
@@ -73,6 +96,7 @@
   cursor: pointer;
   z-index: 99;
   outline: none;
+  transition: all .3s ease-in-out;
 }
 
 .nav_button span {
@@ -83,7 +107,7 @@
   right: 15px;
   top: 23px;
   left: auto;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .nav_button span:last-child {
@@ -118,8 +142,12 @@
   padding: 17px 0;
   margin: 0;
   display: block;
-  border-top: 1px solid rgba(79, 170, 229, 0.24);
+  border-top: 1px solid rgba(79, 170, 229, .24);
   position: relative;
+}
+
+.navigation_links li:last-child a {
+  border-bottom: 1px solid rgba(79, 170, 229, .24);
 }
 
 .navigation_links li a:before {
@@ -158,6 +186,10 @@
   left: -48px;
 }
 
+.has_submenu svg {
+  display: none;
+}
+
 @media screen and (min-width: 767px) {
   .logo {
     margin-top: 2px;
@@ -168,6 +200,16 @@
     padding: 36px 0 0 0;
     display: flex;
     flex-flow: row wrap;
+  }
+
+  .navigation_wrapper.nav_up {
+    transform: none;
+  }
+
+  .navigation_wrapper.active {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 36px 0 0 0;
   }
 
   .nav_button {
@@ -193,18 +235,35 @@
     flex-flow: row nowrap;
     display: block;
     padding: 0;
+    overflow: visible;
+  }
+
+  .navigation_wrapper.active .navigation_inner {
+    padding: 0;
   }
 
   .navigation_links li {
     display: inline-block;
+    margin: 0 16px;
   }
 
   .navigation_links li a {
     color: var(--text-body);
     border: none;
-    padding: 10px 8px;
-    margin: 0 8px;
+    padding: 10px 0;
     line-height: 19px;
+  }
+
+  .navigation_links li:last-child a {
+    border: none;
+  }
+
+  .navigation_links li a:hover {
+    color: var(--primary);
+  }
+
+  .navigation_links li:last-child {
+    margin-right: 0;
   }
 
   .navigation_links li a:before {
@@ -213,9 +272,72 @@
 
   .submenu {
     position: absolute;
+    box-shadow: 0px 2px 4px -2px rgba(81, 2, 16, 0.16), 0px 2px 32px -2px rgba(81, 2, 21, .24);
+    background-color: var(--white);
+    padding: 10px 0;
+    left: -20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease-in-out;
+  }
+
+  .submenu:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 6px solid var(--white);
+    top: -6px;
+    left: 72px;
   }
 
   .nav_contact_info {
     display: none;
   }
+
+  .navigation_links .has_submenu {
+    padding-right: 27px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .has_submenu svg {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    display: block;
+    transition: all .2s ease-in-out;
+  }
+
+  .has_submenu:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .has_submenu li {
+    margin: 0;
+    display: block;
+  }
+
+  .has_submenu:hover svg, .navigation_links .active svg {
+    fill: var(--primary) !important;
+  }
+
+  .has_submenu:hover > a {
+    color: var(--primary);
+    text-decoration: underline;
+  }
+
+  .navigation_links .active > a {
+    color: var(--primary);
+  }
+
+  .has_submenu li a {
+    white-space: nowrap;
+    padding: 6px;
+    margin: 0 16px;
+  }
+
 }

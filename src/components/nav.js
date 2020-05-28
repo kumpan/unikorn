@@ -1,10 +1,9 @@
 import React, { Component }  from "react"
 import { Link } from "gatsby"
-import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from "body-scroll-lock"
-
+import { ChevronDownIcon } from '@icons/material'
 
 import ContactInfo from "../components/contact/contactinfo.js"
-import Logo from '../../content/assets/unikorn-logo.svg'
+import Logo from "../../content/assets/unikorn-logo.svg"
 
 import Styles from "./nav.module.css"
 
@@ -13,7 +12,9 @@ class Nav extends Component {
     super(props)
     this.state = { 
       showMenu: false,
-      lastScrollPosition: 0
+      lastScrollPosition: 0,
+      hideNavbar: false,
+      activeNavbar: false
     }
   }
 
@@ -26,16 +27,32 @@ class Nav extends Component {
     let lastScrollPosition = this.state.lastScrollPosition
 
     if ( newScrollPosition > 1 ){
-      console.log('active')
+      if (this.state.activeNavbar === false) {
+        this.setState({
+          activeNavbar: true
+        })
+      }
     } else {
-      console.log('not active')
+      if (this.state.activeNavbar === true) {
+        this.setState({
+          activeNavbar: false
+        })
+      }
     }
  
-    if ( newScrollPosition > lastScrollPosition && ( newScrollPosition - lastScrollPosition) > 40 ) { // Scroll down with 40px delay
-      console.log('nav up')
+    if ( newScrollPosition > lastScrollPosition && ( newScrollPosition - lastScrollPosition) > 20 ) { // Scroll down with 40px delay
+      if (this.state.hideNavbar === false) {
+        this.setState({
+          hideNavbar: true
+        })
+      }
 
-    } else if ( newScrollPosition < lastScrollPosition && ( lastScrollPosition - newScrollPosition) > 40 ) { // Scroll up with 40px delay
-      console.log('nav down')
+    } else if ( newScrollPosition < lastScrollPosition && ( lastScrollPosition - newScrollPosition) > 20 ) { // Scroll up with 40px delay
+      if (this.state.hideNavbar === true) {
+        this.setState({
+          hideNavbar: false
+        })
+      }
     }
  
     this.setState({
@@ -48,20 +65,25 @@ class Nav extends Component {
   
     if (!this.state.showMenu) {
       setTimeout(() => {
-        disableBodyScroll(this.targetElement)
+        document.getElementsByTagName( 'html' )[0].classList.add('no-scroll')
       }, 300)
     } else {
-      enableBodyScroll(this.targetElement)
+      document.getElementsByTagName( 'html' )[0].classList.remove('no-scroll')
     }
   }
   
   componentWillUnmount() {
-    clearAllBodyScrollLocks()
+    document.getElementsByTagName( 'html' )[0].classList.remove('no-scroll')
   }
   
   render() {
+    let location = this.props.location
+    if (this.props.location.pathname) {
+      location = this.props.location.pathname
+    }
+
     return (
-      <nav id="primary-nav" className={Styles.navigation_wrapper + " " + (this.state.showMenu ? Styles.opened : "")}>
+      <nav id="primary-nav" className={Styles.navigation_wrapper + " " + (this.state.showMenu ? Styles.opened : "") + " " + (this.state.activeNavbar ? Styles.active : "") + " " + (this.state.hideNavbar ? Styles.nav_up : "")}>
         <div className={Styles.logo}>
           <Link to="/" aria-label="Home">
             <Logo />
@@ -71,44 +93,45 @@ class Nav extends Component {
         <div className={Styles.navigation + " " + (this.state.showMenu ? Styles.opened : "")}>
           <div className={Styles.navigation_inner}>
             <ul className={Styles.navigation_links}>
-              <li className={ this.props.location === "/web-and-seo" ? "active" : ""}>
+              <li className={ location === "/web-and-seo" ? Styles.active : ""}>
                 <Link to="/web-and-seo">
                   Web & SEO
                 </Link>
               </li>
-              <li className={this.props.location === "/marketing" ? "active" : ""}>
+              <li className={Styles.has_submenu + " " + ( location.includes("/marketing") ? Styles.active : "")}>
                 <Link to="/marketing">
                   Marketing
                 </Link>
+                <ChevronDownIcon />
                 <ul className={Styles.submenu}>
-                  <li className={this.props.location === "/marketing/search-engine-optimization-seo" ? "active" : ""}>
+                  <li className={location === "/marketing/search-engine-optimization-seo" ? Styles.active : ""}>
                     <Link to="/marketing/search-engine-optimization-seo">
                       Search Engine Optimization (SEO)
                     </Link>
                   </li>
-                  <li className={this.props.location === "/marketing/content-marketing" ? "active" : ""}>
+                  <li className={location === "/marketing/content-marketing" ? Styles.active : ""}>
                     <Link to="/marketing/content-marketing">
                       Content Marketing
                     </Link>
                   </li>
-                  <li className={this.props.location === "/marketing/web-analysis" ? "active" : ""}>
+                  <li className={location === "/marketing/web-analysis" ? Styles.active : ""}>
                     <Link to="/marketing/web-analysis">
                       Web Analysis
                     </Link>
                   </li>
                 </ul>
               </li>
-              <li className={this.props.location === "/our-approach" ? "active" : ""}>
+              <li className={location === "/our-approach" ? Styles.active : ""}>
                 <Link to="/our-approach">
                   Our Approach
                 </Link>
               </li>
-              <li className={this.props.location === "/blog" ? "active" : ""}>
+              <li className={location === "/blog" ? Styles.active : ""}>
                 <Link to="/blog">
                   Blog
                 </Link>
               </li>
-              <li className={this.props.location === "/about" ? "active" : ""}>
+              <li className={location === "/about" ? Styles.active : ""}>
                 <Link to="/about">
                   About us
                 </Link>
@@ -127,8 +150,8 @@ class Nav extends Component {
           tabIndex="0"
           aria-label="Toggle Menu"
           >
-            <span />
-            <span />
+          <span />
+          <span />
         </div>
       </nav>
     )

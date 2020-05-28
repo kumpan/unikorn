@@ -19,6 +19,10 @@
 }
 
 @media screen and (min-width: 767px) {
+  .hero_row {
+    padding: 145px 0 72px;
+  }
+
   .hero_section_text {
     width: 60%;
   }
@@ -33,7 +37,7 @@
     z-index: -1;
     max-width: 37%;
     right: 16px;
-    max-height: calc(100% - 120px);
+    max-height: calc(100% - 160px);
   }
 }
 
