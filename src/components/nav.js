@@ -145,6 +145,21 @@ class Nav extends Component {
                   About us
                 </Link>
               </li>
+              <li className={location === "/about" ? Styles.active : ""}>
+                <Link to="/about">
+                  About us
+                </Link>
+              </li>
+              <li className={location === "/about" ? Styles.active : ""}>
+                <Link to="/about">
+                  About us
+                </Link>
+              </li>
+              <li className={location === "/about" ? Styles.active : ""}>
+                <Link to="/about">
+                  About us
+                </Link>
+              </li>
             </ul>
             <div className={Styles.nav_contact_info}>
               <ContactInfo transparent />
