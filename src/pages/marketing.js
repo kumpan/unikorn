@@ -5,6 +5,8 @@ import Layout from "../components/layout.js"
 import Hero from "../components/hero.js"
 import MarketingList from "../components/marketing/marketing-list.js"
 
+import Styles from "./marketing.module.css"
+
 const MarketingPage = () => {
   const data = useStaticQuery(
     graphql`
@@ -75,8 +77,8 @@ const MarketingPage = () => {
         button={pageData.hero.button}
         buttonlink={pageData.hero.buttonlink}
       />
-      <div className="bg-color-section-desktop">
-        <div className="overlay-container">
+      <div className={Styles.marketing_list_section + " bg-color-section-desktop"}>
+        <div className="overlay-container container">
           <MarketingList posts={posts} />
         </div>
       </div>

@@ -56,12 +56,12 @@
   }
 
   .hero_section_image object, .hero_section_image img {
-    position: absolute;
-    bottom: 56px;
-    z-index: -1;
     max-width: 50%;
     right: 0;
-    max-height: calc(100% - 120px);
+  }
+
+  .lower_img object, .lower_img img {
+    bottom: -1px;
   }
 
   .hero_section_text h1, .hero_section_text p, .hero_section_text p + div {

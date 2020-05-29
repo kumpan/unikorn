@@ -286,6 +286,17 @@ object {
     padding: 72px 16px;
   }
 
+  .center-desktop {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 72px;
+    line-height: 70px;
+  }
+  
   h2 {
     font-size: 48px;
     line-height: 57px;
@@ -308,19 +319,10 @@ object {
     line-height: 19px;
   }
 
-  .center-desktop {
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  h1 {
-    font-size: 72px;
-    line-height: 70px;
-  }
-
   .bg-color-section-desktop {
     background-color: var(--primary);
+    display: flex;
+    flex-flow: row wrap;
   }
 
   .overlay-container {
