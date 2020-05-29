@@ -75,13 +75,13 @@ class Startpage extends Component {
             {pageData.video_section.video_url &&
               <div>
                 <Img 
-                  fluid={pageData.video_section.video_image.src.childImageSharp.fluid}
+                  fluid={{ ...pageData.video_section.video_image.src.childImageSharp.fluid, aspectRatio: 2.125}}
                   alt={pageData.video_section.video_image.alt}
                 />
                 <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0"><PlayCircleIcon /></div>
               </div>
             }
-            <div className={Styles.align_right}>
+            <div className={Styles.align_right + ' ' + Styles.extra_space_above}>
               <SecondaryButton text={pageData.video_section.button} link={pageData.video_section.buttonlink} arrow />
             </div>
           </div>
@@ -93,12 +93,14 @@ class Startpage extends Component {
             <h2>{pageData.faq_section.heading}</h2>
             <FaqList faqs={pageData.faq_section.faqs} />
           </div>
-          {pageData.faq_section.featured_image.src.childImageSharp.fluid &&
-            <Img 
-              fluid={pageData.faq_section.featured_image.src.childImageSharp.fluid}
-              alt={pageData.faq_section.featured_image.alt}
-            />
-          }
+          <div className={Styles.hide_mobile + ' ' + Styles.faq_bg_img}>
+            {pageData.faq_section.featured_image.src.childImageSharp.fluid &&
+              <Img 
+                fluid={pageData.faq_section.featured_image.src.childImageSharp.fluid}
+                alt={pageData.faq_section.featured_image.alt}
+              />
+            }
+          </div>
         </Section>
 
         <Section class={Styles.reference_section + " light-text center-desktop"}>

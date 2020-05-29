@@ -1,10 +1,37 @@
-.faq_section img {
+.hide_mobile {
   display: none;
+}
+
+.extra_space_above a {
+  margin-top: 24px;
 }
 
 @media screen and (min-width: 600px) { 
   .align_right {
     text-align: right;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .hide_mobile {
+    display: block;
+  }
+
+  .faq_bg_img {
+    position: absolute;
+    max-width: 552px;
+    width: 44vw;
+    bottom: -120px;
+    z-index: -1;
+    left: 0;
+  }
+
+  .extra_space_above a {
+    margin-top: 48px;
+  }
+
+  .align_right a {
+    margin-top: 48px;
   }
 }
 
@@ -20,5 +47,10 @@
   .section-row {
     max-width: 1136px;
     margin: 0 auto;
+  }
+
+  .faq_bg_img {
+    bottom: auto;
+    top: 218px;
   }
 }
