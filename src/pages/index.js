@@ -50,6 +50,7 @@ class Startpage extends Component {
           img={pageData.hero.featured_image.src}
           button={pageData.hero.button}
           buttonlink={pageData.hero.buttonlink}
+          startpage
         />
 
         <Section class={Styles.tabs_section + " light-text reverse-color center-desktop"}>

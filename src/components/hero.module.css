@@ -82,6 +82,15 @@
     animation-delay: 0.8s;
   }
 
+  .startpage {
+    padding: 227px 0 96px;
+  }
+
+  .startpage .hero_section_image object, .startpage .hero_section_image img {
+    bottom: -24px;
+    max-height: calc(100% - 90px);
+  }
+
   @keyframes appear {
     0% {
       opacity: 0;
