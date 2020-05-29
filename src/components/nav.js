@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { ChevronDownIcon } from '@icons/material'
 
 import ContactInfo from "../components/contact/contactinfo.js"
+import ContactPopup from "../components/contact/contactpopup.js"
 import Logo from "../../content/assets/unikorn-logo.svg"
 
 import Styles from "./nav.module.css"
@@ -14,12 +15,20 @@ class Nav extends Component {
       showMenu: false,
       lastScrollPosition: 0,
       hideNavbar: false,
-      activeNavbar: false
+      activeNavbar: false,
+      showContactPopup: false
     }
   }
 
   componentDidMount() {
     window.addEventListener('scroll', this.navigationOnScroll);
+  }
+
+  showContactPopup = (e) => {
+    e.preventDefault()
+    this.setState({
+      showContactPopup: true
+    })
   }
 
   navigationOnScroll = () => {
@@ -143,6 +152,10 @@ class Nav extends Component {
           </div>
         </div>
 
+        <div className={Styles.nav_cta} role="button" tabIndex="0" onClick={this.showContactPopup} onKeyDown={this.showContactPopup}>
+          <span>Get in touch now</span>
+        </div>
+
         <div className={Styles.nav_button + " " + (this.state.showMenu ? Styles.opened : "")}
           onClick={this.toggleMenu}
           onKeyPress={this.toggleMenu}
@@ -153,6 +166,9 @@ class Nav extends Component {
           <span />
           <span />
         </div>
+        {this.state.showContactPopup &&
+          <ContactPopup />
+        }
       </nav>
     )
   }
