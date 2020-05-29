@@ -12,6 +12,10 @@ body {
   line-height: 24px;
 } 
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .main-container {
   width: 100%;
 }

@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Styles from "./contactinfo.module.css"
 
-const ContactInfo = () => {
+const ContactInfo = (props) => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -49,7 +49,7 @@ const ContactInfo = () => {
   const columnElements = columns.length ? (
     columns.map(({ title, text, link }, i) => {
       return (
-        <div key={i} className={Styles.contactinfo_col}>
+        <div key={i} className={Styles.contactinfo_col + " " + (props.transparent ? Styles.transparent : "")}>
           <a href={link} target="_BLANK" rel="noopener noreferrer">
             <p>{title}</p>
             <strong>{text}</strong>

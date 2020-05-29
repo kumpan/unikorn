@@ -1,23 +1,26 @@
 import React, { Component }  from "react"
 import { Link } from "gatsby"
+import { ArrowRightIcon } from '@icons/material'
+
+import Styles from "./arrow-btn.module.css"
 
 class ArrowButton extends Component {
   render() {
     const { text, link, showPopup } = this.props
 
     return (
-      <div role="button" tabIndex="0" onClick={showPopup} onKeyDown={showPopup}>
+      <div className={Styles.arrow_btn} role="button" tabIndex="0" onClick={showPopup} onKeyDown={showPopup}>
         {link && !link.includes("mailto" || "call") ? (
           <Link to={link}>
-            {text}
+            {text}<ArrowRightIcon />
           </Link>
         ) : link && link.includes("mailto" || "call") ? (
           <a href={link}>
-            {text}
+            {text}<ArrowRightIcon />
           </a>
         ) : (
           <div>
-            {text}
+            {text}<ArrowRightIcon />
           </div>
         )}
       </div>

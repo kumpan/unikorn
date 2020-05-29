@@ -1,0 +1,16 @@
+.arrow_btn {
+  position: relative;
+  display: inline-block;
+}
+
+.arrow_btn a {
+  position: relative;
+  padding-right: 30px;
+  font-weight: 600;
+}
+
+.arrow_btn svg {
+  position: absolute;
+  right: 0;
+  top: -2px;
+}

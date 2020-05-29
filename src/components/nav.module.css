@@ -1,0 +1,380 @@
+.logo {
+  position: relative;
+  padding: 0 0 8px 16px;
+  z-index: 1;
+  height: 32px;
+  width: 124px;
+}
+
+.logo svg {
+  max-height: 100%;
+  max-width: 100%;
+  margin-left: -6px;
+  transition: all .2s ease-in-out;
+}
+
+.nav_cta {
+  display: none;
+}
+
+.navigation_wrapper {
+  position: fixed;
+  z-index: 99;
+  padding: 40px 0 0 0;
+  width: 100%;
+  transition: all .3s ease-in-out;
+}
+
+.navigation_wrapper.active {
+  background-color: var(--white);
+  box-shadow: 0px 2px 4px -2px rgba(81, 2, 16, 0.16), 0px 12px 32px -2px rgba(81, 2, 21, .24);
+  padding: 20px 0 17px 0;
+}
+
+.navigation_wrapper.nav_up {
+  transform: translateY(-110px);
+}
+
+.navigation_wrapper.active .nav_button {
+  top: 8px;
+}
+
+.navigation_wrapper.opened .logo svg {
+  fill: #fff;
+  opacity: 0.4;
+  transition: all .2s ease-in-out .2s;
+}
+
+.navigation {
+  transform: translateX(100%);
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  right: 0;
+  background-color: var(--secondary);
+  transition: transform 0.4s ease-in-out;
+}
+
+.navigation.opened {
+  transform: translateX(0%);
+}
+
+.navigation:before {
+  content: '';
+  width: 100%;
+  height: 112px;
+  position: absolute;
+  background-color: var(--secondary);
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navigation_wrapper.active .navigation:before {
+  height: 90px;
+}
+
+.navigation_inner {
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 112px 0 0 0;
+  overflow: auto;
+}
+
+.navigation_wrapper.active .navigation_inner {
+  padding: 90px 0 0 0;
+}
+
+.navigation_inner .nav_contact_info {
+  margin-top: auto;
+}
+
+.nav_button {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  right: 2px;
+  top: 28px;
+  cursor: pointer;
+  z-index: 99;
+  outline: none;
+  transition: all .3s ease-in-out;
+}
+
+.nav_button span {
+  width: 28px;
+  position: absolute;
+  height: 3px;
+  background-color: var(--text-body);
+  right: 15px;
+  top: 23px;
+  left: auto;
+  transition: all .2s ease-in-out;
+}
+
+.nav_button span:last-child {
+  width: 20px;
+  top: 30px;
+}
+
+.nav_button:hover span {
+  width: 28px;
+}
+
+.nav_button.opened span {
+  transform: rotate(-45deg);
+  background-color: var(--white);
+}
+
+.nav_button.opened span:last-child {
+  transform: rotate(45deg);
+  width: 28px;
+  top: 23px;
+}
+
+.navigation_links li {
+  padding: 0;
+  margin: 0;
+}
+
+.navigation_links li a {
+  font-size: 16px;
+  color: var(--white);
+  font-weight: 600;
+  padding: 17px 0;
+  margin: 0;
+  display: block;
+  border-top: 1px solid rgba(79, 170, 229, .24);
+  position: relative;
+}
+
+.navigation_links li:last-child a {
+  border-bottom: 1px solid rgba(79, 170, 229, .24);
+}
+
+.navigation_links li a:before {
+  content: '';
+  width: calc(100% + 32px);
+  height: calc(100% + 2px);
+  position: absolute;
+  top: -1px;
+  left: -16px;
+  bottom: 0;
+  background-color: #67a8df;
+  opacity: 0;
+  z-index: -1;
+  transition: all .2s ease-in-out;
+}
+
+.navigation_links li a:hover:before {
+  opacity: 1;
+}
+
+.navigation_links {
+  padding: 0 16px;
+}
+
+.navigation_links li:before {
+  display: none;
+}
+
+.submenu {
+  margin: 0;
+  padding: 0 0 0 32px;
+}
+
+.navigation_links .submenu li a:before {
+  width: calc(100% + 64px);
+  left: -48px;
+}
+
+.has_submenu svg {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .logo {
+    margin-top: 2px;
+  }
+
+  .navigation_wrapper {
+    position: absolute;
+    padding: 36px 0 0 0;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .navigation_wrapper.nav_up {
+    transform: none;
+  }
+
+  .navigation_wrapper.active {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 36px 0 0 0;
+  }
+
+  .nav_button {
+    display: none;
+  }
+
+  .navigation {
+    position: relative;
+    width: auto;
+    top: auto;
+    right: auto;
+    background-color: transparent;
+    transform: none;
+    margin-left: auto;
+  }
+
+  .navigation:before {
+    display: none;
+  }
+
+  .navigation_inner {
+    height: auto;
+    flex-flow: row nowrap;
+    display: block;
+    padding: 0;
+    overflow: visible;
+  }
+
+  .navigation_wrapper.active .navigation_inner {
+    padding: 0;
+  }
+
+  .navigation_links li {
+    display: inline-block;
+    margin: 0 16px;
+  }
+
+  .navigation_links li a {
+    color: var(--text-body);
+    border: none;
+    padding: 10px 0;
+    line-height: 19px;
+  }
+
+  .navigation_links li:last-child a {
+    border: none;
+  }
+
+  .navigation_links li a:hover {
+    color: var(--primary);
+  }
+
+  .navigation_links li:last-child {
+    margin-right: 0;
+  }
+
+  .navigation_links li a:before {
+    display: none;
+  }
+
+  .submenu {
+    position: absolute;
+    box-shadow: 0px 2px 4px -2px rgba(81, 2, 16, 0.16), 0px 2px 32px -2px rgba(81, 2, 21, .24);
+    background-color: var(--white);
+    padding: 10px 0;
+    left: -20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease-in-out;
+  }
+
+  .submenu:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 6px solid var(--white);
+    top: -6px;
+    left: 72px;
+  }
+
+  .nav_contact_info {
+    display: none;
+  }
+
+  .navigation_links .has_submenu {
+    padding-right: 27px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .has_submenu svg {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    display: block;
+    transition: all .2s ease-in-out;
+  }
+
+  .has_submenu:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .has_submenu li {
+    margin: 0;
+    display: block;
+  }
+
+  .has_submenu:hover svg, .navigation_links .active svg {
+    fill: var(--primary) !important;
+  }
+
+  .has_submenu:hover > a {
+    color: var(--primary);
+    text-decoration: underline;
+  }
+
+  .navigation_links .active > a {
+    color: var(--primary);
+  }
+
+  .has_submenu li a {
+    white-space: nowrap;
+    padding: 6px;
+    margin: 0 16px;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .logo {
+    margin-left: 22px;
+  }
+
+  .nav_cta {
+    display: block;
+    margin-right: 32px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .nav_cta span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.05px;
+    padding: 10px 0;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+  }
+
+  .nav_cta:hover span {
+    color: var(--primary);
+    text-decoration: underline;
+  }
+
+  .navigation {
+    margin-right: auto;
+    padding-left: 6px;
+  }
+}
