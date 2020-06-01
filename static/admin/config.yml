@@ -85,6 +85,7 @@ collections:
           fields:
             - { label: Image, name: src, widget: image }
             - { label: Alt text, name: alt, widget: string }
+        - { label: Load more text, name: load_more_faq_text, widget: string } 
       - name: references_section
         label: References section
         widget: object
@@ -371,3 +372,28 @@ collections:
         fields:
           - { label: Heading, name: heading, widget: string }
           - { label: Text, name: text, widget: markdown }
+
+  - name: fourofour
+    label: Error 404
+    folder: content/fourofour
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
+    editor:
+      preview: false
+    fields:
+      - { name: shorttitle, label: Short Title }
+      - name: hero
+        label: Hero
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Preamble, name: text, widget: text }
+          - label: Featured image
+            name: featured_image
+            widget: object
+            required: false
+            fields:
+              - { label: Image, name: src, widget: image }
+              - { label: Alt text, name: alt, widget: string }
+          - { label: Button text, name: button, widget: string, required: true }
+          - { label: Button link, name: buttonlink, widget: string, required: true }
