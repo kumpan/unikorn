@@ -1,5 +1,8 @@
 ---
 shorttitle: Our Approach
+title: Our Approach
+description: Our Approach
+canonical: /our-approach
 hero:
   heading: This is how we make it a reality.
   text: We’re your best friend when it comes to helping you find the best path to
