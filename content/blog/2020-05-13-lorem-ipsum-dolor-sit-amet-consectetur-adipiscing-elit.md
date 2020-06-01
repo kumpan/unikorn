@@ -1,6 +1,8 @@
 ---
 path: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+canonical: /blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit
 date: 2020-04-29T07:56:24.192Z
 author: Ulrika Viberg
 category: SEO
@@ -11,8 +13,8 @@ preamble: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
   sollicitudin quam velit, nec posuere ante suscipit pharetra. Integer id eros
   vulputate, aliquet ex eu, eleifend augue. "
 type: blog
-image: ../assets/gray-bridge-and-trees-814499.jpg
 popup_btn: true
+image: ../assets/gray-bridge-and-trees-814499.jpg
 ---
 ## Flexitarian photo booth cloud bed.
 
