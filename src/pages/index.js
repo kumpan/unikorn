@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 import { PlayCircleIcon } from '@icons/material'
 
 import Hero from "../components/hero.js"
+import SEO from "../components/seo"
 import Layout from "../components/layout.js"
 import Section from "../components/section.js"
 import TabsComponent from "../components/tabs.js"
@@ -44,6 +45,11 @@ class Startpage extends Component {
 
     return (
       <Layout location="/" show_contact_info>
+        <SEO
+          title={pageData.title}
+          description={pageData.description}
+          canonical={pageData.canonical}
+        />
         <Hero 
           heading={pageData.hero.heading} 
           text={pageData.hero.text}
@@ -130,6 +136,9 @@ export const data = graphql`
       edges {
         node {
           frontmatter {
+            title
+            description
+            canonical
             hero {
               heading
               text

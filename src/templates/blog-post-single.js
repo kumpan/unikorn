@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 import Img from "gatsby-image"
 import { PlayCircleIcon } from '@icons/material'
 
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 import BlogList from "../components/blog/blog-list.js"
 import BlogDate from "../components/blog/blog-date.js"
@@ -54,7 +55,7 @@ class BlogTemplate extends Component {
 
     const currentCategory = post.frontmatter.category
     const currentId = post.id
-    const { title, author, date, featured_image, video_url, preamble, popup_btn } = this.props.data.currentPost.frontmatter
+    const { title, description, canonical, author, date, featured_image, video_url, preamble, popup_btn } = this.props.data.currentPost.frontmatter
 
     const relatedPosts = allPosts.filter(
       relatedPost => relatedPost.node.frontmatter.category === currentCategory && relatedPost.node.id !== currentId
@@ -63,10 +64,14 @@ class BlogTemplate extends Component {
     if(relatedPosts.length > 3) {
       relatedPosts.length = 3
     }
-    
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
-
+        <SEO
+          title={title}
+          description={description}
+          canonical={canonical}
+        />
         {this.state.showVideo && video_url &&
           <VideoPopup url={video_url} title={title} handleVideo={this.handleVideo}/>
         }
@@ -140,6 +145,8 @@ export const pageQuery = graphql`
       body
       frontmatter {
         title
+        description
+        canonical
         date(formatString: "DD/MM/YY")
         author
         video_url

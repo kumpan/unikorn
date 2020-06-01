@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Hero from "../components/hero.js"
+import SEO from "../components/seo"
 import Layout from "../components/layout.js"
 import Container from "../components/container.js"
 import BlogList from "../components/blog/blog-list.js"
@@ -22,6 +23,9 @@ const WebSEO = () => {
               body
               frontmatter {
                 shorttitle
+                title
+                description
+                canonical
                 hero {
                   heading
                   text
@@ -86,6 +90,11 @@ const WebSEO = () => {
   
   return (
     <Layout location="/web-and-seo" show_contact_info>
+      <SEO
+        title={pageData.title}
+        description={pageData.description}
+        canonical={pageData.canonical}
+      />
       <Hero 
         shorttitle={pageData.shorttitle}
         heading={pageData.hero.heading} 

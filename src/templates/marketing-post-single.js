@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
+import SEO from "../components/seo"
 import Layout from "../components/layout.js"
 import Hero from "../components/hero.js"
 import Container from "../components/container.js"
@@ -36,7 +37,7 @@ class MarketingTemplate extends Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const allPosts = this.props.data.relatedPosts.edges
 
-    const { shorttitle, hero, posts_category, latest_posts_text } = this.props.data.currentPost.frontmatter
+    const { shorttitle, title, description, canonical, hero, posts_category, latest_posts_text } = this.props.data.currentPost.frontmatter
 
     const relatedPosts = allPosts.filter(
       relatedPost => relatedPost.node.frontmatter.category === posts_category
@@ -48,6 +49,11 @@ class MarketingTemplate extends Component {
     
     return (
       <Layout location={this.props.location} title={siteTitle} show_contact_info>
+        <SEO
+          title={title}
+          description={description}
+          canonical={canonical}
+        />
         <Hero 
           shorttitle={shorttitle}
           heading={hero.heading} 
@@ -95,6 +101,9 @@ export const pageQuery = graphql`
       body
       frontmatter {
         shorttitle
+        title
+        description
+        canonical
         posts_category
         hero {
           heading
