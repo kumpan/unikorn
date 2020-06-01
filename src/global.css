@@ -13,10 +13,10 @@ body, html {
 }
 
 ::selection {
-  background: #fce0e3; /* WebKit/Blink Browsers */
+  background: #fce0e3;
 }
 ::-moz-selection {
-  background: #fce0e3; /* Gecko Browsers */
+  background: #fce0e3;
 }
 
 .no-scroll {

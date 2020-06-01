@@ -92,7 +92,7 @@ class Startpage extends Component {
           <div className="container">
             <span className="pre-heading">{pageData.faq_section.pre_heading}</span>
             <h2>{pageData.faq_section.heading}</h2>
-            <FaqList faqs={pageData.faq_section.faqs} />
+            <FaqList faqs={pageData.faq_section.faqs} faq_text={pageData.faq_section.load_more_faq_text} />
           </div>
           <div className={Styles.hide_mobile + ' ' + Styles.faq_bg_img}>
             {pageData.faq_section.featured_image.src.childImageSharp.fluid &&
@@ -196,6 +196,7 @@ export const data = graphql`
             faq_section {
               pre_heading
               heading
+              load_more_faq_text
               faqs {
                 question
                 answer
