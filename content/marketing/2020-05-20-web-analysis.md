@@ -1,11 +1,12 @@
 ---
 src: ../assets/plus.svg
-posts_category: Web Analysis
 shorttitle: Web Analysis
 shortdesc: "We’re your best friend when it comes to helping you find the best
   path to a successful digital strategy. "
-latest_posts_text: Read the latest posts about web analysis
-
+title: Web Analysis
+description: "We’re your best friend when it comes to helping you find the best
+  path to a successful digital strategy. "
+canonical: /marketing/web-analysis
 icon:
   src: ../assets/bar.svg
   alt: Web analysis icon
@@ -22,6 +23,8 @@ hero:
   preamble: We’re your best friend when it comes to helping you find the best path
     to a successful digital strategy. We know how to handle every aspect of your
     Digital Marketing.
+latest_posts_text: Read the latest posts about web analysis
+posts_category: Web Analysis
 ---
 ## Subway tile vaporware squid bucket.
 
