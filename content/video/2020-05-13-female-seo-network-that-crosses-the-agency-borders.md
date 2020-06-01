@@ -1,6 +1,8 @@
 ---
 path: Female-SEO-network-that-crosses-the-agency-borders-2
 title: Female SEO network that crosses the agency borders.
+description: Female SEO network that crosses the agency borders.
+canonical: /blog/female-seo-network-that-crosses-the-agency-borders-2
 date: 2020-05-01T07:50:37.897Z
 author: Ulrika Viberg
 category: Marketing
@@ -12,6 +14,7 @@ preamble: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
   vulputate, aliquet ex eu, eleifend augue.
 video_url: https://www.youtube.com/watch?v=DGQwd1_dpuc
 type: video
+popup_btn: true
 image: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
 ---
 ## Flexitarian photo booth cloud bed.
