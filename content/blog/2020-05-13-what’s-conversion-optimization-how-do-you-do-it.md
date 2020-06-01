@@ -1,6 +1,8 @@
 ---
 path: What’s conversion optimization & how do you do it?
 title: What’s conversion optimization & how do you do it?
+description: What’s conversion optimization & how do you do it?
+canonical: /blog/whats-conversion-optimization-how-do-you-do-it
 date: 2020-05-13T07:56:10.448Z
 author: Ulrika Viberg
 category: Marketing
@@ -11,8 +13,8 @@ preamble: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
   sollicitudin quam velit, nec posuere ante suscipit pharetra. Integer id eros
   vulputate, aliquet ex eu, eleifend augue. "
 type: blog
-image: ../assets/gray-bridge-and-trees-814499.jpg
 popup_btn: true
+image: ../assets/gray-bridge-and-trees-814499.jpg
 ---
 ## Flexitarian photo booth cloud bed. Lorem
 
