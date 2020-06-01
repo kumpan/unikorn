@@ -1,5 +1,8 @@
 ---
 shorttitle: Marketing
+title: Marketing
+description: Marketing
+canonical: /marketing
 hero:
   heading: Reach your community.
   text: We’re your best friend when it comes to helping you find the best path to
