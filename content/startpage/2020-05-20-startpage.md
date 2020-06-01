@@ -1,5 +1,8 @@
 ---
 shorttitle: Startpage
+title: Unikorn
+description: Unikorn
+canonical: /
 hero:
   heading: Grow your digital presence online.
   text: We’re your best friend when it comes to helping you find the best path to
