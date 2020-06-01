@@ -1,12 +1,11 @@
 ---
 src: ../assets/plus.svg
 posts_category: Web Analysis
-latest-posts-text: Read the latest posts about web analysis
 shorttitle: Web Analysis
 shortdesc: "We’re your best friend when it comes to helping you find the best
   path to a successful digital strategy. "
 latest_posts_text: Read the latest posts about web analysis
-posts-category: Web Analysis
+
 icon:
   src: ../assets/bar.svg
   alt: Web analysis icon

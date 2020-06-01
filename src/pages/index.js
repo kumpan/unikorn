@@ -3,6 +3,8 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import { PlayCircleIcon } from '@icons/material'
 
+import Styles from "./index.module.css"
+
 import Hero from "../components/hero.js"
 import Layout from "../components/layout.js"
 import Section from "../components/section.js"
@@ -12,7 +14,6 @@ import SecondaryButton from "../components/buttons/secondary.js"
 import VideoPopup from "../components/video/videopopup.js"
 import FaqList from "../components/faq/faq-list.js"
 
-import Styles from "./index.module.css"
 
 class Startpage extends Component {
   constructor(props) {
