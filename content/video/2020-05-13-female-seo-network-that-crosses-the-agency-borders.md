@@ -13,7 +13,6 @@ preamble: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
 video_url: https://www.youtube.com/watch?v=DGQwd1_dpuc
 type: video
 image: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
-video-url: https://www.youtube.com/watch?v=hlWiI4xVXKY
 ---
 ## Flexitarian photo booth cloud bed.
 

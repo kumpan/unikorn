@@ -17,6 +17,9 @@ exports.createPages = ({ graphql, actions }) => {
         ) {
           edges {
             node {
+              fields {
+                slug
+              }
               frontmatter {
                 title
                 path
@@ -31,10 +34,12 @@ exports.createPages = ({ graphql, actions }) => {
         ) {
           edges {
             node {
+              fields {
+                slug
+              }
               frontmatter {
-                  shorttitle
-                  path
-                }
+                shorttitle
+                path
               }
             }
           }

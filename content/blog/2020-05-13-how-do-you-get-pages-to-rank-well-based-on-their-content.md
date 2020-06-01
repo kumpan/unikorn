@@ -12,7 +12,7 @@ preamble: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
   vulputate, aliquet ex eu, eleifend augue. "
 type: blog
 image: ../assets/gray-bridge-and-trees-814499.jpg
-popup-btn: false
+popup_btn: false
 ---
 ## Flexitarian photo booth cloud bed.
 
