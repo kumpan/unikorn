@@ -93,6 +93,7 @@ faq_section:
   featured_image:
     src: ../assets/choices-monochrome.png
     alt: Illustration
+  load_more_faq_text: View more FAQ’s
 references_section:
   references_tabs_heading: What do other people say about Unikorn
   reference_tab_fields:
