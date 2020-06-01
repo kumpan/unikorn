@@ -17,6 +17,9 @@ exports.createPages = ({ graphql, actions }) => {
         ) {
           edges {
             node {
+              fields {
+                slug
+              }
               frontmatter {
                 title
                 path
@@ -31,6 +34,9 @@ exports.createPages = ({ graphql, actions }) => {
         ) {
           edges {
             node {
+              fields {
+                slug
+              }
               frontmatter {
                 shorttitle
                 path
@@ -54,7 +60,7 @@ exports.createPages = ({ graphql, actions }) => {
         path: `blog/${slugify(post.node.frontmatter.path)}`,
         component: blogPost,
         context: {
-          slug: post.node.frontmatter.path,
+          slug: post.node.fields.slug,
         },
       })
     })
@@ -64,7 +70,7 @@ exports.createPages = ({ graphql, actions }) => {
         path: `marketing/${slugify(post.node.frontmatter.shorttitle)}`,
         component: marketingPost,
         context: {
-          slug: post.node.frontmatter.path,
+          slug: post.node.fields.slug,
         },
       })
     })
