@@ -1,6 +1,8 @@
 ---
 path: how-do-you-get-pages-to-rank-well-based-on-their -content?
 title: How do you get pages to rank well based on their content?
+description: How do you get pages to rank well based on their content?
+canonical: /blog/how-do-you-get-pages-to-rank-well-based-on-their-content
 date: 2020-05-04T07:55:16.470Z
 author: Ulrika Viberg
 category: Marketing
@@ -11,8 +13,8 @@ preamble: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
   sollicitudin quam velit, nec posuere ante suscipit pharetra. Integer id eros
   vulputate, aliquet ex eu, eleifend augue. "
 type: blog
-image: ../assets/gray-bridge-and-trees-814499.jpg
 popup_btn: false
+image: ../assets/gray-bridge-and-trees-814499.jpg
 ---
 ## Flexitarian photo booth cloud bed.
 
