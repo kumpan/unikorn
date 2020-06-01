@@ -13,7 +13,7 @@ class BlogList extends Component {
         {posts.length > 0 ? (
           posts.map(({ node }, index) => {
             return (
-              <BlogPost key={index} post={node.frontmatter} toArticleText={this.props.toArticleText} keepMobileStyling={this.props.keepMobileStyling} />
+              <BlogPost key={index} post={node.frontmatter} toArticleText={this.props.toArticleText} keepMobileStyling={this.props.keepMobileStyling} large={this.props.large} />
             )
           })
         ) : (

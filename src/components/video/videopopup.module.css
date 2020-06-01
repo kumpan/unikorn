@@ -91,10 +91,6 @@
   color: var(--white);
 }
 
-.video_popup_link a:hover {
-  padding-right: 38px;
-}
-
 @media screen and (min-width: 767px) {
   .video_popup_close {
     top: 40px;

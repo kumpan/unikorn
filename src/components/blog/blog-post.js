@@ -34,6 +34,8 @@ class BlogPost extends Component {
   render() {
     const { type, title, author, date, featured_image, video_url, path } = this.props.post
 
+    console.log(this.props.large)
+
     let typeIcon
     if (type === "video") {
       typeIcon = <MovieIcon />
@@ -42,9 +44,9 @@ class BlogPost extends Component {
     }
 
     return (
-      <div className={Styles.blog_post_wrapper + " blog-post-wrapper " + (this.props.keepMobileStyling ? Styles.blog_post_mobile_style : '') }>
+      <div className={Styles.blog_post_wrapper + " blog-post-wrapper " + (this.props.keepMobileStyling ? Styles.blog_post_mobile_style : '') + " type-" + type }>
         <Link to={"/blog/" + slugify(path)}>
-          <div className={Styles.blog_post + " type-" + type}>
+          <div className={Styles.blog_post + " type-" + type + " " + (this.props.large ? Styles.large + " large" : "")}>
             <div className={Styles.blog_post_text_wrapper}>
               <span className={Styles.blog_cat}>
                 {typeIcon}

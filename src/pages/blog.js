@@ -3,8 +3,11 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout.js"
 import Hero from "../components/hero.js"
+import Container from "../components/container.js"
 import BlogList from "../components/blog/blog-list.js"
 import IconBtn from "../components/buttons/icon-btn.js"
+
+import Styles from "./blog.module.css"
 
 const Blog = () => {
   const data = useStaticQuery(
@@ -85,7 +88,9 @@ const Blog = () => {
 
   const filterPosts = (e) => {
     const type = "type-" + e.target.innerText.toLowerCase()
-    const elements = document.getElementsByClassName("blog-post")
+    const elements = document.getElementsByClassName("blog-post-wrapper")
+
+    console.log(type)
 
     for ( let i = 0;  i < elements.length; i++ ) {
       if ( elements[i].classList.contains(type) ) {
@@ -107,15 +112,19 @@ const Blog = () => {
         buttonlink={pageData.hero.buttonlink}
         videoURL={pageData.hero.video_url}
         shorttitle={pageData.shorttitle}
+        fade
       />
+      <section className={Styles.blog_section}>
+        <div className="container">
+          <div className={Styles.blog_filter}>
+            <p className={Styles.sort_by_text}>Sort by</p>
+            <IconBtn text="Video" filterPosts={filterPosts} icon="video.svg" />
+            <IconBtn text="Blog" filterPosts={filterPosts} icon="text.svg" />
+          </div>
 
-      <div className="blog-filter">
-        <p>Sort by</p>
-        <IconBtn text="Video" filterPosts={filterPosts} icon="video.svg" />
-        <IconBtn text="Blog" filterPosts={filterPosts} icon="text.svg" />
-      </div>
-
-      <BlogList posts={posts} toArticleText={pageData.to_article_text} />
+          <BlogList posts={posts} toArticleText={pageData.to_article_text} large />
+        </div>
+      </section>
     </Layout>
   )
 }
