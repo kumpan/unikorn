@@ -2,6 +2,14 @@
   margin-top: 24px;
 }
 
+.no_posts {
+  margin: 16px 0;
+}
+
+.no_posts p {
+  font-weight: 500;
+}
+
 @media screen and (min-width: 767px) { 
   .blog_wrapper_mobile_style {
     display: flex;
