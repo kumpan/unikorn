@@ -1,15 +1,6 @@
 .hero_section {
   padding: 0 16px;
   position: relative;
-  opacity: 0;
-  transform: translateY(10px);
-  animation: fadeUp .4s linear forwards;
-}
-
-.hero_section + section, .hero_section + div {
-  opacity: 0;
-  transform: translateY(10px);
-  animation: fadeUp .4s linear .4s forwards;
 }
 
 @keyframes fadeUp {
@@ -66,10 +57,6 @@
     animation: none;
     opacity: 1;
     transform: none;
-  }
-
-  .hero_section + section, .hero_section + div {
-    animation: fadeUp .4s linear 1s forwards;
   }
 
   .hero_row {

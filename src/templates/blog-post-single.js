@@ -12,7 +12,6 @@ import { truncateText } from '../global-functions.js'
 import VideoPopup from "../components/video/videopopup.js"
 import ContactPopup from "../components/contact/contactpopup.js"
 import ArrowButton from "../components/buttons/arrow-btn.js"
-import Container from "../components/container.js"
 
 import Styles from "./blog-post-single.module.css"
 
@@ -114,10 +113,12 @@ class BlogTemplate extends Component {
         </div>
 
         {relatedPosts.length > 0 &&
-          <Container>
-            <h2>Read another post about {currentCategory}</h2>
-            <BlogList posts={relatedPosts} />
-          </Container>
+          <div className={Styles.single_related_wrapper}>
+            <div className={Styles.single_related_wrapper_inner}>
+              <h2>Read another post about {currentCategory}</h2>
+              <BlogList posts={relatedPosts} />
+            </div>
+        </div>
         }
       </Layout>
     )

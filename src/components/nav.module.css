@@ -306,6 +306,7 @@
     padding-right: 27px;
     position: relative;
     cursor: pointer;
+    margin-right: 13px;
   }
 
   .has_submenu svg {

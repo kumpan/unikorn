@@ -3,7 +3,6 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout.js"
 import Hero from "../components/hero.js"
-import Container from "../components/container.js"
 import BlogList from "../components/blog/blog-list.js"
 import IconBtn from "../components/buttons/icon-btn.js"
 
@@ -89,8 +88,6 @@ const Blog = () => {
   const filterPosts = (e) => {
     const type = "type-" + e.target.innerText.toLowerCase()
     const elements = document.getElementsByClassName("blog-post-wrapper")
-
-    console.log(type)
 
     for ( let i = 0;  i < elements.length; i++ ) {
       if ( elements[i].classList.contains(type) ) {

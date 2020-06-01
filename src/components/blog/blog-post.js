@@ -34,8 +34,6 @@ class BlogPost extends Component {
   render() {
     const { type, title, author, date, featured_image, video_url, path } = this.props.post
 
-    console.log(this.props.large)
-
     let typeIcon
     if (type === "video") {
       typeIcon = <MovieIcon />

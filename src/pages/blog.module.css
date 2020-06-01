@@ -1,8 +1,9 @@
 .blog_section {
   margin-top: -24px;
   padding: 0 16px 72px;
-  animation: none;
-  opacity: 1;
+  animation: none !important;
+  opacity: 1 !important;
+  transform: none !important;
 }
 
 .blog_filter {
