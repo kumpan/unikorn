@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
+import { PlayCircleIcon } from '@icons/material'
 
 import Layout from "../components/layout"
 import BlogList from "../components/blog/blog-list.js"
@@ -11,6 +12,8 @@ import { truncateText } from '../global-functions.js'
 import VideoPopup from "../components/video/videopopup.js"
 import ContactPopup from "../components/contact/contactpopup.js"
 import ArrowButton from "../components/buttons/arrow-btn.js"
+
+import Styles from "./blog-post-single.module.css"
 
 class BlogTemplate extends Component {
   constructor(props) {
@@ -63,37 +66,6 @@ class BlogTemplate extends Component {
     
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <div>
-          <div className="breadcrumbs">
-            <Link to="/blog">Blog</Link>
-            <span> / {truncateText(title, 10)}</span>
-          </div>
-          <h1>{title}</h1>
-          <p>{preamble}</p>
-          <div>{author} - <BlogDate date={date} /></div>
-        </div>
-        <div>
-          {video_url &&
-            <div>
-              <Img 
-                fluid={featured_image.src.childImageSharp.fluid}
-                alt={featured_image.alt}
-              />
-              <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">Play</div>
-            </div>
-          }
-
-          <MDXRenderer>{post.body}</MDXRenderer>
-          {popup_btn &&
-            <ArrowButton text="Get in touch now" showPopup={this.showContactPopup}/>
-          }
-        </div>
-        {relatedPosts.length > 0 &&
-          <div>
-            <div>Read another post about {currentCategory}</div>
-            <BlogList posts={relatedPosts} />
-          </div>
-        }
 
         {this.state.showVideo && video_url &&
           <VideoPopup url={video_url} title={title} handleVideo={this.handleVideo}/>
@@ -101,6 +73,52 @@ class BlogTemplate extends Component {
 
         {this.state.showContactPopup &&
           <ContactPopup />
+        }
+
+        <div className={Styles.single_hero}>
+          <div className={Styles.single_hero_inner}>
+            <div className="breadcrumbs">
+              <span><Link to="/blog">Blog</Link></span>
+              <span> / {truncateText(title, 10)}</span>
+            </div>
+            <h1>{title}</h1>
+            <p>{preamble}</p>
+            <div className={Styles.single_author}>{author} - <BlogDate date={date} /></div>
+          </div>
+        </div>
+
+        <div className={Styles.single_content_wrapper}>
+          <div className={Styles.single_content_wrapper_inner}>
+            {video_url &&
+              <div className={Styles.single_content_video}>
+                <Img 
+                  fluid={{ ...featured_image.src.childImageSharp.fluid, aspectRatio: 2.125}}
+                  alt={featured_image.alt}
+                />
+                <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0"><PlayCircleIcon /></div>
+              </div>
+            }
+
+            <div className={Styles.single_content_body}>
+              <MDXRenderer>{post.body}</MDXRenderer>
+
+            </div>
+
+            {popup_btn &&
+              <div className={Styles.cta_link}>
+                <ArrowButton text="Get in touch now" showPopup={this.showContactPopup}/>
+              </div>
+            }
+          </div>
+        </div>
+
+        {relatedPosts.length > 0 &&
+          <div className={Styles.single_related_wrapper}>
+            <div className={Styles.single_related_wrapper_inner}>
+              <h2>Read another post about {currentCategory}</h2>
+              <BlogList posts={relatedPosts} />
+            </div>
+        </div>
         }
       </Layout>
     )

@@ -8,7 +8,7 @@ import Styles from "./hero.module.css"
 
 class Hero extends Component {
   render() {
-    const { heading, text, img, alt, button, buttonlink, shorttitle, parentPageLink, parentPageTitle, lowerImg, startpage } = this.props
+    const { heading, text, img, alt, button, buttonlink, shorttitle, parentPageLink, parentPageTitle, lowerImg, startpage, fade } = this.props
 
     let heroImage
     if (img && img.extension === 'svg') {
@@ -27,7 +27,7 @@ class Hero extends Component {
     }
 
     return (
-      <div className={Styles.hero_section}>
+      <div className={Styles.hero_section + " " + (fade ? Styles.fade : "")}>
         <div className={Styles.hero_row + " " + (startpage ? Styles.startpage : "")}>
           <div className={Styles.hero_section_text}>
             {((parentPageLink || shorttitle) || (parentPageLink && shorttitle)) &&

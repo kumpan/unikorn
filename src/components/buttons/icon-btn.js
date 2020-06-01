@@ -1,6 +1,8 @@
 import React, { Component }  from "react"
 import { Link } from "gatsby"
 
+import Styles from "./icon-btn.module.css"
+
 class IconBtn extends Component {
   render() {
     const { text, link, filterPosts, icon } = this.props
@@ -15,7 +17,7 @@ class IconBtn extends Component {
     }
 
     return (
-      <div className="icon-btn" role="button" tabIndex="0" onClick={filterPosts} onKeyDown={filterPosts}>
+      <div className={Styles.icon_btn} role="button" tabIndex="0" onClick={filterPosts} onKeyDown={filterPosts}>
         {link && !link.includes("mailto" || "call") ? (
           <Link to={link}>
             {text}

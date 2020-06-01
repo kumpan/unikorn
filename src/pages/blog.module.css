@@ -1,0 +1,27 @@
+.blog_section {
+  margin-top: -24px;
+  padding: 0 16px 72px;
+  animation: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.blog_filter {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.sort_by_text {
+  color: var(--text-grey);
+  font-size: 18px;
+  font-style: italic;
+  line-height: 21px;
+  letter-spacing: 0.06px;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .blog_section {
+    padding: 0 16px 96px;
+  }
+}

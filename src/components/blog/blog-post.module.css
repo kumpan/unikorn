@@ -208,4 +208,19 @@
   .blog_post_mobile_style .blog_post_text_wrapper {
     height: 100%;
   }
+
+  .blog_post_wrapper .large .blog_post_text_wrapper {
+    width: calc(100% - 287px);
+  }
+
+  .blog_post_wrapper .large .blog_post_img {
+    width: 287px;
+    min-height: 191px;
+  }
+
+  .blog_post_wrapper .large .blog_post_text_wrapper h2 {
+    font-size: 48px;
+    letter-spacing: 0.15px;
+    line-height: 56px;
+  }
 }

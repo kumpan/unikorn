@@ -4,13 +4,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+body, html {
   font-weight: 400;
   font-size: 16px;
   color: var(--text-body);
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   line-height: 24px;
-} 
+}
+
+::selection {
+  background: #fce0e3; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #fce0e3; /* Gecko Browsers */
+}
 
 .no-scroll {
   overflow: hidden;
@@ -58,7 +65,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-weight: bold;
   margin: 0 0 8px 0;
   text-transform: none;
@@ -223,6 +230,7 @@ object {
   position: absolute;
   top: 50%;
   left: 50%;
+  height: 50px;
   transform: translate(-50%, -50%);
   cursor: pointer;
   color: var(--white);
@@ -334,12 +342,19 @@ object {
     display: inline-block;
     width: 100%;
     padding-bottom: 52px;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: appear 0.2s linear forwards 1s;
   }
 
   .breadcrumbs {
     opacity: 0;
     transform: translateY(10px);
     animation: appear 0.2s linear forwards 0.2s;
+  }
+
+  .blog-post-wrapper .large .video-btn {
+    right: 118px;
   }
 
   @keyframes appear {
