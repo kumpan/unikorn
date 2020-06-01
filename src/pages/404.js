@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Hero from "../components/hero.js"
+import SEO from "../components/seo"
 import Layout from "../components/layout.js"
 
 const FouroFour = () => {
@@ -19,6 +20,9 @@ const FouroFour = () => {
               body
               frontmatter {
                 shorttitle
+                title
+                description
+                canonical
                 hero {
                   heading
                   text
@@ -48,6 +52,11 @@ const FouroFour = () => {
 
   return (
     <Layout location="/404" show_contact_info>
+      <SEO
+        title={pageData.title}
+        description={pageData.description}
+        canonical={pageData.canonical}
+      />
       <Hero 
         shorttitle={pageData.shorttitle}
         heading={pageData.hero.heading} 

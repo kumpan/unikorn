@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
+import SEO from "../components/seo"
 import Layout from "../components/layout.js"
 import Hero from "../components/hero.js"
 import MarketingList from "../components/marketing/marketing-list.js"
@@ -25,6 +26,9 @@ const MarketingPage = () => {
             node {
               frontmatter {
                 shorttitle
+                title
+                description
+                canonical
                 hero {
                   heading
                   text
@@ -70,6 +74,11 @@ const MarketingPage = () => {
 
   return (
     <Layout location="/marketing" show_contact_info>
+      <SEO
+        title={pageData.title}
+        description={pageData.description}
+        canonical={pageData.canonical}
+      />
       <Hero 
         shorttitle={pageData.shorttitle}
         heading={pageData.hero.heading} 

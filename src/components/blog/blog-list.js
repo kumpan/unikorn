@@ -17,9 +17,9 @@ class BlogList extends Component {
             )
           })
         ) : (
-          <p>
-            No posts to show
-          </p>
+          <div className={Styles.no_posts}>
+            <p>There are no posts published yet, come back soon and check again</p>
+          </div>
           )
         }
       </div>

@@ -15,6 +15,9 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
       - name: hero
         label: Hero
         widget: object
@@ -109,6 +112,9 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
       - name: hero
         label: Hero
         widget: object
@@ -135,6 +141,9 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
       - name: hero
         label: Hero
         widget: object
@@ -161,6 +170,9 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
       - name: hero
         label: Hero
         widget: object
@@ -187,6 +199,9 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
       - name: hero
         label: Hero
         widget: object
@@ -206,6 +221,9 @@ collections:
     fields:
       - { name: shorttitle, label: Short Title }
       - { name: shortdesc, label: Short description }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
       - label: Icon
         name: icon
         widget: object
@@ -240,6 +258,9 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
       - name: hero
         label: Hero
         widget: object
@@ -267,6 +288,9 @@ collections:
      preview: false
     fields:
       - { label: Path, name: path }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Author, name: author, widget: string }
@@ -280,7 +304,7 @@ collections:
       - { label: Preamble, name: preamble, widget: string }
       - { label: Body, name: body, widget: markdown }
       - { label: Type, name: type, widget: hidden, default: blog }
-      - { label: Show "Get in touch button", name: "popup_btn", widget: "boolean", default: true}
+      - { label: Show "Get in touch button", name: "popup_btn", widget: "boolean", default: true, required: false}
 
   - name: video
     label: Video
@@ -291,6 +315,9 @@ collections:
      preview: false
     fields:
       - { label: Path, name: path }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Author, name: author, widget: string }
@@ -305,7 +332,7 @@ collections:
       - { label: Video URL, name: video_url, widget: string }
       - { label: Body, name: body, widget: markdown }
       - { label: Type, name: type, widget: hidden, default: video }
-      - { label: Show "Get in touch button", name: "popup_btn", widget: "boolean", default: true}
+      - { label: Show "Get in touch button", name: "popup_btn", widget: "boolean", default: true, required: false}
 
   - name: contact-info
     label: Contact info
@@ -382,6 +409,9 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
       - name: hero
         label: Hero
         widget: object

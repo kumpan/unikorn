@@ -4,8 +4,7 @@ import { Link } from "gatsby"
 class BoxButton extends Component {
   render() {
     const { title, text, link } = this.props
-
-      console.log(link)
+    
     return (
       <div>
         {link && !link.includes("mailto" || "tel") ? (
