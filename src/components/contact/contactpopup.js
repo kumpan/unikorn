@@ -7,6 +7,7 @@ import Form from "./form.js"
 
 import Styles from "./contactpopup.module.css"
 
+
 const ContactPopup = (props) => {
   const data = useStaticQuery(
     graphql`
