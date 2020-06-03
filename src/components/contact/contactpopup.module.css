@@ -8,4 +8,161 @@
   left: 0;
   background-color: var(--white);
   z-index: 99;
+  opacity: 0;
+  animation: fadeIn .2s linear forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.contact_popup_row {
+  padding: 0 16px 0;
+  height: 100%;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.contact_popup_row_inner {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.contact_popup h2 {
+  font-size: 36px;
+  line-height: 38px;
+  margin-bottom: 16px;
+  color: var(--secondary);
+  letter-spacing: 0.12px;
+}
+
+.contact_popup_img {
+  display: none;
+}
+
+.contact_popup form > p {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.contact_popup form {
+  margin: 0;
+  padding-top: 18px;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.contact_popup_contactinfo {
+  display: none;
+}
+
+.contact_popup_contactinfo a {
+  font-weight: 400;
+  color: var(--body-text);
+  margin-left: 25px;
+}
+
+.contact_popup_contactinfo a:hover {
+  color: var(--primary);
+}
+
+.contact_popup_col1 {
+  padding-top: 3vh;
+  max-width: 512px;
+  margin: 0 auto;
+} 
+
+.contact_popup_col2 {
+  flex: 1;
+  max-width: 512px;
+  margin: 0 auto;
+}
+
+.close_icon {
+  width: 56px;
+  height: 56px;
+  display: inline-block;
+  margin: 28px -16px 0 auto;
+  text-align: center;
+  line-height: 56px;
+  padding-top: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.close_icon svg {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+@media screen and (min-width: 992px) {
+  .contact_popup_row_inner {
+    flex-flow: row wrap;
+    max-width: 1136px;
+    margin: 0 auto;
+    min-height: 100%;
+  }
+
+  .contact_popup h2 {
+    font-size: 48px;
+    letter-spacing: 0.15px;
+    line-height: 50px;
+  }
+  
+  .contact_popup_col1 {
+    width: calc(100% - 476px);
+    max-width: none;
+    padding: 14.2vh 40px 8vh 0;
+  }
+
+  .contact_popup_col1 p {
+    max-width: 512px;
+  }
+
+  .contact_popup_col2 {
+    width: 476px;
+    max-width: none;
+    display: flex;
+    flex-flow: column nowrap;
+    height: auto;
+    min-height: 100%;
+    flex: none;
+    padding: 14.2vh 0 8vh 0;
+  }
+
+  .contact_popup_img {
+    display: block;
+    margin-top: 16px;
+  }
+
+  .close_icon {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    margin: 0;
+  }
+
+  .contact_popup form {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    min-height: 0;
+    padding-top: 64px;
+    margin-bottom: 30px;
+  }
+
+  .contact_popup form > p {
+    width: 100%;
+  }
+
+  .contact_popup_contactinfo {
+    display: block;
+    margin: auto 0 0 auto;
+  }
 }

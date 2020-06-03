@@ -2,6 +2,7 @@
 import "typeface-work-sans"
 
 import "./src/global.css"
+import "./src/forms.css"
 import "./src/global-tabs.css"
 import "./src/variables.css"
 

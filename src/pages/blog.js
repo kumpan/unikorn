@@ -128,7 +128,7 @@ const Blog = () => {
             <IconBtn text="Blog" filterPosts={filterPosts} icon="text.svg" />
           </div>
 
-          <BlogList posts={posts} toArticleText={pageData.to_article_text} large />
+          <BlogList posts={posts} large />
         </div>
       </section>
     </Layout>

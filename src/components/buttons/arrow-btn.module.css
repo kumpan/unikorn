@@ -2,6 +2,7 @@
   position: relative;
   display: inline-block;
   cursor: pointer;
+  outline: none;
 }
 
 .arrow_btn a, .arrow_btn div {

@@ -342,7 +342,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: Short tite, name: shorttitle, widget: string }
+      - { label: Short title, name: shorttitle, widget: string }
       - name: col1
         label: Column 1
         widget: object
@@ -364,6 +364,59 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Text, name: text, widget: string }
           - { label: Link, name: link, widget: string }
+
+  - name: contact-modal
+    label: Contact modal
+    folder: content/contact-modal
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Text, name: text, widget: text }
+      - label: Featured image
+        name: featured_image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
+      - label: Form
+        name: form
+        widget: object
+        fields:
+          - { label: Form title, name: form_title, widget: string }
+          - name: name
+            label: Name input
+            widget: object
+            fields:
+              - { name: label, label: Label, widget: string }
+              - { name: placeholder, label: Placeholder, widget: string }
+          - name: email
+            label: Email Input
+            widget: object
+            fields:
+              - { name: label, label: Label, widget: string }
+              - { name: placeholder, label: Placeholder, widget: string }
+          - name: message
+            label: Message Input
+            widget: object
+            fields:
+              - { name: label, label: Label, widget: string }
+              - { name: placeholder, label: Placeholder, widget: string }
+          - name: subjects
+            label: Subjects Input
+            widget: object
+            fields:
+              - { name: label, label: Label, widget: string }
+              - label: "Choices"
+                name: "choices"
+                widget: "list"
+                field: { label: Choice, name: choice, widget: string }
+          - { label: Submit button text, name: submit_text, widget: string }
+          - { label: Form info text, name: form_info_text, widget: markdown }
+      - { label: Contact email, name: contact_email, widget: string }
+      - { label: Contact tel, name: contact_tel, widget: string }
 
   - name: footer
     label: Footer

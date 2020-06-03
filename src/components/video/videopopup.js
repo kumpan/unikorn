@@ -10,7 +10,7 @@ class VideoPopup extends Component {
   componentDidMount() {
     setTimeout(() => {
       document.getElementsByTagName( 'html' )[0].classList.add('no-scroll')
-    }, 300)
+    }, 100)
   }
   
   componentWillUnmount() {

@@ -4,7 +4,18 @@
   outline: none;
   position: relative;
   background-color: var(--white);
+  opacity: 0;
   transition: all 0.2s ease-in-out;
+  animation: fadeIn .2s linear forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .faq_wrapper.active {

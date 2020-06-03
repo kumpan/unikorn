@@ -52,6 +52,7 @@
 .cta_link {
   margin-top: 32px;
   text-align: right;
+  outline: none;
 }
 
 @keyframes fadeUp {
