@@ -13,6 +13,7 @@
   display: inline-block;
   transition: all .2s ease-in-out;
   color: var(--primary);
+  overflow: hidden;
 }
 
 .arrow_btn:hover svg {
