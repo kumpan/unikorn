@@ -92,6 +92,13 @@
   color: var(--white);
 }
 
+
+@media screen and (min-width: 479px) {
+  .video_popup_row {
+    width: 80%;
+  }
+} 
+
 @media screen and (min-width: 767px) {
   .video_popup_close {
     top: 40px;

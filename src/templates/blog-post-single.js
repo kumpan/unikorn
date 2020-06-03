@@ -41,11 +41,21 @@ class BlogTemplate extends Component {
     }
   }
 
-  showContactPopup = (e) => {
+  handleContactPopup = (e) => {
     e.preventDefault()
-    this.setState({
-      showContactPopup: true
-    })
+    if (this.state.showContactPopup === true) {
+      this.setState({
+        showContactPopup: false
+      })
+      document.getElementsByTagName( 'html' )[0].classList.remove('no-scroll')
+
+    } else {
+      this.setState({
+        showContactPopup: true
+      })
+      document.getElementsByTagName( 'html' )[0].classList.add('no-scroll')
+    }
+    
   }
 
   render() {
@@ -77,7 +87,7 @@ class BlogTemplate extends Component {
         }
 
         {this.state.showContactPopup &&
-          <ContactPopup />
+          <ContactPopup handlePopup={this.handleContactPopup} />
         }
 
         <div className={Styles.single_hero}>
@@ -110,8 +120,8 @@ class BlogTemplate extends Component {
             </div>
 
             {popup_btn &&
-              <div className={Styles.cta_link}>
-                <ArrowButton text="Get in touch now" showPopup={this.showContactPopup}/>
+              <div className={Styles.cta_link} onClick={this.handleContactPopup} onKeyDown={this.handleContactPopup} role="button" tabIndex="0">
+                <ArrowButton text="Get in touch now" />
               </div>
             }
           </div>

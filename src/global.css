@@ -23,6 +23,10 @@ body, html {
   overflow: hidden;
 }
 
+.no-scroll .overlay-container {
+  z-index: 1;
+}
+
 .main-container {
   width: 100%;
 }
@@ -231,6 +235,7 @@ object {
   top: 50%;
   left: 50%;
   height: 50px;
+  border-radius: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
   color: var(--white);
@@ -243,11 +248,14 @@ object {
   height: 50px !important;
   box-shadow: 0px 0px 56px 0px rgba(36, 2, 5, 0.56);
   border-radius: 50%;
+  outline: none;
 }
 
 .video-btn svg path {
   transform: scale(1.29);
   transform-origin: center;
+  outline: none;
+  border-radius: 50%;
 }
 
 .video-btn:hover, .video-btn:focus {
@@ -257,6 +265,7 @@ object {
 
 .video-btn:hover svg, .video-btn:focus svg {
   box-shadow: 0px 0px 72px 0px rgb(152, 13, 25);
+  outline: none;
 }
 
 .blog-post-wrapper .video-btn {
@@ -344,7 +353,8 @@ object {
     padding-bottom: 52px;
     opacity: 0;
     transform: translateY(10px);
-    animation: appear 0.2s linear forwards 1s;
+    position: relative;
+    animation: sectionAppear 0.2s linear forwards 1s;
   }
 
   .breadcrumbs {
@@ -365,6 +375,17 @@ object {
     100% {
       opacity: 1;
       transform: translateY(0);
+    }
+  }
+
+  @keyframes sectionAppear {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
     }
   }
 }

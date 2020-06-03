@@ -24,11 +24,21 @@ class Nav extends Component {
     window.addEventListener('scroll', this.navigationOnScroll);
   }
 
-  showContactPopup = (e) => {
+  handleContactPopup = (e) => {
     e.preventDefault()
-    this.setState({
-      showContactPopup: true
-    })
+    if (this.state.showContactPopup === true) {
+      this.setState({
+        showContactPopup: false
+      })
+      document.getElementsByTagName( 'html' )[0].classList.remove('no-scroll')
+
+    } else {
+      this.setState({
+        showContactPopup: true
+      })
+      document.getElementsByTagName( 'html' )[0].classList.add('no-scroll')
+    }
+    
   }
 
   navigationOnScroll = () => {
@@ -92,84 +102,87 @@ class Nav extends Component {
     }
 
     return (
-      <nav id="primary-nav" className={Styles.navigation_wrapper + " " + (this.state.showMenu ? Styles.opened : "") + " " + (this.state.activeNavbar ? Styles.active : "") + " " + (this.state.hideNavbar ? Styles.nav_up : "")}>
-        <div className={Styles.logo}>
-          <Link to="/" aria-label="Home">
-            <Logo />
-          </Link>
-        </div>
+      <div>
 
-        <div className={Styles.navigation + " " + (this.state.showMenu ? Styles.opened : "")}>
-          <div className={Styles.navigation_inner}>
-            <ul className={Styles.navigation_links}>
-              <li className={ location === "/web-and-seo" ? Styles.active : ""}>
-                <Link to="/web-and-seo">
-                  Web & SEO
-                </Link>
-              </li>
-              <li className={Styles.has_submenu + " " + ( location.includes("/marketing") ? Styles.active : "")}>
-                <Link to="/marketing">
-                  Marketing
-                </Link>
-                <ChevronDownIcon />
-                <ul className={Styles.submenu}>
-                  <li className={location === "/marketing/search-engine-optimization-seo" ? Styles.active : ""}>
-                    <Link to="/marketing/search-engine-optimization-seo">
-                      Search Engine Optimization (SEO)
-                    </Link>
-                  </li>
-                  <li className={location === "/marketing/content-marketing" ? Styles.active : ""}>
-                    <Link to="/marketing/content-marketing">
-                      Content Marketing
-                    </Link>
-                  </li>
-                  <li className={location === "/marketing/web-analysis" ? Styles.active : ""}>
-                    <Link to="/marketing/web-analysis">
-                      Web Analysis
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li className={location === "/our-approach" ? Styles.active : ""}>
-                <Link to="/our-approach">
-                  Our Approach
-                </Link>
-              </li>
-              <li className={location === "/blog" ? Styles.active : ""}>
-                <Link to="/blog">
-                  Blog
-                </Link>
-              </li>
-              <li className={location === "/about" ? Styles.active : ""}>
-                <Link to="/about">
-                  About us
-                </Link>
-              </li>
-            </ul>
-            <div className={Styles.nav_contact_info}>
-              <ContactInfo transparent />
+        <nav id="primary-nav" className={Styles.navigation_wrapper + " " + (this.state.showMenu ? Styles.opened : "") + " " + (this.state.activeNavbar ? Styles.active : "") + " " + (this.state.hideNavbar ? Styles.nav_up : "")}>
+          <div className={Styles.logo}>
+            <Link to="/" aria-label="Home">
+              <Logo />
+            </Link>
+          </div>
+
+          <div className={Styles.navigation + " " + (this.state.showMenu ? Styles.opened : "")}>
+            <div className={Styles.navigation_inner}>
+              <ul className={Styles.navigation_links}>
+                <li className={ location === "/web-and-seo" ? Styles.active : ""}>
+                  <Link to="/web-and-seo">
+                    Web & SEO
+                  </Link>
+                </li>
+                <li className={Styles.has_submenu + " " + ( location.includes("/marketing") ? Styles.active : "")}>
+                  <Link to="/marketing">
+                    Marketing
+                  </Link>
+                  <ChevronDownIcon />
+                  <ul className={Styles.submenu}>
+                    <li className={location === "/marketing/search-engine-optimization-seo" ? Styles.active : ""}>
+                      <Link to="/marketing/search-engine-optimization-seo">
+                        Search Engine Optimization (SEO)
+                      </Link>
+                    </li>
+                    <li className={location === "/marketing/content-marketing" ? Styles.active : ""}>
+                      <Link to="/marketing/content-marketing">
+                        Content Marketing
+                      </Link>
+                    </li>
+                    <li className={location === "/marketing/web-analysis" ? Styles.active : ""}>
+                      <Link to="/marketing/web-analysis">
+                        Web Analysis
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li className={location === "/our-approach" ? Styles.active : ""}>
+                  <Link to="/our-approach">
+                    Our Approach
+                  </Link>
+                </li>
+                <li className={location === "/blog" ? Styles.active : ""}>
+                  <Link to="/blog">
+                    Blog
+                  </Link>
+                </li>
+                <li className={location === "/about" ? Styles.active : ""}>
+                  <Link to="/about">
+                    About us
+                  </Link>
+                </li>
+              </ul>
+              <div className={Styles.nav_contact_info}>
+                <ContactInfo transparent />
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className={Styles.nav_cta} role="button" tabIndex="0" onClick={this.showContactPopup} onKeyDown={this.showContactPopup}>
-          <span>Get in touch now</span>
-        </div>
+          <div className={Styles.nav_cta} role="button" tabIndex="0" onClick={this.handleContactPopup} onKeyDown={this.handleContactPopup}>
+            <span>Get in touch now</span>
+          </div>
 
-        <div className={Styles.nav_button + " " + (this.state.showMenu ? Styles.opened : "")}
-          onClick={this.toggleMenu}
-          onKeyPress={this.toggleMenu}
-          role="button"
-          tabIndex="0"
-          aria-label="Toggle Menu"
-          >
-          <span />
-          <span />
-        </div>
+          <div className={Styles.nav_button + " " + (this.state.showMenu ? Styles.opened : "")}
+            onClick={this.toggleMenu}
+            onKeyPress={this.toggleMenu}
+            role="button"
+            tabIndex="0"
+            aria-label="Toggle Menu"
+            >
+            <span />
+            <span />
+          </div>
+        </nav>
         {this.state.showContactPopup &&
-          <ContactPopup />
+          <ContactPopup handlePopup={this.handleContactPopup}/>
         }
-      </nav>
+      </div>
     )
   }
 }

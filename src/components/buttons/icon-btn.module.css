@@ -1,7 +1,5 @@
 .icon_btn {
-  border: 1px solid var(--light-grey);
   margin: 0 12px 0 0;
-  padding: 8px 16px 8px 12px;
   cursor: pointer;
   transition: all .2s ease-in-out;
   outline: none;
@@ -20,6 +18,8 @@
   font-weight: 600;
   line-height: 22px;
   letter-spacing: 0.06px;
+  padding: 8px 16px 8px 12px;
+  border: 1px solid var(--light-grey);
 }
 
 .icon_btn img {
@@ -27,4 +27,5 @@
   margin-right: 4px;
   max-width: 20px;
   max-height: 20px;
+  pointer-events: none;
 }

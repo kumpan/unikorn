@@ -6,6 +6,10 @@
   margin-top: 24px;
 }
 
+.video_img_wrapper {
+  position: relative;
+}
+
 @media screen and (min-width: 600px) { 
   .align_right {
     text-align: right;

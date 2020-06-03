@@ -80,7 +80,7 @@ class Startpage extends Component {
             <span className="pre-heading">{pageData.video_section.pre_heading}</span>
             <h2>{pageData.video_section.heading}</h2>
             {pageData.video_section.video_url &&
-              <div>
+              <div className={Styles.video_img_wrapper}>
                 <Img 
                   fluid={{ ...pageData.video_section.video_image.src.childImageSharp.fluid, aspectRatio: 2.125}}
                   alt={pageData.video_section.video_image.alt}
