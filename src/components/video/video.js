@@ -5,10 +5,10 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => {
     url.match(/(http:\/\/|https:\/\/|)(player.|www.)?(vimeo\.com|youtu(be\.com|\.be|be\.googleapis\.com))\/(video\/|embed\/|watch\?v=|v\/)?([A-Za-z0-9._%-]*)(&\S+)?/);
     let newUrl = "";
     
-    if (RegExp.$3.indexOf('youtu') > -1) {
+    if (RegExp.$3.indexOf("youtu") > -1) {
       newUrl = "https://www.youtube.com/embed/" + RegExp.$6
       
-    } else if (RegExp.$3.indexOf('vimeo') > -1) {
+    } else if (RegExp.$3.indexOf("vimeo") > -1) {
       newUrl = "https://player.vimeo.com/video/" + RegExp.$6
     }
     

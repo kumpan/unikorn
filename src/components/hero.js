@@ -11,14 +11,14 @@ class Hero extends Component {
     const { heading, text, img, alt, button, buttonlink, shorttitle, parentPageLink, parentPageTitle, lowerImg, startpage, fade } = this.props
 
     let heroImage
-    if (img && img.extension === 'svg') {
+    if (img && img.extension === "svg") {
       heroImage = 
-      <div className={Styles.hero_section_image + ' ' + (lowerImg ? Styles.lower_img : '' )}>
+      <div className={Styles.hero_section_image + " " + (lowerImg ? Styles.lower_img : "" )}>
         <object type="image/svg+xml" data={img.publicURL} aria-labelledby={alt}></object>
       </div>
     } else if (img) {
       heroImage = 
-      <div className={Styles.hero_section_image + ' ' + (lowerImg ? Styles.lower_img : '' )}>
+      <div className={Styles.hero_section_image + " " + (lowerImg ? Styles.lower_img : "" )}>
         <Img 
           fluid={img.childImageSharp.fluid}
           alt={alt}

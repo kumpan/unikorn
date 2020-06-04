@@ -1,5 +1,5 @@
 import React, { Component }  from "react"
-import { ArrowRightIcon, InformationOutlineIcon } from '@icons/material'
+import { ArrowRightIcon, InformationOutlineIcon } from "@icons/material"
 import remark from "remark"
 import recommended from "remark-preset-lint-recommended"
 import remarkHtml from "remark-html"
@@ -92,7 +92,7 @@ class Form extends Component {
       val => val.length > 0 && (valid = false)
     )
     if (valid) {
-      document.getElementById('contact-form').submit();
+      document.getElementById("contact-form").submit();
     } else {
       this.setState({
         unValidForm: true
@@ -126,6 +126,7 @@ class Form extends Component {
 
     return (
       <form id="contact-form" name="contact" method="POST" data-netlify="true" action="/thanks" onSubmit={this.handleSubmit}>
+        <input type="hidden" name="form-name" value="contact" />
         <p>{form_title}</p>
 
         <div className="input-container">

@@ -1,6 +1,6 @@
 import React, { Component }  from "react"
 import { Link } from "gatsby"
-import { ArrowRightIcon } from '@icons/material'
+import { ArrowRightIcon } from "@icons/material"
 
 import Styles from "./arrow-btn.module.css"
 

@@ -7,7 +7,7 @@ import Layout from "../components/layout.js"
 import Hero from "../components/hero.js"
 import Container from "../components/container.js"
 import BlogList from "../components/blog/blog-list.js"
-import { closestByClass } from '../global-functions.js'
+import { closestByClass } from "../global-functions.js"
 
 class MarketingTemplate extends Component {
   constructor(props) {

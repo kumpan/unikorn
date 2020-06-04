@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-import { PlayCircleIcon } from '@icons/material'
+import { PlayCircleIcon } from "@icons/material"
 
 import Hero from "../components/hero.js"
 import SEO from "../components/seo"
@@ -12,7 +12,7 @@ import BlogList from "../components/blog/blog-list.js"
 import SecondaryButton from "../components/buttons/secondary.js"
 import VideoPopup from "../components/video/videopopup.js"
 import FaqList from "../components/faq/faq-list.js"
-import { closestByClass } from '../global-functions.js'
+import { closestByClass } from "../global-functions.js"
 
 import Styles from "./index.module.css"
 
@@ -97,7 +97,7 @@ class Startpage extends Component {
                 </div>
               </div>
             }
-            <div className={Styles.align_right + ' ' + Styles.extra_space_above}>
+            <div className={Styles.align_right + " " + Styles.extra_space_above}>
               <SecondaryButton text={pageData.video_section.button} link={pageData.video_section.buttonlink} arrow />
             </div>
           </div>
@@ -109,7 +109,7 @@ class Startpage extends Component {
             <h2>{pageData.faq_section.heading}</h2>
             <FaqList faqs={pageData.faq_section.faqs} faq_text={pageData.faq_section.load_more_faq_text} />
           </div>
-          <div className={Styles.hide_mobile + ' ' + Styles.faq_bg_img}>
+          <div className={Styles.hide_mobile + " " + Styles.faq_bg_img}>
             {pageData.faq_section.featured_image.src.childImageSharp.fluid &&
               <Img 
                 fluid={pageData.faq_section.featured_image.src.childImageSharp.fluid}

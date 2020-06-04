@@ -61,7 +61,7 @@
 }
 
 .footer_col:before, .footer_col:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 14px;
   height: 3px;

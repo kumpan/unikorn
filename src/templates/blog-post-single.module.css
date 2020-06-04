@@ -35,7 +35,7 @@
 }
 
 .single_content_wrapper + .single_related_wrapper:before {
-  content: '';
+  content: "";
   position: absolute;
   width: calc(100% - 32px);
   top: 0;
