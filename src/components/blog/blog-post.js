@@ -1,11 +1,12 @@
 import React, { Component }  from "react"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
+import { PlayCircleIcon, MovieIcon, FileDocumentIcon } from '@icons/material'
 
 import BlogDate from "./blog-date.js"
 import VideoPopup from "../video/videopopup.js"
-import { slugify } from '../../global-functions.js'
-import { PlayCircleIcon, MovieIcon, FileDocumentIcon } from '@icons/material'
+import { slugify, closestByClass } from '../../global-functions.js'
+
 
 import Styles from "./blog-post.module.css"
 
@@ -19,6 +20,10 @@ class BlogPost extends Component {
 
   handleVideo = (e) => {
     e.preventDefault()
+    const clickedEl = closestByClass(e.target, "video-btn")
+    if (clickedEl) {
+      clickedEl.blur()
+    }
 
     if (this.state.showVideo === true) {
       this.setState({

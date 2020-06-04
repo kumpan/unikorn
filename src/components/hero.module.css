@@ -88,7 +88,7 @@
   .hero_section_text h1, .hero_section_text p, .hero_section_text p + div {
     opacity: 0;
     transform: translateY(10px);
-    animation: appear 0.2s linear forwards 0.4s;
+    animation: heroAppear 0.2s linear forwards 0.4s;
   }
 
   .hero_section_text p {
@@ -129,7 +129,7 @@
   }
 
 
-  @keyframes appear {
+  @keyframes heroAppear {
     0% {
       opacity: 0;
       transform: translateY(10px);
@@ -138,5 +138,11 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero_section {
+    padding: 0 40px;
   }
 }

@@ -12,6 +12,7 @@ import BlogList from "../components/blog/blog-list.js"
 import SecondaryButton from "../components/buttons/secondary.js"
 import VideoPopup from "../components/video/videopopup.js"
 import FaqList from "../components/faq/faq-list.js"
+import { closestByClass } from '../global-functions.js'
 
 import Styles from "./index.module.css"
 
@@ -27,6 +28,10 @@ class Startpage extends Component {
 
   handleVideo = (e) => {
     e.preventDefault()
+    const clickedEl = closestByClass(e.target, "video-btn")
+    if (clickedEl) {
+      clickedEl.blur()
+    }
 
     if (this.state.showVideo === true) {
       this.setState({

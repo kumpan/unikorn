@@ -13,6 +13,7 @@ import { truncateText } from '../global-functions.js'
 import VideoPopup from "../components/video/videopopup.js"
 import ContactPopup from "../components/contact/contactpopup.js"
 import ArrowButton from "../components/buttons/arrow-btn.js"
+import { closestByClass } from '../global-functions.js'
 
 import Styles from "./blog-post-single.module.css"
 
@@ -29,6 +30,10 @@ class BlogTemplate extends Component {
 
   handleVideo = (e) => {
     e.preventDefault()
+    const clickedEl = closestByClass(e.target, "video-btn")
+    if (clickedEl) {
+      clickedEl.blur()
+    }
 
     if (this.state.showVideo === true) {
       this.setState({

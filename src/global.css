@@ -4,6 +4,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
 body, html {
   font-weight: 400;
   font-size: 16px;
@@ -11,6 +15,9 @@ body, html {
   font-family: 'Work Sans', sans-serif;
   line-height: 24px;
   overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
 }
 
 ::selection {
@@ -238,6 +245,7 @@ object {
   height: 50px;
   border-radius: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 56px 0px rgba(36, 2, 5, 0.56);
   cursor: pointer;
   color: var(--white);
   transition: all 0.2s ease-in-out;
@@ -247,7 +255,6 @@ object {
 .video-btn svg {
   width: 50px !important;
   height: 50px !important;
-  box-shadow: 0px 0px 56px 0px rgba(36, 2, 5, 0.56);
   border-radius: 50%;
   outline: none;
 }
@@ -262,10 +269,10 @@ object {
 .video-btn:hover, .video-btn:focus {
   outline: none;
   transform: translate(-50%, -50%) scale(1.08);
+  box-shadow: 0px 0px 72px 0px rgb(152, 13, 25);
 }
 
 .video-btn:hover svg, .video-btn:focus svg {
-  box-shadow: 0px 0px 72px 0px rgb(152, 13, 25);
   outline: none;
 }
 

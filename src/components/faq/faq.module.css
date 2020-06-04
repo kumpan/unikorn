@@ -34,7 +34,7 @@
   background: var( --primary);
   border-radius: 50%;
   opacity: 0;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .faq_title {
@@ -46,6 +46,11 @@
   cursor: pointer;
   line-height: 22px;
   position: relative;
+  transition: all .2s ease-in-out;
+}
+
+.faq_title:hover {
+  background-color: #fffafa;
 }
 
 .faq_title:after, .faq_title:before {
@@ -57,7 +62,7 @@
   right: 16px;
   top: 50%;
   pointer-events: none;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .faq_title:after {
@@ -79,7 +84,7 @@
 
 @media screen and (min-width: 767px) {
   .faq_wrapper.active span:before {
-    opacity: 0.12;
+    opacity: .12;
   }
 
   .faq_title {

@@ -480,3 +480,28 @@ collections:
               - { label: Alt text, name: alt, widget: string }
           - { label: Button text, name: button, widget: string, required: true }
           - { label: Button link, name: buttonlink, widget: string, required: true }
+
+  - name: thanks
+    label: Thank you page
+    folder: content/thanks
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
+    editor:
+      preview: false
+    fields:
+      - { name: shorttitle, label: Short Title }
+      - name: hero
+        label: Hero
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Preamble, name: text, widget: text }
+          - label: Featured image
+            name: featured_image
+            widget: object
+            required: false
+            fields:
+              - { label: Image, name: src, widget: image }
+              - { label: Alt text, name: alt, widget: string }
+          - { label: Button text, name: button, widget: string, required: true }
+          - { label: Button link, name: buttonlink, widget: string, required: true }

@@ -143,11 +143,14 @@
       margin: 0 auto;
   }
 
+  .react-tabs__tab {
+    font-size: min(max(44px, 5vw), 64px);
+  }
+
 }
 
 @media screen and (min-width: 992px) {
   .react-tabs__tab {
-    font-size: 64px;
     margin-right: 36px;
     line-height: 76px;
   }

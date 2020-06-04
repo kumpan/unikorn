@@ -127,7 +127,7 @@ class Form extends Component {
 
 
     return (
-      <form id="contact-form" name="contact" method="POST" data-netlify="true" onSubmit={this.handleSubmit}>
+      <form id="contact-form" name="contact" method="POST" data-netlify="true" action="/thanks.js" onSubmit={this.handleSubmit}>
         <p>{form_title}</p>
 
         <div className="input-container">

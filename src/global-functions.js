@@ -15,4 +15,14 @@ function truncateText(text, maxLength) {
   }
 }
 
-module.exports = { slugify, truncateText }
+function closestByClass(el, name) {
+  while (el.className !== name) {
+      el = el.parentNode;
+      if (!el) {
+          return null;
+      }
+  }
+  return el;
+}
+
+module.exports = { slugify, truncateText, closestByClass }

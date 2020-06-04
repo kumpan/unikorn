@@ -56,6 +56,7 @@ input, textarea {
   display: block;
   border: none;
   -webkit-appearance: none;
+  font-family: 'Work Sans', sans-serif;
   transition: color .2s ease-in-out, padding .2s ease-in-out;
 }
 
@@ -206,8 +207,12 @@ label {
   transition: all .2s ease-in-out;
 }
 
-.choice_wrapper input:checked + label:before, .choice_wrapper label:hover:before {
-  border: 3px solid var(--secondary);
+.choice_wrapper input:checked + label:before {
+  border: 2px solid var(--secondary);
+}
+
+.choice_wrapper label:hover:before {
+  border: 1px solid var(--secondary);
 }
 
 .choice_wrapper input:checked + label, .choice_wrapper label:hover {
@@ -257,9 +262,14 @@ label {
 }
 
 .form-info-text p {
-  font-size: 14px;
-  line-height: 18px;
   margin-bottom: 16px;
+}
+
+@media screen and (min-width: 479px) {
+  .submit-btn {
+    margin: 0 auto;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 992px) {

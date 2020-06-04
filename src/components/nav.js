@@ -1,10 +1,10 @@
 import React, { Component }  from "react"
 import { Link } from "gatsby"
-import { ChevronDownIcon } from '@icons/material'
+import { ChevronDownIcon } from "@icons/material"
 
 import ContactInfo from "../components/contact/contactinfo.js"
 import ContactPopup from "../components/contact/contactpopup.js"
-import Logo from "../../content/assets/unikorn-logo.svg"
+import Logo from "../../content/assets/logo-unikorn.svg"
 
 import Styles from "./nav.module.css"
 
@@ -21,22 +21,25 @@ class Nav extends Component {
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.navigationOnScroll);
+    window.addEventListener("scroll", this.navigationOnScroll);
   }
 
   handleContactPopup = (e) => {
     e.preventDefault()
-    if (this.state.showContactPopup === true) {
+
+    document.getElementById( "nav-cta" ).blur()
+    
+    if (this.state.showContactPopup === true ) {
       this.setState({
         showContactPopup: false
       })
-      document.getElementsByTagName( 'html' )[0].classList.remove('no-scroll')
+      document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
 
     } else {
       this.setState({
         showContactPopup: true
       })
-      document.getElementsByTagName( 'html' )[0].classList.add('no-scroll')
+      document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
     }
     
   }
@@ -84,15 +87,15 @@ class Nav extends Component {
   
     if (!this.state.showMenu) {
       setTimeout(() => {
-        document.getElementsByTagName( 'html' )[0].classList.add('no-scroll')
+        document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
       }, 300)
     } else {
-      document.getElementsByTagName( 'html' )[0].classList.remove('no-scroll')
+      document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
     }
   }
   
   componentWillUnmount() {
-    document.getElementsByTagName( 'html' )[0].classList.remove('no-scroll')
+    document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
   }
   
   render() {
@@ -164,7 +167,7 @@ class Nav extends Component {
             </div>
           </div>
 
-          <div className={Styles.nav_cta} role="button" tabIndex="0" onClick={this.handleContactPopup} onKeyDown={this.handleContactPopup}>
+          <div id="nav-cta" className={Styles.nav_cta} role="button" tabIndex="0" onClick={this.handleContactPopup} onKeyDown={this.handleContactPopup}>
             <span>Get in touch now</span>
           </div>
 
