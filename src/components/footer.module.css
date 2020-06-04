@@ -20,7 +20,7 @@
 
 .footer_col {
   width: 100%;
-  margin-bottom: 12px;
+  margin-bottom: 0;
   position: relative;
 }
 
@@ -40,6 +40,7 @@
   margin-bottom: 4px;
   cursor: pointer;
   outline: none;
+  padding: 6px 0;
 }
 
 .footer_col_text li {
@@ -66,7 +67,7 @@
   height: 3px;
   background-color: var(--white);
   right: 5px;
-  top: 11px;
+  top: 16px;
   pointer-events: none;
   transition: all 0.2s ease-in-out;
 }

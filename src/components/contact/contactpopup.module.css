@@ -102,6 +102,16 @@
   height: 40px !important;
 }
 
+@media screen and (min-width: 479px) {
+  .contact_popup_col1 {
+    padding-top: 0;
+  }
+
+  .contact_popup_col2 {
+    padding-bottom: 36px;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .contact_popup_row_inner {
     flex-flow: row wrap;
