@@ -69,7 +69,11 @@ class BlogPost extends Component {
             </div>
 
             {video_url &&
-              <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0"><PlayCircleIcon /></div>
+              <div className="video-btn-wrapper" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">
+                <div className="video-btn">
+                  <PlayCircleIcon />
+                </div>
+              </div>
             }
 
           </div>

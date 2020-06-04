@@ -85,17 +85,17 @@
     bottom: -1px;
   }
 
-  .hero_section_text h1, .hero_section_text p, .hero_section_text p + div {
+  .h1_animation, .p_animation, .btn_animation {
     opacity: 0;
     transform: translateY(10px);
     animation: heroAppear 0.2s linear forwards 0.4s;
   }
 
-  .hero_section_text p {
+  .p_animation {
     animation-delay: 0.6s;
   }
 
-  .hero_section_text p + div {
+  .btn_animation {
     animation-delay: 0.8s;
   }
 
