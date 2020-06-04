@@ -1,5 +1,5 @@
 import React, { Component }  from "react"
-import { CloseIcon } from '@icons/material'
+import { CloseIcon } from "@icons/material"
 
 import ArrowButton from "../buttons/arrow-btn.js"
 import Video from "./video.js"
@@ -9,12 +9,12 @@ import Styles from "./videopopup.module.css"
 class VideoPopup extends Component {  
   componentDidMount() {
     setTimeout(() => {
-      document.getElementsByTagName( 'html' )[0].classList.add('no-scroll')
+      document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
     }, 100)
   }
   
   componentWillUnmount() {
-    document.getElementsByTagName( 'html' )[0].classList.remove('no-scroll')
+    document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
   }
 
   render() {

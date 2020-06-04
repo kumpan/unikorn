@@ -3,17 +3,17 @@ import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
-import { PlayCircleIcon } from '@icons/material'
+import { PlayCircleIcon } from "@icons/material"
 
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import BlogList from "../components/blog/blog-list.js"
 import BlogDate from "../components/blog/blog-date.js"
-import { truncateText } from '../global-functions.js'
+import { truncateText } from "../global-functions.js"
 import VideoPopup from "../components/video/videopopup.js"
 import ContactPopup from "../components/contact/contactpopup.js"
 import ArrowButton from "../components/buttons/arrow-btn.js"
-import { closestByClass } from '../global-functions.js'
+import { closestByClass } from "../global-functions.js"
 
 import Styles from "./blog-post-single.module.css"
 
@@ -52,13 +52,13 @@ class BlogTemplate extends Component {
       this.setState({
         showContactPopup: false
       })
-      document.getElementsByTagName( 'html' )[0].classList.remove('no-scroll')
+      document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
 
     } else {
       this.setState({
         showContactPopup: true
       })
-      document.getElementsByTagName( 'html' )[0].classList.add('no-scroll')
+      document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
     }
     
   }

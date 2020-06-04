@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import BlogPost from './blog-post.js'
+import BlogPost from "./blog-post.js"
 
 import Styles from "./blog-list.module.css"
 
@@ -31,7 +31,7 @@ const BlogList = (props) => {
   const posts = props.posts
 
   return (
-    <div className={Styles.blog_list + ' ' + (props.keepMobileStyling ? Styles.blog_wrapper_mobile_style : '')}>
+    <div className={Styles.blog_list + " " + (props.keepMobileStyling ? Styles.blog_wrapper_mobile_style : "")}>
       {posts.length > 0 ? (
         posts.map(({ node }, index) => {
           return (

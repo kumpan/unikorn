@@ -32,7 +32,7 @@
 }
 
 .blog_post_img:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -126,7 +126,7 @@
   }
 
   .blog_post_wrapper:not(.blog_post_mobile_style) .blog_post:before {
-    content: '';
+    content: "";
     position: absolute;
     width: calc(100% + 96px);
     height: 100%;
@@ -196,7 +196,7 @@
   }
 
   .blog_post_wrapper:not(.blog_post_mobile_style) .blog_info span:last-child:before {
-    content: ' - ';
+    content: " - ";
   }
 }
 

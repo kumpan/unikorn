@@ -1,6 +1,6 @@
 import React, { Component }  from "react"
 import { Link } from "gatsby"
-import { ArrowRightIcon } from '@icons/material'
+import { ArrowRightIcon } from "@icons/material"
 
 import Styles from "./secondary.module.css"
 
@@ -9,7 +9,7 @@ class SecondaryButton extends Component {
     const { text, mobileBtn, link, arrow } = this.props
 
     return (
-      <div className={Styles.secondary_btn + " secondary-btn " + (arrow ? Styles.arrow : '')}>
+      <div className={Styles.secondary_btn + " secondary-btn " + (arrow ? Styles.arrow : "")}>
         {link && !link.includes("mailto" || "call") && text && mobileBtn ? (
           <Link to={link}>
             <span className={Styles.large_btn_text}>{text}</span>

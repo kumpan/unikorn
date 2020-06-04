@@ -1,5 +1,5 @@
 import React, { Component }  from "react"
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 import SecondaryButton from "../components/buttons/secondary.js"
 
@@ -7,18 +7,18 @@ class TabsComponent extends Component {
   constructor(props) {
     super(props)
     this.state = { 
-      activeClass: ''
+      activeClass: ""
     }
   }
 
   toggleClass(i) {
     if (i%2 === 0) {
       this.setState({
-        activeClass: ''
+        activeClass: ""
       })
     } else {
       this.setState({
-        activeClass: 'active'
+        activeClass: "active"
       })
     }
   }

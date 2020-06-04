@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { ArrowDownIcon } from '@icons/material'
+import { ArrowDownIcon } from "@icons/material"
 
 import Faq from "./faq.js"
 
