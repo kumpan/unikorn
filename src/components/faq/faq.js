@@ -4,6 +4,7 @@ import recommended from "remark-preset-lint-recommended"
 import remarkHtml from "remark-html"
 
 import ToggleItem from "../../components/toggle.js"
+import { closestByClass } from '../../global-functions.js'
 
 import Styles from "./faq.module.css"
 
@@ -17,6 +18,11 @@ class Faq extends Component {
   }
 
   toggleClass = (e) => {
+    const clickedEl =closestByClass(e.target, Styles.faq_title)
+    if (clickedEl) {
+      clickedEl.blur()
+    }
+
     const currentState = this.state.active;
     this.setState({ 
       active: !currentState 

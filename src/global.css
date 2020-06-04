@@ -17,6 +17,7 @@ body, html {
   overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  margin: 0;
 }
 
 ::selection {

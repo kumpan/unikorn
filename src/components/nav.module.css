@@ -360,8 +360,8 @@
   .nav_cta {
     display: block;
     margin-right: 32px;
-    outline: none;
     cursor: pointer;
+    outline: none;
   }
 
   .nav_cta span {

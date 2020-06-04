@@ -66,6 +66,12 @@ const ContactPopup = (props) => {
     `
   )
 
+  const handleCloseClick = (e) => {
+    if (e.key === "Escape") {
+      props.handlePopup(e)
+    }
+  }
+
   const contactData = data.allMdx.edges[0].node.frontmatter
   const contactImg = contactData.featured_image
 
@@ -89,7 +95,7 @@ const ContactPopup = (props) => {
     <div className={Styles.contact_popup}>
       <div className={Styles.contact_popup_row}>
         <div className={Styles.contact_popup_row_inner}>
-          <span className={Styles.close_icon} onClick={props.handlePopup} onKeyDown={props.handlePopup} role="button" tabIndex="0">
+          <span className={Styles.close_icon} onClick={props.handlePopup} onKeyDown={handleCloseClick} role="button" tabIndex="0">
             <CloseIcon />
           </span>
           <div className={Styles.contact_popup_col1}>

@@ -56,6 +56,7 @@ input, textarea {
   display: block;
   border: none;
   -webkit-appearance: none;
+  font-family: 'Work Sans', sans-serif;
   transition: color .2s ease-in-out, padding .2s ease-in-out;
 }
 
