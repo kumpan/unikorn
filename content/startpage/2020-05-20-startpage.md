@@ -12,7 +12,7 @@ hero:
     src: ../assets/sprinter-monochrome-_animated.svg
     alt: Illustration
   button: Start growing now
-  buttonlink: /about-us
+  buttonlink: /about
 tabs_section:
   tabs_heading: We help our partners grow through well executed
   tab_fields:
