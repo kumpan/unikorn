@@ -12,6 +12,7 @@
   color: var(--white);
   opacity: 0.72;
   font-size: 38px;
+  width: auto;
   font-weight: 700;
   line-height: 44px;
   padding: 0 0 4px 0;
@@ -144,6 +145,7 @@
   }
 
   .react-tabs__tab {
+    font-size: 64px;
     font-size: min(max(44px, 5vw), 64px);
   }
 

@@ -90,7 +90,11 @@ class Startpage extends Component {
                   fluid={{ ...pageData.video_section.video_image.src.childImageSharp.fluid, aspectRatio: 2.125}}
                   alt={pageData.video_section.video_image.alt}
                 />
-                <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0"><PlayCircleIcon /></div>
+                <div className="video-btn-wrapper" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">
+                  <div className="video-btn">
+                    <PlayCircleIcon />
+                  </div>
+                </div>
               </div>
             }
             <div className={Styles.align_right + ' ' + Styles.extra_space_above}>

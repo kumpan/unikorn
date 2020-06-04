@@ -41,12 +41,14 @@ class Hero extends Component {
                 }
               </div>
             }
-            <h1>{heading}</h1>
-            <p>{text}</p>
+            <h1 className={Styles.h1_animation}>{heading}</h1>
+            <p className={Styles.p_animation}>{text}</p>
 
-            {button &&
-              <PrimaryButton text={button} link={buttonlink} />
-            }
+            <div className={Styles.btn_animation}>
+              {button &&
+                <PrimaryButton text={button} link={buttonlink} />
+              }
+            </div>
           </div>
             {heroImage}
         </div>

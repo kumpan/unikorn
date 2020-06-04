@@ -92,7 +92,6 @@ class Form extends Component {
       val => val.length > 0 && (valid = false)
     )
     if (valid) {
-      console.log('valid')
       document.getElementById('contact-form').submit();
     } else {
       this.setState({
@@ -125,9 +124,8 @@ class Form extends Component {
       .processSync(form_info_text)
       .toString()
 
-
     return (
-      <form id="contact-form" name="contact" method="POST" data-netlify="true" action="/thanks.js" onSubmit={this.handleSubmit}>
+      <form id="contact-form" name="contact" method="POST" data-netlify="true" action="/thanks" onSubmit={this.handleSubmit}>
         <p>{form_title}</p>
 
         <div className="input-container">
