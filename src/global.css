@@ -412,12 +412,6 @@ object {
     animation: sectionAppear 0.2s linear forwards 1s;
   }
 
-  .breadcrumbs {
-    opacity: 0;
-    transform: translateY(10px);
-    animation: appear 0.2s linear forwards 0.2s;
-  }
-
   .blog-post-wrapper .large .video-btn {
     right: 118px;
   }
