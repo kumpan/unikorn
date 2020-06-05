@@ -4,7 +4,6 @@ import Nav from "./nav"
 import Footer from "./footer"
 
 class Layout extends Component {
-  
   render() {
     const { children } = this.props
     

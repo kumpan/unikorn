@@ -96,13 +96,13 @@
     bottom: -1px;
   }
 
-  .h1_animation, .p_animation, .btn_animation {
+  .btn_animation, .animate_hero h1, .animate_hero p {
     opacity: 0;
     transform: translateY(10px);
     animation: heroAppear 0.2s linear forwards 0.4s;
   }
 
-  .p_animation {
+  .hero_section p {
     animation-delay: 0.6s;
   }
 
