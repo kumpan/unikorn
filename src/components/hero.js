@@ -26,10 +26,7 @@ class Hero extends Component {
 
     let heroImage
     if (img && img.extension === "svg" && isIE) {
-      heroImage = 
-      <div className={Styles.hero_section_image + " " + (lowerImg ? Styles.lower_img : "" )}>
-        <img src={img.publicURL} alt={alt} />
-      </div>
+      heroImage = ""
     
     } else if (img && img.extension === "svg") {
       heroImage = 
@@ -52,7 +49,7 @@ class Hero extends Component {
         <div className={Styles.hero_row + " " + (startpage ? Styles.startpage : "")}>
           <div className={Styles.hero_section_text}>
             {((parentPageLink || shorttitle) || (parentPageLink && shorttitle)) &&
-              <div className="breadcrumbs">
+              <div className={"breadcrumbs " + Styles.breadcrumbs}>
                 {parentPageLink &&
                   <span><Link to={"/" + parentPageLink}>{parentPageTitle}</Link> / </span>
                 }

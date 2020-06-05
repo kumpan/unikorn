@@ -96,17 +96,24 @@
     bottom: -1px;
   }
 
-  .btn_animation, .animate_hero h1, .animate_hero p {
+  .btn_animation, .hero_section h1, .hero_section p, .hero_section .breadcrumbs {
     opacity: 0;
     transform: translateY(10px);
+  }
+
+  .animate_hero .btn_animation, .animate_hero h1, .animate_hero p, .animate_hero .breadcrumbs {
     animation: heroAppear 0.2s linear forwards 0.4s;
+  }
+  
+  .hero_section .breadcrumbs {
+    animation-delay: 0.2s;
   }
 
   .hero_section p {
     animation-delay: 0.6s;
   }
 
-  .btn_animation {
+  .hero_section .btn_animation {
     animation-delay: 0.8s;
   }
 

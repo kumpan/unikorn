@@ -22,10 +22,17 @@ class BlogTemplate extends Component {
     super(props)
     this.state = { 
       showVideo: false,
-      showContactPopup: false
+      showContactPopup: false,
+      activeClass: ""
     }
 
     this.handleVideo = this.handleVideo.bind(this)
+  }
+  
+  componentDidMount() {
+    this.setState({
+      activeClass: Styles.animate_hero
+    })
   }
 
   handleVideo = (e) => {
@@ -95,9 +102,9 @@ class BlogTemplate extends Component {
           <ContactPopup handlePopup={this.handleContactPopup} />
         }
 
-        <div className={Styles.single_hero}>
+        <div className={Styles.single_hero + " " + this.state.activeClass}>
           <div className={Styles.single_hero_inner}>
-            <div className="breadcrumbs">
+            <div className={"breadcrumbs " + Styles.breadcrumbs}>
               <span><Link to="/blog">Blog</Link></span>
               <span> / {truncateText(title, 10)}</span>
             </div>

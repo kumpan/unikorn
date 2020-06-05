@@ -119,10 +119,17 @@
     margin: 0 auto;
   }
 
-  .single_hero_inner h1, .single_hero_inner p, .single_hero_inner p + div {
+  .single_hero_inner .breadcrumbs, .single_hero_inner h1, .single_hero_inner p, .single_hero_inner p + div {
     opacity: 0;
     transform: translateY(10px);
+  }
+  
+  .animate_hero .breadcrumbs, .animate_hero h1, .animate_hero p, .animate_hero p + div {
     animation: fadeUp 0.2s linear forwards .4s;
+  }
+
+  .single_hero_inner .breadcrumbs {
+    animation-delay: 0.2s;
   }
 
   .single_content_wrapper {
