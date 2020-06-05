@@ -216,6 +216,7 @@
   }
 
   .navigation_wrapper.active {
+    position: absolute;
     background-color: transparent;
     box-shadow: none;
     padding: 36px 0 0 0;
