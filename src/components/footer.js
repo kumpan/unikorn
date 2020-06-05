@@ -10,7 +10,7 @@ import ContactInfo from "../components/contact/contactinfo.js"
 import Styles from "./footer.module.css"
 
 const toggleClass = function(e) {
-  const el = document.getElementById('footer-toggle-'+e.target.dataset.id)
+  const el = document.getElementById("footer-toggle-"+e.target.dataset.id)
 
   if (el.classList.contains(Styles.active)) {
     el.classList.remove(Styles.active)

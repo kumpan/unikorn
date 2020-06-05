@@ -3,17 +3,17 @@ import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
-import { PlayCircleIcon } from '@icons/material'
+import { PlayCircleIcon } from "@icons/material"
 
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import BlogList from "../components/blog/blog-list.js"
 import BlogDate from "../components/blog/blog-date.js"
-import { truncateText } from '../global-functions.js'
+import { truncateText } from "../global-functions.js"
 import VideoPopup from "../components/video/videopopup.js"
 import ContactPopup from "../components/contact/contactpopup.js"
 import ArrowButton from "../components/buttons/arrow-btn.js"
-import { closestByClass } from '../global-functions.js'
+import { closestByClass } from "../global-functions.js"
 
 import Styles from "./blog-post-single.module.css"
 
@@ -22,10 +22,17 @@ class BlogTemplate extends Component {
     super(props)
     this.state = { 
       showVideo: false,
-      showContactPopup: false
+      showContactPopup: false,
+      activeClass: ""
     }
 
     this.handleVideo = this.handleVideo.bind(this)
+  }
+  
+  componentDidMount() {
+    this.setState({
+      activeClass: Styles.animate_hero
+    })
   }
 
   handleVideo = (e) => {
@@ -52,13 +59,13 @@ class BlogTemplate extends Component {
       this.setState({
         showContactPopup: false
       })
-      document.getElementsByTagName( 'html' )[0].classList.remove('no-scroll')
+      document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
 
     } else {
       this.setState({
         showContactPopup: true
       })
-      document.getElementsByTagName( 'html' )[0].classList.add('no-scroll')
+      document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
     }
     
   }
@@ -95,9 +102,9 @@ class BlogTemplate extends Component {
           <ContactPopup handlePopup={this.handleContactPopup} />
         }
 
-        <div className={Styles.single_hero}>
+        <div className={Styles.single_hero + " " + this.state.activeClass}>
           <div className={Styles.single_hero_inner}>
-            <div className="breadcrumbs">
+            <div className={"breadcrumbs " + Styles.breadcrumbs}>
               <span><Link to="/blog">Blog</Link></span>
               <span> / {truncateText(title, 10)}</span>
             </div>
@@ -115,7 +122,11 @@ class BlogTemplate extends Component {
                   fluid={{ ...featured_image.src.childImageSharp.fluid, aspectRatio: 2.125}}
                   alt={featured_image.alt}
                 />
-                <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0"><PlayCircleIcon /></div>
+                <div className="video-btn-wrapper" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">
+                  <div className="video-btn">
+                    <PlayCircleIcon />
+                  </div>
+                </div>
               </div>
             }
 

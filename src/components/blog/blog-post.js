@@ -1,11 +1,11 @@
 import React, { Component }  from "react"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
-import { PlayCircleIcon, MovieIcon, FileDocumentIcon } from '@icons/material'
+import { PlayCircleIcon, MovieIcon, FileDocumentIcon } from "@icons/material"
 
 import BlogDate from "./blog-date.js"
 import VideoPopup from "../video/videopopup.js"
-import { slugify, closestByClass } from '../../global-functions.js'
+import { slugify, closestByClass } from "../../global-functions.js"
 
 
 import Styles from "./blog-post.module.css"
@@ -47,7 +47,7 @@ class BlogPost extends Component {
     }
 
     return (
-      <div className={Styles.blog_post_wrapper + " blog-post-wrapper " + (this.props.keepMobileStyling ? Styles.blog_post_mobile_style : '') + " type-" + type }>
+      <div className={Styles.blog_post_wrapper + " blog-post-wrapper " + (this.props.keepMobileStyling ? Styles.blog_post_mobile_style : "") + " type-" + type }>
         <Link to={"/blog/" + slugify(path)}>
           <div className={Styles.blog_post + " type-" + type + " " + (this.props.large ? Styles.large + " large" : "")}>
             <div className={Styles.blog_post_text_wrapper}>
@@ -69,7 +69,11 @@ class BlogPost extends Component {
             </div>
 
             {video_url &&
-              <div className="video-btn" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0"><PlayCircleIcon /></div>
+              <div className="video-btn-wrapper" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">
+                <div className="video-btn">
+                  <PlayCircleIcon />
+                </div>
+              </div>
             }
 
           </div>

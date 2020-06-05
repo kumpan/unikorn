@@ -12,7 +12,7 @@ class MarketingPost extends Component {
     const { shorttitle, shortdesc, icon, alt } = this.props.post
     const marketingLink = "/marketing/" + slugify(shorttitle)
 
-    const marketingIcon = (icon.src.extension === 'svg') ? (
+    const marketingIcon = (icon.src.extension === "svg") ? (
       <div className={Styles.marketing_icon}>
         <object type="image/svg+xml" data={icon.src.publicURL} aria-labelledby={alt}></object>
       </div>

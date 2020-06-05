@@ -1,7 +1,7 @@
 import React, { Component } from "react"
-import AnimateHeight from 'react-animate-height';
+import AnimateHeight from "react-animate-height"
 
-import { closestByClass } from '../global-functions.js'
+import { closestByClass } from "../global-functions.js"
 
 class ToggleItem extends Component {
   constructor(props) {
@@ -14,7 +14,7 @@ class ToggleItem extends Component {
   toggleHeight = (e) => {
     closestByClass(e.target, "toggle-btn").blur()
     this.setState({
-      height: this.state.height === 0 ? 'auto' : 0
+      height: this.state.height === 0 ? "auto" : 0
     })
   }
 

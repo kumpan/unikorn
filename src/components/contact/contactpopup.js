@@ -1,7 +1,7 @@
 import React  from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import { CloseIcon } from '@icons/material'
+import { CloseIcon } from "@icons/material"
 
 import Form from "./form.js"
 
@@ -76,7 +76,7 @@ const ContactPopup = (props) => {
   const contactImg = contactData.featured_image
 
   let contactPopupImg
-  if (contactImg && contactImg.src.extension === 'svg') {
+  if (contactImg && contactImg.src.extension === "svg") {
     contactPopupImg = 
     <div className={Styles.contact_popup_img}>
       <object type="image/svg+xml" data={contactImg.src.publicURL} aria-labelledby={contactImg.alt}></object>

@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-import MarketingPost from './marketing-post.js'
+import MarketingPost from "./marketing-post.js"
 
 import Styles from "./marketing-list.module.css"
 

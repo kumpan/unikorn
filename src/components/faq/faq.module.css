@@ -23,7 +23,7 @@
 }
 
 .faq_wrapper span:before {
-  content: '';
+  content: "";
   width: 40px;
   height: 40px;
   right: 6px;
@@ -54,7 +54,7 @@
 }
 
 .faq_title:after, .faq_title:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 20px;
   height: 2px;
