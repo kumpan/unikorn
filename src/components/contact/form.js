@@ -13,7 +13,7 @@ class Form extends Component {
       name: null,
       email: null,
       message: null,
-      subjects: new Map(),
+      subjects: [],
       errors: {
         name: "",
         email: "",
@@ -24,11 +24,21 @@ class Form extends Component {
   }
 
   handleCheckboxes = (event) => {
-    const item = event.target.name;
-    const isChecked = event.target.checked;
-    this.setState(prevState => ({ 
-      subjects: prevState.subjects.set(item, isChecked) 
-    }))
+    let subjectsArr = [...this.state.subjects]
+    const index = subjectsArr.indexOf(event.target.value);
+    
+    if (index === -1) {
+      this.setState({
+        subjects: [...this.state.subjects, event.target.value]
+      })
+      
+    } else {
+      this.setState({
+        subjects: this.state.subjects.filter(function(item) { 
+          return item !== event.target.value
+        })
+      })
+    }
   }
 
   handleChange = (event) => {
@@ -83,7 +93,7 @@ class Form extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-
+    
     let requiredFields = ["name", "email", "message"]
 
     for (let i = 0; i < requiredFields.length; i++) {
@@ -113,6 +123,7 @@ class Form extends Component {
     Object.values(errors).forEach(
       val => val.length > 0 && (valid = false)
     )
+
     if (valid) {
       fetch("/", {
         method: "POST",
