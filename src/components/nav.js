@@ -182,9 +182,9 @@ class Nav extends Component {
             <span />
           </div>
         </nav>
-        {this.state.showContactPopup &&
+        <div className={"popup " + (this.state.showContactPopup ? "active" : "")}>
           <ContactPopup handlePopup={this.handleContactPopup}/>
-        }
+        </div>
       </div>
     )
   }

@@ -112,12 +112,13 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   .contact_popup_row_inner {
     flex-flow: row wrap;
     max-width: 1136px;
     margin: 0 auto;
     min-height: 100%;
+    width: 84%;
   }
 
   .contact_popup h2 {
