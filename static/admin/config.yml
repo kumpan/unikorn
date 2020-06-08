@@ -534,3 +534,32 @@ collections:
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
+
+  - name: cookie
+    label: Cookie policy page
+    folder: content/cookie
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
+    editor:
+      preview: false
+    fields:
+      - { name: shorttitle, label: Short Title }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
+      - name: hero
+        label: Hero
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Preamble, name: text, widget: text }
+          - label: Featured image
+            name: featured_image
+            widget: object
+            required: false
+            fields:
+              - { label: Image, name: src, widget: image }
+              - { label: Alt text, name: alt, widget: string }
+          - { label: Button text, name: button, widget: string, required: false }
+          - { label: Button link, name: buttonlink, widget: string, required: false }
+      - { name: body, label: Text, widget: markdown }

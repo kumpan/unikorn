@@ -16,7 +16,7 @@ class Layout extends Component {
         <main>{children}</main>
         <Footer show_contact_info={this.props.show_contact_info} />
         <CookieConsent buttonText="OK" cookieName="cookieConcent" contentClasses="cookie-text" buttonWrapperClasses="cookie-btn">
-          This website uses cookies to ensure you get the best experience. Read more <Link to="/privacy-policy">here</Link>.
+          This website uses cookies to ensure you get the best experience. Read more <Link to="/cookie-policy">here</Link>.
           <CloseIcon />
         </CookieConsent>
       </div>

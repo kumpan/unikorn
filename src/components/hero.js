@@ -11,20 +11,13 @@ class Hero extends Component {
   constructor(props) {
     super(props)
     this.state = { 
-      activeClass: ""
-    }
-    console.log("trigger")
-  }
-
-  componentDidMount() {
-    this.setState({
       activeClass: Styles.animate_hero
-    })
+    }
   }
-
+  
   render() {
     const { heading, text, img, alt, button, buttonlink, shorttitle, parentPageLink, parentPageTitle, lowerImg, startpage, fade } = this.props
-
+    console.log("trigger")
     let heroImage
     if (img && img.extension === "svg" && isIE) {
       heroImage = ""
