@@ -18,13 +18,14 @@ form {
 
 .field:before {
   content: "";
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
   border: 1px solid rgb(220, 220, 220);
   position: absolute;
   pointer-events: none;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   transition: all .2s ease-in-out;
 }
 
@@ -198,6 +199,7 @@ label {
 
 .choice_wrapper label:before {
   content: "";
+  box-sizing: border-box;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -276,10 +278,6 @@ label {
   .choices-container {
     margin: 0 -6px;
   }
-
-  .input-container {
-    width: calc(50% - 8px);
-  }
   
   .textarea-container {
     width: 100%;
@@ -312,5 +310,11 @@ label {
 
   .error-message {
     font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .input-container {
+    width: calc(50% - 8px);
   }
 }

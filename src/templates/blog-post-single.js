@@ -98,9 +98,9 @@ class BlogTemplate extends Component {
           <VideoPopup url={video_url} title={title} handleVideo={this.handleVideo}/>
         }
 
-        {this.state.showContactPopup &&
-          <ContactPopup handlePopup={this.handleContactPopup} />
-        }
+        <div className={"popup " + (this.state.showContactPopup ? "active" : "")}>
+          <ContactPopup handlePopup={this.handleContactPopup}/>
+        </div>
 
         <div className={Styles.single_hero + " " + this.state.activeClass}>
           <div className={Styles.single_hero_inner}>
