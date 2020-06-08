@@ -249,8 +249,8 @@ label {
   font-size: 16px;
   margin: 15px 0;
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+  flex-flow: row nowrap;
+  align-items: flex-start;
 }
 
 .form-error svg {

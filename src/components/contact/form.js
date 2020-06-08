@@ -3,6 +3,7 @@ import { ArrowRightIcon, InformationOutlineIcon } from "@icons/material"
 import remark from "remark"
 import recommended from "remark-preset-lint-recommended"
 import remarkHtml from "remark-html"
+import { navigate } from 'gatsby'
 
 class Form extends Component {
   constructor(props) {
@@ -12,6 +13,7 @@ class Form extends Component {
       name: null,
       email: null,
       message: null,
+      subjects: new Map(),
       errors: {
         name: "",
         email: "",
@@ -19,6 +21,20 @@ class Form extends Component {
       },
       unValidForm: null
     }
+  }
+
+  handleCheckboxes(event) {
+    const item = event.target.name;
+    const isChecked = event.target.checked;
+    this.setState(prevState => ({ 
+      subjects: prevState.subjects.set(item, isChecked) 
+    }))
+  }
+
+  handleChange = (event) => {
+    this.setState({ 
+      [event.target.name]: event.target.value 
+    });
   }
 
   validateInput = (event) => {
@@ -88,11 +104,28 @@ class Form extends Component {
   validateForm(errors) {
     let valid = true
 
+    const encode = (data) => {
+      return Object.keys(data)
+          .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+          .join("&");
+    }
+
     Object.values(errors).forEach(
       val => val.length > 0 && (valid = false)
     )
     if (valid) {
-      document.getElementById("contact-form").submit();
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact", ...this.state })
+      })
+        .then(() => {
+          return navigate('/thanks')
+        })
+        .catch(error => {
+          console.log(error)
+        })
+
     } else {
       this.setState({
         unValidForm: true
@@ -109,7 +142,7 @@ class Form extends Component {
       choices.map((choice, i) => {
         return (
           <div className="choice_wrapper" key={i}>
-            <input type="checkbox" id={choice} name={choice} value={choice} />
+            <input type="checkbox" id={choice} name={choice} value={choice} onChange={this.handleCheckboxes} />
             <label htmlFor={choice}>{choice}</label> 
           </div>
         )
@@ -131,7 +164,7 @@ class Form extends Component {
 
         <div className="input-container">
           <div className={"field" + (errors.name.length > 0 ? " error " : "") + (this.state.name ? " filled" : "")}>
-            <input type="text" name="name" placeholder={name.placeholder} onBlur={this.validateInput} onFocus={this.activateClass} noValidate />
+            <input type="text" name="name" placeholder={name.placeholder} onBlur={this.validateInput} onFocus={this.activateClass} onChange={this.handleChange} noValidate />
             <label htmlFor="name">{name.label} *</label> 
           </div>
           {errors.name.length > 0 && 
@@ -140,7 +173,7 @@ class Form extends Component {
 
         <div className="input-container">
           <div className={"field" + (errors.email.length > 0 ? " error " : "") + (this.state.email ? " filled" : "")}>
-            <input type="text" name="email" placeholder={email.placeholder} onBlur={this.validateInput} onFocus={this.activateClass} noValidate />
+            <input type="text" name="email" placeholder={email.placeholder} onBlur={this.validateInput} onFocus={this.activateClass} onChange={this.handleChange} noValidate />
             <label htmlFor="email">{email.label} *</label>
           </div>
           {errors.email.length > 0 && 
@@ -149,7 +182,7 @@ class Form extends Component {
 
         <div className="textarea-container">
           <div className={"field" + (errors.message.length > 0 ? " error " : "") + (this.state.message ? " filled" : "")}>
-            <textarea name="message" placeholder={message.placeholder} onBlur={this.validateInput} onFocus={this.activateClass} noValidate />
+            <textarea name="message" placeholder={message.placeholder} onBlur={this.validateInput} onFocus={this.activateClass} onChange={this.handleChange} noValidate />
             <label htmlFor="message">{message.label} *</label>
           </div>
           {errors.message.length > 0 && 
