@@ -49,7 +49,7 @@ const Thanks = () => {
   return (
     <Layout location="/thanks" show_contact_info>
       <SEO
-        title={pageData.title}
+        title={data.site.siteMetadata.title}
         noindex
       />
       <Hero 

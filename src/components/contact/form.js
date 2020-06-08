@@ -23,7 +23,7 @@ class Form extends Component {
     }
   }
 
-  handleCheckboxes(event) {
+  handleCheckboxes = (event) => {
     const item = event.target.name;
     const isChecked = event.target.checked;
     this.setState(prevState => ({ 

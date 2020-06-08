@@ -13,6 +13,7 @@ class Hero extends Component {
     this.state = { 
       activeClass: ""
     }
+    console.log("trigger")
   }
 
   componentDidMount() {
