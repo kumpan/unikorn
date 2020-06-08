@@ -35,6 +35,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-animate-height": "^2.0.21",
+    "react-cookie-consent": "^5.0.1",
     "react-device-detect": "^1.12.1",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",

@@ -23,7 +23,7 @@ class Form extends Component {
     }
   }
 
-  handleCheckboxes(event) {
+  handleCheckboxes = (event) => {
     const item = event.target.name;
     const isChecked = event.target.checked;
     this.setState(prevState => ({ 
@@ -123,7 +123,9 @@ class Form extends Component {
           return navigate('/thanks')
         })
         .catch(error => {
-          console.log(error)
+          this.setState({
+            unValidForm: true
+          })
         })
 
     } else {
@@ -173,7 +175,7 @@ class Form extends Component {
 
         <div className="input-container">
           <div className={"field" + (errors.email.length > 0 ? " error " : "") + (this.state.email ? " filled" : "")}>
-            <input type="text" name="email" placeholder={email.placeholder} onBlur={this.validateInput} onFocus={this.activateClass} onChange={this.handleChange} noValidate />
+            <input type="email" name="email" placeholder={email.placeholder} onBlur={this.validateInput} onFocus={this.activateClass} onChange={this.handleChange} noValidate />
             <label htmlFor="email">{email.label} *</label>
           </div>
           {errors.email.length > 0 && 

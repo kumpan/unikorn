@@ -1,11 +1,13 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Hero from "../components/hero.js"
 import SEO from "../components/seo"
 import Layout from "../components/layout.js"
+import Container from "../components/container.js"
 
-const Thanks = () => {
+const Policy = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -14,11 +16,15 @@ const Thanks = () => {
             title
           }
         }
-        allMdx(filter: { fileAbsolutePath: { regex: "/(/thanks)/" } }) {
+        allMdx(filter: { fileAbsolutePath: { regex: "/(/policy)/" } }) {
           edges {
             node {
               body
               frontmatter {
+                shorttitle
+                title
+                description
+                canonical
                 hero {
                   heading
                   text
@@ -47,10 +53,11 @@ const Thanks = () => {
   const pageData = data.allMdx.edges[0].node.frontmatter
 
   return (
-    <Layout location="/thanks" show_contact_info>
+    <Layout location="/privacy-policy" show_contact_info>
       <SEO
-        title={data.site.siteMetadata.title}
-        noindex
+        title={pageData.title}
+        description={pageData.description}
+        canonical={pageData.canonical}
       />
       <Hero 
         shorttitle={pageData.shorttitle}
@@ -61,8 +68,17 @@ const Thanks = () => {
         buttonlink={pageData.hero.buttonlink}
         alt={pageData.hero.featured_image.alt}
       />
+      <div className="bg-color-section-desktop">
+        <div className="overlay-container">
+          <Container>
+            <div className="content-container-text">
+              <MDXRenderer>{data.allMdx.edges[0].node.body}</MDXRenderer>
+            </div>
+          </Container>
+        </div>
+      </div>
     </Layout>
   )
 }
 
-export default Thanks
+export default Policy
