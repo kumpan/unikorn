@@ -22,22 +22,47 @@ class Form extends Component {
     }
   }
 
+  componentDidMount() {
+    this.addCheckboxes()
+  }
+
+  addCheckboxes = () => {
+    const { subjects } = this.props.data
+    const choices = subjects.choices
+  
+    if (choices.length > 0) {
+      for (let i = 0; i < choices.length; i++) {
+        this.setState({ 
+          [choices[i]]: "Not interested"
+        })
+      }
+    }
+  }
+
   handleCheckboxes = (event) => {
-    this.setState({ [event.target.name]: event.target.checked })
+    if ( event.target.checked ) {
+      this.setState({ 
+        [event.target.name]: 
+        "Interested"
+      })
+    } else {
+      this.setState({ 
+        [event.target.name]: 
+        "Not interested"
+      })
+    }
   }
 
   handleChange = (event) => {
     this.setState({ 
       [event.target.name]: event.target.value 
-    });
-
-    console.log(this.state)
+    })
   }
 
   validateInput = (event) => {
-    event.preventDefault();
-    const { name, value } = event.target;
-    let errors = this.state.errors;
+    event.preventDefault()
+    const { name, value } = event.target
+    let errors = this.state.errors
 
     event.target.parentElement.classList.remove("active")
 
@@ -50,22 +75,22 @@ class Form extends Component {
         errors.name = 
           value.length < 5
             ? "Name must be at least 5 characters long!"
-            : "";
-        break;
+            : ""
+        break
       case "email": 
         errors.email = 
           validEmailRegex.test(value)
             ? ""
-            : "Please enter a valid email";
-        break;
+            : "Please enter a valid email"
+        break
       case "message": 
         errors.message = 
           value.length < 1
             ? "Please write a message"
-            : "";
-        break;
+            : ""
+        break
       default:
-        break;
+        break
     }
 
     this.setState({
@@ -80,7 +105,7 @@ class Form extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    
+
     let requiredFields = ["name", "email", "message"]
 
     for (let i = 0; i < requiredFields.length; i++) {
@@ -95,7 +120,7 @@ class Form extends Component {
     }
     setTimeout(() => {
       this.validateForm(this.state.errors)
-    }, 200);
+    }, 200)
   }
   
   validateForm(errors) {
@@ -104,7 +129,7 @@ class Form extends Component {
     const encode = (data) => {
       return Object.keys(data)
           .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-          .join("&");
+          .join("&")
     }
 
     Object.values(errors).forEach(
@@ -139,7 +164,7 @@ class Form extends Component {
   render() {
     const { name, email, message, subjects, submit_text, form_title, form_info_text } = this.props.data
     const choices = subjects.choices
-    const { errors } = this.state;
+    const { errors } = this.state
 
     const choicesElements = choices.length ? (
       choices.map((choice, i) => {
