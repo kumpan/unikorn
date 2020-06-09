@@ -128,14 +128,13 @@ class Form extends Component {
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: JSON.stringify({
+        body: encode({
           "form-name": "contact",
-          ...this.state
+          "Name": this.state.name,
+          "Email": this.state.email,
+          "Message": this.state.message,
+          "Need help with": this.state.subjects
         })
-        // body: encode({ 
-        //   "form-name": "contact",
-        //  ...this.state.name, ...this.state.subjects
-        // })
       })
         .then(() => {
           return navigate('/thanks')
