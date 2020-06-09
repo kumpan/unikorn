@@ -13,7 +13,6 @@ class Form extends Component {
       name: null,
       email: null,
       message: null,
-      subjects: [],
       errors: {
         name: "",
         email: "",
@@ -24,27 +23,15 @@ class Form extends Component {
   }
 
   handleCheckboxes = (event) => {
-    let subjectsArr = [...this.state.subjects]
-    const index = subjectsArr.indexOf(event.target.value);
-    
-    if (index === -1) {
-      this.setState({
-        subjects: [...this.state.subjects, event.target.value]
-      })
-      
-    } else {
-      this.setState({
-        subjects: this.state.subjects.filter(function(item) { 
-          return item !== event.target.value
-        })
-      })
-    }
+    this.setState({ [event.target.name]: event.target.checked })
   }
 
   handleChange = (event) => {
     this.setState({ 
       [event.target.name]: event.target.value 
     });
+
+    console.log(this.state)
   }
 
   validateInput = (event) => {
@@ -128,12 +115,9 @@ class Form extends Component {
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({
+        body: encode({ 
           "form-name": "contact",
-          "Name": this.state.name,
-          "Email": this.state.email,
-          "Message": this.state.message,
-          "Need help with": this.state.subjects
+         ...this.state
         })
       })
         .then(() => {
