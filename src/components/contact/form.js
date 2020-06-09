@@ -128,10 +128,14 @@ class Form extends Component {
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ 
+        body: JSON.stringify({
           "form-name": "contact",
-         ...this.state
+          ...this.state
         })
+        // body: encode({ 
+        //   "form-name": "contact",
+        //  ...this.state.name, ...this.state.subjects
+        // })
       })
         .then(() => {
           return navigate('/thanks')
@@ -158,10 +162,8 @@ class Form extends Component {
       choices.map((choice, i) => {
         return (
           <div className="choice_wrapper" key={i}>
-            <label>
-              <input type="checkbox" id={choice} name={choice} value={choice} onChange={this.handleCheckboxes} />
-              {choice}
-            </label> 
+            <input type="checkbox" id={choice} name={choice} value={choice} onChange={this.handleCheckboxes} />
+            <label htmlFor={choice}>{choice}</label> 
           </div>
         )
       })
