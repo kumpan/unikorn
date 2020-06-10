@@ -31,7 +31,7 @@ const Hero = (props) => {
   }
 
   return (
-    <div className={Styles.hero_section + " " + (fade ? Styles.fade : "") + " " + Styles.animate_hero}>
+    <div className={Styles.hero_section + " " + (fade ? Styles.fade : "") + " hero-animation"}>
       <div className={Styles.hero_row + " " + (startpage ? Styles.startpage : "")}>
         <div className={Styles.hero_section_text}>
           {((parentPageLink || shorttitle) || (parentPageLink && shorttitle)) &&
@@ -48,7 +48,7 @@ const Hero = (props) => {
           <h1>{heading}</h1>
           <p>{text}</p>
 
-          <div className={Styles.btn_animation}>
+          <div className={Styles.btn_animation + " hero-btn"}>
             {button &&
               <PrimaryButton text={button} link={buttonlink} />
             }
