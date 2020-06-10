@@ -72,6 +72,8 @@ const MarketingPage = () => {
   const pageData = data.pageData.edges[0].node.frontmatter
   const posts = data.posts.edges
 
+  console.log(pageData)
+
   return (
     <Layout location="/marketing" show_contact_info>
       <SEO
@@ -79,13 +81,15 @@ const MarketingPage = () => {
         description={pageData.description}
         canonical={pageData.canonical}
       />
-      <Hero 
-        shorttitle={pageData.shorttitle}
-        heading={pageData.hero.heading} 
-        text={pageData.hero.text}
-        button={pageData.hero.button}
-        buttonlink={pageData.hero.buttonlink}
-      />
+      {pageData &&
+        <Hero 
+          shorttitle={pageData.shorttitle}
+          heading={pageData.hero.heading} 
+          text={pageData.hero.text}
+          button={pageData.hero.button}
+          buttonlink={pageData.hero.buttonlink}
+        />
+      }
       <div className={Styles.marketing_list_section + " bg-color-section-desktop"}>
         <div className="overlay-container container">
           <MarketingList posts={posts} />
