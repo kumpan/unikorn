@@ -14,14 +14,9 @@ class Hero extends Component {
       activeClass: ""
     }
   }
-
-  componentDidMount() {
-    this.setState({
-      activeClass: Styles.animate_hero
-    })
-  }
-
+  
   render() {
+    console.log('run')
     const { heading, text, img, alt, button, buttonlink, shorttitle, parentPageLink, parentPageTitle, lowerImg, startpage, fade } = this.props
 
     let heroImage
@@ -45,7 +40,7 @@ class Hero extends Component {
     }
 
     return (
-      <div className={Styles.hero_section + " " + (fade ? Styles.fade : "") + " " + this.state.activeClass}>
+      <div className={Styles.hero_section + " " + (fade ? Styles.fade : "") + " " + Styles.animate_hero}>
         <div className={Styles.hero_row + " " + (startpage ? Styles.startpage : "")}>
           <div className={Styles.hero_section_text}>
             {((parentPageLink || shorttitle) || (parentPageLink && shorttitle)) &&
