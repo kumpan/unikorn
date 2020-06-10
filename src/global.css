@@ -213,10 +213,6 @@ object {
   display: block;
 }
 
-.active div {
-  max-height: 1000px;
-}
-
 .row {
   margin-left: -16px;
   margin-right: -16px;
