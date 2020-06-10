@@ -31,7 +31,7 @@ const Hero = (props) => {
   }
 
   return (
-    <div className={Styles.hero_section + " " + (fade ? Styles.fade : "") + " hero-animation"}>
+    <div className={Styles.hero_section + " " + (fade ? Styles.fade : "") + " " + Styles.animate_hero + " " + (isIE ? Styles.isIE : "")}>
       <div className={Styles.hero_row + " " + (startpage ? Styles.startpage : "")}>
         <div className={Styles.hero_section_text}>
           {((parentPageLink || shorttitle) || (parentPageLink && shorttitle)) &&

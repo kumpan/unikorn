@@ -483,34 +483,4 @@ object {
   .blog-post-wrapper .video-btn-wrapper {
     width: 287px;
   }
-
-  .hero-animation .hero-btn, .hero-animation h1, .hero-animation p, .hero-animation .breadcrumbs {
-    opacity: 0;
-    transform: translateY(10px);
-    animation: heroAppear 0.2s linear forwards 0.4s;
-    animation-iteration-count: 1
-  }
-  
-  .hero-animation .breadcrumbs {
-    animation-delay: 0.2s;
-  }
-
-  .hero-animation p {
-    animation-delay: 0.6s;
-  }
-
-  .hero-animation .hero-btn {
-    animation-delay: 0.8s;
-  }
-}
-
-@keyframes heroAppear {
-  0% {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
