@@ -103,6 +103,7 @@
 
   .animate_hero .btn_animation, .animate_hero h1, .animate_hero p, .animate_hero .breadcrumbs {
     animation: heroAppear 0.2s linear forwards 0.4s;
+    animation-iteration-count: 1
   }
   
   .hero_section .breadcrumbs {
