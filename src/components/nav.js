@@ -1,6 +1,6 @@
 import React, { Component }  from "react"
 import { Link } from "gatsby"
-import { ChevronDownIcon } from "@icons/material"
+import ChevronDownIcon from "../../content/assets/icons/chevron-down.svg"
 
 import ContactInfo from "../components/contact/contactinfo.js"
 import ContactPopup from "../components/contact/contactpopup.js"

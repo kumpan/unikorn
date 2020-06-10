@@ -49,11 +49,13 @@
 .arrow svg {
   position: absolute;
   right: 16px;
-  transition: right 0.2s ease-in-out;
+  fill: var(--primary);
+  transition: all 0.2s ease-in-out;
 }
 
 .secondary_btn a:hover svg {
   right: 12px;
+  fill: var(--white);
 }
 
 @media screen and (min-width: 600px) {

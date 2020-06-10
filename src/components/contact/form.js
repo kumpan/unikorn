@@ -1,9 +1,10 @@
 import React, { Component }  from "react"
-import { ArrowRightIcon, InformationOutlineIcon } from "@icons/material"
 import remark from "remark"
 import recommended from "remark-preset-lint-recommended"
 import remarkHtml from "remark-html"
 import { navigate } from 'gatsby'
+import ArrowRightIcon from "../../../content/assets/icons/arrow-forward.svg"
+import InformationOutlineIcon from "../../../content/assets/icons/info.svg"
 
 class Form extends Component {
   constructor(props) {

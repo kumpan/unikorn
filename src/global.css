@@ -59,6 +59,14 @@ section {
   border-color: var(--white);
 }
 
+.light-text .secondary-btn a svg {
+  fill: var(--white);
+}
+
+.light-text .secondary-btn a:hover svg {
+  fill: var(--primary);
+}
+
 .light-text .secondary-btn a:hover {
   color: var(--primary);
 }
@@ -286,6 +294,7 @@ object {
   width: 56px !important;
   height: 56px !important;
   outline: none;
+  fill: var(--white)
 }
 
 .video-btn-wrapper:hover .video-btn {
@@ -347,6 +356,7 @@ object {
   right: 15px;
   top: 50%;
   transform: translateY(-50%);
+  fill: var(--white)
 }
 
 .popup {

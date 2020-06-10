@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
-import { PlayCircleIcon } from "@icons/material"
+import PlayCircleIcon from "../../content/assets/icons/play.svg"
 
 import SEO from "../components/seo"
 import Layout from "../components/layout"
@@ -122,7 +122,7 @@ class BlogTemplate extends Component {
                   fluid={{ ...featured_image.src.childImageSharp.fluid, aspectRatio: 2.125}}
                   alt={featured_image.alt}
                 />
-                <div className="video-btn-wrapper" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">
+                <div className="video-btn-wrapper" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0" aria-label="play">
                   <div className="video-btn">
                     <PlayCircleIcon />
                   </div>

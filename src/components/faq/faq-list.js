@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { ArrowDownIcon } from "@icons/material"
+import ArrowDownIcon from "../../../content/assets/icons/arrow-down.svg"
 
 import Faq from "./faq.js"
 

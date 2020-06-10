@@ -92,6 +92,10 @@
   color: var(--white);
 }
 
+.video_popup_link svg {
+  fill: var(--white);
+}
+
 
 @media screen and (min-width: 479px) {
   .video_popup_row {

@@ -23,10 +23,12 @@
 }
 
 .faq_load_more svg {
-  transition: transform 0.2s ease-in-out;
+  fill: var(--primary);
+  transition: all 0.2s ease-in-out;
 }
 
 .faq_load_more:hover svg {
+  fill: var(--darkest-primary);
   transform: translateY(4px);
 }
 

@@ -1,7 +1,7 @@
 import React  from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import { CloseIcon } from "@icons/material"
+import CloseIcon from "../../../content/assets/icons/close.svg"
 
 import Form from "./form.js"
 

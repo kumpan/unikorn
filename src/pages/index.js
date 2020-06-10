@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-import { PlayCircleIcon } from "@icons/material"
+import PlayCircleIcon from "../../content/assets/icons/play.svg"
 
 import Hero from "../components/hero.js"
 import SEO from "../components/seo"
@@ -90,7 +90,7 @@ class Startpage extends Component {
                   fluid={{ ...pageData.video_section.video_image.src.childImageSharp.fluid, aspectRatio: 2.125}}
                   alt={pageData.video_section.video_image.alt}
                 />
-                <div className="video-btn-wrapper" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">
+                <div className="video-btn-wrapper" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0" aria-label="play">
                   <div className="video-btn">
                     <PlayCircleIcon />
                   </div>

@@ -113,10 +113,16 @@
   opacity: 0.64;
 }
 
+.blog_post:hover .blog_cat svg {
+  fill: var(--white);
+}
+
 .blog_cat svg {
   height: 20px !important;
   width: 20px !important;
   margin-right: 4px;
+  fill: var(--text-grey);
+  transition: all 0.2s ease-in-out;
 }
 
 @media screen and (min-width: 600px) {

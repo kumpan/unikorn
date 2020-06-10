@@ -1,7 +1,9 @@
 import React, { Component }  from "react"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
-import { PlayCircleIcon, MovieIcon, FileDocumentIcon } from "@icons/material"
+import PlayCircleIcon from "../../../content/assets/icons/play.svg"
+import MovieIcon from "../../../content/assets/icons/movie.svg"
+import FileDocumentIcon from "../../../content/assets/icons/file.svg"
 
 import BlogDate from "./blog-date.js"
 import VideoPopup from "../video/videopopup.js"
@@ -69,7 +71,7 @@ class BlogPost extends Component {
             </div>
 
             {video_url &&
-              <div className="video-btn-wrapper" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0">
+              <div className="video-btn-wrapper" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0" aria-label="play">
                 <div className="video-btn">
                   <PlayCircleIcon />
                 </div>

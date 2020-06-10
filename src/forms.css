@@ -98,6 +98,11 @@ input::placeholder, textarea::placeholder {
   transition: all .2s ease-in-out;
 }
 
+.submit-btn svg {
+  fill: var(--white);
+  transition: all .2s ease-in-out;
+}
+
 .submit-btn button:hover, .submit-btn button:focus {
   background-color: var(--secondary-light);
   outline: none;
@@ -257,6 +262,7 @@ label {
 
 .form-error svg {
   margin-right: 4px;
+  fill: #d42232;
 }
 
 .form-info-text {

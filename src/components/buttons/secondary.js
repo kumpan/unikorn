@@ -1,6 +1,6 @@
 import React, { Component }  from "react"
 import { Link } from "gatsby"
-import { ArrowRightIcon } from "@icons/material"
+import ArrowRightIcon from "../../../content/assets/icons/arrow-forward.svg"
 
 import Styles from "./secondary.module.css"
 

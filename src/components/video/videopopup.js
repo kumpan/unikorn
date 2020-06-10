@@ -1,5 +1,5 @@
 import React, { Component }  from "react"
-import { CloseIcon } from "@icons/material"
+import CloseIcon from "../../../content/assets/icons/close.svg"
 
 import ArrowButton from "../buttons/arrow-btn.js"
 import Video from "./video.js"
