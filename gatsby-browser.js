@@ -8,9 +8,9 @@ import "./src/variables.css"
 
 import "prismjs/themes/prism.css"
 
-import cssVars from "css-vars-ponyfill"
+// import cssVars from "css-vars-ponyfill"
 
-cssVars({
-  onlyLegacy: false,
-  include: "link[rel=stylesheet],style"
-});
+// cssVars({
+//   onlyLegacy: false,
+//   include: "link[rel=stylesheet],style"
+// });
