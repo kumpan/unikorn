@@ -1,29 +1,33 @@
 ---
-shorttitle: Our Approach
-title: Our Approach
-description: Our Approach
-canonical: /our-approach
+shorttitle: Digital Strategies
+title: Digital Strategies
+description: Behind every successful campaign, lies a vision of what to achieve,
+  a plan of what to do and when for whom. Plus a consensus of what success is.
+  In short, a strategy.
+canonical: /digital-strategies
 hero:
   heading: This is how we make it a reality.
   text: We’re your best friend when it comes to helping you find the best path to
     a successful digital strategy. We know how to handle every aspect of your
     Digital Marketing.
-  button: Start growing now
+  button: Let us tell you more
   buttonlink: /about-us
   featured_image:
     src: ../assets/sprinter-monochrome-_animated.svg
     alt: Illustration
 ---
-## Williamsburg paleo shaman semiotics.
+## **One size fits No-on**
 
-I'm baby small batch viral wolf bushwick literally tousled tattooed hammock knausgaard subway tile. Chartreuse coloring book direct trade poke godard slow-carb. Woke try-hard ennui tacos. 
+A solid digital strategy is not about packaged solutions with silver or gold names, it is a tailored solution designed for your needs.
 
-#### Crucifix portland lyft
+A strategy work with Unikorn always starts with your business goals and ends in a tangible plan, ready to start growing your business. You might already have one in place that needs some reviewing and revamp, or you need a new one entirely. Our experts help you either way and wont let your go until the strategy is fully delivered, handed over and we are sure you are ready to continue to do the work on your own.
 
-Jianbing man bun glossier marfa kitsch selvage. Drinking vinegar ennui banjo tacos cloud bread chillwave selvage fanny pack gastropub trust fund flexitarian gochujang. Ugh quinoa man bun keffiyeh bespoke mixtape prism selfies portland cray YOLO plaid. Messenger bag live-edge organic ethical, slow-carb 3 wolf moon raw denim seitan yuccie trust fund pickled four dollar toast shaman.
+**UNIKORN can help you with:**
 
-#### Four dollar toasts go a long way
+* translate your business vision to goals and KPIs
+* create a strategic framework for all channels and focus areas
+* create strategies for every individual channel or focus area
+* create a list of actions with prioritised items
+* create processes for follow-ups to make sure you implement your learnings and take-aways
 
-Shabby chic edison bulb yr, celiac brooklyn pour-over retro. Tbh blue bottle migas post-ironic meggings gentrify tattooed cred. Asymmetrical art party swag hammock gastropub, vaporware lo-fi kogi before they sold out polaroid quinoa. Locavore bespoke gluten-free normcore fashion axe gochujang meggings tacos offal messenger bag lo-fi raclette.  
-
-Mlkshk chambray. Pour-over distillery banh mi franzen. Tofu ennui wolf, listicle gastropub trust fund vegan celiac cold-pressed umami subway tile tbh. Statement fashion axe gochujang meggings.
+Does this sound like a plan? Let's talk more over a coffee.
