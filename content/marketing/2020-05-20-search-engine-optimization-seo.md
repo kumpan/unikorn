@@ -1,12 +1,12 @@
 ---
 src: ../assets/plus.svg
-shorttitle: Search Engine Optimization (SEO)
+shorttitle: SEO
 shortdesc: "We’re your best friend when it comes to helping you find the best
   path to a successful digital strategy. "
-title: Search Engine Optimization (SEO)
+title: SEO - Search Engine Optimization
 description: "We’re your best friend when it comes to helping you find the best
   path to a successful digital strategy. "
-canonical: /marketing/search-engine-optimization-seo
+canonical: /marketing/seo
 icon:
   src: ../assets/plus.svg
   alt: SEO icon
