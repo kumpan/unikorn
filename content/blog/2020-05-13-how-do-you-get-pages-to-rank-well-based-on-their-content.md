@@ -5,7 +5,7 @@ description: How do you get pages to rank well based on their content?
 canonical: /blog/how-do-you-get-pages-to-rank-well-based-on-their-content
 date: 2020-05-04T07:55:16.470Z
 author: Ulrika Viberg
-category: Marketing
+category: Unikorn Marketing
 featured_image:
   src: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
   alt: Nature
