@@ -5,7 +5,7 @@ description: Vimeo video
 canonical: /blog/vimeo-video
 date: 2020-05-13T13:39:54.006Z
 author: Ulrika
-category: Strategy
+category: Digital Strategies
 featured_image:
   src: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
   alt: Nature
