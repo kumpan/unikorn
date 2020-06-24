@@ -28,8 +28,22 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/webseo`,
-        name: `webseo`,
+        path: `${__dirname}/content/web-page`,
+        name: `web-page`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/web`,
+        name: `web`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/about-page`,
+        name: `about-page`,
       },
     },
     {
@@ -37,13 +51,6 @@ module.exports = {
       options: {
         path: `${__dirname}/content/about`,
         name: `about`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/our-approach`,
-        name: `our-approach`,
       },
     },
     {
@@ -79,6 +86,20 @@ module.exports = {
       options: {
         path: `${__dirname}/content/marketing`,
         name: `marketing`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/digital-page`,
+        name: `digital-page`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/digital`,
+        name: `digital`,
       },
     },
     {

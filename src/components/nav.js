@@ -5,6 +5,7 @@ import ChevronDownIcon from "../../content/assets/icons/chevron-down.svg"
 import ContactInfo from "../components/contact/contactinfo.js"
 import ContactPopup from "../components/contact/contactpopup.js"
 import Logo from "../../content/assets/logo-unikorn.svg"
+import { slugify } from "../global-functions.js"
 
 import Styles from "./nav.module.css"
 
@@ -104,6 +105,54 @@ class Nav extends Component {
       location = this.props.location.pathname
     }
 
+    const aboutMenuItems = []
+    this.props.aboutPages.forEach(function (page) {
+      const menuItem = page.node.frontmatter.shorttitle
+      const menuItemLink = slugify(menuItem)
+
+      aboutMenuItems.push(
+        <li className={location === `/about/${menuItemLink}` ? Styles.active : ""}>
+          <Link to={"/about/" + menuItemLink}>{menuItem}</Link>
+        </li>
+      )
+    });
+
+    const webMenuItems = []
+    this.props.webPages.forEach(function (page) {
+      const menuItem = page.node.frontmatter.shorttitle
+      const menuItemLink = slugify(menuItem)
+
+      webMenuItems.push(
+        <li className={location === `/web/${menuItemLink}` ? Styles.active : ""}>
+          <Link to={"/web/" + menuItemLink}>{menuItem}</Link>
+        </li>
+      )
+    });
+
+    const marketingMenuItems = []
+    this.props.marketingPages.forEach(function (page) {
+      const menuItem = page.node.frontmatter.shorttitle
+      const menuItemLink = slugify(menuItem)
+
+      marketingMenuItems.push(
+        <li className={location === `/marketing/${menuItemLink}` ? Styles.active : ""}>
+          <Link to={"/marketing/" + menuItemLink}>{menuItem}</Link>
+        </li>
+      )
+    });
+
+    const digitalMenuItems = []
+    this.props.digitalPages.forEach(function (page) {
+      const menuItem = page.node.frontmatter.shorttitle
+      const menuItemLink = slugify(menuItem)
+
+      digitalMenuItems.push(
+        <li className={location === `/digital-strategies/${menuItemLink}` ? Styles.active : ""}>
+          <Link to={"/digital-strategies/" + menuItemLink}>{menuItem}</Link>
+        </li>
+      )
+    });
+
     return (
       <div>
 
@@ -117,48 +166,46 @@ class Nav extends Component {
           <div className={Styles.navigation + " " + (this.state.showMenu ? Styles.opened : "")}>
             <div className={Styles.navigation_inner}>
               <ul className={Styles.navigation_links}>
-                <li className={ location === "/web-and-seo" ? Styles.active : ""}>
-                  <Link to="/web-and-seo">
-                    Web & SEO
-                  </Link>
-                </li>
-                <li className={Styles.has_submenu + " " + ( location.includes("/marketing") ? Styles.active : "")}>
-                  <Link to="/marketing">
-                    Marketing
+                <li className={Styles.has_submenu + " " + ( location.includes("/web") ? Styles.active : "")}>
+                  <Link to="/web">
+                    Web Magic
                   </Link>
                   <ChevronDownIcon />
                   <ul className={Styles.submenu}>
-                    <li className={location === "/marketing/search-engine-optimization-seo" ? Styles.active : ""}>
-                      <Link to="/marketing/search-engine-optimization-seo">
-                        Search Engine Optimization (SEO)
-                      </Link>
-                    </li>
-                    <li className={location === "/marketing/content-marketing" ? Styles.active : ""}>
-                      <Link to="/marketing/content-marketing">
-                        Content Marketing
-                      </Link>
-                    </li>
-                    <li className={location === "/marketing/web-analysis" ? Styles.active : ""}>
-                      <Link to="/marketing/web-analysis">
-                        Web Analysis
-                      </Link>
-                    </li>
+                    {webMenuItems}
                   </ul>
                 </li>
-                <li className={location === "/our-approach" ? Styles.active : ""}>
-                  <Link to="/our-approach">
-                    Our Approach
+                <li className={Styles.has_submenu + " " + ( location.includes("/marketing") ? Styles.active : "")}>
+                  <Link to="/marketing">
+                    Unikorn Marketing
                   </Link>
+                  <ChevronDownIcon />
+                  <ul className={Styles.submenu}>
+                    {marketingMenuItems}
+                  </ul>
+                </li>
+                <li className={Styles.has_submenu + " " + ( location.includes("/digital-strategies") ? Styles.active : "")}>
+                  <Link to="/digital-strategies">
+                    Digital Strategies
+                  </Link>
+                  <ChevronDownIcon />
+                  <ul className={Styles.submenu}>
+                    {digitalMenuItems}
+                  </ul>
                 </li>
                 <li className={location === "/blog" ? Styles.active : ""}>
                   <Link to="/blog">
                     Blog
                   </Link>
                 </li>
-                <li className={location === "/about" ? Styles.active : ""}>
+                <li className={Styles.has_submenu + " " + ( location.includes("/about") ? Styles.active : "")}>
                   <Link to="/about">
-                    About us
+                    About Unikorn
                   </Link>
+                  <ChevronDownIcon />
+                  <ul className={Styles.submenu}>
+                    {aboutMenuItems}
+                  </ul>
                 </li>
               </ul>
               <div className={Styles.nav_contact_info}>
@@ -177,7 +224,7 @@ class Nav extends Component {
             role="button"
             tabIndex="0"
             aria-label="Toggle Menu"
-            >
+          >
             <span />
             <span />
           </div>

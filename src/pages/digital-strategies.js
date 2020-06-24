@@ -8,7 +8,7 @@ import SubpagesList from "../components/subpages/subpages-list.js"
 
 import Styles from "./subpages.module.css"
 
-const MarketingPage = () => {
+const DigitalPage = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -19,7 +19,7 @@ const MarketingPage = () => {
         }
         pageData: allMdx(
           filter: {
-            fileAbsolutePath: { regex: "/(/marketing-page/)/" }
+            fileAbsolutePath: { regex: "/(/digital-page/)/" }
           }
         ) {
           edges {
@@ -41,7 +41,7 @@ const MarketingPage = () => {
         }
 
         posts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/marketing/)/" } }
+          filter: { fileAbsolutePath: { regex: "/(/digital/)/" } }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {
@@ -73,7 +73,7 @@ const MarketingPage = () => {
   const posts = data.posts.edges
 
   return (
-    <Layout location="/marketing" show_contact_info>
+    <Layout location="/digital-strategies" show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}
@@ -88,11 +88,11 @@ const MarketingPage = () => {
       />
       <div className={Styles.subpages_list_section + " bg-color-section-desktop"}>
         <div className="overlay-container container">
-          <SubpagesList posts={posts} parentPage="/marketing" />
+          <SubpagesList posts={posts} parentPage="/digital-strategies" />
         </div>
       </div>
     </Layout>
   )
 }
 
-export default MarketingPage
+export default DigitalPage

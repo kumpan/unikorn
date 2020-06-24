@@ -1,19 +1,19 @@
 import React, { Component } from "react"
 
-import MarketingPost from "./marketing-post.js"
+import SubpagesPost from "./subpages-post.js"
 
-import Styles from "./marketing-list.module.css"
+import Styles from "./subpages-list.module.css"
 
-class MarketingList extends Component {
+class SubpagesList extends Component {
   render() {
     const posts = this.props.posts
     
     return (
-      <div className={Styles.marketing_list}>
+      <div className={Styles.subpages_list}>
         {posts.length > 0 ? (
           posts.map(({ node }, index) => {
             return (
-              <MarketingPost key={index} post={node.frontmatter} />
+              <SubpagesPost key={index} post={node.frontmatter} parentPage={this.props.parentPage} />
             )
           })
         ) : (
@@ -27,4 +27,4 @@ class MarketingList extends Component {
   }
 }
 
-export default MarketingList
+export default SubpagesList

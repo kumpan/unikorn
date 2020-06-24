@@ -1,12 +1,12 @@
-.marketing_post_wrapper {
+.subpages_post_wrapper {
   margin-bottom: 16px;
 }
 
-.marketing_post_wrapper:last-child {
+.subpages_post_wrapper:last-child {
   margin-bottom: 0;
 }
 
-.marketing_post {
+.subpages_post {
   border-radius: 0px;
   box-shadow: 0px 2px 4px -2px rgba(81, 2, 16, 0.16), 0px 12px 32px -2px rgba(81, 2, 21, 0.24);
   background-color: var(--white);
@@ -18,7 +18,7 @@
   flex-flow: column nowrap;
 }
 
-.marketing_icon {
+.subpages_icon {
   width: 96px;
   height: 96px;
   background-color: var(--secondary-lightest);
@@ -31,54 +31,54 @@
   align-items: center;
 }
 
-.marketing_icon object {
+.subpages_icon object {
   width: 64px;
   height: 64px;
 }
 
-.marketing_post h3 {
+.subpages_post h3 {
   font-weight: 600;
   margin-bottom: 16px;
   padding: 0 16px;
 }
 
-.marketing_post p {
+.subpages_post p {
   padding: 0 16px;
 }
 
-.marketing_post a {
+.subpages_post a {
   margin-top: 24px;
 }
 
-.marketing_post div:last-child {
+.subpages_post div:last-child {
   margin-top: auto;
 }
 
 @media screen and (min-width: 600px) {
-  .marketing_post {
+  .subpages_post {
     min-height: 0;
   }
 }
 
 @media screen and (min-width: 767px) {
-  .marketing_post_wrapper {
+  .subpages_post_wrapper {
     width: 50%;
     padding: 0 8px;
   }
 
-  .marketing_post a {
+  .subpages_post a {
     width: 100%;
   }
 
-  .marketing_post h3 {
+  .subpages_post h3 {
     padding: 0;
   }
   
-  .marketing_post p {
+  .subpages_post p {
     padding: 0;
   }
 
-  .marketing_post {
+  .subpages_post {
     border-radius: 0px;
     box-shadow: 0px 2px 4px -2px rgba(81, 2, 16, 0.16), 0px 12px 32px -2px rgba(81, 2, 21, 0.24);
     background-color: var(--white);
@@ -87,12 +87,12 @@
 }
 
 @media screen and (min-width: 992px) {
-  .marketing_post_wrapper {
+  .subpages_post_wrapper {
     width: 33.33%;
     margin-bottom: 0;
   }
 
-  .marketing_post h3 {
+  .subpages_post h3 {
     font-size: 28px;
     line-height: 33px;
     font-weight: 600;
