@@ -5,7 +5,7 @@ description: Female SEO network that crosses the agency borders.
 canonical: /blog/female-seo-network-that-crosses-the-agency-borders-2
 date: 2020-05-01T07:50:37.897Z
 author: Ulrika Viberg
-category: Marketing
+category: Unikorn Marketing
 featured_image:
   src: ../assets/gray-bridge-and-trees-814499.jpg
   alt: Nature
