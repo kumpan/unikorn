@@ -1,6 +1,9 @@
 ---
 shorttitle: Requirements
-shortdesc: Requirements
+shortdesc: Then adding the proper requirements for your developers, so that they
+  know what you want and how they can do their absolute best work. Because you
+  want not only the latest technology, but also the fastest and with all the
+  extra SEO trimmings.
 title: Requirements
 description: Requirements
 canonical: /web/requirements
