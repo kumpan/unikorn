@@ -5,7 +5,7 @@ description: What’s conversion optimization & how do you do it?
 canonical: /blog/whats-conversion-optimization-how-do-you-do-it
 date: 2020-05-13T07:56:10.448Z
 author: Ulrika Viberg
-category: Marketing
+category: Digital Strategies
 featured_image:
   src: ../assets/gray-bridge-and-trees-814499.jpg
   alt: Nature
