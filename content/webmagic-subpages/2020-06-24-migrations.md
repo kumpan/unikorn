@@ -1,7 +1,7 @@
 ---
 shorttitle: Migrations
 shortdesc: Migrations
-title: migrations
+title: Migrations
 description: migrations
 canonical: /web/migrations
 icon:
