@@ -5,7 +5,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 canonical: /blog/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit
 date: 2020-04-29T07:56:24.192Z
 author: Ulrika Viberg
-category: SEO
+category: Web Magic
 featured_image:
   src: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
   alt: Nature
