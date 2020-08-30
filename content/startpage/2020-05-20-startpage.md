@@ -20,8 +20,8 @@ tabs_section:
     - tab_title: Search
       heading: Unikorn Search
       text: Two decades of Organic and Paid Search has taught us the most successful
-        ways of taming the search landscape for both well known brands and
-        newcomers on the market. We call it Unikorn Search.
+        ways of taming the search landscape for both well-known brands and
+        start-ups. We call it Unikorn Search.
       buttontext: Read more about Search
       buttontext_mobile: Read more
       buttonlink: /seo
@@ -35,17 +35,17 @@ tabs_section:
       buttontext_mobile: Read more
     - tab_title: Web
       heading: Unikorn Web
-      text: Hundreds of web projects has formed an excellent understanding of all of
-        the aspects regarding the web as a platform for small, medium, large and
-        huge organisations. We call it Unikorn Web.
+      text: Hundreds of web projects has given us a profound understanding of all the
+        aspects regarding a web as a platform for small, medium, large and huge
+        organisations. We call it Unikorn Web.
       buttontext: Read more about Unikorn web
       buttontext_mobile: Read more
       buttonlink: /web
     - tab_title: Strategy
       heading: Unikorn Strategy
-      text: The work never stops and the path never ends. How to walk the walk and
-        talk the talk is all about know who you are and where you want to go.
-        You need a map to success. We call it Digital Strategies.
+      text: How to walk the walk and talk the talk is all about knowing who you are
+        and where you are heading. You need a map to success. We call it Digital
+        Strategies.
       buttontext: Read more about digital strategies
       buttontext_mobile: Read more
       buttonlink: /digital-strategies
