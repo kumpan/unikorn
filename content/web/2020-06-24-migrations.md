@@ -5,7 +5,7 @@ title: Migrations
 description: Migrations
 canonical: /web/migrations
 icon:
-  src: ../assets/bar.svg
+  src: ../assets/migration.svg
   alt: icon
 hero:
   heading: Migrations
