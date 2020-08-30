@@ -10,12 +10,12 @@ description: "Unikorn has helped many site owners migrate their websites to new
 canonical: /web/website-migration
 icon:
   src: ../assets/migration.svg
-  alt: icon
+  alt: website migration
 hero:
   heading: Website Migrations
   preamble: "Moving places is always a hassle, moving websites is no exception.
     Luckily, we have helped a vast number of site owners migrate their webs and
-    know all the pitfalls you should avoid. Also we are good at doing heavy
+    know all the pitfalls you should avoid. Also, we are good at doing the heavy
     lifting. "
   featured_image:
     src: ../assets/drawkit-phone-conversation-monochrome_animated.svg
