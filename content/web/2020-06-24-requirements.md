@@ -1,20 +1,24 @@
 ---
-shorttitle: Requirements
-shortdesc: Then adding the proper requirements for your developers, so that they
-  know what you want and how they can do their absolute best work. Because you
-  want not only the latest technology, but also the fastest and with all the
-  extra SEO trimmings.
-title: Requirements
-description: Requirements
-canonical: /web/requirements
+shorttitle: Website Requirements
+shortdesc: We help you writing up proper requirements for your developers, so
+  that they know what you want and how they can do their absolute best work.
+  Because you want not only the latest technology, but also the fastest and with
+  all the extra SEO trimmings.
+title: Website Requirement Services
+description: Unikorn helps you with writing the best possible website
+  requirements for your new shiny web. Let us help you shine!
+canonical: /web/website-requirements
 icon:
-  src: ../assets/requirements.svg
-  alt: Web Requirements
+  src: ../assets/requirement.svg
+  alt: Website Requirements
 hero:
-  heading: Web Requirements
-  preamble: Requirements for a magic web place where Unikorns live
-  buttonlink: /about/
-  button: Let's talk!
+  heading: Website Requirements
+  preamble: "Magic in - magic out is our motto. We write magical website
+    requirements for your developers, so that they know how to build your new
+    sparkling and user-friendly website that will delight both search engines
+    and end-users.   "
+  buttonlink: /contact
+  button: Let's talk shiny webs!
   featured_image:
     src: ../assets/error-404-monochrome.svg
     alt: Web requirements
