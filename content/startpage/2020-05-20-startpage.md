@@ -10,7 +10,7 @@ hero:
     successful digital strategy. We know how to handle every aspect of your
     Digital Marketing.
   featured_image:
-    src: ../assets/undraw_super_woman_dv0y.svg
+    src: ../assets/digital-growth-unikorn.svg
     alt: Digital Growth
   button: Start growing now
   buttonlink: /marketing
