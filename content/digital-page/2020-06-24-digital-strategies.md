@@ -2,7 +2,7 @@
 shorttitle: Digital strategies
 title: Digital strategies
 description: Digital strategies
-canonical: /digital-strategies
+canonical: https://unikorn.se/digital-strategies/
 hero:
   heading: Digital strategies
   text: Digital strategies
