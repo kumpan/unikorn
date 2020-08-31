@@ -12,7 +12,7 @@ hero:
   preamble: Processes & Ways of working
   featured_image:
     alt: Processes & Ways of working
-    src: ../assets/undraw_pair_programming_njlp.svg
+    src: ../assets/undraw_process_e90d.svg
   button: ""
 latest_posts_text: Processes & Ways of working
 posts_category: Digital Strategies
