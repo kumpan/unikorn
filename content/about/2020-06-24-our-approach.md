@@ -1,6 +1,6 @@
 ---
 shorttitle: Our approach
-title: Digital Strategies
+title: Our approach
 description: Behind every successful campaign, lies a vision of what to achieve,
   a plan of what to do and when for whom. Plus a consensus of what success is.
   In short, a strategy.
@@ -11,7 +11,7 @@ hero:
     a successful digital strategy. We know how to handle every aspect of your
     Digital Marketing.
   featured_image:
-    src: ../assets/sprinter-monochrome-_animated.svg
+    src: ../assets/our-approach.svg
     alt: Illustration
   button: Let us tell you more
   buttonlink: /about
