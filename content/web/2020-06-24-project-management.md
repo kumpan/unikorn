@@ -11,7 +11,7 @@ description: Project Management
 canonical: /web/project-management
 icon:
   alt: Project Management
-  src: ../assets/project-management.svg
+  src: ../assets/project-2-.svg
 hero:
   heading: Project Management
   preamble: Project Management
