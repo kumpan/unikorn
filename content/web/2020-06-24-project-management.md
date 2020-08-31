@@ -13,7 +13,7 @@ hero:
   preamble: Project Management
   featured_image:
     alt: Project Management
-    src: ../assets/choices-monochrome.png
+    src: ../assets/undraw_plans_y8ru-1-.svg
 latest_posts_text: More Web Magic
 posts_category: Web Magic
 ---
