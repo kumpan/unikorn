@@ -5,7 +5,7 @@ title: Channel strategies
 description: Channel strategies
 canonical: /digital-strategies/channel-strategies
 icon:
-  src: ../assets/bar.svg
+  src: ../assets/strategy.svg
   alt: Channel strategies
 hero:
   heading: Channel strategies
