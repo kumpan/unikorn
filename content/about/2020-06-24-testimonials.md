@@ -9,7 +9,7 @@ hero:
     a successful digital strategy. We know how to handle every aspect of your
     Digital Marketing.
   featured_image:
-    src: ../assets/drawkit-phone-conversation-monochrome_animated.svg
+    src: ../assets/undraw_loving_story_0j59.svg
     alt: Illustration
   button: ""
   buttonlink: ""
