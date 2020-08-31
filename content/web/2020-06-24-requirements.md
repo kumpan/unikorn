@@ -7,7 +7,7 @@ shortdesc: We help you writing up proper requirements for your developers, so
 title: Website Requirement Services
 description: Unikorn helps you with writing the best possible website
   requirements for your new shiny web. Let us help you shine!
-canonical: /web/website-requirements
+canonical: https://unikorn.se/web/website-requirements/
 icon:
   src: ../assets/requirement.svg
   alt: Website Requirements
@@ -20,7 +20,7 @@ hero:
   buttonlink: /contact
   button: Let's talk shiny webs!
   featured_image:
-    src: ../assets/error-404-monochrome.svg
+    src: ../assets/undraw_proud_coder_7ain-1-.svg
     alt: Web requirements
 latest_posts_text: Articles about Web
 posts_category: Web Magic
