@@ -18,7 +18,7 @@ hero:
     know all the pitfalls you should avoid. Also, we are good at doing the heavy
     lifting. "
   featured_image:
-    src: ../assets/drawkit-phone-conversation-monochrome_animated.svg
+    src: ../assets/undraw_order_delivered_p6ba.svg
     alt: Website Migration Services
   button: Please call me!
   buttonlink: /contact
