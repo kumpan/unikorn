@@ -22,17 +22,17 @@ tabs_section:
       text: Two decades of Organic and Paid Search has taught us the most successful
         ways of taming the search landscape for both well-known brands and
         start-ups. We call it Unikorn Search.
-      buttontext: Read more about Search
-      buttontext_mobile: Read more
+      buttontext: Read more about SEO
+      buttontext_mobile: Unikorn Search
       buttonlink: /seo
     - tab_title: Marketing
-      text: Decades of Digital Marketing has formed our way of successful and
-        aggressive Digital Marketing for both Start-ups and well established
+      text: Massive experience of Digital Marketing has formed our way of successful
+        and aggressive Digital Marketing for both Start-ups and well established
         organisations. We call it Unikorn Marketing.
       heading: Unikorn Marketing
       buttonlink: /marketing
       buttontext: Read more about Unikorn marketing
-      buttontext_mobile: Read more
+      buttontext_mobile: Unikorn Marketing
     - tab_title: Web
       heading: Unikorn Web
       text: Hundreds of web projects has given us a profound understanding of all the
@@ -44,10 +44,10 @@ tabs_section:
     - tab_title: Strategy
       heading: Unikorn Strategy
       text: How to walk the walk and talk the talk is all about knowing who you are
-        and where you are heading. You need a map to success. We call it Digital
-        Strategies.
+        and where you are heading. You need a map to success. We are talking
+        about Digital Strategies.
       buttontext: Read more about digital strategies
-      buttontext_mobile: Read more
+      buttontext_mobile: Digital Strategies
       buttonlink: /digital-strategies
 blog_section:
   pre_heading: Blog
