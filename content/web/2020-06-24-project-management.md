@@ -1,9 +1,11 @@
 ---
 shorttitle: Project Management
-shortdesc: Your new shiny web project need a Unikorn to be amazing. Cupcake
-  ipsum dolor sit. Amet jelly-o croissant sweet candy bonbon lollipop oat cake.
-title: Project Management
-description: Project Management
+shortdesc: The secret sauce lies in building the best web thing you possibly can
+  from the start. We can help you with planning the web project based on your
+  customers user intent, so that the customers more easily can interact with
+  your content.
+title: Web Project Management
+description: Web Project Management
 canonical: https://unikorn.se/web/project-management/
 icon:
   alt: Project Management
