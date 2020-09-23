@@ -1,13 +1,14 @@
 ---
-path: how-do-you-get-pages-to-rank-well-based-on-their -content?
-title: How do you get pages to rank well based on their content?
-description: How do you get pages to rank well based on their content?
-canonical: /blog/how-do-you-get-pages-to-rank-well-based-on-their-content
+path: Social Media Report Template
+title: How to create an easy report for Social Media
+description: Template for goal-oriented reporting of Social Media efforts.
+  Download the template here!
+canonical: /blog/social-media-reporting
 date: 2020-05-04T07:55:16.470Z
 author: Ulrika Viberg
 category: Unikorn Marketing
 featured_image:
-  src: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
+  src: ../assets/social-media-reporting.png
   alt: Nature
 preamble: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
   sollicitudin quam velit, nec posuere ante suscipit pharetra. Integer id eros
@@ -16,16 +17,10 @@ type: blog
 popup_btn: true
 image: ../assets/gray-bridge-and-trees-814499.jpg
 ---
-## Flexitarian photo booth cloud bed.
+If you want to work strategically and goal-oriented with social media, measurement and follow-up are A and O. But how do you start and what do you measure in different channels?
 
-I'm baby small batch viral wolf bushwick literally tousled tattooed hammock knausgaard subway tile. Chartreuse coloring book direct trade poke godard slow-carb. Woke try-hard ennui tacos. 
+Some time ago, I held a course in Social Media for a group of entrepreneurs, and at that time I developed a very simple template for SoMe reporting to start with if you haven't worked with statistics and follow-up for Social Media before. The template is a Google Docs and you want to copy it and use it for your own use by clicking on the link and save a copy.
 
-### Crucifix portland lyft
+The template contains a tab for Facebook, Instagram and Linkedin, but you have to fill in the numbers manually. The easiest way to download Facebook statistics is to download page data from Facebook insights. You can find the Instagram statistics directly in the Instagram app and the LinkedIn statistics can also be downloaded from your company page on Linkedin.
 
-Jianbing man bun glossier marfa kitsch selvage. Drinking vinegar ennui banjo tacos cloud bread chillwave selvage fanny pack gastropub trust fund flexitarian gochujang. Ugh quinoa man bun keffiyeh bespoke mixtape prism selfies portland cray YOLO plaid. Messenger bag live-edge organic ethical, slow-carb 3 wolf moon raw denim seitan yuccie trust fund pickled four dollar toast shaman.
-
-### Four dollar toasts go a long way
-
-Shabby chic edison bulb yr, celiac brooklyn pour-over retro. Tbh blue bottle migas post-ironic meggings gentrify tattooed cred. Asymmetrical art party swag hammock gastropub, vaporware lo-fi kogi before they sold out polaroid quinoa. Locavore bespoke gluten-free normcore fashion axe gochujang meggings tacos offal messenger bag lo-fi raclette.  
-
-Mlkshk chambray. Pour-over distillery banh mi franzen. Tofu ennui wolf, listicle gastropub trust fund vegan celiac cold-pressed umami subway tile tbh. Statement fashion axe gochujang meggings
+[Get the template here!](https://docs.google.com/spreadsheets/d/1asKWSB3evYE7Ob-6CEjiy_R9h9p52wnvbDALKc7VxZ4/edit?usp=sharing)
