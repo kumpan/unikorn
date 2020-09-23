@@ -9,10 +9,8 @@ author: Ulrika Viberg
 category: Unikorn Marketing
 featured_image:
   src: ../assets/social-media-reporting.png
-  alt: Nature
-preamble: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-  sollicitudin quam velit, nec posuere ante suscipit pharetra. Integer id eros
-  vulputate, aliquet ex eu, eleifend augue. "
+  alt: Social Media template
+preamble: "A ready-to-use template for SoMe reporting, made by Anna Råström. "
 type: blog
 popup_btn: true
 image: ../assets/gray-bridge-and-trees-814499.jpg
@@ -24,3 +22,7 @@ Some time ago, I held a course in Social Media for a group of entrepreneurs, and
 The template contains a tab for Facebook, Instagram and Linkedin, but you have to fill in the numbers manually. The easiest way to download Facebook statistics is to download page data from Facebook insights. You can find the Instagram statistics directly in the Instagram app and the LinkedIn statistics can also be downloaded from your company page on Linkedin.
 
 [Get the template here!](https://docs.google.com/spreadsheets/d/1asKWSB3evYE7Ob-6CEjiy_R9h9p52wnvbDALKc7VxZ4/edit?usp=sharing)
+
+By Anna Råström 
+
+2019, 11 April
