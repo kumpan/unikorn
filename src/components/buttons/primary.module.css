@@ -1,4 +1,4 @@
-.primary_btn a {
+.primary_btn a, .primary_btn span {
   display: inline-block;
   border-radius: 0px;
   width: 100%;
@@ -12,19 +12,23 @@
   background-color: var(--primary);
 }
 
-.primary_btn a:hover {
+.primary_btn a:hover, .primary_btn span:hover {
   text-decoration: none;
   background-color: var(--darkest-primary);
 }
 
+.primary_btn span:hover {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 767px) {
-  .primary_btn a {
+  .primary_btn a, .primary_btn span {
     width: auto;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .primary_btn a {
+  .primary_btn a, .primary_btn span {
     padding: 24px 32px;
   }
 }

@@ -7,7 +7,18 @@ import ContactPopup from "../components/contact/contactpopup.js"
 import Logo from "../../content/assets/logo-unikorn.svg"
 import { slugify } from "../global-functions.js"
 
+import { ModalProvider, ModalContext } from "./modal/modalContext";
 import Styles from "./nav.module.css"
+
+const ContactModal = () => {
+  let { handleModal } = React.useContext(ModalContext);
+
+  return (
+    <div id="nav-cta" className={Styles.nav_cta + " "} role="button" tabIndex="0" onClick={() => handleModal()}>
+      <span>Get in touch now</span>
+    </div>
+  );
+};
 
 class Nav extends Component {
   constructor(props) {
@@ -16,8 +27,7 @@ class Nav extends Component {
       showMenu: false,
       lastScrollPosition: 0,
       hideNavbar: false,
-      activeNavbar: false,
-      showContactPopup: false
+      activeNavbar: false
     }
   }
 
@@ -25,30 +35,6 @@ class Nav extends Component {
     window.addEventListener("scroll", this.navigationOnScroll);
   }
 
-  handleContactPopup = (e) => {
-    e.preventDefault()
-
-    document.getElementById( "nav-cta" ).blur()
-
-    let hash = window.location.hash
-
-    if(hash && hash === "#contact") {
-      window.location.href = ""
-    }
-  
-    if (this.state.showContactPopup === true ) {
-      this.setState({
-        showContactPopup: false
-      })
-      document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
-
-    } else {
-      this.setState({
-        showContactPopup: true
-      })
-      document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
-    }
-  }
 
   navigationOnScroll = () => {
     let newScrollPosition =  window.pageYOffset
@@ -105,17 +91,6 @@ class Nav extends Component {
   }
   
   render() {
-    let hash = window.location.hash
-
-    if(hash && hash === "#contact") {
-       //this.setState({ showContactPopup: true })
-      this.state.showContactPopup = true
-      document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
-    } else {
-      //this.setState({ showContactPopup: false })
-      this.state.showContactPopup = false
-      document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
-    }
 
     let location = this.props.location
     if (this.props.location.pathname) {
@@ -233,9 +208,9 @@ class Nav extends Component {
             </div>
           </div>
 
-          <div id="nav-cta" className={Styles.nav_cta + " " + (setPage ? Styles.nav_cta_type : " ")} role="button" tabIndex="0" onClick={this.handleContactPopup} onKeyDown={this.handleContactPopup}>
-            <span>Get in touch now</span>
-          </div>
+          <ModalProvider>
+            <ContactModal></ContactModal>
+          </ModalProvider>
 
           <div className={Styles.nav_button + " " + (this.state.showMenu ? Styles.opened : "")}
             onClick={this.toggleMenu}
@@ -248,9 +223,6 @@ class Nav extends Component {
             <span />
           </div>
         </nav>
-        <div className={"popup " + (this.state.showContactPopup ? "active" : "")}>
-          <ContactPopup handlePopup={this.handleContactPopup}/>
-        </div>
       </div>
     )
   }

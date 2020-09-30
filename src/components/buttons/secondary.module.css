@@ -1,4 +1,4 @@
-.secondary_btn a {
+.secondary_btn a, .secondary_btn span {
   border-radius: 0px;
   border: 2px solid var(--primary);
   width: 100%;
@@ -17,7 +17,7 @@
   justify-content: center;
 }
 
-.secondary_btn a:before {
+.secondary_btn a:before, .secondary_btn span:before {
   content: "";
   position: absolute;
   height: 100%;
@@ -29,11 +29,11 @@
   transition: all 0.2s ease-in-out;
 }
 
-.secondary_btn a:hover:before {
+.secondary_btn a:hover:before, .secondary_btn span:hover:before {
   width: 100%;
 }
 
-.secondary_btn a:hover {
+.secondary_btn a:hover, .secondary_btn span:hover {
   text-decoration: none;
   color: var(--white);
 }
