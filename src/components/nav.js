@@ -28,21 +28,24 @@ class Nav extends Component {
   handleContactPopup = (e) => {
     e.preventDefault()
 
-    document.getElementById( "nav-cta" ).blur()
-    
-    if (this.state.showContactPopup === true ) {
-      this.setState({
-        showContactPopup: false
-      })
-      document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
-
+    if(this.props.type) {
+      return;
     } else {
-      this.setState({
-        showContactPopup: true
-      })
-      document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
-    }
+      document.getElementById( "nav-cta" ).blur()
     
+      if (this.state.showContactPopup === true ) {
+        this.setState({
+          showContactPopup: false
+        })
+        document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
+
+      } else {
+        this.setState({
+          showContactPopup: true
+        })
+        document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
+      }
+    }
   }
 
   navigationOnScroll = () => {
@@ -153,6 +156,8 @@ class Nav extends Component {
       )
     });
 
+    const setPage = this.props.type ? true : false
+
     return (
       <div>
 
@@ -214,7 +219,7 @@ class Nav extends Component {
             </div>
           </div>
 
-          <div id="nav-cta" className={Styles.nav_cta} role="button" tabIndex="0" onClick={this.handleContactPopup} onKeyDown={this.handleContactPopup}>
+          <div id="nav-cta" className={Styles.nav_cta + " " + (setPage ? Styles.nav_cta_type : " ")} role="button" tabIndex="0" onClick={this.handleContactPopup} onKeyDown={this.handleContactPopup}>
             <span>Get in touch now</span>
           </div>
 

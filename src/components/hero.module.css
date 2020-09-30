@@ -88,12 +88,12 @@
   }
 
   .hero_section_image object, .hero_section_image img {
-    max-width: 50%;
+    max-width: 40%;
     right: 0;
   }
 
   .lower_img object, .lower_img img {
-    bottom: -1px;
+    bottom: 20px;
   }
 
   .btn_animation, .hero_section h1, .hero_section p, .hero_section .breadcrumbs {
@@ -149,7 +149,7 @@
   .fade .hero_section_image object, .fade .hero_section_image img {
     bottom: -60px;
     max-height: calc(100% - 130px);
-    max-width: 55%;
+    max-width: 45%;
   }
 }
 

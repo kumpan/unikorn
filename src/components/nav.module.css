@@ -223,6 +223,11 @@
     color: var(--primary);
     text-decoration: underline;
   }
+
+  /* For contact page */
+  .nav_cta_type span {
+    color: var(--primary);
+  }
 }
 
 @media screen and (min-width: 992px) {

@@ -9,6 +9,8 @@ import Styles from "./contactpopup.module.css"
 
 
 const ContactPopup = (props) => {
+  const contactPage = props.type ? true : false;
+
   const data = useStaticQuery(
     graphql`
       query {
@@ -92,10 +94,10 @@ const ContactPopup = (props) => {
   }
 
   return (
-    <div className={Styles.contact_popup}>
+    <div className={Styles.contact_popup + " " + (contactPage ? Styles.contact_popup_type : " ")}>
       <div className={Styles.contact_popup_row}>
         <div className={Styles.contact_popup_row_inner}>
-          <span className={Styles.close_icon} onClick={props.handlePopup} onKeyDown={handleCloseClick} role="button" tabIndex="0">
+          <span className={Styles.close_icon + " " + (contactPage ? Styles.close_icon_type : " ")} onClick={props.handlePopup} onKeyDown={handleCloseClick} role="button" tabIndex="0">
             <CloseIcon />
           </span>
           <div className={Styles.contact_popup_col1}>
