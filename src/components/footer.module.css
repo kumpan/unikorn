@@ -4,10 +4,6 @@
   background-color: var(--dark-primary);
 }
 
-.footerhide {
-  display: none;
-}
-
 .footer_wrapper {
   padding: 72px 16px 0;
 }

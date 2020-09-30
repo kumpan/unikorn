@@ -13,13 +13,6 @@
   animation: fadeIn .2s linear forwards;
 }
 
-/*  For contact-page */
-.contact_popup_type {
-  top: 75px;
-  z-index: 5;
-  padding-bottom: 120px;
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -104,11 +97,6 @@
   padding-top: 8px;
   cursor: pointer;
   outline: none;
-}
-
-/* For contact page */
-.close_icon_type {
-  display: none;
 }
 
 .close_icon svg {

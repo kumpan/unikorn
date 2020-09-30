@@ -13,7 +13,7 @@ hero:
     src: ../assets/digital-growth-unikorn.svg
     alt: Digital Growth
   button: Start growing now
-  buttonlink: /#contact
+  buttonlink: /marketing
 tabs_section:
   tabs_heading: We help our partners grow through well executed
   tab_fields:

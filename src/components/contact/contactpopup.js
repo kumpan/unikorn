@@ -9,7 +9,6 @@ import Styles from "./contactpopup.module.css"
 
 
 const ContactPopup = (props) => {
-  const contactPage = props.type ? true : false;
 
   const data = useStaticQuery(
     graphql`
@@ -94,7 +93,7 @@ const ContactPopup = (props) => {
   }
 
   return (
-    <div className={Styles.contact_popup + " " + (contactPage ? Styles.contact_popup_type : " ")}>
+    <div className={Styles.contact_popup}>
       <div className={Styles.contact_popup_row}>
         <div className={Styles.contact_popup_row_inner}>
           <div className={Styles.contact_popup_col1}>

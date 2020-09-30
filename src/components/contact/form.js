@@ -41,8 +41,6 @@ class Form extends Component {
   }
 
   handleCheckboxes = (event) => {
-    console.log(event.target.name, event.target.checked)
-
     if ( event.target.checked ) {
       this.setState({ 
         [event.target.name]: 

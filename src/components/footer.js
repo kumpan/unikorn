@@ -64,8 +64,6 @@ const Footer = (props) => {
   const footerData = data.allMdx.edges[0].node.frontmatter
   const columns = [footerData.col1, footerData.col2, footerData.col3, footerData.col4]
 
-  const hideFooter = props.hide ? true : false
-
   const columnElements = columns.length ? (
     columns.map(({ heading, text }, i) => {
       const htlmText = remark()
@@ -88,7 +86,7 @@ const Footer = (props) => {
   )
 
   return (
-    <div className={"footer " + Styles.footer + " " + (hideFooter ? Styles.footerhide : " ")}>
+    <div className={"footer " + Styles.footer}>
       {props.show_contact_info &&
         <ContactInfo />
       }

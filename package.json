@@ -16,7 +16,6 @@
     "gatsby-plugin-google-analytics": "^2.3.1",
     "gatsby-plugin-manifest": "^2.4.2",
     "gatsby-plugin-mdx": "^1.2.6",
-    "gatsby-plugin-modal-routing": "^1.2.0",
     "gatsby-plugin-netlify-cms": "^4.3.1",
     "gatsby-plugin-offline": "^3.2.1",
     "gatsby-plugin-react-helmet": "^3.3.1",

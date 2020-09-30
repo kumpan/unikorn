@@ -91,7 +91,6 @@ class Nav extends Component {
   }
   
   render() {
-
     let location = this.props.location
     if (this.props.location.pathname) {
       location = this.props.location.pathname
@@ -144,8 +143,6 @@ class Nav extends Component {
         </li>
       )
     });
-
-    const setPage = this.props.type ? true : false
 
     return (
       <div>
