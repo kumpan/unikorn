@@ -28,23 +28,25 @@ class Nav extends Component {
   handleContactPopup = (e) => {
     e.preventDefault()
 
-    if(this.props.type) {
-      return;
-    } else {
-      document.getElementById( "nav-cta" ).blur()
-    
-      if (this.state.showContactPopup === true ) {
-        this.setState({
-          showContactPopup: false
-        })
-        document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
+    document.getElementById( "nav-cta" ).blur()
 
-      } else {
-        this.setState({
-          showContactPopup: true
-        })
-        document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
-      }
+    let hash = window.location.hash
+
+    if(hash && hash === "#contact") {
+      window.location.href = ""
+    }
+  
+    if (this.state.showContactPopup === true ) {
+      this.setState({
+        showContactPopup: false
+      })
+      document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
+
+    } else {
+      this.setState({
+        showContactPopup: true
+      })
+      document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
     }
   }
 
@@ -103,6 +105,18 @@ class Nav extends Component {
   }
   
   render() {
+    let hash = window.location.hash
+
+    if(hash && hash === "#contact") {
+       //this.setState({ showContactPopup: true })
+      this.state.showContactPopup = true
+      document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
+    } else {
+      //this.setState({ showContactPopup: false })
+      this.state.showContactPopup = false
+      document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
+    }
+
     let location = this.props.location
     if (this.props.location.pathname) {
       location = this.props.location.pathname
