@@ -9,7 +9,6 @@ import Styles from "./contactpopup.module.css"
 
 
 const ContactPopup = (props) => {
-
   const data = useStaticQuery(
     graphql`
       query {
@@ -66,12 +65,6 @@ const ContactPopup = (props) => {
       }
     `
   )
-
-  const handleCloseClick = (e) => {
-    if (e.key === "Escape") {
-      props.handlePopup(e)
-    }
-  }
 
   const contactData = data.allMdx.edges[0].node.frontmatter
   const contactImg = contactData.featured_image
