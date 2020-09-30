@@ -62,7 +62,7 @@ const Contact = () => {
           description={pageData.description}
           canonical={pageData.canonical}
         />
-        <div className="test-class">
+        <div>
           <ContactPopup type={contactPage}/>
         </div>
     </Layout>
