@@ -5,7 +5,7 @@ import Styles from "./primary.module.css"
 
 import { ModalProvider, ModalContext } from "../modal/modalContext";
 
-const ModalButton = (props) => {
+const ContactModal = (props) => {
   let { handleModal } = React.useContext(ModalContext);
 
   return (
@@ -23,7 +23,7 @@ class PrimaryButton extends Component {
       <div className={Styles.primary_btn}>
         {link && link.includes("contact") ? (
         <ModalProvider>
-          <ModalButton name={text}></ModalButton>
+          <ContactModal name={text}></ContactModal>
         </ModalProvider>
         ) :
         link && !link.includes("mailto" || "call") ? (

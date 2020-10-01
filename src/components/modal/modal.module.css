@@ -1,13 +1,9 @@
 .closePopup {
-
   position: fixed;
   right: 55px;
   top: 10px;
   margin: 0;
-
   z-index: 9999;
-
-
   width: 56px;
   height: 56px;
   display: inline-block;
@@ -18,7 +14,6 @@
   cursor: pointer;
   outline: none;
 }
-
 
 .closePopup svg {
   width: 40px !important;
