@@ -3,7 +3,7 @@ path: vimeo-video
 title: Vimeo video
 description: Vimeo video
 canonical: /blog/vimeo-video
-date: 2020-05-13T13:39:54.006Z
+date: 2017-05-13T13:39:00.000Z
 author: Ulrika
 category: Digital Strategies
 featured_image:
