@@ -9,7 +9,7 @@ const ContactModal = (props) => {
   let { handleModal } = React.useContext(ModalContext);
 
   return (
-    <div className={Styles.primary_btn} onClick={() => handleModal()}>
+    <div className={Styles.primary_btn} role="button" tabIndex="0" onClick={() => handleModal()} onKeyPress={() => handleModal()}>
       <span>{props.name}</span>
     </div>
   );

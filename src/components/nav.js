@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import ChevronDownIcon from "../../content/assets/icons/chevron-down.svg"
 
 import ContactInfo from "../components/contact/contactinfo.js"
-import ContactPopup from "../components/contact/contactpopup.js"
 import Logo from "../../content/assets/logo-unikorn.svg"
 import { slugify } from "../global-functions.js"
 
@@ -14,7 +13,7 @@ const ContactModal = () => {
   let { handleModal } = React.useContext(ModalContext);
 
   return (
-    <div id="nav-cta" className={Styles.nav_cta + " "} role="button" tabIndex="0" onClick={() => handleModal()} onKeyDown={() => handleModal()}>
+    <div id="nav-cta" className={Styles.nav_cta + " "} role="button" tabIndex="0" onClick={() => handleModal()} onKeyPress={() => handleModal()}>
       <span>Get in touch now</span>
     </div>
   );
@@ -97,48 +96,48 @@ class Nav extends Component {
     }
 
     const aboutMenuItems = []
-    this.props.aboutPages.forEach(function (page) {
+    this.props.aboutPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
       const menuItemLink = slugify(menuItem)
 
       aboutMenuItems.push(
-        <li className={location === `/about/${menuItemLink}` ? Styles.active : ""}>
+        <li className={location === `/about/${menuItemLink}` ? Styles.active : ""} key={`${i}aboutmenu`}>
           <Link to={"/about/" + menuItemLink}>{menuItem}</Link>
         </li>
       )
     });
 
     const webMenuItems = []
-    this.props.webPages.forEach(function (page) {
+    this.props.webPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
       const menuItemLink = slugify(menuItem)
 
       webMenuItems.push(
-        <li className={location === `/web/${menuItemLink}` ? Styles.active : ""}>
+        <li className={location === `/web/${menuItemLink}` ? Styles.active : ""} key={`${i}webmenu`} >
           <Link to={"/web/" + menuItemLink}>{menuItem}</Link>
         </li>
       )
     });
 
     const marketingMenuItems = []
-    this.props.marketingPages.forEach(function (page) {
+    this.props.marketingPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
       const menuItemLink = slugify(menuItem)
 
       marketingMenuItems.push(
-        <li className={location === `/marketing/${menuItemLink}` ? Styles.active : ""}>
+        <li className={location === `/marketing/${menuItemLink}` ? Styles.active : ""} key={`${i}marketingmenu`}>
           <Link to={"/marketing/" + menuItemLink}>{menuItem}</Link>
         </li>
       )
     });
 
     const digitalMenuItems = []
-    this.props.digitalPages.forEach(function (page) {
+    this.props.digitalPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
       const menuItemLink = slugify(menuItem)
 
       digitalMenuItems.push(
-        <li className={location === `/digital-strategies/${menuItemLink}` ? Styles.active : ""}>
+        <li className={location === `/digital-strategies/${menuItemLink}` ? Styles.active : ""} key={`${i}digitalmenu`}>
           <Link to={"/digital-strategies/" + menuItemLink}>{menuItem}</Link>
         </li>
       )

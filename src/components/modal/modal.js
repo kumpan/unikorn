@@ -7,7 +7,7 @@ import Styles from "./modal.module.css"
 import ContactPopup from "../contact/contactpopup.js"
 
 const Modal = () => {
-  let { modalContent, handleModal, modal } = React.useContext(ModalContext);
+  let { handleModal, modal } = React.useContext(ModalContext);
   if (modal) {
     return ReactDOM.createPortal(
       <div
@@ -16,7 +16,8 @@ const Modal = () => {
       >
         <div className="bg-white relative p-5 shadow-lg rounded flex flex-col items-start text-lg text-gray-800">
           <div className={Styles.closePopup}
-            onClick={() => handleModal()}
+            role="button" tabIndex="0"
+            onClick={() => handleModal()} onKeyPress={() => handleModal()}
           >
             <CloseIcon />
           </div>
