@@ -3,7 +3,7 @@ path: Female-SEO-network-that-crosses-the-agency-borders
 title: Female SEO network that crosses the agency borders.
 description: Female SEO network that crosses the agency borders.
 canonical: /blog/female-seo-network-that-crosses-the-agency-borders
-date: 2020-05-06T07:53:20.801Z
+date: 2017-05-06T07:53:00.000Z
 author: Ulrika Viberg
 category: Web Magic
 featured_image:
