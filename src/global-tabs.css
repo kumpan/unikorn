@@ -107,7 +107,15 @@
   color: var(--secondary);
 }
 
+.reverse-color .tabs-wrapper .secondary_modal_btn span:hover {
+  color: var(--secondary);
+}
+
 .reverse-color .tabs-wrapper.active .secondary-btn a:hover {
+  color: var(--primary);
+}
+
+.reverse-color .tabs-wrapper.active .secondary_modal_btn span:hover {
   color: var(--primary);
 }
 

@@ -59,6 +59,11 @@ section {
   border-color: var(--white);
 }
 
+.light-text .secondary_modal_btn span {
+  color: var(--white);
+  border-color: var(--white);
+}
+
 .light-text .secondary-btn a svg {
   fill: var(--white);
 }
@@ -71,7 +76,15 @@ section {
   color: var(--primary);
 }
 
+.light-text .secondary_modal_btn span:hover {
+  color: var(--primary);
+}
+
 .light-text .secondary-btn a:before {
+  background-color: var(--white);
+}
+
+.light-text .secondary_modal_btn span:before {
   background-color: var(--white);
 }
 

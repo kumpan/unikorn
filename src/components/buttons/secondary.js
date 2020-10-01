@@ -4,13 +4,31 @@ import ArrowRightIcon from "../../../content/assets/icons/arrow-forward.svg"
 
 import Styles from "./secondary.module.css"
 
+
+import { ModalProvider, ModalContext } from "../modal/modalContext";
+
+const ContactModal = (props) => {
+  let { handleModal } = React.useContext(ModalContext);
+
+  return (
+    <div className={Styles.secondary_modal_btn + " secondary_modal_btn"} onClick={() => handleModal()}>
+      <span>{props.name}</span>
+    </div>
+  );
+};
+
 class SecondaryButton extends Component {
   render() {
     const { text, mobileBtn, link, arrow } = this.props
 
     return (
       <div className={Styles.secondary_btn + " secondary-btn " + (arrow ? Styles.arrow : "")}>
-        {link && !link.includes("mailto" || "call") && text && mobileBtn ? (
+        {link && link.includes("contact") ? (
+        <ModalProvider>
+          <ContactModal name={text}></ContactModal>
+        </ModalProvider>
+        ) :
+        link && !link.includes("mailto" || "call") && text && mobileBtn ? (
           <Link to={link}>
             <span className={Styles.large_btn_text}>{text}</span>
             {mobileBtn &&

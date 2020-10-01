@@ -79,6 +79,7 @@ const Layout = (props) => {
         This website uses cookies to ensure you get the best experience. <Link to="/cookie-policy">Read the policy here</Link>.
         <CloseIcon />
       </CookieConsent>
+      <div id="modal-root"></div>
     </div>
   )
 }
