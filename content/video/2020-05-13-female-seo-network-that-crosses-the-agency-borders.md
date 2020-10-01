@@ -3,7 +3,7 @@ path: Female-SEO-network-that-crosses-the-agency-borders-2
 title: Female SEO network that crosses the agency borders.
 description: Female SEO network that crosses the agency borders.
 canonical: /blog/female-seo-network-that-crosses-the-agency-borders-2
-date: 2020-05-01T07:50:37.897Z
+date: 2017-05-01T07:50:00.000Z
 author: Ulrika Viberg
 category: Unikorn Marketing
 featured_image:
