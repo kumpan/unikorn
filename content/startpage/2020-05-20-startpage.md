@@ -53,7 +53,7 @@ blog_section:
   pre_heading: Blog
   heading: The latest Unikorn knowledge
   button: Explore more articles
-  buttonlink: /blog
+  buttonlink: /blog/
 video_section:
   pre_heading: About Unikorn
   heading: What is Unikorn?
@@ -62,34 +62,40 @@ video_section:
     src: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
     alt: About Unikorn
   button: Learn more about us
-  buttonlink: /about-us
+  buttonlink: /about-us/
 faq_section:
   pre_heading: Frequently asked questions (FAQ)
   heading: Answering your questions
   faqs:
-    - question: Is Unikorn an SEO-, Media or a Web agency?
-      answer: >-
-        Unikorn is what you need it to be. We are a digital network agency,
-        meaning we have friends in our network with vast experience in all the
-        digital disciplines you would ever need. 
-
-
-        The benefit for you and your company is that you will only deal with the most experienced consultants in the business, regardless of your needs. There are no senior-consult-names-on-work-done-by-junior-consultants. We do have junior consultants as well, as we need to grow the industry and pay it forward, but they are always coached and no delivery leaves our mailbox until a senior has proofed it. This makes it a safe environment for both you and our junior Unikorns.
-    - question: Eller, det som får folk att köpa, som varför är SEO viktigt?
+    - question: What is SEO
       answer: Decades of Digital Marketing has formed our way of successful and
         aggressive Digital Marketing for both Start-ups and well established
         organisations. We call it Unikorn Marketing.
     - question: This new website will surprise the world greatly!
       answer: >-
-        It’s about making placeholder text great again. That’s what people want,
-        they want placeholder text to be great again. I think the only card she
-        has is the Lorem card.
+        SEO stands for Search Engine Optimisation, and is a collection of
+        disciplines to make your content rank for relevant search queries on
+        search engines. SEO is important for many websites, to make sure the
+        users are able to find and interact with the desired content, when they
+        search for it. 
 
 
-        We have so many things that we have to do better... and certainly ipsum is one of them. I was going to say something extremely rough to Lorem Ipsum, to its family, and I said to myself, "I can't do it. I just can't do it. It's inappropriate. It's not nice." I think the only difference between me and the other placeholder text is that I’m more honest and my words are more beautiful.
+        Disciplines in SEO are for example:
 
 
-        The best taco bowls are made in Trump Tower Grill. I love Hispanics! My text is long and beautiful, as, it has been well documented, are various other parts of my website. Lorem Ispum is a choke artist. It chokes!
+        * Technical optimisation
+
+        * Content Creation
+
+        * Links and authority building
+
+        * User engagement optimisation
+
+        * App Store Optimisation (ASO)
+
+        * YouTube Optimisation
+
+        * ...and more
     - question: This is another question?
       answer: >-
         It’s about making placeholder text great again. That’s what people want,
