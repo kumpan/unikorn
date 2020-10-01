@@ -1,32 +1,19 @@
 ---
-path: Female-SEO-network-that-crosses-the-agency-borders-2
-title: Female SEO network that crosses the agency borders.
+path: SEOGIRLS
+title: SEOGIRLS - a network for women in SEO.
 description: Female SEO network that crosses the agency borders.
-canonical: /blog/female-seo-network-that-crosses-the-agency-borders-2
+canonical: https://unikorn.se/blog/seogirls
 date: 2017-05-01T07:50:00.000Z
 author: Ulrika Viberg
-category: Unikorn Marketing
+category: Digital Strategies
 featured_image:
-  src: ../assets/gray-bridge-and-trees-814499.jpg
-  alt: Nature
-preamble: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-  sollicitudin quam velit, nec posuere ante suscipit pharetra. Integer id eros
-  vulputate, aliquet ex eu, eleifend augue.
-video_url: https://www.youtube.com/watch?v=DGQwd1_dpuc
+  src: ../assets/jennydrakenlind_20190926_0018_web.jpg
+  alt: SEOGIRLS
+preamble: SEOGIRL's September mingling at Valtech on 26/9 2019 was the first
+  SEOGIRLS in a new format with sponsoring companies and lectures.
+video_url: https://youtu.be/Ol-7SX0sJK8
 type: video
 popup_btn: true
 image: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
 ---
-## Flexitarian photo booth cloud bed.
-
-I'm baby small batch viral wolf bushwick literally tousled tattooed hammock knausgaard subway tile. Chartreuse coloring book direct trade poke godard slow-carb. Woke try-hard ennui tacos. 
-
-### Crucifix portland lyft
-
-Jianbing man bun glossier marfa kitsch selvage. Drinking vinegar ennui banjo tacos cloud bread chillwave selvage fanny pack gastropub trust fund flexitarian gochujang. Ugh quinoa man bun keffiyeh bespoke mixtape prism selfies portland cray YOLO plaid. Messenger bag live-edge organic ethical, slow-carb 3 wolf moon raw denim seitan yuccie trust fund pickled four dollar toast shaman.
-
-### Four dollar toasts go a long way
-
-Shabby chic edison bulb yr, celiac brooklyn pour-over retro. Tbh blue bottle migas post-ironic meggings gentrify tattooed cred. Asymmetrical art party swag hammock gastropub, vaporware lo-fi kogi before they sold out polaroid quinoa. Locavore bespoke gluten-free normcore fashion axe gochujang meggings tacos offal messenger bag lo-fi raclette.  
-
-Mlkshk chambray. Pour-over distillery banh mi franzen. Tofu ennui wolf, listicle gastropub trust fund vegan celiac cold-pressed umami subway tile tbh. Statement fashion axe gochujang meggings.
+Valtech showed what the new format should look like and invited over 70 SEO women in Stockholm to a very nice mingling in their nice premises.
