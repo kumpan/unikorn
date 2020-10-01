@@ -7,14 +7,12 @@ import Styles from "./secondary.module.css"
 
 import { ModalProvider, ModalContext } from "../modal/modalContext";
 
-const ModalThing = (props) => {
+const ModalButton = (props) => {
   let { handleModal } = React.useContext(ModalContext);
 
   return (
-    <div className={Styles.primary_btn}>
-      <span onClick={() => handleModal()}>
-        {props.name}
-      </span>
+    <div className={Styles.secondary_modal_btn + " secondary_modal_btn"} onClick={() => handleModal()}>
+      <span>{props.name}</span>
     </div>
   );
 };
@@ -27,7 +25,7 @@ class SecondaryButton extends Component {
       <div className={Styles.secondary_btn + " secondary-btn " + (arrow ? Styles.arrow : "")}>
         {link && link.includes("contact") ? (
         <ModalProvider>
-          <ModalThing name={text}></ModalThing>
+          <ModalButton name={text}></ModalButton>
         </ModalProvider>
         ) :
         link && !link.includes("mailto" || "call") && text && mobileBtn ? (
