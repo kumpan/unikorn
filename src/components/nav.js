@@ -14,7 +14,7 @@ const ContactModal = () => {
   let { handleModal } = React.useContext(ModalContext);
 
   return (
-    <div id="nav-cta" className={Styles.nav_cta + " "} role="button" tabIndex="0" onClick={() => handleModal()}>
+    <div id="nav-cta" className={Styles.nav_cta + " "} role="button" tabIndex="0" onClick={() => handleModal()} onKeyDown={() => handleModal()}>
       <span>Get in touch now</span>
     </div>
   );
