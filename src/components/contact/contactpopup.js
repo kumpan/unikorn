@@ -1,4 +1,4 @@
-import React  from "react"
+import React, { Component }  from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
@@ -7,7 +7,7 @@ import Form from "./form.js"
 import Styles from "./contactpopup.module.css"
 
 
-const ContactPopup = (props) => {
+const ContactContent = (props) => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -104,6 +104,23 @@ const ContactPopup = (props) => {
       </div>
     </div>
   )
+}
 
+class ContactPopup extends Component {  
+  componentDidMount() {
+    setTimeout(() => {
+      document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
+    }, 100)
+  }
+
+  componentWillUnmount() {
+    document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
+  }
+
+  render() {
+      return (
+        <ContactContent />
+      )
+  }
 }
 export default ContactPopup
