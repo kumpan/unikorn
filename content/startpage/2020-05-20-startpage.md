@@ -122,7 +122,7 @@ faq_section:
         Ulrika Viberg. 
 
 
-        The model is based on a traditional customer journey, with the phases awareness, interest, consideration, evaluation and conversion. As these phases well translates to the search intents of informational, transactional and commercial searches, they can be added as a layer on the customer journey.
+        The model is based on a traditional customer journey, with the phases awareness, interest, consideration, evaluation and conversion. As these phases translates to the search intents of informational, transactional and commercial searches, they can be added as a layer on the customer journey.
 
 
         As we often do customer journeys as a start-off in our web projects, it seemed logical to add a layer of search on top of it.
