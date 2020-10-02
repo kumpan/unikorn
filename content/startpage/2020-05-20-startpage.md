@@ -120,25 +120,18 @@ references_section:
         Monday Rebel and Unikorn have worked together in various projects, where Unikorn has proven to be very comfortable with complex business models, while always keeping a laser focus on the end user."
 
       person: Anna Råström - Owner MondayRebel.se
-    - tab_title: Felicia
-      heading: SEO and migration projects
-      text: "“The best taco bowls are made at Unikorn Grill. I love them! I'm speaking
-        for myself, number one, because I have a very good brain and I've said a
-        lot of things. It really doesn’t matter what you write as long as you’ve
-        got a beautiful piece of text.” "
-      person: Felicia Åkerlind, Project Manager at Vaengad.se
+    - tab_title: Per
+      heading: Project management and strategy in safe hands
+      text: "“Partnering up with Unikorn in a project means we get superb project
+        management and a solid strategy. Having that foundation when working
+        with UX design lets us at Kumpan achieve a better end product. Long live
+        our partnership with the mythological horned horse!” "
+      person: Per Riekkola, UX Designer at Kumpan
     - tab_title: David
       heading: New web and Digital Strategies
-      text: “The best taco bowls are made at Unikorn Grill. I love them! I'm speaking
-        for myself, number one, because I have a very good brain and I've said a
-        lot of things. It really doesn’t matter what you write as long as you’ve
-        got a beautiful piece of text.”
+      text: “Unikorn helped us plan and set requirements, as well as project manage
+        our new web Aritco.com. Having an experienced web project manager
+        helping us in the communication with the web developers, made the whole
+        experience much nicer and smoother.”
       person: David Schnell, Marketing Director at Aritco.com
-    - tab_title: Jens
-      heading: Growing our offices business online
-      text: "“The best taco bowls are made at Unikorn Grill. I love them! I'm speaking
-        for myself, number one, because I have a very good brain and I've said a
-        lot of things. It really doesn’t matter what you write as long as you’ve
-        got a beautiful piece of text.” "
-      person: "Jens, ERA Sweden "
 ---
