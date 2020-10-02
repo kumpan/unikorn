@@ -119,7 +119,7 @@ class ContactPopup extends Component {
 
   render() {
       return (
-        <ContactContent></ContactContent>
+        <ContactContent />
       )
   }
 }
