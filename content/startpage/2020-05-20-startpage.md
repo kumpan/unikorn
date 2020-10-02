@@ -112,11 +112,13 @@ references_section:
   references_tabs_heading: What do our friends and clients say about Unikorn
   reference_tab_fields:
     - tab_title: Anna
-      heading: A project partner in crime!
-      text: "“The best taco bowls are made at Unikorn Grill. I love them! I'm speaking
-        for myself, number one, because I have a very good brain and I've said a
-        lot of things. It really doesn’t matter what you write as long as you’ve
-        got a beautiful piece of text.” "
+      heading: "Our go-to strategic partner in web projects "
+      text: >+
+        "Unikorn is Monday Rebel’s preferred business partner for complex web
+        projects. 
+
+        Monday Rebel and Unikorn have worked together in various projects, where Unikorn has proven to be very comfortable with complex business models, while always keeping a laser focus on the end user."
+
       person: Anna Råström - Owner MondayRebel.se
     - tab_title: Felicia
       heading: SEO and migration projects
