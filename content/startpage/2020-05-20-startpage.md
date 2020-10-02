@@ -68,10 +68,6 @@ faq_section:
   heading: Answering your questions
   faqs:
     - question: What is SEO
-      answer: Decades of Digital Marketing has formed our way of successful and
-        aggressive Digital Marketing for both Start-ups and well established
-        organisations. We call it Unikorn Marketing.
-    - question: This new website will surprise the world greatly!
       answer: >-
         SEO stands for Search Engine Optimisation, and is a collection of
         disciplines to make your content rank for relevant search queries on
@@ -94,6 +90,30 @@ faq_section:
         * App Store Optimisation (ASO)
 
         * YouTube Optimisation
+
+        * ...and more
+    - question: What is Unikorn Marketing
+      answer: >-
+        Unikorn Marketing is an aggressive marketing and user focused way of
+        working we have developed at Unikorn. 
+
+
+        With aggressive we mean to help companies kick off their marketing efforts, or go-to-market phase, aggressively in order to gain as much traction as possible.  
+
+
+        Regardless of what channel or marketing technique is on the table, the user always has to be the deciding factor of what direction to take or action to be prioritised.
+
+
+        We sue the Unikorn Marketing focus on:
+
+
+        * SoMe
+
+        * SEO
+
+        * SEM
+
+        * Display
 
         * ...and more
     - question: This is another question?
