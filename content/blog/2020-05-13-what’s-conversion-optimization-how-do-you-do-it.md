@@ -17,7 +17,7 @@ type: blog
 popup_btn: true
 image: ../assets/gray-bridge-and-trees-814499.jpg
 ---
-There are usually two types of marketing, will hear about. They are Inbound and Outbound Marketing.
+Marketing is traditionally divided into two types. Inbound and Outbound Marketing.
 
 ![content marketing vs inbound marketing](../assets/content-marketing.jpg)
 
