@@ -116,14 +116,16 @@ faq_section:
         * Display
 
         * ...and more
-    - question: This is another question?
+    - question: What is a Search Customer Journey?
       answer: >-
-        It’s about making placeholder text great again. That’s what people want,
-        they want placeholder text to be great again. I think the only card she
-        has is the Lorem card.
+        A search customer journey is a model we use at Unikorn, developed by
+        Ulrika Viberg. 
 
 
-        We have so many things that we have to do better... and certainly ipsum is one of them. I was going to say something extremely rough to Lorem Ipsum, to its family, and I said to myself, "I can't do it. I just can't do it. It's inappropriate. It's not nice." I think the only difference between me and the other placeholder text is that I’m more honest and my words are more beautiful.
+        The model is based on a traditional customer journey, with the phases awareness, interest, consideration, evaluation and conversion. As these phases well translates to the search intents of informational, transactional and commercial searches, they can be added as a layer on the customer journey.
+
+
+        As we often do customer journeys as a start-off in our web projects, it seemed logical to add a layer of search on top of it.
   featured_image:
     src: ../assets/choices-monochrome.png
     alt: Unikorn FAQ
