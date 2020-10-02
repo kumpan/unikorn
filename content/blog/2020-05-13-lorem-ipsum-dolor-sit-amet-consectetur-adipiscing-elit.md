@@ -8,8 +8,8 @@ date: 2018-11-26T08:56:00.000Z
 author: Ulrika Viberg
 category: Unikorn Marketing
 featured_image:
-  src: ../assets/agency-collaboration.jpg
-  alt: Nature
+  src: ../assets/agency-collaboration.png
+  alt: Agency collaboration is like ballet
 preamble: Most companies take the support of agencies today to succeed with
   their digital marketing. Not everyone knows everything about everything, and
   luckily it is! Then it is good that there are skilled marketers who are
@@ -18,6 +18,8 @@ type: blog
 popup_btn: true
 image: ../assets/gray-bridge-and-trees-814499.jpg
 ---
+![Agency collaboration is like ballet](../assets/agency-collaboration.png)
+
 Last week, UNIKORN was invited by Svenska Möten to come and hold various discussion threads with their members about what to think about when hiring an agency for their marketing. Not only was it very nice to come and discuss these important topics, it was also incredibly interesting to hear what members thought about procuring agency services.
 
 Of course, we want to share what we talked about and came to, so here are some tips on things we think you should think about when you are about to enter into a partnership with an agency. If you have more tips, feel free to add them to the comments!
