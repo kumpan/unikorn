@@ -11,18 +11,27 @@ import BlogList from "../components/blog/blog-list.js"
 import BlogDate from "../components/blog/blog-date.js"
 import { truncateText } from "../global-functions.js"
 import VideoPopup from "../components/video/videopopup.js"
-import ContactPopup from "../components/contact/contactpopup.js"
 import ArrowButton from "../components/buttons/arrow-btn.js"
 import { closestByClass } from "../global-functions.js"
+import { ModalProvider, ModalContext } from "../components/modal/modalContext";
 
 import Styles from "./blog-post-single.module.css"
+
+const ContactModal = () => {
+  let { handleModal } = React.useContext(ModalContext);
+
+  return (
+    <div className={Styles.cta_link} onClick={() => handleModal()} onKeyPress={() => handleModal()} role="button" tabIndex="0">
+        <ArrowButton text="Get in touch now" />
+    </div>
+  );
+};
 
 class BlogTemplate extends Component {
   constructor(props) {
     super(props)
     this.state = { 
       showVideo: false,
-      showContactPopup: false,
       activeClass: ""
     }
 
@@ -53,23 +62,6 @@ class BlogTemplate extends Component {
     }
   }
 
-  handleContactPopup = (e) => {
-    e.preventDefault()
-    if (this.state.showContactPopup === true) {
-      this.setState({
-        showContactPopup: false
-      })
-      document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
-
-    } else {
-      this.setState({
-        showContactPopup: true
-      })
-      document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
-    }
-    
-  }
-
   render() {
     const post = this.props.data.currentPost
     const siteTitle = this.props.data.site.siteMetadata.title
@@ -97,10 +89,6 @@ class BlogTemplate extends Component {
         {this.state.showVideo && video_url &&
           <VideoPopup url={video_url} title={title} handleVideo={this.handleVideo}/>
         }
-
-        <div className={"popup " + (this.state.showContactPopup ? "active" : "")}>
-          <ContactPopup handlePopup={this.handleContactPopup}/>
-        </div>
 
         <div className={Styles.single_hero + " " + this.state.activeClass}>
           <div className={Styles.single_hero_inner}>
@@ -136,9 +124,9 @@ class BlogTemplate extends Component {
             </div>
 
             {popup_btn &&
-              <div className={Styles.cta_link} onClick={this.handleContactPopup} onKeyDown={this.handleContactPopup} role="button" tabIndex="0">
-                <ArrowButton text="Get in touch now" />
-              </div>
+              <ModalProvider>
+                <ContactModal></ContactModal>
+              </ModalProvider>
             }
           </div>
         </div>
