@@ -1,6 +1,6 @@
 ---
 path: Social Media Report Template
-title: How to create an easy report for Social Media
+title: How to create an easy-to-use report for Social Media
 description: Template for goal-oriented reporting of Social Media efforts.
   Download the template here!
 canonical: /blog/social-media-reporting
@@ -8,8 +8,8 @@ date: 2019-11-04T08:55:00.000Z
 author: Anna Råström
 category: Unikorn Marketing
 featured_image:
-  src: ../assets/social-media-reporting.png
-  alt: Social Media template
+  src: ../assets/pexels-jameson-mallari-atenta-4619829.jpg
+  alt: Social Media template Photo by Jameson Mallari Atenta
 preamble: If you want to work strategically and goal-oriented with social media,
   measurement and follow-up are crucial. But how do you start and what do you
   measure in different channels?
