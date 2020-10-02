@@ -19,6 +19,8 @@ image: ../assets/gray-bridge-and-trees-814499.jpg
 ---
 There are usually two types of marketing, will hear about. They are Inbound and Outbound Marketing.
 
+![content marketing vs inbound marketing](../assets/content-marketing.jpg)
+
 **Outbound Marketing** is what we might call traditional advertising, spreading its message in channels where you pay to be seen. For example, TV, outdoor advertising and newspapers but also digital (banners, search engine marketing, paid advertising in social media, etc.).
 
 **Inbound Marketing** is basically about trying to achieve the same thing but by disseminating content that is linked to what the customer wants to do (intention). The idea is that the customer himself, for example via searches on Google (or any other search engine) or via social media, should be able to take part in content that ultimately leads to a purchase.
@@ -29,7 +31,7 @@ Inbound Marketing is a whole system where **Content Marketing** is a part of the
 
 In that process, you need to work with several different parts such as landing pages, conversion optimization and marketing automation. Personally, I also see a value in combining inbound and outbound activities for the very best results, when you combine all the parts of the marketer's toolbox (including web development, product development and analysis) you can talk about **Growth Hacking**.
 
-## What channels do you talk about when you talk Inbound then? 
+## What channels do you talk about when you talk Inbound then?
 
 * SEO
 * Content
@@ -47,7 +49,7 @@ Once you have straightened out the purpose and goals, done your target group ana
 
 And the job does not end when the content is created. The chance that someone will find your content if you do not spend time and effort on marketing it is namely minimal.
 
-## The 80/20 rule 
+## The 80/20 rule
 
 Creating content is a rather time consuming process, at least if you want to do it well, expect it to always take longer than you think. A general rule for me and many others who work with content marketing is to spend 20% of the time and money on creating the content but 80% on spreading it. Without dissemination, the content has no value.
 
@@ -55,10 +57,8 @@ So my tip is to spend a lot of time producing really good content but quality ov
 
 A blog post can be a video that can be an infographic or a look at a podcast, but then of course it is good that it is good from the beginning. So work smart!
 
-## What do you think? 
+## What do you think?
 
 Are you also a content nerd or just interested in the subject. Do you agree or do you think I'm wrong up the walls? I am happy to discuss further on Linkedin.
 
 [Here you will find me](https://www.linkedin.com/in/annarastrom/) (I am very active and like to discuss).
-
-![]()
