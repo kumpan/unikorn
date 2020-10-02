@@ -20,7 +20,7 @@ image: ../assets/gray-bridge-and-trees-814499.jpg
 ---
 Last week, UNIKORN was invited by Svenska Möten to come and hold various discussion threads with their members about what to think about when hiring an agency for their marketing. Not only was it very nice to come and discuss these important topics, it was also incredibly interesting to hear what members thought about procuring agency services.
 
-Of course, we want to share what we talked about and came to, so here are some tips on things we think you should think about when you are about to enter into a partnership with an agency. </strong> If you have more tips, feel free to add them to the comments!
+Of course, we want to share what we talked about and came to, so here are some tips on things we think you should think about when you are about to enter into a partnership with an agency. If you have more tips, feel free to add them to the comments!
 
 ## 1. A good relationship is everything
 
