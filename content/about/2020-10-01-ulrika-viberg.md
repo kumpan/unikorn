@@ -19,7 +19,7 @@ hero:
 
 ![Ulrika Viberg](../assets/ulrikaviberg.png "Ulrika Viberg")
 
-Ulrika super powers are: 
+Ulrika's super powers are: 
 
 * Digital Strategies
 * Unikorn Marketing
