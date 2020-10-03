@@ -15,7 +15,7 @@ hero:
   button: Get in touch
   buttonlink: /contact
 ---
-### Ulrika Viberg is an experienced Digital Marketeer with 23+ years in the business, of which 13+ years in Search.
+### Experienced Digital Marketeer with 23+ years in the business
 
 ![Ulrika Viberg](../assets/ulrikaviberg.png "Ulrika Viberg")
 
