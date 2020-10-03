@@ -4,33 +4,33 @@ heading: This is what we do.
 col1:
   heading: Marketing
   text: |-
-    * Quinoa narwhal
-    * Whatever PBR&B
-    * Pour-over pug irony
-    * Blue bottle ramps
-    * Master cleanse scenester
+    * SEO
+    * Content Marketing
+    * SEM
+    * Social Media
+    * PR
 col2:
   heading: Web
   text: |-
-    * Letterpress blue bottle 
-    * Activated charcoal
-    * Truffaut kitsch enamel
-    * Pin palo santo
-    * Put a bird on it
+    * Website requirements 
+    * Technical Audits
+    * Website Migration
+    * Technical Project Management
+    * Web development
 col3:
   heading: Search
   text: |-
-    * Knausgaard enamel
-    * Pin hella migas
-    * Vaporware next level
-    * Single-origin coffee
-    * Street art
+    * Technical SEO 
+    * SEO PR
+    * PPC campaigns
+    * Content Marketing 
+    * SEO Audits
 col4:
   heading: Strategy
   text: |-
-    * Palo santo meditation
-    * Photo booth
-    * Keytar meh chia
-    * Seitan pitchfork
-    * Venmo copper
+    * Digital Startegies
+    * SEO Strategy
+    * Content Strategy
+    * Social Media Strategy
+    * Conversion Strategies
 ---
