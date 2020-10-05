@@ -11,5 +11,3 @@ hero:
     alt: privacy policy
 ---
 ## Soon to be more
-
-![cookie policy]()
