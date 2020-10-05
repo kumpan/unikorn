@@ -5,14 +5,7 @@ description: Digital Unikorn AB Privacy Policy
 canonical: /privacy-policy
 hero:
   heading: Privacy policy
-  text: |-
-    ##PRIVACY POLICY
-    1. Table of contents
-    2. Introduction
-    3. Controller
-    4. Consumer Rights
-    5. Overview
-    6. Processing of Data
+  text: "Your data is important! "
   featured_image:
     src: ../assets/privacy-policy.svg
     alt: Privacy Policy
