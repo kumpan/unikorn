@@ -1,31 +1,149 @@
 ---
 shorttitle: Privacy policy
 title: Privacy policy
-description: Privacy policy
+description: Digital Unikorn AB Privacy Policy
 canonical: /privacy-policy
 hero:
   heading: Privacy policy
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce finibus
-    nisl eu facilisis varius. Quisque id convallis dolor, faucibus lobortis
-    justo.
+  text: |-
+    ##PRIVACY POLICY
+    1. Table of contents
+    2. Introduction
+    3. Controller
+    4. Consumer Rights
+    5. Overview
+    6. Processing of Data
   featured_image:
-    src: ../assets/unlock-monochrome_animated.svg
-    alt: Illustration
+    src: ../assets/privacy-policy.svg
+    alt: Privacy Policy
 ---
-## Lorem ipsum dolor sit amet
+## PRIVACY POLICY
 
-Consectetur adipiscing elit. Fusce finibus nisl eu facilisis varius. Quisque id convallis dolor, faucibus lobortis justo. Morbi vel urna sit amet odio bibendum aliquam. Nam laoreet eget purus in malesuada. Suspendisse pellentesque commodo bibendum. Proin eu libero eros. In vel ultrices erat, quis pharetra mi. Ut tincidunt nunc mi, ac tristique sapien rutrum a.
+1. Table of contents
+2. Introduction
+3. Controller
+4. Consumer Rights
+5. Overview
+6. Processing of Data
 
-Duis urna est, convallis eu finibus nec, tempus vel nulla. Donec elit nisl, sagittis in dolor a, lobortis varius metus. Curabitur nec massa nec ex auctor viverra. In nisl dui, maximus nec sagittis non, suscipit a augue. Integer cursus massa quis ante viverra convallis. Suspendisse at ex leo. Nullam a pellentesque ex. Mauris nisi purus, sagittis in dictum ultrices, mattis ut turpis. Donec porta dignissim erat. Mauris vestibulum enim vel elit suscipit tristique. Proin mattis sapien eget interdum euismod. Ut laoreet mattis est at accumsan. Nam nec aliquet sapien.
+### 1.1 LAST UPDATED
 
-### Curabitur vestibulum eros vestibulum
+This privacy policy is last updated 10th of October 2020.
 
-Pharetra lectus a, lobortis ex. Etiam tincidunt eu nibh sit amet bibendum. Curabitur congue bibendum mi et malesuada. Nulla et cursus enim. Donec tempus vehicula consectetur. Nulla id dolor ut nulla varius rutrum. Etiam mi orci, hendrerit id diam quis, placerat convallis odio. Etiam nec luctus nunc, ac tempor elit. Integer at orci dapibus, pretium velit eu, finibus mauris. Proin et ipsum dolor. Quisque rhoncus mauris ligula, eget sollicitudin dui rutrum a. Pellentesque vel orci eget magna interdum consequat. Duis ut lacus ac leo tincidunt elementum sed quis odio. Proin maximus sapien neque, sed gravida ex finibus nec.
+## 2. INTRODUCTION
 
-### Nam auctor diam at imperdiet sagittis. 
+This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
-Mauris a dolor sit amet massa pharetra tristique. Nullam imperdiet lobortis risus eget faucibus. In neque nisl, porttitor quis imperdiet vel, vehicula nec ante. Fusce eget neque ornare, vehicula felis a, congue eros. Aliquam et dolor maximus, ullamcorper diam id, faucibus est. Cras vel enim eu libero pellentesque sodales. Vivamus eget elit scelerisque, sagittis lectus vel, ornare enim. Mauris vel ullamcorper lorem.
+We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from unikorn.se.
 
-### Aliquam sed sollicitudin magna, a laoreet quam. 
+## 3. CONTROLLER
 
-Sed tristique suscipit lorem, nec tempor ante bibendum at. Quisque rhoncus porttitor diam quis gravida. Donec ut sagittis neque, ac tristique justo. Fusce commodo, quam ac mattis sodales, ante mi suscipit turpis, id ultricies velit ipsum at augue. Integer ut dignissim nunc, ut dignissim ex. Sed vitae nisi urna. Integer sodales egestas congue. Phasellus hendrerit semper eros vitae lacinia. Vestibulum ac diam in tellus tincidunt vestibulum. Phasellus eget ullamcorper enim. Aliquam convallis luctus elementum. Integer faucibus interdum turpis id ullamcorper. Duis convallis est vel lacus commodo sollicitudin. Proin tempus a purus et volutpat.
+Digital Unikorn AB (“us”, “we”, or “our”) operates the unikorn.se website (the “Service”).
+
+### 3.1. SERVICE
+
+Service is the unikron.se website operated by Digtial Unikorn AB.
+
+### 3.2. DATA CONTROLLER
+
+Data Controller means the natural or legal person who (either alone or jointly or in common with other persons) determines the purposes for which and the way any personal information are, or are to be, processed.
+
+For the purpose of this Privacy Policy, we are a Data Controller of your Personal Data.
+
+### 3.3. DATA PROCESSORS (OR SERVICE PROVIDERS)
+
+Data Processor (or Service Provider) means any natural or legal person who processes the data on behalf of the Data Controller.
+
+We may use the services of various Service Providers in order to process your data more effectively.
+
+### 3.4. STORAGE LOCATION: GENERAL WHERE IS ALL INFORMATION STORED
+
+Data usage of the service is being stored anonymously in Google Analytics, Google Search Console and 3rd party data Tools such as Ryte.com and Ahreflang.com.
+
+## 4. CONSUMER RIGHTS
+
+Your Data Protection Rights Under General Data Protection Regulation (GDPR).
+
+If you are a resident of the European Economic Area (EEA), you have certain data protection rights. Digital Unikorn AB aims to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data.
+
+If you wish to be informed what Personal Data, we hold about you and if you want it to be removed from our systems, please contact us.
+
+In certain circumstances, you have the following data protection rights:
+
+* The right to access, update or to delete the information we have on you. Whenever made possible, you can access, update or request deletion of your Personal Data directly within your account settings section. If you are unable to perform these actions yourself, please contact us to assist you.
+
+* The right of rectification. You have the right to have your information rectified if that information is inaccurate or incomplete.
+
+* The right to object. You have the right to object to our processing of your Personal Data.
+
+* The right of restriction. You have the right to request that we restrict the processing of your personal information.
+
+* The right to data portability. You have the right to be provided with a copy of the information we have on you in a structured, machine-readable and commonly used format.
+
+* The right to withdraw consent. You also have the right to withdraw your consent at any time where Digital Unikorn AB relied on your consent to process your personal information.
+
+Please note that we may ask you to verify your identity before responding to such requests.
+
+You have the right to complain to a Data Protection Authority about our collection and use of your Personal Data. For more information, please contact your local data protection authority in the European Economic Area (EEA).
+
+### 5.1. DEFINITIONS
+
+#### 5.1.1. Personal Data
+
+Personal Data means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).
+
+#### 5.1.2. Usage Data
+
+Usage Data is data collected automatically either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).
+
+#### 5.1.3. Cookies
+
+Cookies are small pieces of data stored on your device (computer or mobile device).
+
+#### 5.1.4. Data Subject (or User)
+
+Data Subject is any living individual who is using our Service and is the subject of Personal Data.
+
+#### 5.1.5. Information Collection and Use
+
+We collect several different types of information for various purposes to provide and improve our Service to you.
+
+### 5.2. TYPES OF DATA COLLECTED
+
+#### 5.2.1. Personal Data
+
+While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (“Personal Data”). Personally identifiable information may include, but is not limited to:
+
+* Email address
+
+* First name and last name
+
+#### 5.2.2. Usage Data
+
+We may also collect information how the Service is accessed and used (“Usage Data”). This Usage Data may include information such as your computer’s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+
+#### 5.2.3. Location Data
+
+We may use and store information about your location if you give us permission to do so (“Location Data”). We use this data to provide features of our Service, to improve and customize our Service.
+
+You can enable or disable location services when you use our Service at any time, through your device or browser settings.
+
+## 6. PROCESSING OF DATA
+
+Digital Unikorn AB uses the collected data for various purposes:
+
+* To provide and maintain our Service
+
+* To reply to any request made by the user
+
+* To notify you about changes to our Service
+
+* To allow you to participate in interactive features of our Service when you choose to do so
+
+* To gather analysis or valuable information so that we can improve our Service
+
+* To monitor the usage of our Service
+
+* To detect, prevent and address technical issues
+
+* To provide you with news, special offers and general information about our service, unless you have opted not to receive such information
