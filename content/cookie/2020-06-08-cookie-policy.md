@@ -2,7 +2,7 @@
 shorttitle: Cookie policy
 title: Cookie policy
 description: Cookie policy
-canonical: /cookie-policy
+canonical: https://www.unikorn.se/cookie-policy
 hero:
   heading: Cookie policy
   text: We have cookies!
