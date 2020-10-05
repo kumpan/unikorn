@@ -3,7 +3,7 @@ shorttitle: Startpage
 title: SEO, Web Projects, Digital Strategies
 description: We help companies with Digital Strategies and Advanced SEO. Read
   more about how can we help you gain more relevant and converting traffic!
-canonical: https://unikorn.se/
+canonical: https://www.unikorn.se
 hero:
   heading: Grow your digital presence online.
   text: We’re your best friend when it comes to helping you find the path to a
