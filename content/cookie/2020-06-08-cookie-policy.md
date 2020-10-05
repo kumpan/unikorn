@@ -7,7 +7,9 @@ hero:
   heading: Cookie policy
   text: Will soon be updated with proper information about our cookie policy.
   featured_image:
-    src: ../assets/privacy-policy.png
+    src: ../assets/cookie-policy.svg
     alt: privacy policy
 ---
-![cookie policy](../assets/cookies.gif)
+## Soon to be more
+
+![cookie policy]()
