@@ -1,9 +1,8 @@
 ---
-shorttitle: Ulrika Viberg
-title: Ulrika Viberg - Founder and owner of Unikorn
-description: Experienced Digital Marketeer with 23+ years in the working with
-  web projects, of which 13+ years in Search - both organic and paid..
-canonical: https://unikorn.se/about/ulrika-viberg
+shorttitle: Unikorns
+title: We are Unikorns!
+description: Meet the people at Unikorn
+canonical: https://unikorn.se/about/unikorns
 hero:
   featured_image:
     src: ../assets/digital-growth-unikorn.svg
