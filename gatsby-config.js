@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://unikorn.se/`,
   },
   plugins: [
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-mdx`,
     `gatsby-plugin-sharp`,
@@ -197,6 +198,26 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: 'https://www.unikorn.se',
+        sitemap: 'https://www.unikorn.se/sitemap.xml',
+        policy: [{ userAgent: '*', disallow: '/admin'}]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-N8972BK",
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
