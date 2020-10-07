@@ -56,10 +56,10 @@ blog_section:
   buttonlink: /blog/
 video_section:
   pre_heading: About Unikorn
-  heading: What is Unikorn?
-  video_url: https://www.youtube.com/watch?v=V_BQSh74sC8&t=3s
+  heading: What we can do for you!
+  video_url: https://youtu.be/XRJTCGoplC8
   video_image:
-    src: ../assets/aerial-view-beach-beautiful-cliff-462162.jpg
+    src: ../assets/screenshot-2020-10-07-at-16.44.18.png
     alt: About Unikorn
   button: Learn more about us
   buttonlink: /about-us/
