@@ -208,7 +208,35 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        output: `/sitemap.xml`
+        output: `/sitemap.xml`,
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+          allSitePage {
+            edges {
+              node {
+                path
+                context {
+                  lastmod
+                }
+              }
+            }
+          }
+        }
+      `,
+      serialize: ({ site, allSitePage }) => {
+        return allSitePage.edges
+          .map(({ node }) => {
+            return {
+              url: site.siteMetadata.siteUrl + node.path,
+              lastmodISO: node.context.lastmod
+            };
+          });
+      },
       }
     },
     {

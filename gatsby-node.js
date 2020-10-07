@@ -27,6 +27,11 @@ exports.createPages = ({ graphql, actions }) => {
                 title
                 path
               }
+              parent {
+                ... on File {
+                  mtime
+                }
+              }
             }
           }
         }
@@ -43,6 +48,11 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 shorttitle
                 path
+              }
+              parent {
+                ... on File {
+                  mtime
+                }
               }
             }
           }
@@ -61,6 +71,11 @@ exports.createPages = ({ graphql, actions }) => {
                 shorttitle
                 path
               }
+              parent {
+                ... on File {
+                  mtime
+                }
+              }
             }
           }
         }
@@ -78,6 +93,11 @@ exports.createPages = ({ graphql, actions }) => {
                 shorttitle
                 path
               }
+              parent {
+                ... on File {
+                  mtime
+                }
+              }
             }
           }
         }
@@ -94,6 +114,11 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 shorttitle
                 path
+              }
+              parent {
+                ... on File {
+                  mtime
+                }
               }
             }
           }
@@ -118,6 +143,7 @@ exports.createPages = ({ graphql, actions }) => {
         component: blogPost,
         context: {
           slug: post.node.fields.slug,
+          lastmod: post.node.parent.mtime
         },
       })
     })
@@ -129,6 +155,7 @@ exports.createPages = ({ graphql, actions }) => {
         component: aboutPost,
         context: {
           slug: post.node.fields.slug,
+          lastmod: post.node.parent.mtime
         },
       })
     })
@@ -140,6 +167,7 @@ exports.createPages = ({ graphql, actions }) => {
         component: webPost,
         context: {
           slug: post.node.fields.slug,
+          lastmod: post.node.parent.mtime
         },
       })
     })
@@ -151,6 +179,7 @@ exports.createPages = ({ graphql, actions }) => {
         component: marketingPost,
         context: {
           slug: post.node.fields.slug,
+          lastmod: post.node.parent.mtime
         },
       })
     })
@@ -162,6 +191,7 @@ exports.createPages = ({ graphql, actions }) => {
         component: digitalPost,
         context: {
           slug: post.node.fields.slug,
+          lastmod: post.node.parent.mtime
         },
       })
     })
