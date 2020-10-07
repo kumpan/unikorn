@@ -6,7 +6,6 @@ module.exports = {
     siteUrl: `https://unikorn.se/`,
   },
   plugins: [
-    `gatsby-plugin-netlify`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-mdx`,
     `gatsby-plugin-sharp`,
