@@ -222,6 +222,7 @@ module.exports = {
                 path
                 context {
                   lastmod
+                  slug
                 }
               }
             }
@@ -231,9 +232,17 @@ module.exports = {
       serialize: ({ site, allSitePage }) => {
         return allSitePage.edges
           .map(({ node }) => {
+            let slug = node.context.slug
+
+            if(slug !== null) {
+              let splitslash = slug.split("/")
+              let splitdash = splitslash[1].split("-")
+              var newslug = splitdash[0] + "-" + splitdash[1] + "-" + splitdash[2]
+            }
+
             return {
               url: site.siteMetadata.siteUrl + node.path,
-              lastmodISO: node.context.lastmod
+              lastmodISO: newslug ? newslug : node.context.slug
             };
           });
       },
