@@ -16,7 +16,7 @@ hero:
   button: Let us tell you more
   buttonlink: /about
 ---
-## **One size fits No-on**
+## **One size fits No-one**
 
 A solid digital strategy is not about packaged solutions with silver or gold names, it is a tailored solution designed for your needs.
 
