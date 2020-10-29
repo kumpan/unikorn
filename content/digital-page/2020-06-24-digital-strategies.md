@@ -7,8 +7,8 @@ hero:
   heading: Digital strategies
   text: A strategy is your map to success! Creating your map to success starts
     with looking where you are and where you are going, how you are going there
-    and what means you have at hand to facilitate it. Only yuo have the answers,
-    but we can help you by asking the right questions.
+    and what means you have at hand to facilitate it. Only you have the answers
+    - but we can help by asking the right questions.
   featured_image:
     src: ../assets/sprinter-monochrome-_animated.svg
     alt: Digital strategies
