@@ -20,7 +20,7 @@ popup_btn: true
 
 **Marketers have used the custom journey model for years, for tailoring the right message at the right time for the right person.** This is crucial in a landscape where all advertisers fight for  the customer’s attention and money. Now, we should bring that model to search and create a search customer journey, focusing on what the customer is looking for and returning relevant content! 
 
-Some time ago, I was interviewed for a podcast about what a modern keyword research process looks like, and how I do it. Keyword analysis is an essential part of the SEO work, but done wrongly it can actually be more hurtful than helpful. 
+Some time ago, I was interviewed for a [podcast ](https://tonyhammarlund.io/seo-anvandaren-fokus-52/)about what a modern keyword research process looks like, and how I do it. Keyword analysis is an essential part of the SEO work, but done wrongly it can actually be more hurtful than helpful. 
 
 It is easy to lose sight of relevance, especially when we start chasing golden nuggets. You know, that magic low or medium competition keyword with tons of search volume. That unused search phrase everyone is using when searching and none of the competitors are using. **You know what I am talking about - A low hanging fruit!** 
 
