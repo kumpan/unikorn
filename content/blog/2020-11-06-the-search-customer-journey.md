@@ -26,7 +26,7 @@ It is easy to lose sight of relevance, especially when we start chasing golden n
 
 Just remember - not everything that glitters is gold. It is easy to be blinded and lose sight of relevance when you narrow down on looking for keywords for a specific page or topic. Let me give you an example.
 
-In Sweden you cannot pick up a bottle of wine at the supermarket, we have something called Systembolaget. It is the government-owned chain of liquor stores for beverages with an alcohol percentage over 3,5%. They are very helpful when it comes to picking the right kind of wine or beer. Many of the salespersons are trained sommeliers and you can get advice on wine and food pairings on their site. 
+In Sweden you cannot pick up a bottle of wine at the supermarket, we have something called *Systembolaget*. It is the government-owned chain of liquor stores for beverages with an alcohol percentage over 3,5%. They are very helpful when it comes to picking the right kind of wine or beer. Many of the salespersons are trained sommeliers and you can get advice on wine and food pairings on their site. 
 
 I noticed that Systembolaget had optimised their pages about what type of beverage to pair with a specific dish with the search phrase “*wine and food*” instead of “*wine with food*”. “*Wine and food*” has a much higher search volume than the phrase “*wine with food*” and they are very similar. But the search intentions are different. 
 
@@ -54,9 +54,9 @@ After we add everything together, we get a map of a full search customer journey
 
 Now you have a solid foundation for your keyword strategy. Page by page. Tone of voice, keywords, goals with the content and ultimately what to measure and what KPIs to use.
 
-You can also take this a step further, and build your entire content structure and content plan, based on a keyword strategy that focuses on what content will be the touch points where you meet your customers!
+You can also take this a step further, and build your entire content structure and content plan, based on a keyword strategy that focuses on what content will be the touch points where you meet your customers.
 
-Because a more relevant and intuitive content structure that delights your users, will make them trust you more and eventually buy more often from you. And as we say: happy users - happy search engine and happy search engine ranking your content gives a happy business!
+Because, a more relevant and intuitive content structure that delights your users, will make them trust you more and eventually buy more often from you. And as we say: happy users - happy search engine, and happy search engine ranking your content - happy business!
 
 ## Awareness
 
@@ -68,26 +68,26 @@ Yes, this is very hard! We are all in a few hundred awareness phases at any give
 
 If the brand indeed caught the users attention, the user might be a bit interested in knowing more about the brand, product or service and hopefully they start googling. They search for generic pieces of information, questions and broader topics. The goal here is to make the user even more interested in the product or service.
 
-You do this by meeting the user on the search engine, with well written titles and descriptions, leading to a landing page where you reflect the problem the user might have. Be creative - you can pinpoint most of them. If you can't, ask customer services what your customers need you stuff for.
+You do this by meeting the user on the search engine, with well written titles and descriptions, leading to a landing page where you reflect the problem the user might have. Be creative - you can pinpoint most of them. If you can't, ask customer services what your customers need your stuff for.
 
 ## Consideration
 
 If you succeed in convincing the user to consider that there is a need and the solution for that need might be your product or service. The user starts searching for more details using more long-tail searches, more detailed questions and generic product searches. The goal is to make the user consider your solution, when the user needs it.
 
-Yes, you are there in the SERP again, this time with a stronger and more USP focused result and set of product pages, with the full arsenal of value propositions and arguments on why you indeed have the remedy for their itch.
+Yes, you are there in the SERP again, this time with a stronger and more USP focused set of product pages, with the full arsenal of value propositions and arguments on why you indeed have the remedy for their itch.
 
 ## Evaluation
 
-The user has more or less decided that they do need what you are selling. They are just not convinced yet that you and your product or service are the best option in providing them with it and are now evaluating their options. The potential customer searches to see if another provider has a better solution, if there is someone else who has bought the product and made a review on the interwebs. The goal is to make the user feel secure enough to choose your brand before any competitors.
+The user has more or less decided that they do need what you are selling. They are just not convinced yet that you and your product or service are their best option in providing them with it, and are now evaluating their options. The potential customer searches to see if any other provider has a better solution, if there is someone who has bought the product and left a review or testimonial. The goal is to make the user feel secure enough to choose your brand before any competitors.
 
-There is probably money involved in the decision, and the users are careful who they give their money to. You need to dazzle the customer with your top of the line services, 5-star reviews and warm recommendations, so that soon-to-be buyers don't buy somewhere else.
+There is probably money involved in the decision, and the users are careful to whom they give their money. You need to dazzle the customer with your top-of-the-line services, 5-star reviews and warm recommendations, so that soon-to-be buyers don't buy somewhere else.
 
 ## Purchase
 
-The user clicked on the buy-button and the thing is now in the cart. One more thing before you have a done conversion - payment. The customer wants the best deal, and doesn’t really believe you when you say you have the best there is. They go back to google and search for lower prices, discounts and coupons. If they also live in Sweden, they will definitely search for a smoother and faster delivery option (that doesn’t involve waiting a month and paying extra taxes). The Goal is to make the user stay and go through with the conversion, without leaving the basket before check-out.
+The user clicked on the buy-button and the thing is now in the cart. One more thing before you have a done conversion - payment. The customer wants the best deal, and doesn’t really believe you when you say you have the best there is. They go back to Google and search for lower prices, discounts and coupons. If they also live in Sweden, they will definitely search for a smoother and faster delivery option (that doesn’t involve waiting a month and paying extra taxes). The Goal is to make the user stay and go through with the conversion, without leaving the basket before check-out.
 
 Many users are also concerned with the available payment options. Giving up credit card numbers on the internet is not hot anymore. You make the user stay by having all the information needed about all these concerns, visible. Have an ongoing CRO process implemented, see where the drop offs are.
 
 ## More questions?
 
-If you want to discuss this further about how your company can implement a Search Customer Journey, please give me shout!
+There you have it! Easy peasy, after a few errors and do-overs. If you want to discuss this further, and how we can help your company to implement a Search Customer Journey, please give me shout!
