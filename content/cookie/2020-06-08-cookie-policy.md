@@ -16,4 +16,4 @@ To learn more about how we use cookies, view the [Privacy Policy](https://unikor
 
 By clicking “I accept” or “X” on the banner or using our site, you consent to the use of cookies unless you have disabled them.
 
-![cookies]()
+![cookies](../assets/screenshot-2020-11-06-at-11.17.17.png)
