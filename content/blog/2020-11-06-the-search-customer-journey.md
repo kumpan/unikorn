@@ -22,21 +22,21 @@ popup_btn: true
 
 Some time ago, I was interviewed for a podcast about what a modern keyword research process looks like, and how I do it. Keyword analysis is an essential part of the SEO work, but done wrongly it can actually be more hurtful than helpful. 
 
-It is easy to lose sight of relevance, especially when we start chasing golden nuggets. You know, that magic low or medium competition keyword with tons of search volume. That unused search phrase everyone is using when searching and none of the competitors are using. You know what I am talking about - A low hanging fruit! 
+It is easy to lose sight of relevance, especially when we start chasing golden nuggets. You know, that magic low or medium competition keyword with tons of search volume. That unused search phrase everyone is using when searching and none of the competitors are using. **You know what I am talking about - A low hanging fruit!** 
 
 Just remember - not everything that glitters is gold. It is easy to be blinded and lose sight of relevance when you narrow down on looking for keywords for a specific page or topic. Let me give you an example.
 
 In Sweden you cannot pick up a bottle of wine at the supermarket, we have something called Systembolaget. It is the government-owned chain of liquor stores for beverages with an alcohol percentage over 3,5%. They are very helpful when it comes to picking the right kind of wine or beer. Many of the salespersons are trained sommeliers and you can get advice on wine and food pairings on their site. 
 
-I noticed that Systembolaget had optimised their pages about what type of beverage to pair with a specific dish with the search phrase “wine and food” instead of “wine with food”. “Wine and food” has a much higher search volume than the phrase “wine with food” and they are very similar. But the search intentions are different. 
+I noticed that Systembolaget had optimised their pages about what type of beverage to pair with a specific dish with the search phrase “*wine and food*” instead of “*wine with food*”. “*Wine and food*” has a much higher search volume than the phrase “*wine with food*” and they are very similar. But the search intentions are different. 
 
 When googling the two phrases you can see there is a difference in how Google interprets the search intent behind the phrases. Where the one is about food pairing and the other about where to wine and dine.
 
 ![search intents matter](../assets/wine-and-or-dine.png)
 
-What happens when you miss the mark of relevance, is that you get a lot of impressions and clicks, but also lots of bounces and other signals telling you your visitors weren't happy with what you served them. It’s easy to lose sight without a strategy. Let’s up the game a bit and do a Search Customer Journey!
+What happens when you miss the mark of relevance, is that you get a lot of impressions and clicks, but also lots of bounces and other signals telling you your visitors weren't happy with what you served them. It’s easy to lose sight without a strategy. **Let’s up the game a bit and do a Search Customer Journey!**
 
-A search customer journey is the traditional customer journey model used by your marketing department, with a layer of search intent on top of it. Then, add content touchpoints and we end up with a site structure that is relevant for all users, throughout the whole decision process!
+A search customer journey is the traditional customer journey model used by your marketing department, with a layer of search intent on top of it. Then, add content touch points and we end up with a site structure that is relevant for all users, throughout the whole decision process!
 
 The customer journey model is a model of a decision process. The model is supposed to reflect users going from one phase to the other and the other etc, until making a conversion. We all know this is actually not how a human mind works and not how everyone is deciding on their purchases. We jump back and forth all over the place. It doesn’t matter - the model still works as a model.
 
