@@ -8,15 +8,15 @@ date: 2020-11-06T09:59:17.272Z
 author: Ulrika Viberg
 category: Unikorn Marketing
 featured_image:
-  src: ../assets/search-customer-journey.png
-  alt: Search Customer Journey
+  src: ../assets/connected-customer.jpg
+  alt: Connected Customer with Search Customer Journey
 preamble: Your users love relevance and feeling connected with the brands they
   interact with. In this article I will help you get a more relevant and
   intuitive content structure, using the Search Customer Journey model.
 type: blog
 popup_btn: true
 ---
-![](../assets/connected-customer.jpg)
+![Connected Customer with Search Customer Journey](../assets/connected-customer.jpg)
 
 **Marketers have used the custom journey model for years, for tailoring the right message at the right time for the right person.** This is crucial in a landscape where all advertisers fight for  the customer’s attention and money. Now, we should bring that model to search and create a search customer journey, focusing on what the customer is looking for and returning relevant content! 
 
