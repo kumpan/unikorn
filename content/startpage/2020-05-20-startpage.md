@@ -104,7 +104,7 @@ faq_section:
         Regardless of what channel or marketing technique is on the table, the user always has to be the deciding factor of what direction to take or action to be prioritised.
 
 
-        We sue the Unikorn Marketing focus on:
+        We use the Unikorn Marketing focus on:
 
 
         * SoMe
