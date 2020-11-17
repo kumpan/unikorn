@@ -19,7 +19,7 @@ hero:
 latest_posts_text: Processes & Ways of working
 posts_category: Digital Strategies
 ---
-> ## If you work too hard to get sh*t done, you are doing it wrong
+## If you work too hard to get sh*t done, you are doing it wrong
 
 Most people want to become better at what they do while getting more results out of the same efforts. To get there, a set of agreed ways of working and a couple of cross functional processes is key. 
 
