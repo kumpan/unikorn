@@ -3,7 +3,7 @@ shorttitle: Processes & Ways of working
 shortdesc: Processes & Ways of working
 title: Processes & Ways of working
 description: Processes & Ways of working
-canonical: https://unikorn.se/digital-strategies/processes
+canonical: https://www.unikorn.se/digital-strategies/processes
 icon:
   src: ../assets/together.svg
   alt: Work processes
