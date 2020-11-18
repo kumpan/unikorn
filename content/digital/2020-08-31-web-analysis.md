@@ -4,7 +4,7 @@ shortdesc: Web Analysis and Measuring
 title: Web Analysis and Measuring
 description: "Obviously you want to your shiny web thing do really well. To know
   what to do better, you need to measure it right! "
-canonical: https://unikorn.se/digital-strategies/web-analysis
+canonical: https://www.unikorn.se/digital-strategies/web-analysis
 icon:
   alt: Web Analysis
   src: ../assets/stats.svg
@@ -22,7 +22,7 @@ posts_category: Digital Strategies
 ---
 ## Stats or it didn't happen!
 
-Having your website performance measured well and set up is key to learn from both your wins and mistakes. How can otherwise do better and get even greater results.
+Having your website performance measured well and set up is key to learn from both your wins and mistakes. How can you otherwise do better and get even greater results.
 
 ### Unikorn can help you with:
 
@@ -30,7 +30,5 @@ Having your website performance measured well and set up is key to learn from bo
 * Set them up in your preferred analytics tool
 * Testing and making sure the events and goals are fired and measured
 * Setting up dashboards and reports to be sent as often as you need them.
-
-
 
 **If you want Rainbows and Unikorns in your reports, [let us know!](/contact)**
