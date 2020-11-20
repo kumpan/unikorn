@@ -14,7 +14,7 @@ hero:
   featured_image:
     alt: Processes & Ways of working
     src: ../assets/undraw_process_e90d.svg
-  button: Get in touch if you want us to help you!
+  button: Get in touch if you need our help!
   buttonlink: /contact
 latest_posts_text: Processes & Ways of working
 posts_category: Digital Strategies
@@ -23,10 +23,12 @@ posts_category: Digital Strategies
 
 Most people want to become better at what they do while getting more results out of the same efforts. To get there, a set of agreed ways of working and a couple of cross functional processes is key. 
 
-### Unikorn can help you with: 
+### Unikorn can help you with:
 
 * Mapping out the current situation and work flow
 * Setting up a couple of work processes
 * Recommendations for future setups 
+
+
 
 **If you want more results from your campaigns, channel efforts or the work in general - [give us a shout-out!](/contact)**
