@@ -127,7 +127,7 @@ faq_section:
 
         As we often do customer journeys as a start-off in our web projects, it seemed logical to add a layer of search on top of it.
   featured_image:
-    src: ../assets/choices-monochrome.svg
+    src: ../assets/answers.png
     alt: Unikorn FAQ
   load_more_faq_text: View more FAQ’s
 references_section:
