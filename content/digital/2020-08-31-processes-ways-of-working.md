@@ -14,7 +14,7 @@ hero:
   featured_image:
     alt: Processes & Ways of working
     src: ../assets/undraw_process_e90d.svg
-  button: Get in touch if you need our help!
+  button: Need help setting up processes?
   buttonlink: /contact
 latest_posts_text: Processes & Ways of working
 posts_category: Digital Strategies
