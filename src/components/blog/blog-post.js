@@ -50,7 +50,7 @@ class BlogPost extends Component {
 
     return (
       <div className={Styles.blog_post_wrapper + " blog-post-wrapper " + (this.props.keepMobileStyling ? Styles.blog_post_mobile_style : "") + " type-" + type }>
-        <Link to={"/blog/" + slugify(path)}>
+        <Link to={"/blog/" + slugify(path) + "/"}>
           <div className={Styles.blog_post + " type-" + type + " " + (this.props.large ? Styles.large + " large" : "")}>
             <div className={Styles.blog_post_text_wrapper}>
               <span className={Styles.blog_cat}>

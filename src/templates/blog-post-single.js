@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 import Layout from "../components/layout"
 import BlogList from "../components/blog/blog-list.js"
 import BlogDate from "../components/blog/blog-date.js"
-import { truncateText } from "../global-functions.js"
+import { truncateText, slugify } from "../global-functions.js"
 import VideoPopup from "../components/video/videopopup.js"
 import ArrowButton from "../components/buttons/arrow-btn.js"
 import { closestByClass } from "../global-functions.js"
@@ -69,7 +69,7 @@ class BlogTemplate extends Component {
 
     const currentCategory = post.frontmatter.category
     const currentId = post.id
-    const { title, description, canonical, author, date, featured_image, video_url, preamble, popup_btn } = this.props.data.currentPost.frontmatter
+    const { title, description, shorttitle, canonical, author, date, featured_image, video_url, preamble, popup_btn } = this.props.data.currentPost.frontmatter
 
     const relatedPosts = allPosts.filter(
       relatedPost => relatedPost.node.frontmatter.category === currentCategory && relatedPost.node.id !== currentId
@@ -79,12 +79,31 @@ class BlogTemplate extends Component {
       relatedPosts.length = 3
     }
 
+    const schema = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": canonical
+      },
+      "headline": title,
+      "image": featured_image.src.childImageSharp.fluid.src,
+      "author": {
+        "@type": "Person",
+        "name": author
+      },
+      "datePublished": date
+    }
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={title}
           description={description}
           canonical={canonical}
+          shorttitle={shorttitle}
+          video={video_url}
+          schemaMarkup={schema}
         />
         {this.state.showVideo && video_url &&
           <VideoPopup url={video_url} title={title} handleVideo={this.handleVideo}/>
@@ -98,7 +117,7 @@ class BlogTemplate extends Component {
             </div>
             <h1>{title}</h1>
             <p>{preamble}</p>
-            <div className={Styles.single_author}>{author} - <BlogDate date={date} /></div>
+            <div className={Styles.single_author}><Link to={"/unikorns/" + slugify(author) + "/"}>{author}</Link> - <BlogDate date={date} /></div>
           </div>
         </div>
 

@@ -5,6 +5,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   const blogPost = path.resolve(`./src/templates/blog-post-single.js`)
   const marketingPost = path.resolve(`./src/templates/marketing-subpage.js`)
+  const unikornsPost = path.resolve(`./src/templates/unikorns-subpage.js`)
   const digitalPost = path.resolve(`./src/templates/digital-subpage.js`)
   const webPost = path.resolve(`./src/templates/web-subpage.js`)
   const aboutPost = path.resolve(`./src/templates/about-subpage.js`)
@@ -101,6 +102,28 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         }
+        unikornsPosts: allMdx(
+          filter: { fileAbsolutePath: { regex: "/(/about/unikorns/)/" } }
+          sort: { fields: [frontmatter___date], order: DESC }
+          limit: 1000
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                shorttitle
+                path
+              }
+              parent {
+                ... on File {
+                  mtime
+                }
+              }
+            }
+          }
+        }
         digitalPosts: allMdx(
           filter: { fileAbsolutePath: { regex: "/(/digital/)/" } }
           sort: { fields: [frontmatter___date], order: DESC }
@@ -134,6 +157,7 @@ exports.createPages = ({ graphql, actions }) => {
     const aboutPosts = result.data.aboutPosts.edges
     const webPosts = result.data.webPosts.edges
     const marketingPosts = result.data.marketingPosts.edges
+    const unikornsPosts = result.data.unikornsPosts.edges
     const digitalPosts = result.data.digitalPosts.edges
 
     // Create blog posts pages.
@@ -177,6 +201,18 @@ exports.createPages = ({ graphql, actions }) => {
       createPage({
         path: `marketing/${slugify(post.node.frontmatter.shorttitle)}`,
         component: marketingPost,
+        context: {
+          slug: post.node.fields.slug,
+          lastmod: post.node.parent.mtime
+        },
+      })
+    })
+
+    // Create Unikorn pages.
+    unikornsPosts.forEach((post, index) => {
+      createPage({
+        path: `about/unikorns/${slugify(post.node.frontmatter.shorttitle)}`,
+        component: unikornsPost,
         context: {
           slug: post.node.fields.slug,
           lastmod: post.node.parent.mtime

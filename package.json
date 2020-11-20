@@ -48,6 +48,7 @@
     "typeface-work-sans": "0.0.72"
   },
   "devDependencies": {
+    "gatsby-plugin-force-trailing-slashes": "^1.0.4",
     "prettier": "2.0.5"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",

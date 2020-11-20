@@ -18,6 +18,7 @@ class AboutTemplate extends Component {
         <SEO
           title={pageData.title}
           description={pageData.description}
+          shorttitle={pageData.shorttitle}
           canonical={pageData.canonical}
         />
         <Hero 

@@ -101,6 +101,14 @@ const Blog = () => {
       }
     }
   }
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": pageData.title,
+    "description": pageData.description,
+    "url": pageData.canonical
+  }
   
   return (
     <Layout location="/blog">
@@ -108,6 +116,8 @@ const Blog = () => {
         title={pageData.title}
         description={pageData.description}
         canonical={pageData.canonical}
+        shorttitle={pageData.shorttitle}
+        schemaMarkup={schema}
       />
       <Hero 
         heading={pageData.hero.heading} 

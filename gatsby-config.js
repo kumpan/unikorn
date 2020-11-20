@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-mdx`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-force-trailing-slashes`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -72,6 +73,20 @@ module.exports = {
       options: {
         path: `${__dirname}/content/contact-info`,
         name: `contact-info`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/unikorns-page`,
+        name: `unikorns-page`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/unikorns`,
+        name: `unikorns`,
       },
     },
     {

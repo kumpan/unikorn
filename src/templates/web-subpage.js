@@ -58,6 +58,7 @@ class MarketingTemplate extends Component {
           title={title}
           description={description}
           canonical={canonical}
+          shorttitle={shorttitle}
         />
         <Hero 
           shorttitle={shorttitle}

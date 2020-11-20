@@ -1,0 +1,54 @@
+---
+shorttitle: Anna Råström
+shortdesc: Content Marketing
+title: Content Marketing, Web content and Online Reputation
+description: Spreading the word is one of the basic foundations in marketing.
+  Great content does the job for more easy and meaningful messages. Let us help
+  you rock!
+canonical: https://unikorn.se/about/unikorns/waaa/
+icon:
+  src: ../assets/content-1-.svg
+  alt: "Content Marketing and Website content "
+hero:
+  heading: Content Marketing and Website Content
+  preamble: Content is the message. Make yourself heard through great and
+    carefully crafted messages with copy, text, images and video.
+  featured_image:
+    src: ../assets/undraw_browsing_urt9-1-.svg
+    alt: Content
+  button: Let us help you with Content!
+  buttonlink: /contact
+latest_posts_text: Read more about Content Marketing
+posts_category: Unikorn Marketing
+---
+## What is Content Marketing?
+
+Content Marketing is a way of working with content that attracts and interests your target group rather than adding to the buzz they experience every day. If advertising is the interruption between the TV shows, it can be said that Content Marketing is the TV show itself. And why pay to be seen during breaks when you can be the main attraction?
+
+Content Marketing is an incredibly important part of your digital marketing, and content is what carries your message forward. But doing content is both time consuming and quite difficult to do well. Therefore, it can be good to hire an agency to kickstart your content marketing efforts. Especially if your plan is to get started yesterday.
+
+### Content Marketing includes:
+
+* Analysis of current situation
+* Target group analysis
+* Customer journey 
+* Content plan
+* Production of text, image and video
+* SEO and Search customer journey
+* Outreach in Social Media
+
+## Not just text
+
+When you talk about content, you often talk about the written text on a page, but content is also the text on all links, it is videos, images and design, subtitles, posts in social media, you name it!
+
+In addition to producing content for web and social media, we also create entire communication concepts that interest and give your target group something. It can be compared to the work of producing a TV program or a newspaper. To help us, we have a whole bunch of professional and incredibly talented creators, screenwriters, filmmakers, writers and journalists that we can hire when we need. In this way we get a very scalable and dynamic team of real professionals.
+
+## Unikorn Content Marketing
+
+We always keep a holistic view, and this is true for content marketing as well. Before starting producing content, it's super important to the why, what and hows. That is why we always start by looking at the current situation, purpose and goals. What do you want to achieve with your marketing and why? Then we map the target groups and the customer journey, make a strategy and a content plan.
+
+We produce the content together with you and / or our creators. It can be texts, a video series, a podcast or something completely different that suits your business and target group, we usually combine several different formats to get the most out of the content. Of course, we adapt the content to different channels such as web, social media and marketing automation.
+
+When the content is produced, we form a plan for sharing it on the Internet, based on selected channels and target groups. We develop dashboards and follow up, analyse and optimise along the way so that you see that you really get results from your investment.
+
+**Want to know more about how your company can work with Content Marketing? [Contact us and we will tell you more.](/contact)**

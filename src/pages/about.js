@@ -52,12 +52,22 @@ const About = () => {
   )
   const pageData = data.allMdx.edges[0].node.frontmatter
 
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": pageData.title,
+    "description": pageData.description,
+    "url": pageData.canonical
+  }
+
   return (
     <Layout location="/about"  show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}
         canonical={pageData.canonical}
+        shorttitle={pageData.shorttitle}
+        schemaMarkup={schema}
       />
       <Hero 
         shorttitle={pageData.shorttitle}

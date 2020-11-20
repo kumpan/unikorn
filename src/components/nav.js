@@ -107,6 +107,17 @@ class Nav extends Component {
       )
     });
 
+    /*this.props.aboutPages.forEach(function (page, i) {
+      const menuItem = page.node.frontmatter.shorttitle
+      const menuItemLink = slugify(menuItem)
+
+      aboutMenuItems.push(
+        <li className={location === `/about/${menuItemLink}` ? Styles.active : ""} key={`${i}aboutmenu`}>
+          <Link to={"/about/" + menuItemLink}>{menuItem}</Link>
+        </li>
+      )
+    });*/
+
     const webMenuItems = []
     this.props.webPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
@@ -130,6 +141,18 @@ class Nav extends Component {
         </li>
       )
     });
+
+    /*const unikornsMenuItems = []
+    this.props.unikornsPages.forEach(function (page, i) {
+      const menuItem = page.node.frontmatter.shorttitle
+      const menuItemLink = slugify(menuItem)
+
+      unikornsMenuItems.push(
+        <li className={location === `/about/unikorns/${menuItemLink}` ? Styles.active : ""} key={`${i}unikornsmenu`}>
+          <Link to={"/about/unikorns/" + menuItemLink}>{menuItem}</Link>
+        </li>
+      )
+    });*/
 
     const digitalMenuItems = []
     this.props.digitalPages.forEach(function (page, i) {
@@ -174,6 +197,7 @@ class Nav extends Component {
                     {marketingMenuItems}
                   </ul>
                 </li>
+
                 <li className={Styles.has_submenu + " " + ( location.includes("/digital-strategies") ? Styles.active : "")}>
                   <Link to="/digital-strategies">
                     Digital Strategies
@@ -195,6 +219,9 @@ class Nav extends Component {
                   <ChevronDownIcon />
                   <ul className={Styles.submenu}>
                     {aboutMenuItems}
+                    <li>
+                      <Link to={"/about/unikorns"}>We are Unikorns</Link>
+                    </li>
                   </ul>
                 </li>
               </ul>

@@ -68,8 +68,8 @@ class MarketingTemplate extends Component {
           button={hero.button}
           buttonlink={hero.buttonlink}
           alt={hero.featured_image.alt}
-          parentPageTitle="Digital Strategies"
-          parentPageLink="/digital-strategies"
+          parentPageTitle="Unikorns"
+          parentPageLink="/unikorns"
           lowerImg
         />
         <div className="bg-color-section-desktop">
@@ -95,7 +95,7 @@ class MarketingTemplate extends Component {
 export default MarketingTemplate
 
 export const pageQuery = graphql`
-  query DigitalSubpagesBySlug($slug: String!) {
+  query UnikornsPostBySlug($slug: String!) {
     site {
       siteMetadata {
         title

@@ -48,12 +48,46 @@ class Startpage extends Component {
     const pageData = this.props.data.pageData.edges[0].node.frontmatter
     const posts = this.props.data.posts.edges
 
+    const questions = pageData.faq_section.faqs
+
+    console.log('denna som ej funkar', pageData.faq_section.featured_image.src)
+    console.log('en som funkar', pageData.video_section.video_image.src)
+
+    const schema = [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": pageData.title,
+        "description": pageData.description,
+        "url": pageData.canonical
+      },
+      {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":[]
+      }
+    ]
+
+    questions.map(question => {
+      const target = { 
+        "@type": "Question", 
+        "name": question.question, 
+        "acceptedAnswer": {
+          "@type": "Answer", 
+          "text": question.answer
+        }
+      }
+      schema[1].mainEntity.push(target)
+    })
+
     return (
       <Layout location="/" show_contact_info>
         <SEO
           title={pageData.title}
           description={pageData.description}
           canonical={pageData.canonical}
+          shorttitle={pageData.shorttitle}
+          schemaMarkup={schema}
         />
         <Hero 
           heading={pageData.hero.heading} 
@@ -110,7 +144,7 @@ class Startpage extends Component {
             <FaqList faqs={pageData.faq_section.faqs} faq_text={pageData.faq_section.load_more_faq_text} />
           </div>
           <div className={Styles.hide_mobile + " " + Styles.faq_bg_img}>
-            {pageData.faq_section.featured_image.src.childImageSharp.fluid &&
+            {pageData.faq_section.featured_image.src.childImageSharp &&
               <Img 
                 fluid={pageData.faq_section.featured_image.src.childImageSharp.fluid}
                 alt={pageData.faq_section.featured_image.alt}
@@ -148,6 +182,20 @@ export const data = graphql`
             title
             description
             canonical
+            meta {
+              og_image {
+                src {
+                  childImageSharp {
+                    fluid(maxWidth: 560) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                  extension
+                  publicURL
+                }
+                alt
+              }
+            }
             hero {
               heading
               text

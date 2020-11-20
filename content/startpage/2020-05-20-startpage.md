@@ -4,6 +4,13 @@ title: SEO, Web Projects, Digital Strategies
 description: We help companies with Digital Strategies and Advanced SEO. Read
   more about how can we help you gain more relevant and converting traffic!
 canonical: https://www.unikorn.se
+meta:
+  og_image:
+    src: ../assets/digital-growth-unikorn.svg
+    alt: Digital Growth
+  twitter:
+    src: ../assets/digital-growth-unikorn.svg
+    alt: Digital Growth
 hero:
   heading: Grow your digital presence online.
   text: We’re your best friend when it comes to helping you find the path to a
@@ -127,8 +134,8 @@ faq_section:
 
         As we often do customer journeys as a start-off in our web projects, it seemed logical to add a layer of search on top of it.
   featured_image:
-    src: ../assets/qa.svg
-    alt: Unikorn FAQ
+    src: ../assets/digital-growth-unikorn.svg
+    alt: Digital Growth
   load_more_faq_text: View more FAQ’s
 references_section:
   references_tabs_heading: What do our friends and clients say about Unikorn

@@ -10,7 +10,7 @@ import Container from "../components/container.js"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Styles from "./subpages.module.css"
 
-const DigitalPage = () => {
+const UnikornsPage = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -21,7 +21,7 @@ const DigitalPage = () => {
         }
         pageData: allMdx(
           filter: {
-            fileAbsolutePath: { regex: "/(/digital-page/)/" }
+            fileAbsolutePath: { regex: "/(/unikorns-page/)/" }
           }
         ) {
           edges {
@@ -44,7 +44,7 @@ const DigitalPage = () => {
         }
 
         posts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/digital/)/" } }
+          filter: { fileAbsolutePath: { regex: "/(/unikorns/)/" } }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {
@@ -84,7 +84,7 @@ const DigitalPage = () => {
   }
 
   return (
-    <Layout location="/digital-strategies" show_contact_info>
+    <Layout location="/unikorns" show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}
@@ -108,11 +108,11 @@ const DigitalPage = () => {
       </div>
       <div className={Styles.subpages_list_section + " bg-color-section-desktop"}>
         <div className="overlay-container container">
-          <SubpagesList posts={posts} parentPage="/digital-strategies" />
+          <SubpagesList posts={posts} parentPage="/unikorns" />
         </div>
       </div>
     </Layout>
   )
 }
 
-export default DigitalPage
+export default UnikornsPage

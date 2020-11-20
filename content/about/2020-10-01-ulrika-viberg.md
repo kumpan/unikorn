@@ -1,8 +1,8 @@
 ---
-shorttitle: Unikorns
+shorttitle: Gammal
 title: We are Unikorns!
 description: Meet the people at Unikorn
-canonical: https://unikorn.se/about/unikorns
+canonical: https://unikorn.se/about/we-are-unikorns
 hero:
   featured_image:
     src: ../assets/digital-growth-unikorn.svg
