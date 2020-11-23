@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-mdx`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-force-trailing-slashes`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,

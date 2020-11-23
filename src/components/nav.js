@@ -101,8 +101,8 @@ class Nav extends Component {
       const menuItemLink = slugify(menuItem)
 
       aboutMenuItems.push(
-        <li className={location === `/about/${menuItemLink}` ? Styles.active : ""} key={`${i}aboutmenu`}>
-          <Link to={"/about/" + menuItemLink}>{menuItem}</Link>
+        <li className={location === `/about/${menuItemLink}/` ? Styles.active : ""} key={`${i}aboutmenu`}>
+          <Link to={"/about/" + menuItemLink + "/"}>{menuItem}</Link>
         </li>
       )
     });
@@ -113,8 +113,8 @@ class Nav extends Component {
       const menuItemLink = slugify(menuItem)
 
       webMenuItems.push(
-        <li className={location === `/web/${menuItemLink}` ? Styles.active : ""} key={`${i}webmenu`} >
-          <Link to={"/web/" + menuItemLink}>{menuItem}</Link>
+        <li className={location === `/web/${menuItemLink}/` ? Styles.active : ""} key={`${i}webmenu`} >
+          <Link to={"/web/" + menuItemLink + "/"}>{menuItem}</Link>
         </li>
       )
     });
@@ -125,8 +125,8 @@ class Nav extends Component {
       const menuItemLink = slugify(menuItem)
 
       marketingMenuItems.push(
-        <li className={location === `/marketing/${menuItemLink}` ? Styles.active : ""} key={`${i}marketingmenu`}>
-          <Link to={"/marketing/" + menuItemLink}>{menuItem}</Link>
+        <li className={location === `/marketing/${menuItemLink}/` ? Styles.active : ""} key={`${i}marketingmenu`}>
+          <Link to={"/marketing/" + menuItemLink + "/"}>{menuItem}</Link>
         </li>
       )
     });
@@ -137,8 +137,8 @@ class Nav extends Component {
       const menuItemLink = slugify(menuItem)
 
       digitalMenuItems.push(
-        <li className={location === `/digital-strategies/${menuItemLink}` ? Styles.active : ""} key={`${i}digitalmenu`}>
-          <Link to={"/digital-strategies/" + menuItemLink}>{menuItem}</Link>
+        <li className={location === `/digital-strategies/${menuItemLink}/` ? Styles.active : ""} key={`${i}digitalmenu`}>
+          <Link to={"/digital-strategies/" + menuItemLink + "/"}>{menuItem}</Link>
         </li>
       )
     });
@@ -157,7 +157,7 @@ class Nav extends Component {
             <div className={Styles.navigation_inner}>
               <ul className={Styles.navigation_links}>
                 <li className={Styles.has_submenu + " " + ( location.includes("/web") ? Styles.active : "")}>
-                  <Link to="/web">
+                  <Link to="/web/">
                     Web Magic
                   </Link>
                   <ChevronDownIcon />
@@ -166,7 +166,7 @@ class Nav extends Component {
                   </ul>
                 </li>
                 <li className={Styles.has_submenu + " " + ( location.includes("/marketing") ? Styles.active : "")}>
-                  <Link to="/marketing">
+                  <Link to="/marketing/">
                     Unikorn Marketing
                   </Link>
                   <ChevronDownIcon />
@@ -175,7 +175,7 @@ class Nav extends Component {
                   </ul>
                 </li>
                 <li className={Styles.has_submenu + " " + ( location.includes("/digital-strategies") ? Styles.active : "")}>
-                  <Link to="/digital-strategies">
+                  <Link to="/digital-strategies/">
                     Digital Strategies
                   </Link>
                   <ChevronDownIcon />
@@ -184,12 +184,12 @@ class Nav extends Component {
                   </ul>
                 </li>
                 <li className={location === "/blog" ? Styles.active : ""}>
-                  <Link to="/blog">
+                  <Link to="/blog/">
                     Blog
                   </Link>
                 </li>
                 <li className={Styles.has_submenu + " " + ( location.includes("/about") ? Styles.active : "")}>
-                  <Link to="/about">
+                  <Link to="/about/">
                     About Unikorn
                   </Link>
                   <ChevronDownIcon />
