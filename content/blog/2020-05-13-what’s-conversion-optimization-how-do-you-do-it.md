@@ -5,6 +5,7 @@ description: What’s conversion optimization & how do you do it?
 canonical: https://unikorn.se/blog/difference content marketing inbound marketing
 date: 2018-05-24T07:56:00.000Z
 author: Anna Råström
+author_page: /unikorns/anna-rastrom/
 category: Digital Strategies
 featured_image:
   src: ../assets/content-marketing.jpg

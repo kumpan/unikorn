@@ -69,7 +69,7 @@ class BlogTemplate extends Component {
 
     const currentCategory = post.frontmatter.category
     const currentId = post.id
-    const { title, description, shorttitle, canonical, author, date, featured_image, video_url, preamble, popup_btn } = this.props.data.currentPost.frontmatter
+    const { title, description, shorttitle, canonical, author, author_page, date, featured_image, video_url, preamble, popup_btn } = this.props.data.currentPost.frontmatter
 
     const relatedPosts = allPosts.filter(
       relatedPost => relatedPost.node.frontmatter.category === currentCategory && relatedPost.node.id !== currentId
@@ -117,7 +117,7 @@ class BlogTemplate extends Component {
             </div>
             <h1>{title}</h1>
             <p>{preamble}</p>
-            <div className={Styles.single_author}><Link to={"/unikorns/" + slugify(author) + "/"}>{author}</Link> - <BlogDate date={date} /></div>
+            <div className={Styles.single_author}><Link to={author_page}>{author}</Link> - <BlogDate date={date} /></div>
           </div>
         </div>
 
@@ -182,6 +182,7 @@ export const pageQuery = graphql`
         canonical
         date(formatString: "DD/MM/YY")
         author
+        author_page
         video_url
         preamble
         popup_btn
@@ -211,6 +212,7 @@ export const pageQuery = graphql`
               date(formatString: "DD/MM/YY")
               category
               author
+              author_page
               video_url
               type
               featured_image {

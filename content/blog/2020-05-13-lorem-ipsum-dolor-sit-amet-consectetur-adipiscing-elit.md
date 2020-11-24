@@ -6,6 +6,7 @@ description: Many companies hire an agency to help out with their digital
 canonical: https://unikorn.se/choosing-an-agency
 date: 2018-11-26T08:56:00.000Z
 author: Ulrika Viberg
+author_page: /unikorns/ulrika-viberg/
 category: Unikorn Marketing
 featured_image:
   src: ../assets/agency-collaboration.png

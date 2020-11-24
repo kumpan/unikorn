@@ -6,6 +6,7 @@ description: "Your users love relevance. Get a more relevant and intuitive
 canonical: https://www.unikorn.se/blog/search-customer-journey
 date: 2020-11-06T09:59:17.272Z
 author: Ulrika Viberg
+author_page: /unikorns/ulrika-viberg/
 category: Unikorn Marketing
 featured_image:
   src: ../assets/connected-customer.jpg
