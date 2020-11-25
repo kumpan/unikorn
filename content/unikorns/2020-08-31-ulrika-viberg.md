@@ -1,46 +1,31 @@
 ---
+path: ulrika-viberg
 shorttitle: Ulrika Viberg
-shortdesc: Social Media Marketing
-title: Social Media Marketing, Organic Social and Paid Social
-description: Social Media Marketing
-canonical: https://unikorn.se/marketing/social/
+shortdesc: Founder of Unikorn
+title: We are Unikorns!
+description: Meet the people at Unikorn
+canonical: https://unikorn.se/unikorns/ulrika-viberg
 icon:
   src: ../assets/social-media-marketing.svg
   alt: Social Media Marketing
 hero:
-  heading: Social Media Marketing
+  heading: Ulrika Viberg - Founder of Unikorn
   featured_image:
-    src: ../assets/undraw_social_strategy_1wuq-1-.svg
-    alt: Social Media Marketing
-  preamble: Social Media is a very powerful tool for digital marketing. However,
-    Social Media Marketing is much more than just creating Instagram accounts,
-    posting on Facebook or throwing up a page on LinkedIn in the  hopes of a
-    line of buying customers.
-latest_posts_text: Articles about Social Media Marketing
-posts_category: Unikorn Marketing
+    src: 
+    alt:
+  button: Get in touch
+  buttonlink: /contact
+  preamble: Meet our founder and owner, the woman behind Unikorn! Ulrika Viberg has a solid background in all things web considered, with a deep knowledge in Technical SEO, Web Projects and Digital Strategies!
 ---
-Sometimes you need a little help getting started, or advice on where to start. Maybe you have worked for a while, but have not seen any results, or maybe you do not even know how to find out what works?
+### Experienced Digital Marketeer with 23+ years in the business
 
-UNIKORN can be a partner in the process to hold your hand, help you get started, find target groups, choose channels and create suitable content for your specific company. We make sure that you measure and follow up what works for you.
+![Ulrika Viberg](../assets/ulrikaviberg.png "Ulrika Viberg")
 
-## How does social media marketing work?
+Ulrika's super powers are: 
 
-Unlike many other marketing channels, SoMe Marketing is not about getting your message out, but more about engaging your audience. What makes it so special is that channels like Facebook, Instagram, Snapchat, Tik Tok and the like, are interactive. It's all about interacting with your target group on the platforms where they are present.
-
-In the last ten years, Social Media has evolved enormously fast, and things are constantly changing on the different platforms. Algorithms are improved and more channels are also becoming advertising platforms. 
-
-We have been around for a long time and this experience gives us an understanding of the mechanisms behind Social Media, which gives us an edge when it comes to prioritizing and testing new channels and knowing what works.
-
-## What can UNIKORN help with?
-
-We have extensive experience of working with Social Media, both organically, with paid advertising, community management, content creation, campaigns and customer service. 
-
-**We can help with most things, but including:** 
-
-* Strategy, Current Situation and Audience Analysis 
-* Goals and KPIs
-* Set up new accounts and ad accounts
-* Content and publishing planning
-* Create Content
-* Campaigns
-* Social Media Superboost!
+* Digital Strategies
+* Unikorn Marketing
+* SEO
+* Technical SEO
+* Technical Product Owner
+* Building Business Cases for Growth Hacking

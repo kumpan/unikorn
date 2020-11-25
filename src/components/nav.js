@@ -142,17 +142,17 @@ class Nav extends Component {
       )
     });
 
-    /*const unikornsMenuItems = []
+    const unikornsMenuItems = []
     this.props.unikornsPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
       const menuItemLink = slugify(menuItem)
 
       unikornsMenuItems.push(
-        <li className={location === `/about/unikorns/${menuItemLink}` ? Styles.active : ""} key={`${i}unikornsmenu`}>
-          <Link to={"/about/unikorns/" + menuItemLink}>{menuItem}</Link>
+        <li className={location === `/unikorns/${menuItemLink}` ? Styles.active : ""} key={`${i}unikornsmenu`}>
+          <Link to={"/unikorns/" + menuItemLink}>{menuItem}</Link>
         </li>
       )
-    });*/
+    });
 
     const digitalMenuItems = []
     this.props.digitalPages.forEach(function (page, i) {
@@ -220,7 +220,7 @@ class Nav extends Component {
                   <ul className={Styles.submenu}>
                     {aboutMenuItems}
                     <li>
-                      <Link to={"/about/unikorns"}>We are Unikorns</Link>
+                      <Link to={"/unikorns"}>We are Unikorns</Link>
                     </li>
                   </ul>
                 </li>

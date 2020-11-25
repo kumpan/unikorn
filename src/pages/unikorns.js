@@ -52,6 +52,7 @@ const UnikornsPage = () => {
               frontmatter {
                 shorttitle
                 shortdesc
+                path
                 icon {
                   src {
                     childImageSharp {
@@ -108,7 +109,7 @@ const UnikornsPage = () => {
       </div>
       <div className={Styles.subpages_list_section + " bg-color-section-desktop"}>
         <div className="overlay-container container">
-          <SubpagesList posts={posts} parentPage="/unikorns" />
+          <SubpagesList posts={posts} parentPage="/unikorns" pathLink={true} />
         </div>
       </div>
     </Layout>

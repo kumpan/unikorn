@@ -8,8 +8,9 @@ import Styles from "./subpages-post.module.css"
 
 class SubpagesPost extends Component {
   render() {
-    const { shorttitle, shortdesc, icon, alt } = this.props.post
-    const subpagesLink = this.props.parentPage + '/' + slugify(shorttitle)
+    const { shorttitle, shortdesc, icon, alt, path } = this.props.post
+
+    const subpagesLink = this.props.pathLink ? this.props.parentPage + '/' + path : this.props.parentPage + '/' + slugify(shorttitle)
 
     const subpagesIcon = (icon.src.extension === "svg") ? (
       <div className={Styles.subpages_icon}>

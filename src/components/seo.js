@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import { ConsoleView } from "react-device-detect"
 
-function SEO({ canonical, description, lang, meta, keywords, title, noindex, video, schemaMarkup }) {
+function SEO({ canonical, shorttitle, description, lang, meta, keywords, title, noindex, video, schemaMarkup }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -21,7 +21,11 @@ function SEO({ canonical, description, lang, meta, keywords, title, noindex, vid
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const canonicalUrl = canonical || window.location.href
+  let canonicalUrl = canonical || site.siteMetadata.siteUrl
+
+  if(typeof window !== `undefined`) {
+    canonicalUrl = canonical || window.location.href
+  }
 
   return (
     <Helmet
@@ -42,6 +46,10 @@ function SEO({ canonical, description, lang, meta, keywords, title, noindex, vid
       {
         property: `og:description`,
         content: metaDescription,
+      },
+      {
+        property: `og:type`,
+        content: video ? `video.movie` : `website`,
       },
       {
         property: `og:image`,
@@ -77,10 +85,6 @@ function SEO({ canonical, description, lang, meta, keywords, title, noindex, vid
           : []
       )
       .concat(meta)}>
-
-      {
-        video && <meta name="og:type" content="video.movie" />
-      }
 
       {canonicalUrl && !noindex &&
         <link rel="canonical" key={canonicalUrl} href={canonicalUrl} />

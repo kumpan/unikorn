@@ -50,7 +50,7 @@ const Layout = (props) => {
           }
         }
         unikorns: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/about/unikorns/)/" } }
+          filter: { fileAbsolutePath: { regex: "/(/unikorns/)/" } }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {

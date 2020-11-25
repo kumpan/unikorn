@@ -72,7 +72,7 @@ class BlogTemplate extends Component {
     const { title, description, shorttitle, canonical, author, author_page, date, featured_image, video_url, preamble, popup_btn } = this.props.data.currentPost.frontmatter
 
     const relatedPosts = allPosts.filter(
-      relatedPost => relatedPost.node.frontmatter.category === currentCategory && relatedPost.node.id !== currentId
+      relatedPost => relatedPost.node.frontmatter.category.includes(posts_category) && relatedPost.node.id !== currentId
     )
 
     if(relatedPosts.length > 3) {

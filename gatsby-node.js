@@ -103,7 +103,7 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
         unikornsPosts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/about/unikorns/)/" } }
+          filter: { fileAbsolutePath: { regex: "/(/unikorns/)/" } }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
@@ -211,7 +211,7 @@ exports.createPages = ({ graphql, actions }) => {
     // Create Unikorn pages.
     unikornsPosts.forEach((post, index) => {
       createPage({
-        path: `about/unikorns/${slugify(post.node.frontmatter.shorttitle)}`,
+        path: `unikorns/${post.node.frontmatter.path}`,
         component: unikornsPost,
         context: {
           slug: post.node.fields.slug,

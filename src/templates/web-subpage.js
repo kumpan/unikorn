@@ -45,7 +45,7 @@ class MarketingTemplate extends Component {
     const { shorttitle, title, description, canonical, hero, posts_category, latest_posts_text } = this.props.data.currentPost.frontmatter
 
     const relatedPosts = allPosts.filter(
-      relatedPost => relatedPost.node.frontmatter.category === posts_category
+      relatedPost => relatedPost.node.frontmatter.category.includes(posts_category)
     )
 
     if (relatedPosts.length > 3) {
