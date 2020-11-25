@@ -18,22 +18,6 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: meta
-        label: meta
-        widget: object
-        fields:
-          - label: OG Image
-            name: og_image
-            widget: object
-            fields:
-              - { label: Image, name: src, widget: image }
-              - { label: Alt text, name: alt, widget: string }
-          - label: Twitter Image
-            name: twitter_image
-            widget: object
-            fields:
-              - { label: Image, name: src, widget: image }
-              - { label: Alt text, name: alt, widget: string }
       - name: hero
         label: Hero
         widget: object
