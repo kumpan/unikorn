@@ -3,7 +3,7 @@ path: search-customer-journey
 title: The Search Customer Journey
 description: "Your users love relevance. Get a more relevant and intuitive
   content structure with the search customer journey model! "
-canonical: https://www.unikorn.se/blog/search-customer-journey
+canonical: https://www.unikorn.se/blog/search-customer-journey/
 date: 2020-11-06T09:59:17.272Z
 author: Ulrika Viberg
 category: Unikorn Marketing
