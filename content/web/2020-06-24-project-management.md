@@ -33,4 +33,4 @@ The secret sauce lies in building the best web thing you possibly can from the s
 * Make sure communication is continuous and relevant throughout the whole project
 * Involve (and recruit if necessary) all the needed functions
 
-Does this sound like a project you want to take part in? [Let us call you!](/contact)
+### Does this sound like a project you want to take part in? [Let us call you!](/contact)
