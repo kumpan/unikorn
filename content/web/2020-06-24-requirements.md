@@ -35,6 +35,4 @@ How Unikorn can make your website shine bright as the North Star:
 * Setting up the requirements in the project tool of your choice, may it be Jira, Asana, Trello, Monday or Excel. Your project - your tool! 
 * Setting up test cases fro the requirements 
 
-
-
 ### [Let's talk](/contact) website requirements!
