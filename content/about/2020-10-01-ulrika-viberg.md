@@ -2,7 +2,7 @@
 shorttitle: Unikorns
 title: We are Unikorns!
 description: Meet the people at Unikorn
-canonical: https://unikorn.se/about/unikorns
+canonical: https://www.unikorn.se/about/unikorns
 hero:
   featured_image:
     src: ../assets/digital-growth-unikorn.svg
