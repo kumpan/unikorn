@@ -31,7 +31,7 @@ Website migrations can look very differently, depending on what is being moved w
 
 There are a bunch of best practices to be followed, and there are many pitfalls to step into. At Unikorn, we have migrated a large number of websites and have probably done most of the mistakes already, which can be useful for you!
 
-### Unikorn can help you move sites and platform with following things:
+### Unikorn can help you move sites and platform with the following things:
 
 * Project Management
 * Technical Audit of the new website
