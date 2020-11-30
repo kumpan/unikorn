@@ -2,7 +2,7 @@
 path: SEOGIRLS
 title: SEOGIRLS - a network for women in SEO.
 description: Female SEO network that crosses the agency borders.
-canonical: https://unikorn.se/blog/seogirls
+canonical: https://www.unikorn.se/blog/seogirls/
 date: 2017-05-01T07:50:00.000Z
 author: Ulrika Viberg
 category: Digital Strategies
