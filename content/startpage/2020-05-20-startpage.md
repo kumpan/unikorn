@@ -63,7 +63,7 @@ video_section:
     src: ../assets/screenshot-2020-10-07-at-16.44.18.png
     alt: About Unikorn
   button: Learn more about us
-  buttonlink: /about-us/
+  buttonlink: /about/
 faq_section:
   pre_heading: Frequently asked questions (FAQ)
   heading: Answering your questions
