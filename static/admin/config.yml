@@ -18,7 +18,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -121,7 +121,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -150,7 +150,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -193,7 +193,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -222,7 +222,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -265,7 +265,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -294,7 +294,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -338,7 +338,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -367,7 +367,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -410,7 +410,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -446,7 +446,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -480,7 +480,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -515,7 +515,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -550,7 +550,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -704,7 +704,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -763,7 +763,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:
@@ -798,7 +798,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - name: og_image, 
+      - name: og_image
         label: OG Image
         widget: object
         fields:

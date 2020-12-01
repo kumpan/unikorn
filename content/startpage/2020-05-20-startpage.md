@@ -5,7 +5,7 @@ description: We help companies with Web Projects, Digital Marketing, Strategies
   and Advanced SEO. Read more about how can we help you gain more relevant and
   converting traffic!
 canonical: https://www.unikorn.se/
-"og_image,":
+og_image:
   src: ../assets/unikorn-youtube.png
   alt: unikorn
 hero:
