@@ -3,6 +3,9 @@ shorttitle: Privacy policy
 title: Privacy policy
 description: Digital Unikorn AB Privacy Policy
 canonical: /privacy-policy
+og_image:
+  src: ../assets/privacy-policy.svg
+  alt: Privacy Policy
 hero:
   heading: Privacy policy
   text: "Your data is important! "

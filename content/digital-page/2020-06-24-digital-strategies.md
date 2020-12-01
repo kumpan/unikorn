@@ -3,6 +3,9 @@ shorttitle: Digital strategies
 title: "Digital strategies creates magic! "
 description: Digital strategies
 canonical: https://unikorn.se/digital-strategies/
+og_image:
+  src: ../assets/sprinter-monochrome-_animated.svg
+  alt: Digital strategies
 hero:
   heading: Digital strategies
   text: A strategy is your map to success! Creating your map to success starts

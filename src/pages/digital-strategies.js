@@ -6,6 +6,9 @@ import Layout from "../components/layout.js"
 import Hero from "../components/hero.js"
 import SubpagesList from "../components/subpages/subpages-list.js"
 
+import Container from "../components/container.js"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+
 import Styles from "./subpages.module.css"
 
 const DigitalPage = () => {
@@ -24,11 +27,24 @@ const DigitalPage = () => {
         ) {
           edges {
             node {
+              body
               frontmatter {
                 shorttitle
                 title
                 description
                 canonical
+                og_image {
+                  src {
+                    childImageSharp {
+                      fluid(maxWidth: 560) {
+                        ...GatsbyImageSharpFluid
+                      }
+                    }
+                    extension
+                    publicURL
+                  }
+                  alt
+                }
                 hero {
                   heading
                   text
@@ -72,12 +88,23 @@ const DigitalPage = () => {
   const pageData = data.pageData.edges[0].node.frontmatter
   const posts = data.posts.edges
 
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": pageData.title,
+    "description": pageData.description,
+    "url": pageData.canonical
+  }
+
   return (
     <Layout location="/digital-strategies" show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}
         canonical={pageData.canonical}
+        shorttitle={pageData.shorttitle}
+        schemaMarkup={schema}
+        image={pageData.og_image.src}
       />
       <Hero 
         shorttitle={pageData.shorttitle}
@@ -86,6 +113,13 @@ const DigitalPage = () => {
         button={pageData.hero.button}
         buttonlink={pageData.hero.buttonlink}
       />
+      <div className="bg-color-section-desktop">
+        <div className="overlay-container">
+          <Container>
+            <MDXRenderer>{data.pageData.edges[0].node.body}</MDXRenderer>
+          </Container>
+        </div>
+      </div>
       <div className={Styles.subpages_list_section + " bg-color-section-desktop"}>
         <div className="overlay-container container">
           <SubpagesList posts={posts} parentPage="/digital-strategies" />

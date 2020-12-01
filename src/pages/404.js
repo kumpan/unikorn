@@ -23,6 +23,18 @@ const FouroFour = () => {
                 title
                 description
                 canonical
+                og_image {
+                  src {
+                    childImageSharp {
+                      fluid(maxWidth: 560) {
+                        ...GatsbyImageSharpFluid
+                      }
+                    }
+                    extension
+                    publicURL
+                  }
+                  alt
+                }
                 hero {
                   heading
                   text
@@ -56,6 +68,7 @@ const FouroFour = () => {
         title={pageData.title}
         description={pageData.description}
         canonical={pageData.canonical}
+        image={pageData.og_image.src}
       />
       <Hero 
         shorttitle={pageData.shorttitle}

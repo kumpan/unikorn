@@ -48,12 +48,43 @@ class Startpage extends Component {
     const pageData = this.props.data.pageData.edges[0].node.frontmatter
     const posts = this.props.data.posts.edges
 
+    const questions = pageData.faq_section.faqs
+
+    const schema = [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": pageData.title,
+        "description": pageData.description,
+        "url": pageData.canonical
+      },
+      {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":[]
+      }
+    ]
+
+    questions.map(question => {
+      const target = { 
+        "@type": "Question", 
+        "name": question.question, 
+        "acceptedAnswer": {
+          "@type": "Answer", 
+          "text": question.answer
+        }
+      }
+      schema[1].mainEntity.push(target)
+    })
+
     return (
       <Layout location="/" show_contact_info>
         <SEO
           title={pageData.title}
           description={pageData.description}
           canonical={pageData.canonical}
+          schemaMarkup={schema}
+          image={pageData.og_image.src}
         />
         <Hero 
           heading={pageData.hero.heading} 
@@ -148,6 +179,18 @@ export const data = graphql`
             title
             description
             canonical
+            og_image {
+              src {
+                childImageSharp {
+                  fluid(maxWidth: 560) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+                extension
+                publicURL
+              }
+              alt
+            }
             hero {
               heading
               text
@@ -249,6 +292,7 @@ export const data = graphql`
             date(formatString: "DD/MM/YY")
             category
             author
+            author_page
             video_url
             type
             featured_image {

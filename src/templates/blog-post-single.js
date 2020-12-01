@@ -69,14 +69,66 @@ class BlogTemplate extends Component {
 
     const currentCategory = post.frontmatter.category
     const currentId = post.id
-    const { title, description, canonical, author, date, featured_image, video_url, preamble, popup_btn } = this.props.data.currentPost.frontmatter
+    const { title, description, canonical, og_image, author, author_page, date, featured_image, video_url, preamble, popup_btn } = this.props.data.currentPost.frontmatter
 
     const relatedPosts = allPosts.filter(
-      relatedPost => relatedPost.node.frontmatter.category === currentCategory && relatedPost.node.id !== currentId
+      relatedPost => relatedPost.node.frontmatter.category.includes(currentCategory) && relatedPost.node.id !== currentId
     )
 
     if(relatedPosts.length > 3) {
       relatedPosts.length = 3
+    }
+
+    const schema = [
+    { "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": canonical
+      },
+      "headline": title,
+      "image": featured_image.src.childImageSharp.fluid.src,
+      "author": {
+        "@type": "Person",
+        "name": author
+      },
+      "datePublished": date
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": this.props.data.site.siteMetadata.siteUrl + 'blog',
+            "name": "Blog"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item":
+          {
+            "@id": this.props.location.href,
+            "name": title
+          }
+        }
+      ]
+    }
+  ]
+
+    if(video_url) {
+      const target = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": title,
+        "description": description,
+        "thumbnailUrl": featured_image.src.childImageSharp.fluid.src,
+        "embedUrl": video_url,
+      }
+      schema.push(target)
     }
 
     return (
@@ -85,6 +137,9 @@ class BlogTemplate extends Component {
           title={title}
           description={description}
           canonical={canonical}
+          video={video_url}
+          schemaMarkup={schema}
+          image={og_image.src}
         />
         {this.state.showVideo && video_url &&
           <VideoPopup url={video_url} title={title} handleVideo={this.handleVideo}/>
@@ -98,7 +153,7 @@ class BlogTemplate extends Component {
             </div>
             <h1>{title}</h1>
             <p>{preamble}</p>
-            <div className={Styles.single_author}>{author} - <BlogDate date={date} /></div>
+            <div className={Styles.single_author}><Link to={author_page}>{author}</Link> - <BlogDate date={date} /></div>
           </div>
         </div>
 
@@ -161,8 +216,21 @@ export const pageQuery = graphql`
         title
         description
         canonical
+        og_image {
+          src {
+            childImageSharp {
+              fluid(maxWidth: 560) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            extension
+            publicURL
+          }
+          alt
+        }
         date(formatString: "DD/MM/YY")
         author
+        author_page
         video_url
         preamble
         popup_btn
@@ -192,6 +260,7 @@ export const pageQuery = graphql`
               date(formatString: "DD/MM/YY")
               category
               author
+              author_page
               video_url
               type
               featured_image {

@@ -42,14 +42,38 @@ class MarketingTemplate extends Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const allPosts = this.props.data.relatedPosts.edges
 
-    const { shorttitle, title, description, canonical, hero, posts_category, latest_posts_text } = this.props.data.currentPost.frontmatter
+    const { shorttitle, title, description, canonical, og_image, hero, posts_category, latest_posts_text } = this.props.data.currentPost.frontmatter
 
     const relatedPosts = allPosts.filter(
-      relatedPost => relatedPost.node.frontmatter.category === posts_category
+      relatedPost => relatedPost.node.frontmatter.category.includes(posts_category)
     )
 
     if (relatedPosts.length > 3) {
       relatedPosts.length = 3
+    }
+    
+    const schema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": this.props.data.site.siteMetadata.siteUrl + 'web',
+            "name": "Web"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item":
+          {
+            "@id": this.props.location.href,
+            "name": title
+          }
+        }
+      ]
     }
     
     return (
@@ -58,6 +82,8 @@ class MarketingTemplate extends Component {
           title={title}
           description={description}
           canonical={canonical}
+          schemaMarkup={schema}
+          image={og_image.src}
         />
         <Hero 
           shorttitle={shorttitle}
@@ -99,6 +125,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
       }
     }
     currentPost: mdx(fields: { slug: { eq: $slug } }) {
@@ -109,6 +136,18 @@ export const pageQuery = graphql`
         title
         description
         canonical
+        og_image {
+          src {
+            childImageSharp {
+              fluid(maxWidth: 560) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            extension
+            publicURL
+          }
+          alt
+        }
         posts_category
         hero {
           heading
@@ -144,6 +183,7 @@ export const pageQuery = graphql`
               date(formatString: "DD/MM/YY")
               category
               author
+              author_page
               video_url
               type
               featured_image {

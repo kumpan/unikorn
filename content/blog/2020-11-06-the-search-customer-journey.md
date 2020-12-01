@@ -4,8 +4,12 @@ title: The Search Customer Journey
 description: "Your users love relevance. Get a more relevant and intuitive
   content structure with the search customer journey model! "
 canonical: https://www.unikorn.se/blog/search-customer-journey
+og_image:
+  src: ../assets/connected-customer.jpg
+  alt: Connected Customer with Search Customer Journey
 date: 2020-11-06T09:59:17.272Z
 author: Ulrika Viberg
+author_page: /unikorns/ulrika-viberg/
 category: Unikorn Marketing
 featured_image:
   src: ../assets/connected-customer.jpg

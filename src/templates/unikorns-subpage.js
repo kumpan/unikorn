@@ -42,7 +42,7 @@ class MarketingTemplate extends Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const allPosts = this.props.data.relatedPosts.edges
 
-    const { shorttitle, title, description, canonical, og_image, hero, posts_category, latest_posts_text } = this.props.data.currentPost.frontmatter
+    const { shorttitle, shortdesc, title, description, canonical, og_image, hero, posts_category, latest_posts_text } = this.props.data.currentPost.frontmatter
 
     const relatedPosts = allPosts.filter(
       relatedPost => relatedPost.node.frontmatter.category.includes(posts_category)
@@ -51,8 +51,13 @@ class MarketingTemplate extends Component {
     if (relatedPosts.length > 3) {
       relatedPosts.length = 3
     }
-
-    const schema = {
+    
+    const schema = [{
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "jobTitle": shortdesc,
+      "name": shorttitle,
+    }, {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -60,8 +65,8 @@ class MarketingTemplate extends Component {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": this.props.data.site.siteMetadata.siteUrl + 'marketing',
-            "name": "Marketing"
+            "@id": this.props.data.site.siteMetadata.siteUrl + 'unikorns',
+            "name": "Unikorns"
           }
         },
         {
@@ -75,7 +80,8 @@ class MarketingTemplate extends Component {
         }
       ]
     }
-    
+   ]
+
     return (
       <Layout location={this.props.location} title={siteTitle} show_contact_info>
         <SEO
@@ -93,8 +99,8 @@ class MarketingTemplate extends Component {
           button={hero.button}
           buttonlink={hero.buttonlink}
           alt={hero.featured_image.alt}
-          parentPageTitle="Marketing"
-          parentPageLink="/marketing"
+          parentPageTitle="Unikorns"
+          parentPageLink="/unikorns"
           lowerImg
         />
         <div className="bg-color-section-desktop">
@@ -120,12 +126,11 @@ class MarketingTemplate extends Component {
 export default MarketingTemplate
 
 export const pageQuery = graphql`
-  query MarketingPostBySlug($slug: String!) {
+  query UnikornsPostBySlug($slug: String!) {
     site {
       siteMetadata {
         title
         author
-        siteUrl
       }
     }
     currentPost: mdx(fields: { slug: { eq: $slug } }) {
@@ -133,6 +138,7 @@ export const pageQuery = graphql`
       body
       frontmatter {
         shorttitle
+        shortdesc
         title
         description
         canonical
@@ -201,4 +207,4 @@ export const pageQuery = graphql`
         }
     }
   }
-`
+` 

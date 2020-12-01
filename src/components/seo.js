@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ canonical, description, lang, meta, keywords, title, noindex }) {
+function SEO({ canonical, description, lang, meta, keywords, title, noindex, video, schemaMarkup, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -12,6 +12,7 @@ function SEO({ canonical, description, lang, meta, keywords, title, noindex }) {
             title
             description
             author
+            siteUrl
           }
         }
       }
@@ -19,6 +20,13 @@ function SEO({ canonical, description, lang, meta, keywords, title, noindex }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const ogImg = image && image.publicURL ? site.siteMetadata.siteUrl + image.publicURL : ''
+
+  let canonicalUrl = canonical || site.siteMetadata.siteUrl
+
+  if(typeof window !== `undefined`) {
+    canonicalUrl = canonical || window.location.href
+  }
 
   return (
     <Helmet
@@ -42,7 +50,31 @@ function SEO({ canonical, description, lang, meta, keywords, title, noindex }) {
       },
       {
         property: `og:type`,
-        content: `website`,
+        content: video ? `video.movie` : `website`,
+      },
+      {
+        property: `og:image`,
+        content: ogImg,
+      },
+      {
+        property: `og:url`,
+        content: canonicalUrl,
+      },
+      {
+        property: `twitter:card`,
+        content: `summary`,
+      },
+      {
+        property: `twitter:title`,
+        content: title,
+      },
+      {
+        property: `twitter:description`,
+        content: metaDescription,
+      },
+      {
+        property: `twitter:image`,
+        content: ogImg,
       }
     ]
       .concat(
@@ -55,12 +87,16 @@ function SEO({ canonical, description, lang, meta, keywords, title, noindex }) {
       )
       .concat(meta)}>
 
-      {canonical && !noindex &&
-        <link rel="canonical" key={canonical} href={canonical} />
+      {canonicalUrl && !noindex &&
+        <link rel="canonical" key={canonicalUrl} href={canonicalUrl} />
       }
 
       {noindex && 
         <meta name="robots" content="noindex" />
+      }
+
+      {schemaMarkup &&
+        <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
       }
 
     </Helmet>

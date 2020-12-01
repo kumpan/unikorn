@@ -13,12 +13,38 @@ class AboutTemplate extends Component {
     const pageData = this.props.data.currentPost.frontmatter
     const body = this.props.data.currentPost.body
 
+    const schema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": this.props.data.site.siteMetadata.siteUrl + 'about',
+            "name": "About"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item":
+          {
+            "@id": this.props.location.href,
+            "name": pageData.title
+          }
+        }
+      ]
+    }
+
     return (
       <Layout location={this.props.location} title={siteTitle} show_contact_info>
         <SEO
           title={pageData.title}
           description={pageData.description}
           canonical={pageData.canonical}
+          schemaMarkup={schema}
+          image={pageData.og_image.src}
         />
         <Hero 
           shorttitle={pageData.shorttitle}
@@ -51,6 +77,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
       }
     }
     currentPost: mdx(fields: { slug: { eq: $slug } }) {
@@ -61,6 +88,18 @@ export const pageQuery = graphql`
         title
         description
         canonical
+        og_image {
+          src {
+            childImageSharp {
+              fluid(maxWidth: 560) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+            extension
+            publicURL
+          }
+          alt
+        }
         hero {
           heading
           text

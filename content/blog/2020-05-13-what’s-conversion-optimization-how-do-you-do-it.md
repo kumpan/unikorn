@@ -3,8 +3,12 @@ path: Difference content marketing inbound marketing
 title: What is the difference between Content marketing and Inbound marketing?
 description: What’s conversion optimization & how do you do it?
 canonical: https://unikorn.se/blog/difference content marketing inbound marketing
+og_image:
+  src: ../assets/content-marketing.jpg
+  alt: content marketing vs inbound marketing
 date: 2018-05-24T07:56:00.000Z
 author: Anna Råström
+author_page: /unikorns/anna-rastrom/
 category: Digital Strategies
 featured_image:
   src: ../assets/content-marketing.jpg

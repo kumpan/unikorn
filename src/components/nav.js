@@ -195,6 +195,9 @@ class Nav extends Component {
                   <ChevronDownIcon />
                   <ul className={Styles.submenu}>
                     {aboutMenuItems}
+                    <li>
+                      <Link to={"/unikorns/"}>We are Unikorns</Link>
+                    </li>
                   </ul>
                 </li>
               </ul>

@@ -8,10 +8,9 @@ import SubpagesList from "../components/subpages/subpages-list.js"
 
 import Container from "../components/container.js"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-
 import Styles from "./subpages.module.css"
 
-const MarketingPage = () => {
+const UnikornsPage = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -22,7 +21,7 @@ const MarketingPage = () => {
         }
         pageData: allMdx(
           filter: {
-            fileAbsolutePath: { regex: "/(/marketing-page/)/" }
+            fileAbsolutePath: { regex: "/(/unikorns-page/)/" }
           }
         ) {
           edges {
@@ -55,9 +54,8 @@ const MarketingPage = () => {
             }
           }
         }
-
         posts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/marketing/)/" } }
+          filter: { fileAbsolutePath: { regex: "/(/unikorns/)/" } }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {
@@ -65,6 +63,7 @@ const MarketingPage = () => {
               frontmatter {
                 shorttitle
                 shortdesc
+                path
                 icon {
                   src {
                     childImageSharp {
@@ -97,7 +96,7 @@ const MarketingPage = () => {
   }
 
   return (
-    <Layout location="/marketing" show_contact_info>
+    <Layout location="/unikorns" show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}
@@ -121,11 +120,11 @@ const MarketingPage = () => {
       </div>
       <div className={Styles.subpages_list_section + " bg-color-section-desktop"}>
         <div className="overlay-container container">
-          <SubpagesList posts={posts} parentPage="/marketing" />
+          <SubpagesList posts={posts} parentPage="/unikorns" pathLink={true} />
         </div>
       </div>
     </Layout>
   )
 }
 
-export default MarketingPage
+export default UnikornsPage 

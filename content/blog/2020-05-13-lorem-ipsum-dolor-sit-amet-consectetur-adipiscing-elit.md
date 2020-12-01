@@ -4,8 +4,12 @@ title: How to choose an agency to work with
 description: Many companies hire an agency to help out with their digital
   marketing. Here is an article to help you choose the right agency!
 canonical: https://unikorn.se/choosing-an-agency
+og_image:
+  src: ../assets/agency-collaboration.png
+  alt: Agency collaboration is like ballet
 date: 2018-11-26T08:56:00.000Z
 author: Ulrika Viberg
+author_page: /unikorns/ulrika-viberg/
 category: Unikorn Marketing
 featured_image:
   src: ../assets/agency-collaboration.png

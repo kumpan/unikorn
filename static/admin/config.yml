@@ -18,6 +18,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - name: hero
         label: Hero
         widget: object
@@ -115,6 +121,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - name: hero
         label: Hero
         widget: object
@@ -123,6 +135,7 @@ collections:
           - { label: Preamble, name: text, widget: text }
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
+      - { name: body, label: Text, widget: markdown }
   
   - name: web
     label: Web Magic subpages
@@ -137,6 +150,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - label: Icon
         name: icon
         widget: object
@@ -160,7 +179,7 @@ collections:
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
       - { name: latest_posts_text, label: Latest posts text, widget: string }
-      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies] }
+      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies], default: [Web Magic], multiple: true }
 
   - name: marketing-page
     label: Unikorn Marketing
@@ -174,6 +193,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - name: hero
         label: Hero
         widget: object
@@ -182,6 +207,7 @@ collections:
           - { label: Preamble, name: text, widget: text }
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
+    - { name: body, label: Text, widget: markdown }
 
   - name: marketing
     label: Marketing subpages
@@ -196,6 +222,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - label: Icon
         name: icon
         widget: object
@@ -219,8 +251,81 @@ collections:
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
       - { name: latest_posts_text, label: Latest posts text, widget: string }
-      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies] }
+      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies], default: [Web Magic], multiple: true }
   
+  - name: unikorns-page
+    label: We are Unicorn
+    folder: content/unikorns-page
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
+    editor:
+      preview: false
+    fields:
+      - { name: shorttitle, label: Short Title }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
+      - name: hero
+        label: Hero
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Preamble, name: text, widget: text }
+          - { label: Button text, name: button, widget: string, required: false }
+          - { label: Button link, name: buttonlink, widget: string, required: false }
+  - { name: body, label: Text, widget: markdown }
+
+  - name: unikorns
+    label: Unikorn subpages
+    folder: content/unikorns
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
+    editor:
+      preview: false
+    fields:
+      - { name: shorttitle, label: Short Title }
+      - { name: shortdesc, label: Short description }
+      - { name: title, label: SEO Title }
+      - { name: description, label: SEO Description }
+      - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
+      - { label: Path, name: path }
+      - label: Icon
+        name: icon
+        widget: object
+        required: false
+        fields:
+          - { label: Icon, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
+      - name: hero
+        label: Hero
+        widget: object
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - { label: Preamble, name: preamble, widget: text }
+          - label: Featured image
+            name: featured_image
+            widget: object
+            fields:
+              - { label: Image, name: src, widget: image }
+              - { label: Alt text, name: alt, widget: string }
+          - { label: Button text, name: button, widget: string, required: false }
+          - { label: Button link, name: buttonlink, widget: string, required: false }
+      - { name: body, label: Text, widget: markdown }
+      - { name: latest_posts_text, label: Latest posts text, widget: string }
+      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies], default: [Web Magic], multiple: true }
+
   - name: digital-page
     label: Digital Strategies
     folder: content/digital-page
@@ -233,6 +338,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - name: hero
         label: Hero
         widget: object
@@ -241,6 +352,7 @@ collections:
           - { label: Preamble, name: text, widget: text }
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
+  - { name: body, label: Text, widget: markdown }
   
   - name: digital
     label: Digital subpages
@@ -255,6 +367,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - label: Icon
         name: icon
         widget: object
@@ -278,7 +396,7 @@ collections:
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
       - { name: latest_posts_text, label: Latest posts text, widget: string }
-      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies] }
+      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies], default: [Web Magic], multiple: true }
 
   - name: blog-page
     label: Blog page
@@ -292,6 +410,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - name: hero
         label: Hero
         widget: object
@@ -322,10 +446,17 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Author, name: author, widget: string }
-      - { label: Category, name: category, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies] }
+      - { label: Author Page, name: author_page}
+      - { label: Category, name: category, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies], default: [Web Magic], multiple: true },
       - label: Featured image
         name: featured_image
         widget: object
@@ -349,10 +480,17 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Author, name: author, widget: string }
-      - { label: Category, name: category, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies] }
+      - { label: Author Page, name: author_page}
+      - { label: Category, name: category, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies], default: [Web Magic], multiple: true }
       - label: Featured image
         name: featured_image
         widget: object
@@ -377,6 +515,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - name: hero
         label: Hero
         widget: object
@@ -406,6 +550,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - name: hero
         label: Hero
         widget: object
@@ -554,6 +704,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - name: hero
         label: Hero
         widget: object
@@ -607,6 +763,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - name: hero
         label: Hero
         widget: object
@@ -636,6 +798,12 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - name: og_image, 
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - name: hero
         label: Hero
         widget: object

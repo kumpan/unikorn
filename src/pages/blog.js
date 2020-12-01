@@ -30,6 +30,18 @@ const Blog = () => {
                 title
                 description
                 canonical
+                og_image {
+                  src {
+                    childImageSharp {
+                      fluid(maxWidth: 560) {
+                        ...GatsbyImageSharpFluid
+                      }
+                    }
+                    extension
+                    publicURL
+                  }
+                  alt
+                }
                 hero {
                   heading
                   text
@@ -66,6 +78,7 @@ const Blog = () => {
                 date(formatString: "DD/MM/YY")
                 category
                 author
+                author_page
                 video_url
                 type
                 featured_image {
@@ -102,12 +115,22 @@ const Blog = () => {
     }
   }
   
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": pageData.title,
+    "description": pageData.description,
+    "url": pageData.canonical
+  }
+  
   return (
     <Layout location="/blog">
       <SEO
         title={pageData.title}
         description={pageData.description}
         canonical={pageData.canonical}
+        schemaMarkup={schema}
+        image={pageData.og_image.src}
       />
       <Hero 
         heading={pageData.hero.heading} 
