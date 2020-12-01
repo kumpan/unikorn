@@ -5,9 +5,9 @@ description: We help companies with Web Projects, Digital Marketing, Strategies
   and Advanced SEO. Read more about how can we help you gain more relevant and
   converting traffic!
 canonical: https://www.unikorn.se/
-og_image:
-  src: ../assets/digital-growth-unikorn.svg
-  alt: Digital Growth
+"og_image,":
+  src: ../assets/unikorn-youtube.png
+  alt: unikorn
 hero:
   heading: Grow your digital presence online.
   text: We’re your best friend when it comes to helping you find the path to a
@@ -169,4 +169,7 @@ references_section:
         helping us in the communication with the web developers, made the whole
         experience much nicer and smoother.”
       person: David Schnell, Marketing Director at Aritco.com
+og_image:
+  src: ../assets/digital-growth-unikorn.svg
+  alt: Digital Growth
 ---
