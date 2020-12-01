@@ -4,8 +4,8 @@ title: SEOGIRLS - a network for women in SEO.
 description: Female SEO network that crosses the agency borders.
 canonical: https://www.unikorn.se/blog/seogirls/
 og_image:
-  src: ../assets/jennydrakenlind_20190926_0018_web.jpg
-  alt: SEOGIRLS
+  src: 
+  alt: 
 date: 2017-05-01T07:50:00.000Z
 author: Ulrika Viberg
 author_page: /unikorns/ulrika-viberg/

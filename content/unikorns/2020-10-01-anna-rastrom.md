@@ -6,8 +6,8 @@ title: We are Unikorns!
 description: Meet the people at Unikorn
 canonical: https://unikorn.se/unikorns/anna-rastrom/
 og_image:
-  src: ../assets/digital-growth-unikorn.svg
-  alt: Digital Growth
+  src: 
+  alt: 
 icon:
   src: ../assets/social-media-marketing.svg
   alt: Social Media Marketing

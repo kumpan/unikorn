@@ -4,8 +4,8 @@ title: Marketing
 description: Marketing
 canonical: https://www.unikorn.se/marketing/
 og_image:
-  src: ../assets/digital-growth-unikorn.svg
-  alt: Digital Growth
+  src: 
+  alt: 
 hero:
   heading: Reach your community.
   text: We’re your best friend when it comes to helping you find the best path to

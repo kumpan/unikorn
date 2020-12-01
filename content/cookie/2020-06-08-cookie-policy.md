@@ -4,8 +4,8 @@ title: Cookie policy
 description: Cookie policy
 canonical: https://www.unikorn.se/cookie-policy/
 og_image:
-  src: ../assets/cookie-policy.svg
-  alt: privacy policy
+  src: 
+  alt: 
 hero:
   heading: Cookie policy
   text: We have cookies!

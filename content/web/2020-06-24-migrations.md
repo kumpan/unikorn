@@ -8,7 +8,7 @@ title: Website Migration Services
 description: "Unikorn has helped many site owners migrate their websites to new
   platforms, domains and entirely new webs. Let us help you as well! "
 canonical: https://www.unikorn.se/web/website-migration/
-"og_image,":
+og_image:
   src: ../assets/critter.png
   alt: website migration
 icon:
@@ -27,9 +27,6 @@ hero:
   buttonlink: /contact
 latest_posts_text: Migrations
 posts_category: Web Magic
-og_image:
-  src: ../assets/undraw_order_delivered_p6ba.svg
-  alt: Website Migration Services
 ---
 ## Let us take care of moving your website
 

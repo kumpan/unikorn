@@ -6,8 +6,8 @@ description: Behind every successful campaign, lies a vision of what to achieve,
   In short, a strategy.
 canonical: https://www.unikorn.se/about/our-approach
 og_image:
-  src: ../assets/our-approach.svg
-  alt: Illustration
+  src: 
+  alt: 
 hero:
   heading: This is how we make it a reality.
   text: We’re your best friend when it comes to helping you find the best path to

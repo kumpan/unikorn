@@ -8,8 +8,8 @@ title: Web Project Management
 description: Web Project Management
 canonical: https://www.unikorn.se/web/project-management/
 og_image:
-  alt: Project Management
-  src: ../assets/undraw_plans_y8ru-1-.svg
+  src: 
+  alt: 
 icon:
   alt: Project Management
   src: ../assets/project-2-.svg
