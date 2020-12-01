@@ -169,7 +169,4 @@ references_section:
         helping us in the communication with the web developers, made the whole
         experience much nicer and smoother.”
       person: David Schnell, Marketing Director at Aritco.com
-og_image:
-  src: ../assets/digital-growth-unikorn.svg
-  alt: Digital Growth
 ---
