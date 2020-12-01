@@ -4,7 +4,7 @@ shorttitle: Ulrika Viberg
 shortdesc: Founder of Unikorn
 title: We are Unikorns!
 description: Meet the people at Unikorn
-canonical: https://unikorn.se/unikorns/ulrika-viberg/
+canonical: https://www.unikorn.se/unikorns/ulrika-viberg/
 og_image:
   src: ../assets/digital-growth-unikorn.svg
   alt: Digital Growth

@@ -2,7 +2,7 @@
 shorttitle: Digital strategies
 title: "Digital strategies creates magic! "
 description: Digital strategies
-canonical: https://unikorn.se/digital-strategies/
+canonical: https://www.unikorn.se/digital-strategies/
 og_image:
   src: ../assets/sprinter-monochrome-_animated.svg
   alt: Digital strategies

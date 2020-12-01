@@ -4,7 +4,7 @@ shortdesc: Let each channel sparkle with Unikorn magic.
 title: Channel strategies
 description: To get the most out of your digital marketing efforts, you need a
   strategy for each of your channels. Let us help you figure it out!
-canonical: https://unikorn.se/digital-strategies/channel-strategies/
+canonical: https://www.unikorn.se/digital-strategies/channel-strategies/
 og_image:
   src: ../assets/undraw_settings_ii2j.svg
   alt: Channel strategies

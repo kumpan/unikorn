@@ -3,7 +3,7 @@ path: Social Media Report Template
 title: How to create an easy-to-use report for Social Media
 description: Template for goal-oriented reporting of Social Media efforts.
   Download the template here!
-canonical: /blog/social-media-reporting
+canonical: https://www.unikorn.se/blog/social-media-reporting
 og_image:
   src: ../assets/pexels-jameson-mallari-atenta-4619829.jpg
   alt: Social Media template Photo by Jameson Mallari Atenta

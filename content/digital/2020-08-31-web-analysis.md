@@ -4,7 +4,7 @@ shortdesc: Web Analysis and Measuring
 title: Web Analysis and Measuring
 description: "Obviously you want to your shiny web thing do really well. To know
   what to do better, you need to measure it right! "
-canonical: https://www.unikorn.se/digital-strategies/web-analysis
+canonical: https://www.unikorn.se/digital-strategies/web-analysis/
 og_image:
   alt: Web Analysis
   src: ../assets/undraw_progress_data_4ebj-1-.svg

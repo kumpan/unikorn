@@ -1,9 +1,10 @@
 ---
 shorttitle: Startpage
 title: SEO, Web Projects, Digital Strategies
-description: We help companies with Digital Strategies and Advanced SEO. Read
-  more about how can we help you gain more relevant and converting traffic!
-canonical: https://www.unikorn.se
+description: We help companies with Web Projects, Digital Marketing, Strategies
+  and Advanced SEO. Read more about how can we help you gain more relevant and
+  converting traffic!
+canonical: https://www.unikorn.se/
 og_image:
   src: ../assets/digital-growth-unikorn.svg
   alt: Digital Growth
@@ -27,13 +28,13 @@ tabs_section:
         start-ups. We call it Unikorn Search.
       buttontext: Read more about SEO
       buttontext_mobile: Unikorn Search
-      buttonlink: /seo
+      buttonlink: /marketing/seo-organic-search/
     - tab_title: Marketing
       text: Massive experience of Digital Marketing has formed our way of successful
         and aggressive Digital Marketing for both Start-ups and well established
         organisations. We call it Unikorn Marketing.
       heading: Unikorn Marketing
-      buttonlink: /marketing
+      buttonlink: /marketing/
       buttontext: Read more about Unikorn marketing
       buttontext_mobile: Unikorn Marketing
     - tab_title: Web
@@ -43,7 +44,7 @@ tabs_section:
         organisations. We call it Unikorn Web.
       buttontext: Read more about Unikorn web
       buttontext_mobile: Read more
-      buttonlink: /web
+      buttonlink: /web/
     - tab_title: Strategy
       heading: Unikorn Strategy
       text: How to walk the walk and talk the talk is all about knowing who you are
@@ -51,7 +52,7 @@ tabs_section:
         about Digital Strategies.
       buttontext: Read more about digital strategies
       buttontext_mobile: Digital Strategies
-      buttonlink: /digital-strategies
+      buttonlink: /digital-strategies/
 blog_section:
   pre_heading: Blog
   heading: The latest Unikorn knowledge
@@ -65,7 +66,7 @@ video_section:
     src: ../assets/screenshot-2020-10-07-at-16.44.18.png
     alt: About Unikorn
   button: Learn more about us
-  buttonlink: /about-us/
+  buttonlink: /about/
 faq_section:
   pre_heading: Frequently asked questions (FAQ)
   heading: Answering your questions
@@ -95,6 +96,9 @@ faq_section:
         * YouTube Optimisation
 
         * ...and more
+
+
+        [Read more about SEO >>](https://www.unikorn.se/marketing/seo-organic-search/)
     - question: What is Unikorn Marketing
       answer: >-
         Unikorn Marketing is an aggressive marketing and user focused way of
@@ -119,6 +123,9 @@ faq_section:
         * Display
 
         * ...and more
+
+
+        [Read more about Unikorn Marketing >>](https://www.unikorn.se/marketing/)
     - question: What is a Search Customer Journey?
       answer: >-
         A search customer journey is a model we use at Unikorn, developed by
@@ -129,6 +136,9 @@ faq_section:
 
 
         As we often do customer journeys as a start-off in our web projects, it seemed logical to add a layer of search on top of it.
+
+
+        [Read the article about The Customer Journey >>](https://www.unikorn.se/blog/search-customer-journey/)
   featured_image:
     src: ../assets/answers.png
     alt: Unikorn FAQ

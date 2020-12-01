@@ -16,7 +16,8 @@ icon:
   alt: Website Requirements
 hero:
   heading: Website Requirements
-  preamble: Because your website should be perfect!
+  preamble: To build the best website you need the best ingredients! Such as
+    sparkles and magic code. Because your website should be perfect.
   buttonlink: /contact
   button: Let's talk shiny webs!
   featured_image:
@@ -25,5 +26,16 @@ hero:
 latest_posts_text: Articles about Web
 posts_category: Web Magic
 ---
-## Magic in - magic out is our motto. 
-We write magical website requirements for your developers, so that they know how to build your new sparkling and user-friendly website that will delight both search engines and end-users.
+## Magic in - magic out is our motto.
+
+Developers are like magicians, you just need to tell them exactly what you wish for, and they will make it happen. We write magical website requirements for your developers, so that they know how to build your new sparkling and user-friendly website that will delight both search engines and end-users.
+
+How Unikorn can make your website shine bright as the North Star:
+
+* Gathering all the requirements from stakeholders and parties within the organisation
+* Adding the technical SEO requirements
+* Prioritising and estimating the requirements
+* Setting up the requirements in the project tool of your choice, may it be Jira, Asana, Trello, Monday or Excel. Your project - your tool! 
+* Setting up test cases fro the requirements 
+
+### [Let's talk](/contact) website requirements!
