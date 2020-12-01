@@ -279,7 +279,7 @@ collections:
           - { label: Preamble, name: text, widget: text }
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
-  - { name: body, label: Text, widget: markdown }
+      - { name: body, label: Text, widget: markdown }
 
   - name: unikorns
     label: Unikorn subpages
@@ -352,7 +352,7 @@ collections:
           - { label: Preamble, name: text, widget: text }
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
-  - { name: body, label: Text, widget: markdown }
+      - { name: body, label: Text, widget: markdown }
   
   - name: digital
     label: Digital subpages
