@@ -9,7 +9,7 @@ description: "Unikorn has helped many site owners migrate their websites to new
   platforms, domains and entirely new webs. Let us help you as well! "
 canonical: https://www.unikorn.se/web/website-migration/
 og_image:
-  src: ../assets/og-share-img.png
+  src: ../assets/webmigrations.png
   alt: website migrations
 icon:
   src: ../assets/migration.svg
