@@ -9,8 +9,8 @@ description: Unikorn helps you with writing the best possible website
   requirements for your new shiny web. Let us help you shine!
 canonical: https://www.unikorn.se/web/website-requirements/
 og_image:
-  src: 
-  alt: 
+  src: ../assets/website-requirements.png
+  alt: Website Requirements
 icon:
   src: ../assets/requirement.svg
   alt: Website Requirements
