@@ -23,8 +23,8 @@ module.exports = {
       options: {
         rule: {
           include: `${__dirname}/content/assets`,
-        }
-      }
+        },
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -178,8 +178,8 @@ module.exports = {
               maxWidth: 864,
             },
           },
-        ]
-      }
+        ],
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -215,10 +215,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: 'https://www.unikorn.se',
-        sitemap: 'https://www.unikorn.se/sitemap.xml',
-        policy: [{ userAgent: '*', disallow: '/admin'}]
-      }
+        host: "https://www.unikorn.se",
+        sitemap: "https://www.unikorn.se/sitemap.xml",
+        policy: [{ userAgent: "*", disallow: "/admin", allow: "/" }],
+      },
     },
     {
       resolve: `gatsby-plugin-sitemap`,
@@ -244,24 +244,24 @@ module.exports = {
           }
         }
       `,
-      serialize: ({ site, allSitePage }) => {
-        return allSitePage.edges
-          .map(({ node }) => {
+        serialize: ({ site, allSitePage }) => {
+          return allSitePage.edges.map(({ node }) => {
             let slug = node.context.slug
 
-            if(slug !== null) {
+            if (slug !== null) {
               let splitslash = slug.split("/")
               let splitdash = splitslash[1].split("-")
-              var newslug = splitdash[0] + "-" + splitdash[1] + "-" + splitdash[2]
+              var newslug =
+                splitdash[0] + "-" + splitdash[1] + "-" + splitdash[2]
             }
 
             return {
               url: site.siteMetadata.siteUrl + node.path,
-              lastmodISO: newslug ? newslug : node.context.slug
-            };
-          });
+              lastmodISO: newslug ? newslug : node.context.slug,
+            }
+          })
+        },
       },
-      }
     },
     {
       resolve: `gatsby-plugin-google-tagmanager`,
@@ -294,7 +294,7 @@ module.exports = {
     //     pathToConfigModule: `src/utils/typography`,
     //   },
     // },
-    
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
