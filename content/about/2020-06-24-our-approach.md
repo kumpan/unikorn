@@ -4,10 +4,10 @@ title: Our approach
 description: Behind every successful campaign, lies a vision of what to achieve,
   a plan of what to do and when for whom. Plus a consensus of what success is.
   In short, a strategy.
-canonical: https://www.unikorn.se/about/our-approach
+canonical: https://www.unikorn.se/about/our-approach/
 og_image:
-  src: 
-  alt: 
+  src: ../assets/og.png
+  alt: The Unikorn way
 hero:
   heading: This is how we make it a reality.
   text: We’re your best friend when it comes to helping you find the best path to
