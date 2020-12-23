@@ -1,6 +1,7 @@
 ---
 shorttitle: Anna Råström, MondayRebel
-shortdesc: "Anna Råström, Monday Rebel - Strategy, Creativity, SoMe, Content "
+shortdesc: "CEO of Monday Rebel. Expert on Digital Strategies, Content, Creative
+  projects and SoMe "
 title: "Unikorn friend Anna Råström - Strategy, Creativity, SoMe, Content "
 description: Meet the CEO of Monday Rebel - Anna Råström. Anna sometimes do some
   guest blogging on the Unikorn blog
