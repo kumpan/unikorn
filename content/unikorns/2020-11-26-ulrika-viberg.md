@@ -7,10 +7,10 @@ canonical: https://www.unikorn.se/unikorns/ulrika-viberg/
 og_image:
   src: ../assets/og.png
   alt: Ulrika Viberg Unikorn
-path: ulrika-viberg
+path: ulrika-viberg/
 icon:
-  src: ../assets/ulrikaviberg.png
-  alt: Social Media Marketing
+  src: ../assets/digital-growth-unikorn.svg
+  alt: Ulrika Viberg Unikorn
 hero:
   heading: Ulrika Viberg - Founder of Unikorn
   featured_image:
