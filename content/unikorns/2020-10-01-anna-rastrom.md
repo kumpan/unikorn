@@ -26,6 +26,10 @@ latest_posts_text: Read the latest posts about Unikorn Marketing
 posts_category:
   - Unikorn Marketing
 ---
-I helping companies create content that converts.\
-\
+## Experienced Growth Hacker and Content Marketing Specialist
+
+![Anna Råström](../assets/anna.jpeg)
+
+> I helping companies create content that converts. 
+
 As a freelancer in marketing I help big and small companies set up their content marketing strategy, create concepts and produce everything from articles and whitepapers to blog posts and Youtube series. I have a holistic view on marketing and knowledge in everything from strategy to conversion optimization.
