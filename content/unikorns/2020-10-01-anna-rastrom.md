@@ -16,7 +16,7 @@ icon:
 hero:
   heading: Anna Råström, Monday Rebel
   featured_image:
-    src: ../assets/anna.jpeg
+    src: ../assets/undraw_social_strategy_1wuq-1-.svg
     alt: Anna Råström
   preamble: "Unikorn friend and CEO at MondayRebel - Digital Strategies,
     Creativity, SoMe, Content "
