@@ -11,7 +11,7 @@ og_image:
   alt: Unikorn Marketing
 path: anna-rastrom
 icon:
-  src: ../assets/anna.jpeg
+  src: ../assets/undraw_social_strategy_1wuq-1-.svg
   alt: Anna Råström
 hero:
   heading: Anna Råström, Monday Rebel
