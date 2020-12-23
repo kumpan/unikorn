@@ -1,30 +1,31 @@
 ---
-path: ulrika-viberg
 shorttitle: Ulrika Viberg
 shortdesc: Founder of Unikorn
-title: We are Unikorns!
+title: Ulrika Viberg - CEO and founder of Digital Unikorn AB
 description: Meet the people at Unikorn
 canonical: https://www.unikorn.se/unikorns/ulrika-viberg/
 og_image:
-  src: 
-  alt: 
+  src: ../assets/og.png
+  alt: Ulrika Viberg Unikorn
+path: ulrika-viberg
 icon:
-  src: ../assets/social-media-marketing.svg
+  src: ../assets/ulrikaviberg.png
   alt: Social Media Marketing
 hero:
   heading: Ulrika Viberg - Founder of Unikorn
   featured_image:
-    src: 
-    alt: 
-  preamble: Meet our founder and owner, the woman behind Unikorn! Ulrika Viberg has a
-    solid background in all things web considered, with a deep knowledge in
-    Technical SEO, Web Projects and Digital Strategies!
+    src: ../assets/ulrikaviberg.png
+    alt: Ulrika Viberg Unikorn
+  preamble: Meet our founder and owner, the woman behind Unikorn! Ulrika Viberg
+    has a solid background in all things web considered, with a deep knowledge
+    in Technical SEO, Web Projects and Digital Strategies!
   button: Get in touch
   buttonlink: /contact
+latest_posts_text: Read the latest web related articles
+posts_category:
+  - Web Magic
 ---
-### Experienced Digital Marketeer with 23+ years in the business
-
-![Ulrika Viberg](../assets/ulrikaviberg.png "Ulrika Viberg")
+## Experienced Digital Marketeer with 23+ years in the business
 
 Ulrika's super powers are: 
 
