@@ -28,7 +28,7 @@ tabs_section:
         start-ups. We call it Unikorn Search.
       buttontext: Read more about SEO
       buttontext_mobile: Unikorn Search
-      buttonlink: /marketing/seo-organic-search/
+      buttonlink: /marketing/seo/
     - tab_title: Marketing
       text: Massive experience of Digital Marketing has formed our way of successful
         and aggressive Digital Marketing for both Start-ups and well established
