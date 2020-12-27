@@ -98,7 +98,7 @@ faq_section:
         * ...and more
 
 
-        [Read more about SEO >>](https://www.unikorn.se/marketing/seo-organic-search/)
+        [Read more about SEO >>](https://www.unikorn.se/marketing/seo/)
     - question: What is Unikorn Marketing
       answer: >-
         Unikorn Marketing is an aggressive marketing and user focused way of
