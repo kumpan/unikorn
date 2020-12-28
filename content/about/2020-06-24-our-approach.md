@@ -17,7 +17,7 @@ hero:
     src: ../assets/our-approach.svg
     alt: Illustration
   button: Let us tell you more
-  buttonlink: /about
+  buttonlink: /contact
 ---
 ## **One size fits No-one**
 
