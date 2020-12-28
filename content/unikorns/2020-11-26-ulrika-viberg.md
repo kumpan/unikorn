@@ -3,7 +3,8 @@ shorttitle: Ulrika Viberg, Unikorn
 shortdesc: Founder of Unikorn, Senior SEO Unikorn with a passion for Digital
   Strategeis and Web projects
 title: Ulrika Viberg - CEO and founder of Digital Unikorn AB
-description: Meet the people at Unikorn
+description: Meet Ulrika Viberg, the Unikorn founder with a passion for
+  Technical SEO and user focused websites!
 canonical: https://www.unikorn.se/unikorns/ulrika-viberg/
 og_image:
   src: ../assets/og.png
