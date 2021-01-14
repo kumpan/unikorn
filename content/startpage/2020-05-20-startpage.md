@@ -6,7 +6,7 @@ description: We help companies with Web Projects, Digital Marketing, Strategies
   converting traffic!
 canonical: https://www.unikorn.se/
 og_image:
-  src: ../assets/start.png
+  src: ../assets/og.png
   alt: unikorn
 hero:
   heading: Grow your digital presence online.
