@@ -1,6 +1,6 @@
 ---
 shorttitle: Startpage
-title: SEO, Web Projects, Digital Strategies
+title: Your partner for SEO, Web Projects & Digital Strategies
 description: We help companies with Web Projects, Digital Marketing, Strategies
   and Advanced SEO. Read more about how can we help you gain more relevant and
   converting traffic!
