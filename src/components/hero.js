@@ -37,7 +37,7 @@ const Hero = (props) => {
           {((parentPageLink || shorttitle) || (parentPageLink && shorttitle)) &&
             <div className={"breadcrumbs " + Styles.breadcrumbs}>
               {parentPageLink &&
-                <span><Link to={"/" + parentPageLink}>{parentPageTitle}</Link> / </span>
+                <span><Link to={"/" + parentPageLink + "/"}>{parentPageTitle}</Link> / </span>
               }
               
               {shorttitle &&

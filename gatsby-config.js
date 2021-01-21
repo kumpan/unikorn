@@ -3,7 +3,7 @@ module.exports = {
     title: `Unikorn`,
     author: `Unikorn`,
     description: `Grow your digital business and presence online`,
-    siteUrl: `https://unikorn.se/`,
+    siteUrl: `https://www.unikorn.se/`,
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
