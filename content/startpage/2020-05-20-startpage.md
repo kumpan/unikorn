@@ -47,17 +47,22 @@ tabs_section:
       buttontext_mobile: Unikorn Marketing
     - tab_title: Web
       heading: Unikorn Web
-      text: Hundreds of web projects has given us a profound understanding of all the
-        aspects regarding a web as a platform for small, medium, large and huge
-        organisations. We call it Unikorn Web.
+      text: "Web projects in the hundreds have formed a profound understanding, as a
+        whole, of webs as platforms for small, medium, large and multinational
+        organisations. We call it Unikorn Web - A curated set of disciplines
+        constructed under three pillars of expertise: Migration | Requirements |
+        Project Management."
       buttontext: Read more about Unikorn web
       buttontext_mobile: Read more
       buttonlink: /web/
     - tab_title: Strategy
       heading: Unikorn Strategy
       text: How to walk the walk and talk the talk is all about knowing who you are
-        and where you are heading. You need a map to success. We are talking
-        about Digital Strategies.
+        and where you are heading. A concept translatable to the digital scene
+        and where a map to success is essential. We are talking about Digital
+        Strategies - A cacophony we transform into a harmonious selection of
+        channel strategies, web analysis, processes and ways of working
+        expertise.
       buttontext: Read more about digital strategies
       buttontext_mobile: Digital Strategies
       buttonlink: /digital-strategies/
