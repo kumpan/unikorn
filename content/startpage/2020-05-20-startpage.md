@@ -9,10 +9,13 @@ og_image:
   src: ../assets/og.png
   alt: unikorn
 hero:
-  heading: Grow your digital presence online.
-  text: We’re your best friend when it comes to helping you find the path to a
-    successful digital strategy. We know how to handle every aspect of your
-    Digital Marketing.
+  heading: Rocket your digital presence.
+  text: "We’re your best friend when it comes to helping you find the path to a
+    successful digital strategy. We have the know-how and experience to handle
+    every aspect of your Digital Marketing, and thus, will be by your side
+    throughout the entire process. From the initial stages to follow-ups,
+    revisions, and course direction, a solid constant SEO, web project and
+    digital strategies' performance-partner. "
   featured_image:
     src: ../assets/digital-growth-unikorn.svg
     alt: Digital Growth
@@ -23,16 +26,21 @@ tabs_section:
   tab_fields:
     - tab_title: Search
       heading: Unikorn Search
-      text: Two decades of Organic and Paid Search has taught us the most successful
-        ways of taming the search landscape for both well-known brands and
-        start-ups. We call it Unikorn Search.
+      text: Organic and Paid Search is in our genes, with two decades handling the
+        market, it has brought to us the successful recipe to tame the search
+        landscape. At well-known brands and start-ups level, recognizing their
+        necessities and budgets, to accentuate results. We call it Unikorn
+        Search - SEO (Search Engine Optimisation) | SEM (Search Engine
+        Marketing) expertise.
       buttontext: Read more about SEO
       buttontext_mobile: Unikorn Search
       buttonlink: /marketing/seo/
     - tab_title: Marketing
-      text: Massive experience of Digital Marketing has formed our way of successful
-        and aggressive Digital Marketing for both Start-ups and well established
-        organisations. We call it Unikorn Marketing.
+      text: "Our Digital Marketing experience is massive forming our view of
+        successful Digital Marketing, as aggressive, and not just for Start-ups,
+        but well established organisations too. We call it Unikorn Marketing -
+        Kick-off start and go-to-market phase aggressive expertise for full
+        traction throughout all cycle stages. "
       heading: Unikorn Marketing
       buttonlink: /marketing/
       buttontext: Read more about Unikorn marketing
