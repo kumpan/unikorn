@@ -165,13 +165,27 @@ faq_section:
     - question: What is a Search Customer Journey?
       answer: >-
         A search customer journey is a model we use at Unikorn, developed by
-        Ulrika Viberg. 
+        Ulrika Viberg.
 
 
-        The model is based on a traditional customer journey, with the phases awareness, interest, consideration, evaluation and conversion. As these phases translates to the search intents of informational, transactional and commercial searches, they can be added as a layer on the customer journey.
+        The model is based on a traditional customer journey, with the phases awareness, interest, consideration, evaluation and conversion. As these phases translate to the search intents of informational, transactional and commercial searches, they can be added as a layer on the customer journey.
 
 
-        As we often do customer journeys as a start-off in our web projects, it seemed logical to add a layer of search on top of it.
+        In this sense, as we often do customer journeys as a start-off in our web projects, it seemed logical to add a layer of search on top of it. Resulting in:
+
+
+        * Inspirational content for the awareness phase.
+
+        * Situational and informational content inside the interest stage + Informational search.
+
+        * Consideration phase offers USP (Unique selling proposition) and value proposition content + Informational and commercial search.
+
+        * Evaluation phase translating into reviews and cases production + Informational and transactional search.
+
+        * Purchase stage produces CRO (Conversion rate optimisation) and secure purchasing content + Transactional search.
+
+
+        Servicing a search customer journey as ours, the exactitude, relates to minimal changes in e.g. keywords’ slight differences “wine with food” and “wine and food”, as Ulrika explains in the following in-depth article about Unikorn’s customer journey.
 
 
         [Read the article about The Customer Journey >>](https://www.unikorn.se/blog/search-customer-journey/)
