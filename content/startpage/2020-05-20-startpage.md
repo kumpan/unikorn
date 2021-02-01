@@ -68,7 +68,7 @@ tabs_section:
       buttonlink: /digital-strategies/
 blog_section:
   pre_heading: Blog
-  heading: The latest Unikorn knowledge
+  heading: Unikorn knowledge-base
   button: Explore more articles
   buttonlink: /blog/
 video_section:
@@ -89,11 +89,14 @@ faq_section:
         SEO stands for Search Engine Optimisation, and is a collection of
         disciplines to make your content rank for relevant search queries on
         search engines. SEO is important for many websites, to make sure the
-        users are able to find and interact with the desired content, when they
-        search for it. 
+        users are able to find and interact with the desired content when they
+        search for it.
 
 
-        Disciplines in SEO are for example:
+        We must remember that the Internet is a vast space offering huge opportunities, and also immense downfall because no matter how good is the product and/or service if it’s not visible there’s nothing to do. SEO plays a vital part in this visibility because one of its prime objectives is the content presentation focused on users and search bots (crawlers, spiders).
+
+
+        Some SEO disciplines we use, to achieve a perfect balance between the necessities of the users and those of the search engine crawlers include:
 
 
         * Technical optimisation
@@ -111,20 +114,25 @@ faq_section:
         * ...and more
 
 
+        To be able to foster and nurture these techniques, patience is crucial, and craftsmanship vital, these reasons make it clear SEO is a fundamental pillar in the digital marketing space. Thus, a solid team of specialised professionals is required to reach the set-targets and we at Unikorn have the knowledge, know-how, and the wo-manpower to reach your businesses online needs through our curated SEO.
+
+
+        Interesting facts that may shine a better light on SEO are the top-5 search engines worldwide, at number #1 Google, #2 Bing, #3 Baidu, #4 Yahoo, and #5 Yandex. Google alone holds the crown encompassing market share at over 90%, and Bing, in second places has a 2%-12% market share. Inside this top-5 the amount of users who surf the search engines rises to over 4,000,000,000 which is nearly 60% of the World’s population.
+
+
+        We hope these fun-facts have shed a light on the empowering force SEO is for your Digital Marketing, and through many of its streams. One that shines brightest is the humongous amount of users searching the web on informational, commercial, and transactional search basis. Other aspects shining are the exponential market share the #1 search engine has. Data that forms the picture of the paths a business needs to walk, for its digital presence to standout from the crowd.
+
+
         [Read more about SEO >>](https://www.unikorn.se/marketing/seo/)
     - question: What is Unikorn Marketing
       answer: >-
-        Unikorn Marketing is an aggressive marketing and user focused way of
-        working we have developed at Unikorn. 
+        Unikorn Marketing is an aggressive marketing and user-focused way of
+        working we have developed at Unikorn. Aggressive in the sense of
+        hands-on to help companies kick off their marketing efforts, or
+        go-to-market phase with bullet traction.
 
 
-        With aggressive we mean to help companies kick off their marketing efforts, or go-to-market phase, aggressively in order to gain as much traction as possible.  
-
-
-        Regardless of what channel or marketing technique is on the table, the user always has to be the deciding factor of what direction to take or action to be prioritised.
-
-
-        We use the Unikorn Marketing focus on:
+        A mastery formed by a well integrated team of professionals who understand that, regardless of what channel or marketing technique is on the table, the user is always in its centre. She is the deciding factor determining the next flow or actionability, the enterprise, start-up, multinational or small business need to follow through. Unikorn Marketing focus, is used by our experts, to deliver results to the aimed targets, structured previously within the strategy creation, on:
 
 
         * SoMe
@@ -136,6 +144,21 @@ faq_section:
         * Display
 
         * ...and more
+
+
+        Focusing our hands-on marketing approach, within the named tools above, we coordinate a mean machine of specialists. Who in turn digest the targets to aggressively act upon and start creating conversion through brand reputation, indexing, targeted-ads, and page authority. In other words:
+
+
+        * Brand reputation = Social media (SoMe).
+
+        * Indexing = Search engine optimisation (SEO).
+
+        * Targeted-ads = SEM (Search Engine Marketing).
+
+        * Authority = Linking-building.
+
+
+        The Unikorn Marketing team step-it-up upgrading the whole process, actioning on your digital presence, UX (user-experience), search optimisation, and a number of other advantages that we’d be delighted to discuss with you. If you still see the need or have curiosity to learn more about Unikorn Marketing, feel free to access the following link.
 
 
         [Read more about Unikorn Marketing >>](https://www.unikorn.se/marketing/)
