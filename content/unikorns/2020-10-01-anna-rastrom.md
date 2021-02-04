@@ -6,6 +6,7 @@ title: "Unikorn friend Anna Råström - Strategy, Creativity, SoMe, Content "
 description: Meet the CEO of Monday Rebel - Anna Råström. Anna sometimes do some
   guest blogging on the Unikorn blog
 canonical: https://www.unikorn.se/unikorns/anna-rastrom/
+menu_position: 2
 og_image:
   src: ../assets/og.png
   alt: Unikorn Marketing

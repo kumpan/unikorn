@@ -65,6 +65,7 @@ const MarketingPage = () => {
               frontmatter {
                 shorttitle
                 shortdesc
+                menu_position
                 icon {
                   src {
                     childImageSharp {
@@ -87,6 +88,18 @@ const MarketingPage = () => {
 
   const pageData = data.pageData.edges[0].node.frontmatter
   const posts = data.posts.edges
+
+  function sortItems( a, b ) {
+    if ( a.node.frontmatter.menu_position < b.node.frontmatter.menu_position ){
+      return -1;
+    }
+    if ( a.node.frontmatter.menu_position > b.node.frontmatter.menu_position ){
+      return 1;
+    }
+    return 0;
+  }
+    
+  posts.sort( sortItems );
 
   const schema = {
     "@context": "https://schema.org",
