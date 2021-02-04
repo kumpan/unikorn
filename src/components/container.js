@@ -1,7 +1,7 @@
 import React, { Component }  from "react"
 
 import Styles from "./container.module.css"
-import SEOForm from "./contact/SEOForm.js"
+import SEOform from "./contact/SEOform.js"
 
 class Container extends Component {
   render() {
@@ -17,7 +17,7 @@ class Container extends Component {
             <h4>{this.props.data.form_title}</h4>
             <span>{this.props.data.form_text}</span>
             <div className={Styles.form_input}>
-              <SEOForm message={this.props.data.form_text} buttonText={this.props.data.form_button}></SEOForm>
+              <SEOform message={this.props.data.form_text} buttonText={this.props.data.form_button}></SEOform>
             </div>
           </div>
         )}
