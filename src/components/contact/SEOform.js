@@ -13,7 +13,7 @@ class Form extends Component {
     this.state = {
       name: null,
       email: null,
-      message: "testing",
+      message: null,
       errors: {
         name: "",
         email: "",
@@ -117,6 +117,12 @@ class Form extends Component {
         unValidForm: true
       })
     }
+  }
+
+  componentDidMount() {
+    this.setState({
+      message: this.props.message
+    })
   }
 
   render() {
