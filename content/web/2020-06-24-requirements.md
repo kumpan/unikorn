@@ -8,6 +8,7 @@ title: Website Requirement Services
 description: Unikorn helps you with writing the best possible website
   requirements for your new shiny web. Let us help you shine!
 canonical: https://www.unikorn.se/web/website-requirements/
+menu_position: 3
 og_image:
   src: ../assets/website-requirements.png
   alt: Website Requirements
@@ -18,13 +19,17 @@ hero:
   heading: Website Requirements
   preamble: To build the best website you need the best ingredients! Such as
     sparkles and magic code. Because your website should be perfect.
-  buttonlink: /contact
+  buttonlink: /contact/
   button: Let's talk shiny webs!
   featured_image:
     src: ../assets/undraw_proud_coder_7ain-1-.svg
     alt: Web requirements
 latest_posts_text: Articles about Web
 posts_category: Web Magic
+SEOform: 
+  form_title: 
+  form_text: 
+  form_button: 
 ---
 ## Magic in - magic out is our motto.
 
@@ -38,4 +43,4 @@ How Unikorn can make your website shine bright as the North Star:
 * Setting up the requirements in the project tool of your choice, may it be Jira, Asana, Trello, Monday or Excel. Your project - your tool! 
 * Setting up test cases fro the requirements 
 
-### [Let's talk](/contact) website requirements!
+### [Let's talk](/contact/) website requirements!

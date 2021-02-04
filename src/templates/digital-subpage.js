@@ -41,6 +41,7 @@ class MarketingTemplate extends Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
     const allPosts = this.props.data.relatedPosts.edges
+    const formData = this.props.data.currentPost.frontmatter.SEOform
 
     const { shorttitle, title, description, canonical, og_image, hero, posts_category, latest_posts_text } = this.props.data.currentPost.frontmatter
 
@@ -99,7 +100,7 @@ class MarketingTemplate extends Component {
         />
         <div className="bg-color-section-desktop">
           <div className="overlay-container">
-            <Container>
+            <Container data={formData}>
               <div className="content-container-text">
                 <MDXRenderer>{this.props.data.currentPost.body}</MDXRenderer>
               </div>
@@ -168,6 +169,11 @@ export const pageQuery = graphql`
           }
         }
         latest_posts_text
+        SEOform {
+          form_title
+          form_text
+          form_button
+        }
       }
     }
     relatedPosts: allMdx(

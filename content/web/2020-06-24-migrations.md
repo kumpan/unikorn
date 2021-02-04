@@ -8,6 +8,7 @@ title: Website Migration Services
 description: "Unikorn has helped many site owners migrate their websites to new
   platforms, domains and entirely new webs. Let us help you as well! "
 canonical: https://www.unikorn.se/web/website-migration/
+menu_position: 1
 og_image:
   src: ../assets/webmigrations.png
   alt: website migrations
@@ -24,9 +25,13 @@ hero:
     src: ../assets/undraw_order_delivered_p6ba.svg
     alt: Website Migration Services
   button: Please call me!
-  buttonlink: /contact
+  buttonlink: /contact/
 latest_posts_text: Migrations
 posts_category: Web Magic
+SEOform: 
+  form_title: Kontakt
+  form_text: Ge mig din e-postadress så skickar jag teknisk SEO-checklista
+  form_button: Skicka
 ---
 ## Let us take care of moving your website
 
@@ -49,4 +54,4 @@ As you may already know, migrations are like the monsters under the bed for the 
 
 Make sure you have done everything you can do right, before you let the new site shine like a star all over the Search engines!
 
-### [If you need a Unikorn hand, let us know! ](/contact)
+### [If you need a Unikorn hand, let us know! ](/contact/)

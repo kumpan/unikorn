@@ -1,3 +1,7 @@
+.contact-div {
+  width: 100%;
+}
+
 form {
   width: 100%;
 }
@@ -273,10 +277,49 @@ label {
   margin-bottom: 16px;
 }
 
+.form-flex {
+  display: flex;
+}
+
+.input-container.smaller {
+  width: calc(100% - 56px);
+  margin-bottom: 0 !important;
+}
+
+.submit-btn.smaller {
+  max-width: 56px;
+  height: 56px;
+  width: 56px;
+  margin: 0;
+  background-color: var(--secondary);
+}
+
+.submit-btn.smaller button {
+  display: none !important;
+}
+
 @media screen and (min-width: 479px) {
   .submit-btn {
     margin: 0 auto;
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .input-container.smaller {
+    width: 60%;
+    margin-bottom: 0 !important;
+  }
+
+  .submit-btn.smaller {
+    max-width: 40%;
+    width: 40%;
+    height: 56px;
+    background-color: transparent;
+  }
+
+  .submit-btn.smaller button {
+    display: block !important;
   }
 }
 

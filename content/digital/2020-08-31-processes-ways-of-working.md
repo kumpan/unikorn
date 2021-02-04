@@ -4,6 +4,7 @@ shortdesc: Processes & Ways of working
 title: Processes & Ways of working
 description: Processes & Ways of working
 canonical: https://www.unikorn.se/digital-strategies/processes-ways-of-working/
+menu_position: 2
 og_image:
   src: ../assets/og.png
   alt: Unikorn Processes and ways of working
@@ -18,9 +19,13 @@ hero:
     alt: Processes & Ways of working
     src: ../assets/undraw_process_e90d.svg
   button: Need help setting up processes?
-  buttonlink: /contact
+  buttonlink: /contact/
 latest_posts_text: Processes & Ways of working
 posts_category: Digital Strategies
+SEOform: 
+  form_title: 
+  form_text: 
+  form_button: 
 ---
 ## If you work too hard to get sh*t done, you are doing it wrong
 
@@ -34,4 +39,4 @@ Most people want to become better at what they do while getting more results out
 
 
 
-**If you want more results from your campaigns, channel efforts or the work in general - [give us a shout-out!](/contact)**
+**If you want more results from your campaigns, channel efforts or the work in general - [give us a shout-out!](/contact/)**

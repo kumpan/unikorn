@@ -5,6 +5,7 @@ title: Web Analysis and Measuring
 description: "Obviously you want to your shiny web thing do really well. To know
   what to do better, you need to measure it right! "
 canonical: https://www.unikorn.se/digital-strategies/web-analysis/
+menu_position: 1
 og_image:
   src: 
   alt: 
@@ -19,9 +20,13 @@ hero:
     alt: Web Analysis
     src: ../assets/undraw_progress_data_4ebj-1-.svg
   button: Need help setting up goals?
-  buttonlink: /contact
+  buttonlink: /contact/
 latest_posts_text: Web Analysis
 posts_category: Digital Strategies
+SEOform: 
+  form_title: 
+  form_text: 
+  form_button: 
 ---
 ## Stats or it didn't happen!
 

@@ -1,5 +1,33 @@
 .content_container {
-  padding: 0 16px 72px;
+  padding: 0 0 72px;
+}
+
+.content_container_row {
+  padding: 0 16px;
+}
+
+.content_container_contactForm {
+  max-width: 726px;
+  margin: 0 auto;
+  padding: 48px 32px;
+  background-color: rgb(247, 247, 247);
+  border-radius: 0px;
+  margin-top: 24px;
+  box-shadow: 0px 2px 4px -2px rgba(2, 21, 81, 0.16),
+    0px 12px 32px -2px rgba(2, 32, 81, 0.24);
+}
+
+.content_container_contactForm h4 {
+  font-weight: bold;
+}
+
+input {
+  background-color: white;
+}
+
+.form_input {
+  display: flex;
+  margin-top: 16px;
 }
 
 @media screen and (min-width: 767px) {
@@ -10,6 +38,11 @@
 }
 
 @media screen and (min-width: 992px) {
+  .content_container_contactForm {
+    padding: 48px 72px 64px;
+    margin-top: 0;
+  }
+  
   .content_container {
     padding: 0 16px 96px;
   }

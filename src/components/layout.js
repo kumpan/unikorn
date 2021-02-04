@@ -33,6 +33,7 @@ const Layout = (props) => {
             node {
               frontmatter {
                 shorttitle
+                menu_position
               }
             }
           }
@@ -45,6 +46,7 @@ const Layout = (props) => {
             node {
               frontmatter {
                 shorttitle
+                menu_position
               }
             }
           }
@@ -69,6 +71,7 @@ const Layout = (props) => {
             node {
               frontmatter {
                 shorttitle
+                menu_position
               }
             }
           }

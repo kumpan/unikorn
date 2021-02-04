@@ -22,7 +22,7 @@ hero:
     has a solid background in all things web considered, with a deep knowledge
     in Technical SEO, Web Projects and Digital Strategies!
   button: Get in touch
-  buttonlink: /contact
+  buttonlink: /contact/
 latest_posts_text: Read the latest web related articles
 posts_category:
   - Web Magic

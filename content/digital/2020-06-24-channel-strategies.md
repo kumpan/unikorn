@@ -5,6 +5,7 @@ title: Channel strategies
 description: To get the most out of your digital marketing efforts, you need a
   strategy for each of your channels. Let us help you figure it out!
 canonical: https://www.unikorn.se/digital-strategies/channel-strategies/
+menu_position: 3
 og_image:
   src: 
   alt: 
@@ -19,9 +20,13 @@ hero:
     src: ../assets/undraw_settings_ii2j.svg
     alt: Channel strategies
   button: Lets talk Channel Strategies!
-  buttonlink: /contact
+  buttonlink: /contact/
 latest_posts_text: More on Digital Strategies
 posts_category: Digital Strategies
+SEOform: 
+  form_title: 
+  form_text: 
+  form_button: 
 ---
 ## Digital Strategies in smaller pieces 
 

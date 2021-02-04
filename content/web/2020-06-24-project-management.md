@@ -7,6 +7,7 @@ shortdesc: The secret sauce lies in building the best web thing you possibly can
 title: Web Project Management
 description: Web Project Management
 canonical: https://www.unikorn.se/web/project-management/
+menu_position: 2
 og_image:
   src: 
   alt: 
@@ -20,9 +21,13 @@ hero:
     alt: Project Management
     src: ../assets/undraw_plans_y8ru-1-.svg
   button: Get in touch!
-  buttonlink: /contact
+  buttonlink: /contact/
 latest_posts_text: More Web Magic
 posts_category: Web Magic
+SEOform: 
+  form_title: 
+  form_text: 
+  form_button: 
 ---
 ## Unikorn webs always shine brighter
 
@@ -36,4 +41,4 @@ The secret sauce lies in building the best web thing you possibly can from the s
 * Make sure communication is continuous and relevant throughout the whole project
 * Involve (and recruit if necessary) all the needed functions
 
-### Does this sound like a project you want to take part in? [Let us call you!](/contact)
+### Does this sound like a project you want to take part in? [Let us call you!](/contact/)

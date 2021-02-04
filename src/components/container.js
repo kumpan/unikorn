@@ -1,6 +1,7 @@
 import React, { Component }  from "react"
 
 import Styles from "./container.module.css"
+import SEOForm from "./contact/SEOForm.js"
 
 class Container extends Component {
   render() {
@@ -11,6 +12,15 @@ class Container extends Component {
         <div className={Styles.content_container_row}>
           {children}
         </div>
+        {this.props.data && this.props.data.form_button && (
+          <div className={Styles.content_container_contactForm}>
+            <h4>{this.props.data.form_title}</h4>
+            <span>{this.props.data.form_text}</span>
+            <div className={Styles.form_input}>
+              <SEOForm message={this.props.data.form_text} buttonText={this.props.data.form_button}></SEOForm>
+            </div>
+          </div>
+        )}
       </div>
     )
   }

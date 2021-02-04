@@ -13,19 +13,8 @@ import { truncateText } from "../global-functions.js"
 import VideoPopup from "../components/video/videopopup.js"
 import ArrowButton from "../components/buttons/arrow-btn.js"
 import { closestByClass } from "../global-functions.js"
-import { ModalProvider, ModalContext } from "../components/modal/modalContext";
 
 import Styles from "./blog-post-single.module.css"
-
-const ContactModal = () => {
-  let { handleModal } = React.useContext(ModalContext);
-
-  return (
-    <div className={Styles.cta_link} onClick={() => handleModal()} onKeyPress={() => handleModal()} role="button" tabIndex="0">
-        <ArrowButton text="Get in touch now" />
-    </div>
-  );
-};
 
 class BlogTemplate extends Component {
   constructor(props) {
@@ -179,9 +168,11 @@ class BlogTemplate extends Component {
             </div>
 
             {popup_btn &&
-              <ModalProvider>
-                <ContactModal></ContactModal>
-              </ModalProvider>
+              <Link to={"/contact/"}>
+                <div className={Styles.cta_link} role="button" tabIndex="0">
+                  <ArrowButton text="Get in touch now" />
+                </div>
+              </Link>
             }
           </div>
         </div>

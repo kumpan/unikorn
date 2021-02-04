@@ -217,6 +217,11 @@
     padding: 10px 0;
     display: inline-block;
     transition: all .2s ease-in-out;
+    color: var(--text-body);
+  }
+
+  .nav_cta.active span {
+    color: var(--primary);
   }
 
   .nav_cta:hover span {

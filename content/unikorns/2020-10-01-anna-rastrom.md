@@ -21,7 +21,7 @@ hero:
   preamble: "Unikorn friend and CEO at MondayRebel - Digital Strategies,
     Creativity, SoMe, Content "
   button: Get in touch
-  buttonlink: /contact
+  buttonlink: /contact/
 latest_posts_text: Read the latest posts about Unikorn Marketing
 posts_category:
   - Unikorn Marketing

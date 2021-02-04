@@ -150,6 +150,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: menu_position, label: Menu position }
       - name: og_image
         label: OG Image
         widget: object
@@ -179,7 +180,15 @@ collections:
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
       - { name: latest_posts_text, label: Latest posts text, widget: string }
-      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies], default: [Web Magic], multiple: true }
+      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies]}
+      - label: SEOform
+        name: SEOform
+        widget: object
+        required: false
+        fields:
+          - { name: form_title, label: Form title, widget: string }
+          - { name: form_text, label: Form text, widget: string }
+          - { name: form_button, label: Form button, widget: string }
 
   - name: marketing-page
     label: Unikorn Marketing
@@ -222,6 +231,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: menu_position, label: Menu position }
       - name: og_image
         label: OG Image
         widget: object
@@ -251,7 +261,15 @@ collections:
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
       - { name: latest_posts_text, label: Latest posts text, widget: string }
-      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies], default: [Web Magic], multiple: true }
+      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies]}
+      - label: SEOform
+        name: SEOform
+        widget: object
+        required: false
+        fields:
+          - { name: form_title, label: Form title, widget: string }
+          - { name: form_text, label: Form text, widget: string }
+          - { name: form_button, label: Form button, widget: string }
   
   - name: unikorns-page
     label: We are Unicorn
@@ -324,7 +342,15 @@ collections:
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
       - { name: latest_posts_text, label: Latest posts text, widget: string }
-      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies], default: [Web Magic], multiple: true }
+      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies]}
+      - label: SEOform
+        name: SEOform
+        widget: object
+        required: false
+        fields:
+          - { name: form_title, label: Form title, widget: string }
+          - { name: form_text, label: Form text, widget: string }
+          - { name: form_button, label: Form button, widget: string }
 
   - name: digital-page
     label: Digital Strategies
@@ -338,6 +364,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: menu_position, label: Menu position }
       - name: og_image
         label: OG Image
         widget: object
@@ -396,7 +423,15 @@ collections:
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
       - { name: latest_posts_text, label: Latest posts text, widget: string }
-      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies], default: [Web Magic], multiple: true }
+      - { name: posts_category, label: Category for posts, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies]}
+      - label: SEOform
+        name: SEOform
+        widget: object
+        required: false
+        fields:
+          - { name: form_title, label: Form title, widget: string }
+          - { name: form_text, label: Form text, widget: string }
+          - { name: form_button, label: Form button, widget: string }
 
   - name: blog-page
     label: Blog page
@@ -456,7 +491,7 @@ collections:
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Author, name: author, widget: string }
       - { label: Author Page, name: author_page}
-      - { label: Category, name: category, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies] }
+      - { label: Category, name: category, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies], default: [Web Magic], multiple: true }
       - label: Featured image
         name: featured_image
         widget: object
@@ -490,7 +525,7 @@ collections:
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Author, name: author, widget: string }
       - { label: Author Page, name: author_page}
-      - { label: Category, name: category, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies] }
+      - { label: Category, name: category, widget: select, options: [Web Magic, Unikorn Marketing, Digital Strategies], default: [Web Magic], multiple: true }
       - label: Featured image
         name: featured_image
         widget: object
@@ -612,7 +647,17 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: Title, name: title, widget: string }
+      - { name: shorttitle, label: Short Title }
+      - { name: shortdesc, label: Short description }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: canonical, label: Canonical URL }
+      - name: og_image
+        label: OG Image
+        widget: object
+        fields:
+          - { label: Image, name: src, widget: image }
+          - { label: Alt text, name: alt, widget: string }
       - { label: Text, name: text, widget: text }
       - label: Featured image
         name: featured_image

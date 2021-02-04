@@ -6,18 +6,7 @@ import ContactInfo from "../components/contact/contactinfo.js"
 import Logo from "../../content/assets/logo-unikorn.svg"
 import { slugify } from "../global-functions.js"
 
-import { ModalProvider, ModalContext } from "./modal/modalContext";
 import Styles from "./nav.module.css"
-
-const ContactModal = () => {
-  let { handleModal } = React.useContext(ModalContext);
-
-  return (
-    <div id="nav-cta" className={Styles.nav_cta + " "} role="button" tabIndex="0" onClick={() => handleModal()} onKeyPress={() => handleModal()}>
-      <span>Get in touch now</span>
-    </div>
-  );
-};
 
 class Nav extends Component {
   constructor(props) {
@@ -94,6 +83,24 @@ class Nav extends Component {
     if (this.props.location.pathname) {
       location = this.props.location.pathname
     }
+
+    const sortWeb = this.props.webPages
+    const sortMarketing = this.props.marketingPages
+    const sortDigital = this.props.digitalPages
+
+    function sortItems( a, b ) {
+      if ( a.node.frontmatter.menu_position < b.node.frontmatter.menu_position ){
+        return -1;
+      }
+      if ( a.node.frontmatter.menu_position > b.node.frontmatter.menu_position ){
+        return 1;
+      }
+      return 0;
+    }
+    
+    sortWeb.sort( sortItems );
+    sortMarketing.sort( sortItems );
+    sortDigital.sort( sortItems );
 
     const aboutMenuItems = []
     this.props.aboutPages.forEach(function (page, i) {
@@ -207,9 +214,11 @@ class Nav extends Component {
             </div>
           </div>
 
-          <ModalProvider>
-            <ContactModal></ContactModal>
-          </ModalProvider>
+          <Link to={"/contact/"}>
+            <div id="nav-cta" className={Styles.nav_cta + " " + ( location.includes("/contact") ? Styles.active : "")} role="button" tabIndex="0">
+              <span>Get in touch now</span>
+            </div>
+          </Link>
 
           <div className={Styles.nav_button + " " + (this.state.showMenu ? Styles.opened : "")}
             onClick={this.toggleMenu}

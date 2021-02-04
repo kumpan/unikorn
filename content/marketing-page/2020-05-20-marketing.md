@@ -12,6 +12,6 @@ hero:
     a successful digital strategy. We know how to handle every aspect of your
     Digital Marketing.
   button: Start growing now
-  buttonlink: /contact
+  buttonlink: /contact/
 ---
 ## Reach your community

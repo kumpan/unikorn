@@ -102,21 +102,12 @@ const ContactContent = (props) => {
           </div>
         </div>
       </div>
+      <div className={Styles.contact_popup_block}></div>
     </div>
   )
 }
 
 class ContactPopup extends Component {  
-  componentDidMount() {
-    setTimeout(() => {
-      document.getElementsByTagName( "html" )[0].classList.add("no-scroll")
-    }, 100)
-  }
-
-  componentWillUnmount() {
-    document.getElementsByTagName( "html" )[0].classList.remove("no-scroll")
-  }
-
   render() {
       return (
         <ContactContent />
