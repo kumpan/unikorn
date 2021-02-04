@@ -13,7 +13,7 @@ class Form extends Component {
     this.state = {
       name: null,
       email: null,
-      message: null,
+      message: "testing",
       errors: {
         name: "",
         email: "",

@@ -44,4 +44,4 @@ A consistent method resulting in your business’ digital presence skyrocketing 
 
 Does this glimpse into our tailored game plan move your taste buds? Let's continue our conversation over a coffee, or as we say in Sweden “fika time”.
 
-**[Get in touch](/contact)**
+**[Get in touch](/contact/)**

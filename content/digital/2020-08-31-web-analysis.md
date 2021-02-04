@@ -39,4 +39,4 @@ Having your website performance measured well and set up is key to learn from bo
 * Testing and making sure the events and goals are fired and measured
 * Setting up dashboards and reports to be sent as often as you need them.
 
-**If you want Rainbows and Unikorns in your reports, [let us know!](/contact)**
+**If you want Rainbows and Unikorns in your reports, [let us know!](/contact/)**
