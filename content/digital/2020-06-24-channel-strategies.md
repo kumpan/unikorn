@@ -24,6 +24,7 @@ hero:
 latest_posts_text: More on Digital Strategies
 posts_category: Digital Strategies
 SEOform: 
+  form_name:
   form_title: 
   form_text: 
   form_button: 

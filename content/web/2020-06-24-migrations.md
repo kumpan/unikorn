@@ -29,6 +29,7 @@ hero:
 latest_posts_text: Migrations
 posts_category: Web Magic
 SEOform:
+  form_name: Submission from Website-Migrations page
   form_title: If you need a Unikorn hand, let us know!
   form_text: Your email on which we will get back to you as soon as possible!
   form_button: Send

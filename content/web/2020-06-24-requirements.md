@@ -27,6 +27,7 @@ hero:
 latest_posts_text: Articles about Web
 posts_category: Web Magic
 SEOform: 
+  form_name:
   form_title: 
   form_text: 
   form_button: 

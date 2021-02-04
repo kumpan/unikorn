@@ -176,6 +176,7 @@ export const pageQuery = graphql`
         }
         latest_posts_text
         SEOform {
+          form_name
           form_title
           form_text
           form_button

@@ -23,6 +23,7 @@ hero:
 latest_posts_text: Processes & Ways of working
 posts_category: Digital Strategies
 SEOform: 
+  form_name:
   form_title: 
   form_text: 
   form_button: 

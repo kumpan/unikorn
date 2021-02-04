@@ -17,7 +17,7 @@ class Container extends Component {
             <h4>{this.props.data.form_title}</h4>
             <span>{this.props.data.form_text}</span>
             <div className={Styles.form_input}>
-              <SEOform message={this.props.data.form_text} buttonText={this.props.data.form_button}></SEOform>
+              <SEOform message={this.props.data.form_name} buttonText={this.props.data.form_button}></SEOform>
             </div>
           </div>
         )}

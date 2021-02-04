@@ -186,6 +186,7 @@ collections:
         widget: object
         required: false
         fields:
+          - { name: form_name, label: Form name, widget: string }
           - { name: form_title, label: Form title, widget: string }
           - { name: form_text, label: Form text, widget: string }
           - { name: form_button, label: Form button, widget: string }
@@ -267,6 +268,7 @@ collections:
         widget: object
         required: false
         fields:
+          - { name: form_name, label: Form name, widget: string }
           - { name: form_title, label: Form title, widget: string }
           - { name: form_text, label: Form text, widget: string }
           - { name: form_button, label: Form button, widget: string }
@@ -349,6 +351,7 @@ collections:
         widget: object
         required: false
         fields:
+          - { name: form_name, label: Form name, widget: string }
           - { name: form_title, label: Form title, widget: string }
           - { name: form_text, label: Form text, widget: string }
           - { name: form_button, label: Form button, widget: string }
@@ -430,6 +433,7 @@ collections:
         widget: object
         required: false
         fields:
+          - { name: form_name, label: Form name, widget: string }
           - { name: form_title, label: Form title, widget: string }
           - { name: form_text, label: Form text, widget: string }
           - { name: form_button, label: Form button, widget: string }

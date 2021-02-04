@@ -24,6 +24,7 @@ hero:
 latest_posts_text: Web Analysis
 posts_category: Digital Strategies
 SEOform: 
+  form_name:
   form_title: 
   form_text: 
   form_button: 
