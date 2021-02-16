@@ -54,5 +54,3 @@ There are a bunch of best practices to be followed, and there are many pitfalls 
 As you may already know, migrations are like the monsters under the bed for the SEO Manager. Nothing can ruin years of brilliant SEO work as a web migration. 
 
 Make sure you have done everything you can do right, before you let the new site shine like a star all over the Search engines!
-
-### [If you need a Unikorn hand, let us know! ](/contact/)
