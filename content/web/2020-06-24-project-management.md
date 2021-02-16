@@ -40,8 +40,8 @@ A factor that enables better paths for leads, conversion and authority, resultin
 
 Do you want a clean bulleted web project launch to rocket the search engine indexing lists? We at Unikorn help you reach these boosting website capacities by:
 
-* Involving all stake holders and key people, from the start
-* Elegantly planning the project, and if your developers like agile processes - no problem! 
-* Set requirements with all stakeholders
-* Make sure communication is continuous and relevant throughout the whole project
-* Involve (and recruit if necessary) all the needed functions
+* **Stakeholders and key-actors involvement-** Acquiring attention from these at early-stages provides a clean and clear path toward set-targets.
+* **Elegant and agile processes project plan**- Through the experience and expertise, Unikorn’s team have, we understand developers delivering agile processes to them.
+* **Setting stakeholder’s requirements**- As a result of guaranteeing stakeholders attention early-on, we can implement their necessities within the web project.
+* **Assuring continuous and relevant communication**- Another extra that comes with years of web project experience, is the capacity to formulate top-tier communications.
+* **Involve the needed functions**- Acting upon the functionality desired to achieve, we perform the actions, even if it means recruiting!
