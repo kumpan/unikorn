@@ -9,14 +9,16 @@ description: Web Project Management
 canonical: https://www.unikorn.se/web/project-management/
 menu_position: 2
 og_image:
-  src: 
-  alt: 
+  src: ../assets/og.png
+  alt: Web Project Management
 icon:
-  alt: Project Management
+  alt: Web Project Management
   src: ../assets/project-2-.svg
 hero:
   heading: Digital and Web Project Management
-  preamble: Your project is important! We get that, and leave nothing to chance!
+  preamble: Your project is important! We get that and leave nothing to chance,
+    thus, we want to follow your strategy through. Providing a well-structured
+    web project to cement your company’s digital presence for the long-run.
   featured_image:
     alt: Project Management
     src: ../assets/undraw_plans_y8ru-1-.svg
@@ -24,22 +26,22 @@ hero:
   buttonlink: /contact/
 latest_posts_text: More Web Magic
 posts_category: Web Magic
-SEOform: 
-  form_name:
-  form_title: 
-  form_text: 
-  form_button: 
+SEOform:
+  form_name: Project Management
+  form_title: Does this sound like a project you want to take part in?
+  form_text: Let us call you!
+  form_button: Send
 ---
 ## Unikorn webs always shine brighter
 
-The secret sauce lies in building the best web thing you possibly can from the start. We can help you with planning the web project based on your customers user intent, so that the customers more easily can interact with your content.
+The secret sauce lies in obtaining the best building foundations possible from the word go, and we can help you. Our expert team, hands-on, will plan the web project based on your customer’s user-intent, gaining an increase in customers content interaction.
 
-### We can help you with rocket that web project by:
+A factor that enables better paths for leads, conversion and authority, resulting in growth hacking digital presence levels. As performance-partners, our compromise with your web development goes through all stages and concludes by handing a website ready to rocket the virtual space.
+
+Do you want a clean bulleted web project launch to rocket the search engine indexing lists? We at Unikorn help you reach these boosting website capacities by:
 
 * Involving all stake holders and key people, from the start
 * Elegantly planning the project, and if your developers like agile processes - no problem! 
 * Set requirements with all stakeholders
 * Make sure communication is continuous and relevant throughout the whole project
 * Involve (and recruit if necessary) all the needed functions
-
-### Does this sound like a project you want to take part in? [Let us call you!](/contact/)
