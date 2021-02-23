@@ -10,11 +10,11 @@ og_image:
   alt: Felicia Öhrn - SEO Specialist
 path: felicia-ohrn/
 icon:
-  src: ../assets/project-2-.svg
+  src: ../assets/undraw_progress_data_4ebj-1-.svg
   alt: Felicia Öhrn - SEO Specialist
 hero:
   featured_image:
-    src: ../assets/felicia.png
+    src: ../assets/undraw_progress_data_4ebj-1-.svg
     alt: Felicia Öhrn - SEO Specialist
   heading: Felicia Öhrn - SEO Consultant
   preamble: Meet our organiser and second in command at Unikorn! Felicia Öhrn has
@@ -29,4 +29,6 @@ SEOform:
   form_text: Send a message
   form_button: Send
 ---
+![Felicia Öhrn](../assets/felicia.png "Felicia Öhrn")
+
 Felicia has a degree in sociologi, and experience of working with people in both administrative contexts and in the face to face interaction. She has the ability to read the situation and search for the most optimal solution for any project. By utilising the relationship touchpoint between man and technology, she will cease more opportunities and ultimately reach set goals.
