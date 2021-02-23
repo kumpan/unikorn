@@ -8,7 +8,7 @@ menu_position: "2"
 og_image:
   src: ../assets/og.png
   alt: Felicia Öhrn - SEO Specialist
-path: /felicia-ohrn/
+path: felicia-ohrn/
 icon:
   src: ../assets/project-2-.svg
   alt: Felicia Öhrn - SEO Specialist
