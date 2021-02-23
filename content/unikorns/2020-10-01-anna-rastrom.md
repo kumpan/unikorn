@@ -1,36 +1,39 @@
 ---
-shorttitle: Anna Råström, MondayRebel
-shortdesc: "CEO of Monday Rebel. Expert on Digital Strategies, Content, Creative
-  projects and SoMe "
-title: "Unikorn friend Anna Råström - Strategy, Creativity, SoMe, Content "
-description: Meet the CEO of Monday Rebel - Anna Råström. Anna sometimes do some
-  guest blogging on the Unikorn blog
-canonical: https://www.unikorn.se/unikorns/anna-rastrom/
-menu_position: 2
+shorttitle: MondayRebel
+shortdesc: "Experts on Digital Strategies, Content, Creative projects and SoMe "
+title: "Unikorn friend Monday Rebel - Strategy, Creativity, SoMe, Content "
+description: Meet Monday Rebel - a Unikorn friend in crime!
+canonical: https://www.unikorn.se/unikorns/monday-rebel/
+menu_position: "10"
 og_image:
   src: ../assets/og.png
   alt: Unikorn Marketing
 path: anna-rastrom/
 icon:
-  src: ../assets/undraw_social_strategy_1wuq-1-.svg
+  src: ../assets/mondayrebel.svg
   alt: Anna Råström
 hero:
-  heading: Anna Råström, Monday Rebel
+  heading: Monday Rebel
   featured_image:
-    src: ../assets/undraw_social_strategy_1wuq-1-.svg
-    alt: Anna Råström
-  preamble: "Unikorn friend and CEO at MondayRebel - Digital Strategies,
-    Creativity, SoMe, Content "
+    src: ../assets/mondayrebel.svg
+    alt: Monday Rebel
+  preamble: Experts on Digital Strategies, Creativity, SoMe, Content and one of
+    the Unikorn friends
   button: Get in touch
   buttonlink: /contact/
 latest_posts_text: Read the latest posts about Unikorn Marketing
 posts_category:
   - Unikorn Marketing
+SEOform:
+  form_name: Monday Rebel
+  form_title: Get in touch!
+  form_text: Write your message here
+  form_button: Send
 ---
-## Experienced Growth Hacker and Content Marketing Specialist
+## Growth Hacker agency
 
-![Anna Råström](../assets/anna.jpeg)
+![Monday Rebel](../assets/screenshot-2021-02-23-at-18.11.25.png)
 
-> I helping companies create content that converts. 
+> We help companies create content that converts. 
 
-As a freelancer in marketing I help big and small companies set up their content marketing strategy, create concepts and produce everything from articles and whitepapers to blog posts and Youtube series. I have a holistic view on marketing and knowledge in everything from strategy to conversion optimization.
+We help big and small companies set up their content marketing strategy, create concepts and produce everything from articles and whitepapers to blog posts and Youtube series. We practice a holistic view on marketing and knowledge in everything from strategy to conversion optimization.
