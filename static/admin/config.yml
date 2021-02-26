@@ -184,11 +184,12 @@ collections:
       - label: SEOform
         name: SEOform
         widget: object
+        required: false
         fields:
-          - { name: form_name, label: Form name, widget: string }
-          - { name: form_title, label: Form title, widget: string }
-          - { name: form_text, label: Form text, widget: string }
-          - { name: form_button, label: Form button, widget: string }
+          - { name: form_name, label: Form name, widget: string, required: false }
+          - { name: form_title, label: Form title, widget: string, required: false }
+          - { name: form_text, label: Form text, widget: string, required: false }
+          - { name: form_button, label: Form button, widget: string, required: false }
 
   - name: marketing-page
     label: Unikorn Marketing
