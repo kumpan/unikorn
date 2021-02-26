@@ -4,7 +4,7 @@ shortdesc: Felicia Öhrn - SEO Specialist
 title: Felicia Öhrn - SEO Specialist
 description: Felicia Öhrn - SEO Specialist
 canonical: https://www.unikorn.se/unikorns/felicia-ohrn/
-menu_position: "2"
+menu_position: 2
 og_image:
   src: ../assets/og.png
   alt: Felicia Öhrn - SEO Specialist

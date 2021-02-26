@@ -150,7 +150,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - { name: menu_position, label: Menu position }
+      - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
         widget: object
@@ -184,7 +184,6 @@ collections:
       - label: SEOform
         name: SEOform
         widget: object
-        required: false
         fields:
           - { name: form_name, label: Form name, widget: string }
           - { name: form_title, label: Form title, widget: string }

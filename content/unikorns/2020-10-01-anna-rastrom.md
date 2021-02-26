@@ -4,7 +4,7 @@ shortdesc: "Experts on Digital Strategies, Content, Creative projects and SoMe "
 title: "Unikorn friend Monday Rebel - Strategy, Creativity, SoMe, Content "
 description: Meet Monday Rebel - a Unikorn friend in crime!
 canonical: https://www.unikorn.se/unikorns/monday-rebel/
-menu_position: "10"
+menu_position: 10
 og_image:
   src: ../assets/og.png
   alt: Unikorn Marketing
