@@ -1,6 +1,6 @@
 ---
-title: Digital Strategies Body 2
-shorttitle: Digital Strategies Body 2
+title: Digital Strategies Body Bottom
+shorttitle: Digital Strategies Body Bottom
 order: 2
 ---
 Digital strategies 2
