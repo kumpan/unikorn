@@ -1,6 +1,7 @@
 ---
 shorttitle: Digital strategies
 title: "Digital strategies creates magic! "
+order: 0
 description: Digital strategies
 canonical: https://www.unikorn.se/digital-strategies/
 og_image:
@@ -17,5 +18,3 @@ hero:
     alt: Digital strategies
   button: "Let's talk strategies! "
   buttonlink: /contact/
----
-Digital strategies

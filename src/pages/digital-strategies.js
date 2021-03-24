@@ -24,6 +24,10 @@ const DigitalPage = () => {
           filter: {
             fileAbsolutePath: { regex: "/(/digital-page/)/" }
           }
+          sort: {
+            fields: [frontmatter___order]
+            order: ASC
+          }
         ) {
           edges {
             node {
@@ -129,7 +133,7 @@ const DigitalPage = () => {
       <div className="bg-color-section-desktop">
         <div className="overlay-container">
           <Container>
-            <MDXRenderer>{data.pageData.edges[0].node.body}</MDXRenderer>
+            <MDXRenderer>{data.pageData.edges[1].node.body}</MDXRenderer>
           </Container>
         </div>
       </div>
@@ -138,6 +142,15 @@ const DigitalPage = () => {
           <SubpagesList posts={posts} parentPage="/digital-strategies" />
         </div>
       </div>
+      {data.pageData.edges[2] && (
+        <div className="bg-color-section-desktop">
+          <div className="overlay-container">
+            <Container>
+              <MDXRenderer>{data.pageData.edges[2].node.body}</MDXRenderer>
+            </Container>
+          </div>
+        </div>
+      )}
     </Layout>
   )
 }
