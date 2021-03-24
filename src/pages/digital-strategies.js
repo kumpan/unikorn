@@ -60,6 +60,17 @@ const DigitalPage = () => {
           }
         }
 
+        bodyData: allMdx(
+          filter: { fileAbsolutePath: { regex: "/(/digital-body/)/" } }
+          sort: { fields: [frontmatter___order] order: ASC }
+        ) {
+          edges {
+            node {
+              body
+            }
+          }
+        }
+
         posts: allMdx(
           filter: { fileAbsolutePath: { regex: "/(/digital/)/" } }
           sort: { fields: [frontmatter___date], order: DESC }
@@ -92,6 +103,7 @@ const DigitalPage = () => {
 
   const pageData = data.pageData.edges[0].node.frontmatter
   const posts = data.posts.edges
+  const pageBody = data.bodyData.edges
 
   function sortItems( a, b ) {
     if ( a.node.frontmatter.menu_position < b.node.frontmatter.menu_position ){
@@ -133,7 +145,7 @@ const DigitalPage = () => {
       <div className="bg-color-section-desktop">
         <div className="overlay-container">
           <Container>
-            <MDXRenderer>{data.pageData.edges[1].node.body}</MDXRenderer>
+            <MDXRenderer>{pageBody[0].node.body}</MDXRenderer>
           </Container>
         </div>
       </div>
@@ -142,11 +154,11 @@ const DigitalPage = () => {
           <SubpagesList posts={posts} parentPage="/digital-strategies" />
         </div>
       </div>
-      {data.pageData.edges[2] && (
+      {pageBody[1] && (
         <div className="bg-color-section-desktop">
           <div className="overlay-container">
             <Container>
-              <MDXRenderer>{data.pageData.edges[2].node.body}</MDXRenderer>
+              <MDXRenderer>{pageBody[1].node.body}</MDXRenderer>
             </Container>
           </div>
         </div>

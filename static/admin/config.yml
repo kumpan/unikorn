@@ -384,6 +384,19 @@ collections:
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
+
+  - name: digital-body
+    label: Digital Body
+    folder: content/digital-body
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
+    editor:
+      preview: false
+    fields: 
+      - { name: shorttitle, label: Short Title }
+      - { name: title, label: SEO Title }
+      - { name: order, label: Order }
+      - { name: body, label: Text, widget: markdown }
   
   - name: digital
     label: Digital subpages
