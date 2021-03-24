@@ -43,6 +43,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/content/web-body`,
+        name: `web-body`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/content/about-page`,
         name: `about-page`,
       },
@@ -92,6 +99,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/content/unikorns-body`,
+        name: `unikorns-body`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/content/marketing-page`,
         name: `marketing-page`,
       },
@@ -101,6 +115,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/marketing`,
         name: `marketing`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/marketing-body`,
+        name: `marketing-body`,
       },
     },
     {

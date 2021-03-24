@@ -54,6 +54,16 @@ const UnikornsPage = () => {
             }
           }
         }
+        bodyData: allMdx(
+          filter: { fileAbsolutePath: { regex: "/(/unikorns-body/)/" } }
+          sort: { fields: [frontmatter___order] order: ASC }
+        ) {
+          edges {
+            node {
+              body
+            }
+          }
+        }
         posts: allMdx(
           filter: { fileAbsolutePath: { regex: "/(/unikorns/)/" } }
           sort: { fields: [frontmatter___date], order: DESC }
@@ -87,6 +97,7 @@ const UnikornsPage = () => {
 
   const pageData = data.pageData.edges[0].node.frontmatter
   const posts = data.posts.edges
+  const pageBody = data.bodyData.edges
 
   function sortItems( a, b ) {
     if ( a.node.frontmatter.menu_position < b.node.frontmatter.menu_position ){
@@ -127,7 +138,7 @@ const UnikornsPage = () => {
       <div className="bg-color-section-desktop">
         <div className="overlay-container">
           <Container>
-            <MDXRenderer>{data.pageData.edges[0].node.body}</MDXRenderer>
+            <MDXRenderer>{pageBody[0].node.body}</MDXRenderer>
           </Container>
         </div>
       </div>
@@ -136,6 +147,15 @@ const UnikornsPage = () => {
           <SubpagesList posts={posts} parentPage="/unikorns" pathLink={true} />
         </div>
       </div>
+      {pageBody[1] && (
+        <div className="bg-color-section-desktop">
+          <div className="overlay-container">
+            <Container>
+              <MDXRenderer>{pageBody[1].node.body}</MDXRenderer>
+            </Container>
+          </div>
+        </div>
+      )}
     </Layout>
   )
 }

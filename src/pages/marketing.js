@@ -56,6 +56,17 @@ const MarketingPage = () => {
           }
         }
 
+        bodyData: allMdx(
+          filter: { fileAbsolutePath: { regex: "/(/marketing-body/)/" } }
+          sort: { fields: [frontmatter___order] order: ASC }
+        ) {
+          edges {
+            node {
+              body
+            }
+          }
+        }
+
         posts: allMdx(
           filter: { fileAbsolutePath: { regex: "/(/marketing/)/" } }
           sort: { fields: [frontmatter___date], order: DESC }
@@ -88,6 +99,7 @@ const MarketingPage = () => {
 
   const pageData = data.pageData.edges[0].node.frontmatter
   const posts = data.posts.edges
+  const pageBody = data.bodyData.edges
 
   function sortItems( a, b ) {
     if ( a.node.frontmatter.menu_position < b.node.frontmatter.menu_position ){
@@ -128,7 +140,7 @@ const MarketingPage = () => {
       <div className="bg-color-section-desktop">
         <div className="overlay-container">
           <Container>
-            <MDXRenderer>{data.pageData.edges[0].node.body}</MDXRenderer>
+            <MDXRenderer>{pageBody[0].node.body}</MDXRenderer>
           </Container>
         </div>
       </div>
@@ -137,6 +149,15 @@ const MarketingPage = () => {
           <SubpagesList posts={posts} parentPage="/marketing" />
         </div>
       </div>
+      {pageBody[1] && (
+        <div className="bg-color-section-desktop">
+          <div className="overlay-container">
+            <Container>
+              <MDXRenderer>{pageBody[1].node.body}</MDXRenderer>
+            </Container>
+          </div>
+        </div>
+      )}
     </Layout>
   )
 }
