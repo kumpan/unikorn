@@ -22,8 +22,7 @@ hero:
   button: Get in touch
   buttonlink: /contact/
 latest_posts_text: Read the latest posts about Unikorn Marketing
-posts_category:
-  - Unikorn Marketing
+posts_category: Unikorn Marketing
 SEOform:
   form_name: Monday Rebel
   form_title: Get in touch!

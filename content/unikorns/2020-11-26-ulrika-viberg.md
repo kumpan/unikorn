@@ -25,8 +25,7 @@ hero:
   button: Get in touch
   buttonlink: /contact/
 latest_posts_text: Read the latest web related articles
-posts_category:
-  - Web Magic
+posts_category: Web Magic
 ---
 ## Experienced Digital Marketeer with 23+ years in the business
 

@@ -22,7 +22,7 @@ class VideoPopup extends Component {
 
       return (
         <div className={Styles.video_popup_wrapper} key={this.props.id} onClick={this.props.handleVideo} onKeyDown={this.props.handleVideo} role="button" tabIndex="0">
-          <div className={Styles.video_popup_close} onClick={this.props.handleVideo} onKeyDown={this.props.handleVideo} role="button" tabIndex="0"><CloseIcon /></div>
+          <div className={Styles.video_popup_close} onClick={this.props.handleVideo} onKeyDown={this.props.handleVideo} role="button" aria-label="Handle video" tabIndex="0"><CloseIcon /></div>
           <div className={Styles.video_popup_row}>
             <div className={Styles.popup_video}>
               <Video
