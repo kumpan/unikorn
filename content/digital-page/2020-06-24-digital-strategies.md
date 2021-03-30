@@ -18,6 +18,3 @@ hero:
     alt: Digital strategies
   button: "Let's talk strategies! "
   buttonlink: /contact/
-redirect_from:
-  - /digtal-strategies/
-  - /digial-strategies/
