@@ -316,6 +316,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: 'gatsby-redirect-from',
+      options: {
+        query: 'allMdx'
+      }
+    },
+    'gatsby-plugin-meta-redirect',
+    `gatsby-plugin-netlify`
     // {
     //   resolve: `gatsby-plugin-typography`,
     //   options: {
