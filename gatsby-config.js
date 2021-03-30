@@ -316,6 +316,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: 'gatsby-redirect-from',
+      options: {
+        query: 'allMdx'
+      }
+    },
+    'gatsby-plugin-meta-redirect',
     // {
     //   resolve: `gatsby-plugin-typography`,
     //   options: {
