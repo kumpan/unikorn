@@ -121,7 +121,6 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - { name: slug, label: Slug }
       - name: og_image
         label: OG Image
         widget: object
