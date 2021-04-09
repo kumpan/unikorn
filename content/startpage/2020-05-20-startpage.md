@@ -219,4 +219,13 @@ references_section:
         helping us in the communication with the web developers, made the whole
         experience much nicer and smoother.”
       person: David Schnell, Marketing Director at Aritco.com
+    - text: I highly recommend partnering with Unikorn on any web project. Having
+        someone with a profound theoretical and technical knowledge of SEO was
+        invaluable to me as a frontend developer. Being able to discuss and get
+        feedback on different technical solutions made my job a lot easier and
+        enabled me to make informed decisions in planning the overall
+        architecture.
+      tab_title: Mikael
+      heading: When Frontend and Technical SEO sings in harmony
+      person: Mikael Gustafsson, Senior Front-end developer and Partner @ Weahead AB
 ---
