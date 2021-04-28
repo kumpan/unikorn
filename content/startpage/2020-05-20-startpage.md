@@ -196,6 +196,15 @@ faq_section:
 references_section:
   references_tabs_heading: What do our friends and clients say about Unikorn
   reference_tab_fields:
+    - text: '"I highly recommend partnering with Unikorn on any web project. Having
+        someone with a profound theoretical and technical knowledge of SEO was
+        invaluable to me as a frontend developer. Being able to discuss and get
+        feedback on different technical solutions made my job a lot easier and
+        enabled me to make informed decisions in planning the overall
+        architecture."'
+      tab_title: Mikael
+      heading: When Frontend and Technical SEO sings in harmony
+      person: Mikael Gustafsson, Senior Front-end developer and Partner @ Weahead AB
     - tab_title: Anna
       heading: "Our go-to strategic partner in web projects "
       text: >+
@@ -212,20 +221,4 @@ references_section:
         with UX design lets us at Kumpan achieve a better end product. Long live
         our partnership with the mythological horned horse!” "
       person: Per Riekkola, UX Designer at Kumpan
-    - tab_title: David
-      heading: New web and Digital Strategies
-      text: “Unikorn helped us plan and set requirements, as well as project manage
-        our new web Aritco.com. Having an experienced web project manager
-        helping us in the communication with the web developers, made the whole
-        experience much nicer and smoother.”
-      person: David Schnell, Marketing Director at Aritco.com
-    - text: I highly recommend partnering with Unikorn on any web project. Having
-        someone with a profound theoretical and technical knowledge of SEO was
-        invaluable to me as a frontend developer. Being able to discuss and get
-        feedback on different technical solutions made my job a lot easier and
-        enabled me to make informed decisions in planning the overall
-        architecture.
-      tab_title: Mikael
-      heading: When Frontend and Technical SEO sings in harmony
-      person: Mikael Gustafsson, Senior Front-end developer and Partner @ Weahead AB
 ---
