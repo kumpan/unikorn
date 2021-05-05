@@ -1,8 +1,10 @@
 ---
 shorttitle: Felicia Öhrn
 shortdesc: Felicia Öhrn - SEO Specialist
-title: Felicia Öhrn - SEO Specialist
-description: Felicia Öhrn - SEO Specialist
+title: Felicia Öhrn, SEO Specialist
+description: Meet our SEO Specialist Felicia Öhrn. Felicia has specialised in
+  content marketing and creative content ideas, to connect with the audience
+  more efficiently.
 canonical: https://www.unikorn.se/unikorns/felicia-ohrn/
 menu_position: 2
 og_image:
@@ -16,11 +18,15 @@ hero:
   featured_image:
     src: ../assets/undraw_progress_data_4ebj-1-.svg
     alt: Felicia Öhrn - SEO Specialist
-  heading: Felicia Öhrn - SEO Consultant
-  preamble: Meet our organiser and second in command at Unikorn! Felicia Öhrn has
-    a sixth sens in all human behaviour, including search behaviour and life on
+  heading: Felicia Öhrn - SEO Specialist
+  preamble: >-
+    Meet our organiser and second in command at Unikorn! Felicia Öhrn has a
+    sixth sens in all human behaviour, including search behaviour and life on
     the Internet! Felicia's focus always lies on understanding the person behind
     the box.
+
+
+    These traits makes magic in any situation needing a creative solution. Such as ideas for how to interact with a specific group of people with a nerdy passion for something. 
 latest_posts_text: Read more
 posts_category: Unikorn Marketing
 SEOform:
@@ -31,4 +37,6 @@ SEOform:
 ---
 ![Felicia Öhrn](../assets/felicia.png "Felicia Öhrn")
 
-Felicia has a degree in sociologi, and experience of working with people in both administrative contexts and in the face to face interaction. She has the ability to read the situation and search for the most optimal solution for any project. By utilising the relationship touchpoint between man and technology, she will cease more opportunities and ultimately reach set goals.
+Felicia has a degree in sociology, and experience of working with people in both administrative contexts and in face to face interactions. She has the ability to read the situation and research for the most optimal solution for projects. 
+
+By utilising the relationship touchpoint between man and technology, she will cease more opportunities and ultimately reach set goals.
