@@ -35,7 +35,7 @@ SEOform:
   form_text: Send a message
   form_button: Send
 ---
-![Felicia Öhrn](../assets/felicia.png "Felicia Öhrn")
+![Felicia Öhrn](../assets/felicia-ohrn.jpg "Felicia Öhrn")
 
 Felicia has a degree in sociology, and experience of working with people in both administrative contexts and in face to face interactions. She has the ability to read the situation and research for the most optimal solution for projects. 
 
