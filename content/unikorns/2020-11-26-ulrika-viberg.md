@@ -28,8 +28,8 @@ latest_posts_text: Read the latest web related articles
 posts_category: Web Magic
 SEOform:
   form_name: Contact Ulrika
-  form_title: Contact Ulrika
-  form_text: Write your message
+  form_title: Give us your email for Ulrika to reply to
+  form_text: Email
   form_button: Send
 ---
 ## Experienced Digital Marketeer with 23+ years in the business
