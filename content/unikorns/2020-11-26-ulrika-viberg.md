@@ -26,10 +26,15 @@ hero:
   buttonlink: /contact/
 latest_posts_text: Read the latest web related articles
 posts_category: Web Magic
+SEOform:
+  form_name: Contact Ulrika
+  form_title: Contact Ulrika
+  form_text: Write your message
+  form_button: Send
 ---
 ## Experienced Digital Marketeer with 23+ years in the business
 
-![Ulrika Viberg, Founder of Unikorn](../assets/ulrikaviberg.png)
+![Ulrika Viberg, Founder of Unikorn](../assets/ulrika-viberg.jpg)
 
 Ulrika's super powers are: 
 
