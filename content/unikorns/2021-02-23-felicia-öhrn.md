@@ -32,7 +32,7 @@ posts_category: Unikorn Marketing
 SEOform:
   form_name: Get in touch
   form_title: Reach out to Felicia Öhrn
-  form_text: Send a message
+  form_text: Give us your email and Felicia with get in touch shortly!
   form_button: Send
 ---
 ![Felicia Öhrn](../assets/felicia-ohrn.jpg "Felicia Öhrn")
