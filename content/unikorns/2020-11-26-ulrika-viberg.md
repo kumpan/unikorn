@@ -28,8 +28,8 @@ latest_posts_text: Posts by Ulrika Viberg
 posts_category: Ulrika
 SEOform:
   form_name: Contact Ulrika
-  form_title: Give us your email for Ulrika to reply to
-  form_text: Email
+  form_title: Reach out to Ulrika
+  form_text: Give your email for Ulrika to reply to
   form_button: Send
 ---
 ## Experienced Digital Marketeer with 23+ years in the business
