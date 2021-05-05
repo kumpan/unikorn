@@ -27,8 +27,8 @@ hero:
 
 
     These traits makes magic in any situation needing a creative solution. Such as ideas for how to interact with a specific group of people with a nerdy passions. 
-latest_posts_text: Read more
-posts_category: Unikorn Marketing
+latest_posts_text: Posts by Felicia Öhrn
+posts_category: Felicia
 SEOform:
   form_name: Get in touch
   form_title: Reach out to Felicia Öhrn
