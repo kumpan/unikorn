@@ -24,8 +24,8 @@ hero:
     in Technical SEO, Web Projects and Digital Strategies!
   button: Get in touch
   buttonlink: /contact/
-latest_posts_text: Read the latest web related articles
-posts_category: Web Magic
+latest_posts_text: Posts by Ulrika Viberg
+posts_category: Ulrika
 SEOform:
   form_name: Contact Ulrika
   form_title: Give us your email for Ulrika to reply to
