@@ -30,9 +30,9 @@ hero:
 latest_posts_text: Posts by Felicia Öhrn
 posts_category: Felicia
 SEOform:
-  form_name: Get in touch
-  form_title: Reach out to Felicia Öhrn
-  form_text: Give us your email and Felicia with get in touch shortly!
+  form_name: Email to Felicia
+  form_title: Get in touch
+  form_text: Reach out to Felicia by adding your email.
   form_button: Send
 ---
 ![Felicia Öhrn](../assets/felicia-ohrn.jpg "Felicia Öhrn")
