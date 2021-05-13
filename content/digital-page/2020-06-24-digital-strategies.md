@@ -1,12 +1,13 @@
 ---
+menu_position: "0"
+order: 0
 shorttitle: Digital strategies
 title: "Digital strategies creates magic! "
-order: 0
 description: Digital strategies
 canonical: https://www.unikorn.se/digital-strategies/
 og_image:
-  src: 
-  alt: 
+  src: ../assets/og.png
+  alt: "Digital Strategies "
 hero:
   heading: Digital strategies
   text: A strategy is your map to success! Creating your map to success starts
@@ -18,3 +19,5 @@ hero:
     alt: Digital strategies
   button: "Let's talk strategies! "
   buttonlink: /contact/
+---
+.
