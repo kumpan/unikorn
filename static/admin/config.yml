@@ -407,7 +407,6 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
         widget: object
@@ -450,6 +449,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
         widget: object
