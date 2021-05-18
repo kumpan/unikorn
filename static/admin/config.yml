@@ -147,7 +147,7 @@ collections:
     fields: 
       - { name: shorttitle, label: Short Title }
       - { name: title, label: SEO Title }
-      - { name: order, label: Order }
+      - { name: order, label: Order, widget: number }
       - { name: body, label: Text, widget: markdown }
   
   - name: web
@@ -242,7 +242,7 @@ collections:
     fields: 
       - { name: shorttitle, label: Short Title }
       - { name: title, label: SEO Title }
-      - { name: order, label: Order }
+      - { name: order, label: Order, widget: number }
       - { name: body, label: Text, widget: markdown }
 
   - name: marketing
@@ -258,7 +258,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - { name: menu_position, label: Menu position }
+      - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
         widget: object
@@ -337,7 +337,7 @@ collections:
     fields: 
       - { name: shorttitle, label: Short Title }
       - { name: title, label: SEO Title }
-      - { name: order, label: Order }
+      - { name: order, label: Order, widget: number }
       - { name: body, label: Text, widget: markdown }
 
   - name: unikorns
@@ -353,7 +353,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - { name: menu_position, label: Menu position }
+      - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
         widget: object
@@ -407,7 +407,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - { name: menu_position, label: Menu position }
+      - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
         widget: object
@@ -434,7 +434,7 @@ collections:
     fields: 
       - { name: shorttitle, label: Short Title }
       - { name: title, label: SEO Title }
-      - { name: order, label: Order }
+      - { name: order, label: Order, widget: number }
       - { name: body, label: Text, widget: markdown }
   
   - name: digital

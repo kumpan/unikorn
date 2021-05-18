@@ -1,5 +1,5 @@
 ---
-menu_position: "1"
+menu_position: 1
 order: 0
 shorttitle: Digital strategies
 title: "Digital strategies creates magic! "
