@@ -74,9 +74,9 @@ blog_section:
 video_section:
   pre_heading: About Unikorn
   heading: What we can do for you!
-  video_url: https://youtu.be/XRJTCGoplC8
+  video_url: https://youtu.be/b5M_h-vQiE4
   video_image:
-    src: ../assets/screenshot-2020-10-07-at-16.44.18.png
+    src: ../assets/screenshot-2021-05-19-at-16.57.42.png
     alt: About Unikorn
   button: Learn more about us
   buttonlink: /about/
