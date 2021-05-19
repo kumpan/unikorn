@@ -66,7 +66,9 @@ Image optimization considerations:
   * PNG – Produce high-quality images and therefore the file size becomes larger. This format is usually used for images with a transparent background.
   * JPEG – Give more freedom when reducing the size without spoiling the quality. They are often more SEO-friendly as the files are not as heavy as PNG.
   * SVG - It is the best option for high-resolution graphic images such as logos.
-  * GIF – The best choice for animated images.
+  * GIF – The best choice for animated images but can also be use for imagery that isn't too big.
+
+
 
 ## Suggestions of some really cool image optimisation tools!
 
