@@ -26,8 +26,6 @@ Image optimization is the colorful sprinkle on your website. Without it the ice-
 
 In itself image optimization is not going to create a boosting ranking effect, nor will it revolutionize your organic traffic world single-handedly, but it is a crucial aspect in creating a context for Google. A well curated image provides text, context, and consequently actions an expanded meaning and results in a holistic optimization.
 
-
-
 ## The holistic image optimisation approach
 
 Why then is this holistic optimization approach important? Correct, Google sees the context. Relevant images along with relevant texts are attractive to Google's algorithms just as they are attractive to the human algorithm while scrolling on an aesthetically pleasing web page.
@@ -41,8 +39,6 @@ For an image to work contextually for Google, an alt text is needed to help Goog
 
 The alt text describes in words what the image represents, if the word used happens to be one of your gold-plated keywords wonderful, but if it does not fit into that particular context, it is okay (cinnamon is an excellent spice in apple pie, cumin is not, therefore, if a keyword tastes like cumin it is in the wrong pie). You have to remember that throwing in keywords without relevance and no thought-through, becomes keyword stuffing.
 
-
-
 ## Image optimization - placement and image choice
 
 Continuing with mom’s apple pie we also want it at the right time, after the meal with coffee, as a delightful sugar kick, and in a food bowl on the dining table. Although, apple pie is great before the meal as well, it is not conventionally OK. In this sense, we want the image to be in the right place in the text, because it is relevant for both: Google and the reader.
@@ -52,8 +48,6 @@ Firstly, for Google's impression, so that Google can interpret the importance of
 Another important part when optimizing the user-experience is the choice of image. Sticking to unique pictures is always the best option, because downloading stock photos from free sites is neither hot for Google nor for the reader (you probably remember a day when there was no time to make apple pie, and you were presented with a freeze store version, those that have a factory-made palate no matter what is written on the description).
 
 Therefore, if the opportunity to create your own, unique images is not possible or viable, search for a serious site, and contact the copyright holder. Another option is to buy an image from a professional image creator. So, your first choice is always to bake your own pie, if there is no time or lack of ingredients, do not buy the freeze version in the nearest store, go the extra mile and buy it from a bakery. An imperative to take always into account, is to not steal someone else's pie while it is cooling down in their kitchen window.
-
-
 
 ## Image optimization - a broken down to-do list
 
@@ -68,10 +62,11 @@ Image optimization considerations:
 * Placing: Images have to be correctly placed within the text, thus, a matching image to a matching text. It should also pass an aesthetically pleasing test.
 * Size: Firstly, you have to distinguish between file size and image size, if you have high-resolution images with large dimensions, it is recommended to reduce the file size because it will decrease the amount of space it takes on the website, avoiding a slow website load. The size varies depending on the image, type of post, and website. The important thing is to find a size that does not compromise the quality, and does not take up too much space. If you have an image that only takes up 250x150 pixels on the page, it is unnecessary for the image to be 2500x1500 pixels. The rule of thumb is, as small an image as possible without destroying the quality.
 * Format: There are different formats to choose from, and these should be chosen depending on the type of image, the most common are JPEG, PNG and SVG. The formats have slightly different advantages and disadvantages, in that they take up different amounts of space at the expense of quality. A simpler image does not have as great a need for high quality and therefore does not use as much space. Images that are used for, e.g. heroes and banners, are usually very large and thus, can be difficult to compress and maintain quality. A tip is to save them as progressive JPGs, this will load the image progressively for the visitor.
-* PNG – Produce high-quality images and therefore the file size becomes larger. This format is usually used for images with a transparent background.
-* JPEG – Give more freedom when reducing the size without spoiling the quality. They are often more SEO-friendly as the files are not as heavy as PNG.
-* SVG - It is the best option for high-resolution graphic images such as logos.
-* GIF – The best choice for animated images.
+
+  * PNG – Produce high-quality images and therefore the file size becomes larger. This format is usually used for images with a transparent background.
+  * JPEG – Give more freedom when reducing the size without spoiling the quality. They are often more SEO-friendly as the files are not as heavy as PNG.
+  * SVG - It is the best option for high-resolution graphic images such as logos.
+  * GIF – The best choice for animated images.
 
 ## Suggestions of some really cool image optimisation tools!
 
