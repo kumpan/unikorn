@@ -22,6 +22,8 @@ preamble: SEO and user-experience (UX) image optimization is an untapped source
 type: blog
 popup_btn: true
 ---
+![Image optimization for a better user experience](../assets/imgage-optimization.jpg)
+
 Image optimization is the colorful sprinkle on your website. Without it the ice-cream is still good, but it is not as appealing and does not have the wonderful contrasting crunch. To be perfectly honest, Google’s life revolves around the fact that we use it.
 
 In itself image optimization is not going to create a boosting ranking effect, nor will it revolutionize your organic traffic world single-handedly, but it is a crucial aspect in creating a context for Google. A well curated image provides text, context, and consequently actions an expanded meaning and results in a holistic optimization.
@@ -67,8 +69,6 @@ Image optimization considerations:
   * JPEG – Give more freedom when reducing the size without spoiling the quality. They are often more SEO-friendly as the files are not as heavy as PNG.
   * SVG - It is the best option for high-resolution graphic images such as logos.
   * GIF – The best choice for animated images but can also be use for imagery that isn't too big.
-
-
 
 ## Suggestions of some really cool image optimisation tools!
 
