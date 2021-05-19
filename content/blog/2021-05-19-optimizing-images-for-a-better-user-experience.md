@@ -6,14 +6,14 @@ description: Image SEO is an often untapped source for organic traffic. Read
   speed.
 canonical: https://www.unikorn.se/blog/image-optimisation/
 og_image:
-  src: ../assets/og.png
+  src: ../assets/image-optimisation-smaller.jpg
   alt: Image Optimisation
 date: 2021-05-19T13:15:19.449Z
 author: Felicia Öhrn
 author_page: https://www.unikorn.se/unikorns/felicia-ohrn/
 category: web, unikorn marketing, seo, felicia
 featured_image:
-  src: ../assets/imgage-optimization.jpg
+  src: ../assets/image-optimisation-smaller.jpg
   alt: Image optimisation for a better user experience
 preamble: SEO and user-experience (UX) image optimization is an untapped source
   for organic traffic. So, are your company's images showing up in your
