@@ -5,7 +5,7 @@ description: "Your users love relevance. Get a more relevant and intuitive
   content structure with the search customer journey model! "
 canonical: https://www.unikorn.se/blog/search-customer-journey/
 og_image:
-  src: ../assets/og.png
+  src: ../assets/og-searchcustomerjourney.jpg
   alt: Search Customer Journey
 date: 2020-11-06T09:59:17.272Z
 author: Ulrika Viberg
@@ -52,7 +52,7 @@ Informational searches cover the phases of interest to a consideration and then 
 
 ## The search customer journey model
 
-![Search Customer Journey Model](../assets/search-customer-journey.png)
+![Search Customer Journey Model](../assets/searchcustomerjourney.jpg)
 
 After we add everything together, we get a map of a full search customer journey, with phases that set the tone of the communication, search intents and the associated searches and lastly the touch points where you meet and talk to the user with relevant content based on their target group, their needs and their decision process.
 
