@@ -1,16 +1,11 @@
 ---
-SEOform:
-  form_name: "Channel Strategy "
-  form_title: Have a Unikorn contact you about your future Channel Strategy!
-  form_text: Give us your email and we will get back to you shortly
-  form_button: Send
-menu_position: 3
-shorttitle: Channel strategies for a shinier web
+shorttitle: Channel Strategies
 shortdesc: Let each channel sparkle with Unikorn magic.
 title: Channel strategies boost visibility
 description: To get the most out of your digital marketing efforts, you need a
   strategy for each of your channels. Let us help you figure it out!
 canonical: https://www.unikorn.se/digital-strategies/channel-strategies/
+menu_position: 3
 og_image:
   src: ../assets/og.png
   alt: Digital channel strategies
@@ -30,6 +25,11 @@ hero:
   buttonlink: /contact/
 latest_posts_text: More on Digital Strategies
 posts_category: Digital Strategies
+SEOform:
+  form_name: "Channel Strategy "
+  form_title: Have a Unikorn contact you about your future Channel Strategy!
+  form_text: Give us your email and we will get back to you shortly
+  form_button: Send
 ---
 ## Digital Strategies in smaller pieces
 
