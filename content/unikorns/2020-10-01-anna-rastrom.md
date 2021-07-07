@@ -8,10 +8,10 @@ menu_position: 10
 og_image:
   src: ../assets/og.png
   alt: Unikorn Marketing
-path: anna-rastrom/
+path: monday-rebel
 icon:
   src: ../assets/mondayrebel.svg
-  alt: Anna Råström
+  alt: Monday Rebel
 hero:
   heading: Monday Rebel
   featured_image:
