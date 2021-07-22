@@ -1,6 +1,6 @@
 ---
 shorttitle: Felicia Öhrn
-shortdesc: Felicia Öhrn - SEO Unikorn
+shortdesc: Felicia Öhrn - SEO Unikorn with a passion for creative ideations and solutions
 title: Felicia Öhrn, SEO Specialist
 description: Meet our SEO Specialist Felicia Öhrn. Felicia has specialised in
   content marketing and creative content ideation, to connect with the audience
