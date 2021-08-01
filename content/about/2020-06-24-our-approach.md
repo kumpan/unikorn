@@ -40,7 +40,7 @@ To give you a taste of these services offered, to deliver top-notch results, Uni
   * A prioritised actionability item-list.
   * Follow-up processes to assure learning and takeaway implementations.
 
-A consistent method resulting in your business’ digital presence skyrocketing and leading to automatic pilot in-house performance. We set the stage, cast the channels, identify focus areas, ignite your actionable item-list, and form concrete knowledgable practices, for safe, productive, self-serving company’s growth hacking digital journey.
+A consistent method resulting in your business’ digital presence skyrocketing and leading to automatic pilot in-house performance. We set the stage, cast the channels, identify focus areas, ignite your actionable item-list, and form concrete knowledgeable practices, for safe, productive, self-serving company’s growth hacking digital journey.
 
 Does this glimpse into our tailored game plan move your taste buds? Let's continue our conversation over a coffee, or as we say in Sweden “fika time”.
 
