@@ -28,7 +28,7 @@ col3:
 col4:
   heading: Strategy
   text: |-
-    * Digital Startegies
+    * Digital Strategies
     * SEO Strategy
     * Content Strategy
     * Social Media Strategy
