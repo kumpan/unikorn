@@ -35,19 +35,23 @@ SEOform:
   form_text: Reach out to Felicia by adding your email.
   form_button: Send
 ---
-##SEO Unikorn
+## SEO Unikorn
+
 ![Felicia Öhrn](../assets/felicia-ohrn.jpg "Felicia Öhrn")
 
-##Felicia's story
-Felicia has a degree in sociology, and experience of working with people in both administrative contexts and in face to face interactions. She has the ability to read the situation and research for the most optimal solution for projects. 
+## Felicia's story 
+
+Felicia has a degree in sociology, and experience of working with people in both administrative contexts and in face to face interactions. She has the ability to read the situation and research for the most optimal solution for projects.
 
 By utilising the relationship touchpoint between man and technology, she will cease more opportunities and ultimately reach set goals.
 
-##Felicia’s super powers
+## Felicia’s super powers
+
 * Content marketing and creative content planning
 * Connecting the user intents to the brand and it’s services.
 * Competitor and content analysis
 
-##Fun facts you didn’t know about Felicia
+## Fun facts you didn’t know about Felicia
+
 * Felicia can speak backwards on demand, a skill she has had since first learning to read at five. 
 * She “sees” the number of letters and syllables in each word, which is actually why she has the ability to swiftly toss them around and speak backwards.
