@@ -30,7 +30,7 @@ We are currently looking to top up our capacity to deliver magic and top of clas
 
 *At Unikorn, we strive to work with the core values ​​of professionalism and low prestige. We only deliver the highest quality, while developing each other's strengths by lifting each other, supporting the work we do and putting the team before the self, to create a respectful atmosphere. We like results (and we always get them), but not so much go-getters with more feeling for the self and less feeling for the team.*
 
-*We are invested in being an industry leader in SEO and digital strategy in Sweden by having fun at work and letting the creative drive decide the direction. It is very important to us is that we help our customers reach their full potential in their digital presence. To achieve this, we work process-driven in projects, where we always put the end-user in focus. To help us, we use software such as Semrush, Ryte, Searchmetrics, ContentKing, Screaming Frog, all Google tools and more.*
+*We are invested in being an industry leader in SEO and digital strategy in Sweden by having fun at work and letting the creative drive decide the direction. It is very important to us that we help our customers reach their full potential in their digital presence. To achieve this, we work process-driven in projects, where we always put the end-user in focus. To help us, we use software such as Semrush, Ryte, Searchmetrics, ContentKing, Screaming Frog, all Google tools and more.*
 
 ### What we see as Unikorn material
 
