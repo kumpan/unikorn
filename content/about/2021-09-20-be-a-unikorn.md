@@ -22,7 +22,7 @@ hero:
 
 ![New Unikorn](../assets/new-unikorn.jpg)
 
-We are currently looking to top up our capacity to deliver magic and top of class SEO, to our clients. For this, we need more Unikorns. 
+We are currently looking to top up our capacity to deliver magic and top of class SEO to our clients. For this, we need more Unikorns. 
 
 #### About Unikorn
 
