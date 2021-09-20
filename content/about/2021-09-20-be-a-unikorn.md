@@ -20,6 +20,8 @@ hero:
 ---
 ## Are you our next SEO Unikorn?
 
+![New Unikorn](../assets/new-unikorn.jpg)
+
 We are currently looking to top up our capacity to deliver magic and top of class SEO, to our clients. For this, we need more Unikorns. 
 
 #### About Unikorn
@@ -45,8 +47,6 @@ We are currently looking to top up our capacity to deliver magic and top of clas
 * We don't work nine-to-five eight-hour days, we do our magic when we are creative and as long as the Unikorn dust sprinkling is done in time, everyone is happy. However, sometimes clients have demands on meetings, and those we need to be at while looking representable. 
 * We are currently working with a handfull large e-commerce sites and a few medium sites.
 * If you have a dream client, we can pitch for them together and make that dream come true!  
-
-   
 
 #### If this sounds like you! [Click this link and apply today! ](https://forms.gle/i4XV9JsAtEog8DtU8)
 
