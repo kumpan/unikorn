@@ -34,7 +34,7 @@ We are currently looking to top up our capacity to deliver magic and top of clas
 
 ### What we see as Unikorn material
 
-* Just like us, you need to really love SEO. We breath, sleep and eat SEO. Make jokes about it, have deep talks about SEO, reference other life stuff with it and sometime dream about SEO. 
+* Just like us, you need to really love SEO. We breath, sleep and eat SEO. Make jokes about it, have deep talks about SEO, reference other life stuff with it and sometimes dream about SEO. 
 * You have a few years of experience of the SEO business and feel comfortable with taking the initiative and lead on projects.
 * It's a must to be analytical and creative at the same time. You will have meetings with our clients and have to help them take the next steps in their success stories. 
 * We have a SEO-test you will have to do, and we will asses just how much an SEO-star you are, but you don't have to know everything. We want you to feel you have room to grow and there will be plenty of learning opportunities. 
