@@ -13,7 +13,7 @@ og_image:
   alt: Amanda Ljungberg - SEO Consult
 path: amanda-ljungberg/
 icon:
-  src: ../assets/undraw_browsing_urt9-1-.svg
+  src: ../assets/amanda2.jpg
   alt: SEO Consult
 hero:
   heading: Amanda Ljungberg
@@ -21,7 +21,7 @@ hero:
     always wants to learn something new and gladly uses Google for virtually
     everything.
   featured_image:
-    src: ../assets/amanda2.jpg
+    src: ../assets/undraw_browsing_urt9-1-.svg
     alt: Amanda Ljungberg
   button: ""
 latest_posts_text: Read the latest posts by Amanda
