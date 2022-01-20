@@ -74,6 +74,7 @@ const UnikornsPage = () => {
                 shorttitle
                 shortdesc
                 menu_position
+                category
                 path
                 icon {
                   src {
@@ -111,6 +112,17 @@ const UnikornsPage = () => {
     
   posts.sort( sortItems );
 
+  const unikornsPosts = [];
+  const friendsPosts=[];
+
+  posts.forEach((post) => {
+    if(post.node.frontmatter.category === 'unikorn') {
+      unikornsPosts.push(post)
+    } else {
+      friendsPosts.push(post)
+    }
+  })
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -144,7 +156,7 @@ const UnikornsPage = () => {
       </div>
       <div className={Styles.subpages_list_section + " bg-color-section-desktop"}>
         <div className="overlay-container container">
-          <SubpagesList posts={posts} parentPage="/unikorns" pathLink={true} />
+          <SubpagesList posts={unikornsPosts} parentPage="/unikorns" pathLink={true} />
         </div>
       </div>
       {pageBody[1] && (
@@ -156,6 +168,12 @@ const UnikornsPage = () => {
           </div>
         </div>
       )}
+
+      <div className={Styles.subpages_list_section + " bg-color-section-desktop"}>
+        <div className="overlay-container container">
+          <SubpagesList posts={friendsPosts} parentPage="/unikorns" pathLink={true} />
+        </div>
+      </div>
     </Layout>
   )
 }

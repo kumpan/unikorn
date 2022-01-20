@@ -63,7 +63,8 @@
 @media screen and (min-width: 767px) {
   .subpages_post_wrapper {
     width: 50%;
-    padding: 0 8px;
+    padding: 8px;
+    margin-bottom: 0;
   }
 
   .subpages_post a {

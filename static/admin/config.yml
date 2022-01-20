@@ -354,6 +354,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: menu_position, label: Menu position, widget: number }
+      - { name: category, label: Category, widget: select, options: [{label: Unikorn, value: unikorn}, {label: Friends, value: friends}], default: unikorn  }
       - name: og_image
         label: OG Image
         widget: object

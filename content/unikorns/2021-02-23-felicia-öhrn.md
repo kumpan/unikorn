@@ -7,6 +7,7 @@ description: Meet our SEO Specialist Felicia Öhrn. Felicia has specialised in
   more efficiently.
 canonical: https://www.unikorn.se/unikorns/felicia-ohrn/
 menu_position: 2
+category: unikorn
 og_image:
   src: ../assets/felicia-ohrn.jpg
   alt: Felicia Öhrn - SEO Specialist

@@ -65,7 +65,7 @@ class Startpage extends Component {
       }
     ]
 
-    questions.map(question => {
+    questions.forEach(question => {
       const target = { 
         "@type": "Question", 
         "name": question.question, 
