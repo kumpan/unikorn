@@ -14,7 +14,9 @@ const BlogList = (props) => {
             title
           }
         }
-        pageData: allMdx(filter: { fileAbsolutePath: { regex: "/(/blog-page/)/" }}) {
+        pageData: allMdx(
+          filter: { fileAbsolutePath: { regex: "/(/blog-page/)/" } }
+        ) {
           edges {
             node {
               frontmatter {
@@ -29,13 +31,21 @@ const BlogList = (props) => {
 
   const blogPageData = data.pageData.edges[0].node.frontmatter
   const posts = props.posts
+  const language = props.language
 
   return (
     <div className={Styles.blog_list + " " + (props.keepMobileStyling ? Styles.blog_wrapper_mobile_style : "")}>
       {posts.length > 0 ? (
         posts.map(({ node }, index) => {
           return (
-            <BlogPost key={index} post={node.frontmatter} toArticleText={blogPageData.to_article_text} keepMobileStyling={props.keepMobileStyling} large={props.large} />
+            <BlogPost
+              language={language}
+              key={index}
+              post={node.frontmatter}
+              toArticleText={blogPageData.to_article_text}
+              keepMobileStyling={props.keepMobileStyling}
+              large={props.large}
+            />
           )
         })
       ) : (
