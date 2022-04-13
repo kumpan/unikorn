@@ -1,17 +1,16 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import SEO from "../components/seo"
-import Layout from "../components/layout.js"
-import Hero from "../components/hero.js"
-import SubpagesList from "../components/subpages/subpages-list.js"
+import SEO from "../../components/seo"
+import Layout from "../../components/layout-sv.js"
+import Hero from "../../components/hero.js"
+import SubpagesList from "../../components/subpages/subpages-list.js"
 
-import Container from "../components/container.js"
+import Container from "../../components/container.js"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import Styles from "../subpages.module.css"
 
-import Styles from "./subpages.module.css"
-
-const DigitalPage = () => {
+const UnikornsPage = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -22,12 +21,8 @@ const DigitalPage = () => {
         }
         pageData: allMdx(
           filter: {
-            fileAbsolutePath: { regex: "/(/digital-page/)/" }
-            frontmatter: {language: {eq: "en"}}
-          }
-          sort: {
-            fields: [frontmatter___order]
-            order: ASC
+            fileAbsolutePath: { regex: "/(/unikorns-page/)/" }
+            frontmatter: { language: { eq: "sv" } }
           }
         ) {
           edges {
@@ -60,13 +55,12 @@ const DigitalPage = () => {
             }
           }
         }
-
         bodyData: allMdx(
-          filter: { 
-            fileAbsolutePath: { regex: "/(/digital-body/)/" }
-            frontmatter: {language: {eq: "en"}}
+          filter: {
+            fileAbsolutePath: { regex: "/(/unikorns-body/)/" }
+            frontmatter: { language: { eq: "sv" } }
           }
-          sort: { fields: [frontmatter___order] order: ASC }
+          sort: { fields: [frontmatter___order], order: ASC }
         ) {
           edges {
             node {
@@ -74,21 +68,21 @@ const DigitalPage = () => {
             }
           }
         }
-
         posts: allMdx(
-          filter: { 
-            fileAbsolutePath: { regex: "/(/digital/)/" }
-            frontmatter: {language: {eq: "en"}}
+          filter: {
+            fileAbsolutePath: { regex: "/(/unikorns/)/" }
+            frontmatter: { language: { eq: "sv" } }
           }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {
             node {
               frontmatter {
-                path
                 shorttitle
                 shortdesc
                 menu_position
+                category
+                path
                 icon {
                   src {
                     childImageSharp {
@@ -113,39 +107,49 @@ const DigitalPage = () => {
   const posts = data.posts.edges
   const pageBody = data.bodyData.edges
 
-  function sortItems( a, b ) {
-    if ( a.node.frontmatter.menu_position < b.node.frontmatter.menu_position ){
-      return -1;
+  function sortItems(a, b) {
+    if (a.node.frontmatter.menu_position < b.node.frontmatter.menu_position) {
+      return -1
     }
-    if ( a.node.frontmatter.menu_position > b.node.frontmatter.menu_position ){
-      return 1;
+    if (a.node.frontmatter.menu_position > b.node.frontmatter.menu_position) {
+      return 1
     }
-    return 0;
+    return 0
   }
-    
-  posts.sort( sortItems );
+
+  posts.sort(sortItems)
+
+  const unikornsPosts = []
+  const friendsPosts = []
+
+  posts.forEach(post => {
+    if (post.node.frontmatter.category === "unikorn") {
+      unikornsPosts.push(post)
+    } else {
+      friendsPosts.push(post)
+    }
+  })
 
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": pageData.title,
-    "description": pageData.description,
-    "url": pageData.canonical
+    name: pageData.title,
+    description: pageData.description,
+    url: pageData.canonical,
   }
 
   return (
-    <Layout location="/digital-strategies" show_contact_info>
+    <Layout location="/sv/unikorns" show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}
         canonical={pageData.canonical}
-        shorttitle={pageData.shorttitle}
         schemaMarkup={schema}
         image={pageData.og_image.src}
       />
-      <Hero 
+      <Hero
         shorttitle={pageData.shorttitle}
-        heading={pageData.hero.heading} 
+        heading={pageData.hero.heading}
         text={pageData.hero.text}
         button={pageData.hero.button}
         buttonlink={pageData.hero.buttonlink}
@@ -157,9 +161,15 @@ const DigitalPage = () => {
           </Container>
         </div>
       </div>
-      <div className={Styles.subpages_list_section + " bg-color-section-desktop"}>
+      <div
+        className={Styles.subpages_list_section + " bg-color-section-desktop"}
+      >
         <div className="overlay-container container">
-          <SubpagesList posts={posts} parentPage="/digital-strategies" />
+          <SubpagesList
+            posts={unikornsPosts}
+            parentPage="/sv/unikorns"
+            pathLink={true}
+          />
         </div>
       </div>
       {pageBody[1] && (
@@ -171,8 +181,20 @@ const DigitalPage = () => {
           </div>
         </div>
       )}
+
+      <div
+        className={Styles.subpages_list_section + " bg-color-section-desktop"}
+      >
+        <div className="overlay-container container">
+          <SubpagesList
+            posts={friendsPosts}
+            parentPage="/sv/unikorns"
+            pathLink={true}
+          />
+        </div>
+      </div>
     </Layout>
   )
 }
 
-export default DigitalPage
+export default UnikornsPage

@@ -1,15 +1,15 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import SEO from "../components/seo"
-import Layout from "../components/layout.js"
-import Hero from "../components/hero.js"
-import SubpagesList from "../components/subpages/subpages-list.js"
+import SEO from "../../components/seo"
+import Layout from "../../components/layout-sv.js"
+import Hero from "../../components/hero.js"
+import SubpagesList from "../../components/subpages/subpages-list.js"
 
-import Container from "../components/container.js"
+import Container from "../../components/container.js"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import Styles from "./subpages.module.css"
+import Styles from "../subpages.module.css"
 
 const DigitalPage = () => {
   const data = useStaticQuery(
@@ -21,9 +21,9 @@ const DigitalPage = () => {
           }
         }
         pageData: allMdx(
-          filter: {
+          filter: { 
             fileAbsolutePath: { regex: "/(/digital-page/)/" }
-            frontmatter: {language: {eq: "en"}}
+            frontmatter: {language: {eq: "sv"}}
           }
           sort: {
             fields: [frontmatter___order]
@@ -64,7 +64,7 @@ const DigitalPage = () => {
         bodyData: allMdx(
           filter: { 
             fileAbsolutePath: { regex: "/(/digital-body/)/" }
-            frontmatter: {language: {eq: "en"}}
+            frontmatter: {language: {eq: "sv"}}
           }
           sort: { fields: [frontmatter___order] order: ASC }
         ) {
@@ -78,7 +78,7 @@ const DigitalPage = () => {
         posts: allMdx(
           filter: { 
             fileAbsolutePath: { regex: "/(/digital/)/" }
-            frontmatter: {language: {eq: "en"}}
+            frontmatter: {language: {eq: "sv"}}
           }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
@@ -134,7 +134,7 @@ const DigitalPage = () => {
   }
 
   return (
-    <Layout location="/digital-strategies" show_contact_info>
+    <Layout location="/sv/digitala-strategier" show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}

@@ -1,7 +1,6 @@
 import React, { Component }  from "react"
 import Img from "gatsby-image"
 
-import { slugify } from "../../global-functions.js"
 import SecondaryButton from "../buttons/secondary.js"
 
 import Styles from "./subpages-post.module.css"
@@ -9,7 +8,7 @@ import Styles from "./subpages-post.module.css"
 class SubpagesPost extends Component {
   render() {
     const { shorttitle, shortdesc, icon, alt, path } = this.props.post
-    const subpagesLink = this.props.pathLink ? this.props.parentPage + '/' + path  : this.props.parentPage + '/' + slugify(shorttitle) + '/'
+    const subpagesLink = path
 
     const subpagesIcon = (icon.src.extension === "svg") ? (
       <div className={Styles.subpages_icon}>

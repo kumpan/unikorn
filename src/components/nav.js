@@ -2,9 +2,7 @@ import React, { Component }  from "react"
 import { Link } from "gatsby"
 import ChevronDownIcon from "../../content/assets/icons/chevron-down.svg"
 
-import ContactInfo from "../components/contact/contactinfo.js"
 import Logo from "../../content/assets/logo-unikorn.svg"
-import { slugify } from "../global-functions.js"
 
 import Styles from "./nav.module.css"
 

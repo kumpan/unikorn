@@ -81,6 +81,7 @@ const MarketingPage = () => {
           edges {
             node {
               frontmatter {
+                path
                 shorttitle
                 shortdesc
                 menu_position

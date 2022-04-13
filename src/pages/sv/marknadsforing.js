@@ -130,7 +130,7 @@ const MarketingPage = () => {
   }
 
   return (
-    <Layout location="/marknadsforing" show_contact_info>
+    <Layout location="/sv/marknadsforing" show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}

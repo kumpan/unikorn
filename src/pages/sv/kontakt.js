@@ -1,10 +1,10 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import SEO from "../components/seo"
-import Layout from "../components/layout.js"
+import SEO from "../../components/seo"
+import Layout from "../../components/layout-sv.js"
 
-import ContactPopup from '../components/contact/contactpopup.js'
+import ContactPopup from "../../components/contact/contactpopup.js"
 
 const Contactpage = () => {
   const data = useStaticQuery(
@@ -18,7 +18,7 @@ const Contactpage = () => {
         allMdx(
           filter: {
             fileAbsolutePath: { regex: "/(/contact-modal)/" }
-            frontmatter: { language: { eq: "en" } }
+            frontmatter: { language: { eq: "sv" } }
           }
         ) {
           edges {
@@ -86,7 +86,7 @@ const Contactpage = () => {
   const pageData = data.allMdx.edges[0].node.frontmatter
 
   return (
-    <Layout location="/contact" show_contact_info>
+    <Layout location="/sv/kontakt" show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}
