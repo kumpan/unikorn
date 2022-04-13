@@ -102,14 +102,16 @@ class Nav extends Component {
     sortMarketing.sort( sortItems );
     sortDigital.sort( sortItems );
 
+    const prefix = this.props.language
+
     const aboutMenuItems = []
     this.props.aboutPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
-      const menuItemLink = slugify(menuItem)
+      const menuItemLink = page.node.frontmatter.path
 
       aboutMenuItems.push(
-        <li className={location === `/about/${menuItemLink}/` ? Styles.active : ""} key={`${i}aboutmenu`}>
-          <Link to={"/about/" + menuItemLink + "/"}>{menuItem}</Link>
+        <li className={location === menuItemLink ? Styles.active : ""} key={`${i}aboutmenu`}>
+          <Link to={menuItemLink}>{menuItem}</Link>
         </li>
       )
     });
@@ -117,11 +119,11 @@ class Nav extends Component {
     const webMenuItems = []
     this.props.webPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
-      const menuItemLink = slugify(menuItem)
+      const menuItemLink = page.node.frontmatter.path
 
       webMenuItems.push(
-        <li className={location === `/web/${menuItemLink}/` ? Styles.active : ""} key={`${i}webmenu`} >
-          <Link to={"/web/" + menuItemLink + "/"}>{menuItem}</Link>
+        <li className={location === menuItemLink ? Styles.active : ""} key={`${i}webmenu`} >
+          <Link to={menuItemLink}>{menuItem}</Link>
         </li>
       )
     });
@@ -129,11 +131,11 @@ class Nav extends Component {
     const marketingMenuItems = []
     this.props.marketingPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
-      const menuItemLink = slugify(menuItem)
+      const menuItemLink = page.node.frontmatter.path
 
       marketingMenuItems.push(
-        <li className={location === `/marketing/${menuItemLink}/` ? Styles.active : ""} key={`${i}marketingmenu`}>
-          <Link to={"/marketing/" + menuItemLink + "/"}>{menuItem}</Link>
+        <li className={location === menuItemLink ? Styles.active : ""} key={`${i}marketingmenu`}>
+          <Link to={menuItemLink}>{menuItem}</Link>
         </li>
       )
     });
@@ -141,11 +143,11 @@ class Nav extends Component {
     const digitalMenuItems = []
     this.props.digitalPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
-      const menuItemLink = slugify(menuItem)
+      const menuItemLink = page.node.frontmatter.path
 
       digitalMenuItems.push(
-        <li className={location === `/digital-strategies/${menuItemLink}/` ? Styles.active : ""} key={`${i}digitalmenu`}>
-          <Link to={"/digital-strategies/" + menuItemLink + "/"}>{menuItem}</Link>
+        <li className={location === menuItemLink ? Styles.active : ""} key={`${i}digitalmenu`}>
+          <Link to={menuItemLink}>{menuItem}</Link>
         </li>
       )
     });
@@ -155,7 +157,7 @@ class Nav extends Component {
 
         <nav id="primary-nav" className={Styles.navigation_wrapper + " " + (this.state.showMenu ? Styles.opened : "") + " " + (this.state.activeNavbar ? Styles.active : "") + " " + (this.state.hideNavbar ? Styles.nav_up : "")}>
           <div className={Styles.logo}>
-            <Link to="/" aria-label="Home">
+            <Link to={prefix} aria-label="Home">
               <Logo />
             </Link>
           </div>
@@ -163,62 +165,94 @@ class Nav extends Component {
           <div className={Styles.navigation + " " + (this.state.showMenu ? Styles.opened : "")}>
             <div className={Styles.navigation_inner}>
               <ul className={Styles.navigation_links}>
-                <li className={Styles.has_submenu + " " + ( location.includes("/web") ? Styles.active : "")}>
-                  <Link to="/web/">
-                    Web Magic
-                  </Link>
+                <li className={Styles.has_submenu + " " + ( location.includes("/web") || location.includes("/webb") ? Styles.active : "")}>
+                  {prefix === '/' ?
+                    <Link to="/web/">
+                      Web Magic
+                    </Link>
+                  : <Link to="/sv/webb/">
+                      Webbmagi
+                    </Link>
+                  }
                   <ChevronDownIcon />
                   <ul className={Styles.submenu}>
                     {webMenuItems}
                   </ul>
                 </li>
-                <li className={Styles.has_submenu + " " + ( location.includes("/marketing") ? Styles.active : "")}>
-                  <Link to="/marketing/">
-                    Unikorn Marketing
-                  </Link>
+                <li className={Styles.has_submenu + " " + ( location.includes("/marketing") || location.includes("/marknadsforing") ? Styles.active : "")}>
+                  {prefix === '/' ?
+                    <Link to="/marketing/">
+                      Unikorn Marketing
+                    </Link>
+                  : <Link to="/sv/marknadsforing/">
+                      Unikorn Marknadsföring
+                    </Link>
+                  }
                   <ChevronDownIcon />
                   <ul className={Styles.submenu}>
                     {marketingMenuItems}
                   </ul>
                 </li>
-                <li className={Styles.has_submenu + " " + ( location.includes("/digital-strategies") ? Styles.active : "")}>
-                  <Link to="/digital-strategies/">
-                    Digital Strategies
-                  </Link>
+                <li className={Styles.has_submenu + " " + ( location.includes("/digital-strategies") || location.includes("/digitala-strategier") ? Styles.active : "")}>
+                  {prefix === '/' ?
+                    <Link to="/digital-strategies/">
+                      Digital Strategies
+                    </Link>
+                  : <Link to="/sv/digitala-strategier/">
+                      Digitala Strategier
+                    </Link>
+                  }
                   <ChevronDownIcon />
                   <ul className={Styles.submenu}>
                     {digitalMenuItems}
                   </ul>
                 </li>
-                <li className={location === "/blog" ? Styles.active : ""}>
-                  <Link to="/blog/">
-                    Blog
-                  </Link>
+                <li className={location === "/blog" || location === "/blogg" ? Styles.active : ""}>
+                  {prefix === '/' ?
+                    <Link to="/blog/">
+                      Blog
+                    </Link>
+                  : <Link to="/sv/blogg/">
+                      Blogg
+                    </Link>
+                  }
                 </li>
-                <li className={Styles.has_submenu + " " + ( location.includes("/about") ? Styles.active : "")}>
-                  <Link to="/about/">
-                    About Unikorn
-                  </Link>
+                <li className={Styles.has_submenu + " " + ( location.includes("/about") || location.includes("/om-oss") ? Styles.active : "")}>
+                  {prefix === '/' ?
+                    <Link to="/about/">
+                      About Unikorn
+                    </Link>
+                  : <Link to="/sv/om-oss/">
+                      Om Unikorn
+                    </Link>
+                  }
                   <ChevronDownIcon />
                   <ul className={Styles.submenu}>
                     {aboutMenuItems}
-                    <li>
+                    <li className={location.includes("/unikorns") || location.includes("/unikorns") ? Styles.active : ""}>
+                    {prefix === '/' ?
                       <Link to={"/unikorns/"}>We are Unikorns</Link>
+                    : <Link to={"/sv/unikorns/"}>Vi är Unikorns</Link>
+                    }
                     </li>
                   </ul>
                 </li>
               </ul>
-              <div className={Styles.nav_contact_info}>
-                <ContactInfo transparent />
-              </div>
             </div>
           </div>
 
-          <Link to={"/contact/"}>
-            <div id="nav-cta" className={Styles.nav_cta + " " + ( location.includes("/contact") ? Styles.active : "")} role="button" tabIndex="0">
-              <span>Get in touch now</span>
-            </div>
-          </Link>
+          {prefix === '/' ?
+            <Link to={"/contact/"}>
+              <div id="nav-cta" className={Styles.nav_cta + " " + ( location.includes("/contact") ? Styles.active : "")} role="button" tabIndex="0">
+                <span>Get in touch now</span>
+              </div>
+            </Link>
+          : <Link to={"/sv/kontakt/"}>
+              <div id="nav-cta" className={Styles.nav_cta + " " + ( location.includes("/kontakt") ? Styles.active : "")} role="button" tabIndex="0">
+                <span>Kom i kontakt nu</span>
+              </div>
+            </Link>
+          }
 
           <div className={Styles.nav_button + " " + (this.state.showMenu ? Styles.opened : "")}
             onClick={this.toggleMenu}

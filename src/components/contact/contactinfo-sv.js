@@ -15,7 +15,7 @@ const ContactInfo = (props) => {
         pageData: allMdx(
           filter: {
             fileAbsolutePath: { regex: "/(/contact-info/)/" }
-            frontmatter: { language: { eq: "en" } }
+            frontmatter: { language: { eq: "sv" } }
           }) {
           edges {
             node {
