@@ -6,12 +6,13 @@ title: "Julia Tiilikainen, SEO Unikorn "
 description: Meet Julia, the Unikorn you either see under a pile of keywords
   research, finding new ways to delight users with relevant content
 canonical: https://www.unikorn.se/unikorns/julia-tiilikainen/
+path: julia-tiilikainen
+language: en
 menu_position: 3
 category: unikorn
 og_image:
   src: ../assets/julia-tiilikainen.jpg
   alt: Julia Tiilikainen
-path: julia-tiilikainen/
 icon:
   src: ../assets/julia-tiilikainen.svg
   alt: Julia Tiilikainen SEO Unikorn

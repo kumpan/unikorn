@@ -8,6 +8,8 @@ title: Website Requirement Services
 description: Unikorn helps you with writing the best possible website
   requirements for your new shiny web. Let us help you shine!
 canonical: https://www.unikorn.se/web/website-requirements/
+path: website-requirements
+language: en
 menu_position: 3
 og_image:
   src: ../assets/website-requirements.png

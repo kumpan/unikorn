@@ -2,6 +2,7 @@
 shorttitle: Digital Strategies Body Top
 title: Digital Strategies Body Top
 order: 1
+language: en
 ---
 ## Your magical map to success!
 

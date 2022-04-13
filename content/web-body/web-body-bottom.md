@@ -2,6 +2,7 @@
 shorttitle: Web Body Bottom
 title: Web Body Bottom
 order: 2
+language: en
 ---
 ### How does Unikorn’s SEO-friendly web development service work?
 

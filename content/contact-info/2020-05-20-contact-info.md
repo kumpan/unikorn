@@ -1,5 +1,6 @@
 ---
 shorttitle: Contact info
+language: en
 col1:
   title: Give us a call
   text: +46 (0) 76 104 33 02
