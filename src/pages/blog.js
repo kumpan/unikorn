@@ -21,6 +21,7 @@ const Blog = () => {
         pageData: allMdx(
           filter: {
             fileAbsolutePath: { regex: "/(/blog-page/)/" }
+            frontmatter: {language: {eq: "en"}}
           }
         ) {
           edges {
@@ -67,7 +68,10 @@ const Blog = () => {
         }
 
         posts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/blog/|/video/)/" } }
+          filter: { 
+            fileAbsolutePath: { regex: "/(/blog/|/video/)/" } 
+            frontmatter: {language: {eq: "en"}}
+          }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {

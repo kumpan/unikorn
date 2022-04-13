@@ -16,7 +16,7 @@ const About = () => {
             title
           }
         }
-        allMdx(filter: { fileAbsolutePath: { regex: "/(/about-page)/" } }) {
+        allMdx(filter: { fileAbsolutePath: { regex: "/(/about-page)/" } , frontmatter: {language: {eq: "en"}}}) {
           edges {
             node {
               body

@@ -172,7 +172,7 @@ export const data = graphql`
         title
       }
     }
-    pageData: allMdx(filter: { fileAbsolutePath: { regex: "/(/startpage)/" } }) {
+    pageData: allMdx(filter: { fileAbsolutePath: { regex: "/(/startpage)/" } , frontmatter: {language: {eq: "en"}}}) {
       edges {
         node {
           frontmatter {
@@ -280,7 +280,10 @@ export const data = graphql`
       }
     }
     posts: allMdx(
-      filter: { fileAbsolutePath: { regex: "/(/blog/|/video/)/" } }
+      filter: { 
+        fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
+        frontmatter: {language: {eq: "en"}}
+      }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 3
     ) {

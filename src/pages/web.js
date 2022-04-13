@@ -23,6 +23,7 @@ const WebPage = () => {
         pageData: allMdx(
           filter: {
             fileAbsolutePath: { regex: "/(/web-page/)/" }
+            frontmatter: {language: {eq: "en"}}
           }
         ) {
           edges {
@@ -57,7 +58,10 @@ const WebPage = () => {
         }
 
         bodyData: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/web-body/)/" } }
+          filter: {
+            fileAbsolutePath: { regex: "/(/web-body/)/" }
+            frontmatter: {language: {eq: "en"}}
+          }
           sort: { fields: [frontmatter___order] order: ASC }
         ) {
           edges {
@@ -68,7 +72,10 @@ const WebPage = () => {
         }
 
         posts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/web/)/" } }
+          filter: {
+            fileAbsolutePath: { regex: "/(/web/)/" }
+            frontmatter: {language: {eq: "en"}}
+          }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {

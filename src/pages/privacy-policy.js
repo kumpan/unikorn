@@ -16,7 +16,12 @@ const Policy = () => {
             title
           }
         }
-        allMdx(filter: { fileAbsolutePath: { regex: "/(/policy)/" } }) {
+        allMdx(
+          filter: {
+            fileAbsolutePath: { regex: "/(/policy)/" }
+            frontmatter: { language: { eq: "en" } }
+          }
+        ) {
           edges {
             node {
               body

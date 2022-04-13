@@ -23,6 +23,7 @@ const MarketingPage = () => {
         pageData: allMdx(
           filter: {
             fileAbsolutePath: { regex: "/(/marketing-page/)/" }
+            frontmatter: {language: {eq: "en"}}
           }
         ) {
           edges {
@@ -57,7 +58,10 @@ const MarketingPage = () => {
         }
 
         bodyData: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/marketing-body/)/" } }
+          filter: { 
+            fileAbsolutePath: { regex: "/(/marketing-body/)/" }
+            frontmatter: {language: {eq: "en"}}
+          }
           sort: { fields: [frontmatter___order] order: ASC }
         ) {
           edges {
@@ -68,7 +72,10 @@ const MarketingPage = () => {
         }
 
         posts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/marketing/)/" } }
+          filter: { 
+            fileAbsolutePath: { regex: "/(/marketing/)/" }
+            frontmatter: {language: {eq: "en"}}
+          }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {

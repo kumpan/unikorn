@@ -16,7 +16,12 @@ const Cookie = () => {
             title
           }
         }
-        allMdx(filter: { fileAbsolutePath: { regex: "/(/cookie)/" } }) {
+        allMdx(
+          filter: {
+            fileAbsolutePath: { regex: "/(/cookie)/" }
+            frontmatter: { language: { eq: "en" } }
+          }
+        ) {
           edges {
             node {
               body

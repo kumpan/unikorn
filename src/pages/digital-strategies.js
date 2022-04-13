@@ -23,6 +23,7 @@ const DigitalPage = () => {
         pageData: allMdx(
           filter: {
             fileAbsolutePath: { regex: "/(/digital-page/)/" }
+            frontmatter: {language: {eq: "en"}}
           }
           sort: {
             fields: [frontmatter___order]
@@ -61,7 +62,10 @@ const DigitalPage = () => {
         }
 
         bodyData: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/digital-body/)/" } }
+          filter: { 
+            fileAbsolutePath: { regex: "/(/digital-body/)/" }
+            frontmatter: {language: {eq: "en"}}
+          }
           sort: { fields: [frontmatter___order] order: ASC }
         ) {
           edges {
@@ -72,7 +76,10 @@ const DigitalPage = () => {
         }
 
         posts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/digital/)/" } }
+          filter: { 
+            fileAbsolutePath: { regex: "/(/digital/)/" }
+            frontmatter: {language: {eq: "en"}}
+          }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {

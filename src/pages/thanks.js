@@ -14,7 +14,12 @@ const Thanks = () => {
             title
           }
         }
-        allMdx(filter: { fileAbsolutePath: { regex: "/(/thanks)/" } }) {
+        allMdx(
+          filter: {
+            fileAbsolutePath: { regex: "/(/thanks)/" }
+            frontmatter: { language: { eq: "en" } }
+          }
+        ) {
           edges {
             node {
               body
