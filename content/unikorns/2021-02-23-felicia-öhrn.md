@@ -6,7 +6,7 @@ description: Meet our SEO Specialist Felicia Öhrn. Felicia has specialised in
   content marketing and creative content ideation, to connect with the audience
   more efficiently.
 canonical: https://www.unikorn.se/unikorns/felicia-ohrn/
-path: felicia-ohrn
+path: /unikorns/felicia-ohrn/
 language: en
 menu_position: 2
 category: unikorn

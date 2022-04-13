@@ -6,7 +6,7 @@ title: Ulrika Viberg - Agency Owner and Senior SEO Unikorn
 description: Meet Ulrika Viberg, the Unikorn founder with a passion for
   Technical SEO and user focused websites!
 canonical: https://www.unikorn.se/unikorns/ulrika-viberg/
-path: ulrika-viberg
+path: /unikorns/ulrika-viberg/
 language: en
 menu_position: 1
 category: unikorn
