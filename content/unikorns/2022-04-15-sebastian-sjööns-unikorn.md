@@ -20,7 +20,7 @@ hero:
     of meaning and powerful messages through the construction of a text carries
     profound potential in all contexts and fields.
   featured_image:
-    src: ../assets/sebastian.png
+    src: ../assets/sebastian.svg
     alt: Sebastian Sjööns, Content Unikorn
   button: Get in touch
   buttonlink: contact/
