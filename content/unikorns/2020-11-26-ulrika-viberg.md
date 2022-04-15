@@ -13,7 +13,7 @@ og_image:
   alt: Ulrika Viberg Unikorn
 path: ulrika-viberg/
 icon:
-  src: ../assets/ulrika.svg
+  src: ../assets/ulrika-viberg.svg
   alt: Ulrika Viberg Unikorn
 hero:
   heading: Ulrika Viberg
