@@ -13,7 +13,7 @@ og_image:
   alt: Julia Tiilikainen
 path: julia-tiilikainen/
 icon:
-  src: ../assets/julia-tiilikainen.svg
+  src: ../assets/julia.svg
   alt: Julia Tiilikainen SEO Unikorn
 hero:
   heading: Julia Tiilikainen
