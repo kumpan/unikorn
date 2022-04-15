@@ -23,13 +23,13 @@ hero:
     src: ../assets/content_creation.svg
     alt: Sebastian Sjööns, Content Unikorn
   button: Get in touch
-  buttonlink: contact/
+  buttonlink: /contact/
 latest_posts_text: Posts by Sebastian
 posts_category: Sebastian
 SEOform:
-  form_name: Get in touch
+  form_name: Emails to Sebastian
   form_title: Get in touch
-  form_text: State your email
+  form_text: Reach out to Sebastian by adding your email.
   form_button: Send message
 ---
 ## Content Unikorn
