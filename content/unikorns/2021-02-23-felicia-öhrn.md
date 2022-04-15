@@ -13,7 +13,7 @@ og_image:
   alt: Felicia Öhrn - SEO Specialist
 path: felicia-ohrn/
 icon:
-  src: ../assets/felicia-seo-ohrn.svg
+  src: ../assets/felicia-icon.svg
   alt: Felicia Öhrn - SEO Specialist
 hero:
   featured_image:
