@@ -11,7 +11,7 @@ og_image:
   alt: Sebastian Sjööns, Unikorn
 path: sebastian-sjoons/
 icon:
-  src: ../assets/sebastian.png
+  src: ../assets/sebastian.svg
   alt: Content creation
 hero:
   heading: Sebastian Sjööns
