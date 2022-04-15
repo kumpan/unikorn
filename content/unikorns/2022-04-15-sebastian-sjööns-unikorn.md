@@ -11,7 +11,7 @@ og_image:
   alt: Sebastian Sjööns, Unikorn
 path: sebastian-sjoons/
 icon:
-  src: ../assets/content_creation.svg
+  src: ../assets/sebastian.png
   alt: Content creation
 hero:
   heading: Sebastian Sjööns
@@ -20,7 +20,7 @@ hero:
     of meaning and powerful messages through the construction of a text carries
     profound potential in all contexts and fields.
   featured_image:
-    src: ../assets/sebastian.svg
+    src: ../assets/content_creation.svg
     alt: Sebastian Sjööns, Content Unikorn
   button: Get in touch
   buttonlink: contact/
