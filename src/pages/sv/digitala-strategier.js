@@ -159,7 +159,7 @@ const DigitalPage = () => {
       </div>
       <div className={Styles.subpages_list_section + " bg-color-section-desktop"}>
         <div className="overlay-container container">
-          <SubpagesList posts={posts} parentPage="/digital-strategies" />
+          <SubpagesList posts={posts} parentPage="/sv/digitala-strategier" />
         </div>
       </div>
       {pageBody[1] && (

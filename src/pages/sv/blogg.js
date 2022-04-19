@@ -150,7 +150,7 @@ const Blog = () => {
       <section className={Styles.blog_section}>
         <div className="container">
           <div className={Styles.blog_filter}>
-            <p className={Styles.sort_by_text}>Sort by</p>
+            <p className={Styles.sort_by_text}>Sortera efter</p>
             <IconBtn text="Video" filterPosts={filterPosts} icon="video.svg" />
             <IconBtn text="Blog" filterPosts={filterPosts} icon="text.svg" />
           </div>
