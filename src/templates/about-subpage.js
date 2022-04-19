@@ -48,6 +48,7 @@ class AboutTemplate extends Component {
             canonical={pageData.canonical}
             schemaMarkup={schema}
             image={pageData.og_image.src}
+            language={language}
           />
           <Hero
             shorttitle={pageData.shorttitle}

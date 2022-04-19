@@ -56,6 +56,7 @@ const Thanks = () => {
       <SEO
         title={data.site.siteMetadata.title}
         noindex
+        language={'en'}
       />
       <Hero 
         shorttitle={pageData.shorttitle}

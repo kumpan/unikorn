@@ -140,6 +140,7 @@ class BlogTemplate extends Component {
           video={video_url}
           schemaMarkup={schema}
           image={og_image.src}
+          language={language}
         />
         {this.state.showVideo && video_url &&
           <VideoPopup url={video_url} title={title} handleVideo={this.handleVideo}/>

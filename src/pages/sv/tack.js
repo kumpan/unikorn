@@ -53,7 +53,7 @@ const Thanks = () => {
 
   return (
     <Layout location="/sv/tack" show_contact_info>
-      <SEO title={data.site.siteMetadata.title} noindex />
+      <SEO title={data.site.siteMetadata.title} noindex language={'sv'} />
       <Hero
         shorttitle={pageData.shorttitle}
         heading={pageData.hero.heading}

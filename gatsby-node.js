@@ -30,6 +30,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 title
                 path
+                language
+                original
               }
               parent {
                 ... on File {
@@ -55,6 +57,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 title
                 path
+                language
+                original
               }
               parent {
                 ... on File {
@@ -79,6 +83,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 shorttitle
                 path
+                language
+                original
               }
               parent {
                 ... on File {
@@ -103,6 +109,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 shorttitle
                 path
+                language
+                original
               }
               parent {
                 ... on File {
@@ -127,6 +135,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 shorttitle
                 path
+                language
+                original
               }
               parent {
                 ... on File {
@@ -151,6 +161,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 shorttitle
                 path
+                language
+                original
               }
               parent {
                 ... on File {
@@ -175,6 +187,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 shorttitle
                 path
+                language
+                original
               }
               parent {
                 ... on File {
@@ -206,7 +220,9 @@ exports.createPages = ({ graphql, actions }) => {
         component: blogPost,
         context: {
           slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime
+          lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
         },
       })
     })
@@ -218,6 +234,8 @@ exports.createPages = ({ graphql, actions }) => {
         context: {
           slug: post.node.fields.slug,
           lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
         },
       })
     })
@@ -229,7 +247,9 @@ exports.createPages = ({ graphql, actions }) => {
         component: aboutPost,
         context: {
           slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime
+          lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
         },
       })
     })
@@ -241,7 +261,9 @@ exports.createPages = ({ graphql, actions }) => {
         component: webPost,
         context: {
           slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime
+          lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
         },
       })
     })
@@ -253,7 +275,9 @@ exports.createPages = ({ graphql, actions }) => {
         component: marketingPost,
         context: {
           slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime
+          lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
         },
       })
     })
@@ -265,7 +289,9 @@ exports.createPages = ({ graphql, actions }) => {
         component: unikornsPost,
         context: {
           slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime
+          lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
         },
       })
     })
@@ -277,7 +303,9 @@ exports.createPages = ({ graphql, actions }) => {
         component: digitalPost,
         context: {
           slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime
+          lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
         },
       })
     })

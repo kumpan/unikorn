@@ -96,6 +96,7 @@ class MarketingTemplate extends Component {
             canonical={canonical}
             schemaMarkup={schema}
             image={og_image.src}
+            language={language}
           />
           <Hero
             shorttitle={shorttitle}

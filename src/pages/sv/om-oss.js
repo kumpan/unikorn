@@ -80,6 +80,7 @@ const About = () => {
         canonical={pageData.canonical}
         schemaMarkup={schema}
         image={pageData.og_image.src}
+        language={'sv'}
       />
       <Hero 
         shorttitle={pageData.shorttitle}

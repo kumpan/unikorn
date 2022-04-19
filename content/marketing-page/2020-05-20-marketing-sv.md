@@ -5,7 +5,9 @@ description: The know-how and experience to handle every aspect of your Digital
   Marketing. From the initial stages to follow-ups, solid SEO, SoMe and content
   marketing!
 canonical: https://www.unikorn.se/sv/marknadsforing/
+path: /sv/marknadsforing/
 language: sv
+original: /marketing/
 og_image:
   src: ../assets/og.png
   alt: Unikorn Marketing

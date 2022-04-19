@@ -7,6 +7,7 @@ description: To get the most out of your digital marketing efforts, you need a
 canonical: https://www.unikorn.se/digital-strategies/channel-strategies/
 path: /digital-strategies/channel-strategies/
 language: en
+original: null
 menu_position: 3
 og_image:
   src: ../assets/og.png

@@ -7,6 +7,7 @@ description: Behind every successful campaign, lies a vision of what to achieve,
 canonical: https://www.unikorn.se/sv/om-oss/varat-arbetssatt/
 path: /sv/om-oss/varat-arbetssatt/
 language: sv
+original: /about/our-approach/
 og_image:
   src: ../assets/og.png
   alt: The Unikorn way

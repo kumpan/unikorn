@@ -15,6 +15,7 @@ description: " It is obvious, that one of the major priorities for your website
 canonical: https://www.unikorn.se/digital-strategies/web-analysis/
 path: /digital-strategies/web-analysis/
 language: en
+original: null
 og_image:
   src: ../assets/og.png
   alt: Web Analysis

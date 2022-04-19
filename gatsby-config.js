@@ -266,26 +266,114 @@ module.exports = {
                 context {
                   lastmod
                   slug
+                  language
+                  original
+                }
+              }
+            }
+          }
+          allMarkdownRemark {
+            edges {
+              node {
+                frontmatter {
+                  shorttitle
+                  language
+                  original
+                  path
                 }
               }
             }
           }
         }
       `,
-        serialize: ({ site, allSitePage }) => {
+        serialize: ({ site, allSitePage, allMarkdownRemark }) => {
           return allSitePage.edges.map(({ node }) => {
-            let slug = node.context.slug
+            let lastmod = node.context.lastmod
+            const language = node.context.language
+            const original = node.context.original
 
-            if (slug !== null) {
-              let splitslash = slug.split("/")
-              let splitdash = splitslash[1].split("-")
-              var newslug =
-                splitdash[0] + "-" + splitdash[1] + "-" + splitdash[2]
+            if (lastmod !== null) {
+              lastmod = lastmod.split("T")[0]
+            }
+
+            //Alla svenska subpages
+            if(language === 'sv') {
+              return {
+                url: site.siteMetadata.siteUrl + node.path,
+                lastmodISO: lastmod,
+                links: [
+                  { lang: 'en', url: site.siteMetadata.siteUrl + original },
+                  // The default in case page for user's language is not localized.
+                  { lang: 'x-default', url: site.siteMetadata.siteUrl + original }
+                ]
+              }
+            }
+
+            //Alla engelska subpages
+            if(language === 'en') {
+              const swedish = allSitePage.edges.filter(
+                el => el.node.context.original === node.path
+              )
+
+              if(swedish.length > 0) {
+                return {
+                  url: site.siteMetadata.siteUrl + node.path,
+                    lastmodISO: lastmod,
+                    links: [
+                      { lang: 'sv', url: site.siteMetadata.siteUrl + swedish[0].node.path },
+                      // The default in case page for user's language is not localized.
+                      { lang: 'x-default', url: site.siteMetadata.siteUrl + node.path }
+                    ]
+                }
+              }
+            }
+
+
+            if(language === null) {
+              const match = allMarkdownRemark.edges.filter(
+                el => el.node.frontmatter.path === node.path
+              )
+
+              if(match.length > 0) {
+                const lang = match[0].node.frontmatter.language
+
+                if(lang == 'sv') {
+                  return {
+                    url: site.siteMetadata.siteUrl + node.path,
+                    lastmodISO: lastmod,
+                    links: [
+                      { lang: 'en', url: site.siteMetadata.siteUrl + match[0].node.frontmatter.original },
+                      // The default in case page for user's language is not localized.
+                      { lang: 'x-default', url: site.siteMetadata.siteUrl + match[0].node.frontmatter.original }
+                    ]
+                  }
+                }
+
+                if(lang == 'en') {
+                  const swedish = allMarkdownRemark.edges.filter(
+                    el => el.node.frontmatter.original === node.path
+                  )
+    
+                  if(swedish.length > 0) {
+                    return {
+                      url: site.siteMetadata.siteUrl + node.path,
+                        lastmodISO: lastmod,
+                        links: [
+                          { lang: 'sv', url: site.siteMetadata.siteUrl + swedish[0].node.frontmatter.path },
+                          // The default in case page for user's language is not localized.
+                          { lang: 'x-default', url: site.siteMetadata.siteUrl + node.path }
+                        ]
+                    }
+                  }
+
+
+                }
+              }
             }
 
             return {
               url: site.siteMetadata.siteUrl + node.path,
-              lastmodISO: newslug ? newslug : node.context.slug,
+              lastmodISO: lastmod,
             }
           })
         },

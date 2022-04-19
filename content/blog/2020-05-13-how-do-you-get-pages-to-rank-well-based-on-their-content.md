@@ -5,6 +5,7 @@ description: Template for goal-oriented reporting of Social Media efforts.
   Download the template here!
 canonical: https://www.unikorn.se/blog/social-media-report-template/
 language: en
+original: null
 og_image:
   src: ../assets/og.png
   alt: Social media report template

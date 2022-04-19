@@ -9,6 +9,7 @@ description: Meet our SEO Unikorn Amanda Ljungberg. Amanda is a curious person
 canonical: https://www.unikorn.se/unikorns/amanda-ljungberg/
 path: /unikorns/amanda-ljungberg/
 language: en
+original: null
 menu_position: 4
 category: unikorn
 og_image:

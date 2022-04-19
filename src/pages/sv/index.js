@@ -85,6 +85,7 @@ class Startpage extends Component {
           canonical={pageData.canonical}
           schemaMarkup={schema}
           image={pageData.og_image.src}
+          language={'sv'}
         />
         <Hero 
           heading={pageData.hero.heading} 

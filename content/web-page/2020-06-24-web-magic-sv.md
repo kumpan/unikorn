@@ -5,7 +5,9 @@ description: Unikorn Web is us helping you planning and setting up requirements
   for that new amazing web. Then we help migrate the old one. This is how we do
   it!
 canonical: https://www.unikorn.se/sv/webb/
+path: /sv/webb/
 language: sv
+original: /web/
 og_image:
   src: ../assets/og.png
   alt: Web projects

@@ -142,6 +142,7 @@ const DigitalPage = () => {
         shorttitle={pageData.shorttitle}
         schemaMarkup={schema}
         image={pageData.og_image.src}
+        language={'en'}
       />
       <Hero 
         shorttitle={pageData.shorttitle}

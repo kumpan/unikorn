@@ -6,6 +6,7 @@ description: Have you decided that it's a Unikorn you want to be? Then you
 canonical: https://www.unikorn.se/about/be-a-unikorn/
 path: /about/be-a-unikorn/
 language: en
+original: null
 og_image:
   src: ../assets/new-unikorn.jpg
   alt: Always be a Unikorn

@@ -137,6 +137,7 @@ const WebPage = () => {
         canonical={pageData.canonical}
         schemaMarkup={schema}
         image={pageData.og_image.src}
+        language={'en'}
       />
       <Hero 
         shorttitle={pageData.shorttitle}

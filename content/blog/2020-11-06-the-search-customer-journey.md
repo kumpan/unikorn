@@ -5,6 +5,7 @@ description: "Your users love relevance. Get a more relevant and intuitive
   content structure with the search customer journey model! "
 canonical: https://www.unikorn.se/blog/search-customer-journey/
 language: en
+original: null
 og_image:
   src: ../assets/og-searchcustomerjourney.jpg
   alt: Search Customer Journey

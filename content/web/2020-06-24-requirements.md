@@ -10,6 +10,7 @@ description: Unikorn helps you with writing the best possible website
 canonical: https://www.unikorn.se/web/website-requirements/
 path: /web/website-requirements/
 language: en
+original: null
 menu_position: 3
 og_image:
   src: ../assets/website-requirements.png

@@ -92,6 +92,7 @@ const Contactpage = () => {
         description={pageData.description}
         canonical={pageData.canonical}
         image={pageData.og_image.src}
+        language={'sv'}
       />
       <ContactPopup data={pageData}></ContactPopup>
     </Layout>

@@ -7,6 +7,7 @@ description: Behind every successful campaign, lies a vision of what to achieve,
 canonical: https://www.unikorn.se/about/our-approach/
 path: /about/our-approach/
 language: en
+original: null
 og_image:
   src: ../assets/og.png
   alt: The Unikorn way

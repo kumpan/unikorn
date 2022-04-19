@@ -4,7 +4,9 @@ shorttitle: Digital strategies
 title: "Digital strategies creates magic! "
 description: Digital strategies
 canonical: https://www.unikorn.se/digital-strategies/
+path: /digital-strategies/
 language: en
+original: null
 og_image:
   src: ../assets/og.png
   alt: "Digital Strategies "

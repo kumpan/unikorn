@@ -19,6 +19,8 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -123,6 +125,8 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -168,6 +172,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
@@ -222,6 +227,8 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -267,6 +274,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
@@ -321,6 +329,8 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -366,6 +376,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - { name: menu_position, label: Menu position, widget: number }
       - { name: category, label: Category, widget: select, options: [{label: Unikorn, value: unikorn}, {label: Friends, value: friends}], default: unikorn  }
       - name: og_image
@@ -421,6 +432,8 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -466,6 +479,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
@@ -520,6 +534,8 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -557,6 +573,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - name: og_image
         label: OG Image
         widget: object
@@ -591,6 +608,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - name: og_image
         label: OG Image
         widget: object
@@ -626,6 +644,8 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -663,6 +683,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - name: og_image
         label: OG Image
         widget: object
@@ -732,6 +753,8 @@ collections:
       - { name: description, label: Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -831,6 +854,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - name: og_image
         label: OG Image
         widget: object
@@ -892,6 +916,8 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -928,6 +954,8 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object

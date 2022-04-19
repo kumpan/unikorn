@@ -3,7 +3,9 @@ shorttitle: Privacy policy
 title: Privacy policy
 description: Digital Unikorn AB Privacy Policy
 canonical: https://www.unikorn.se/sv/privacy-policy/
+path: /sv/privacy-policy/
 language: sv
+original: /privacy-policy/
 og_image:
   src: 
   alt: 

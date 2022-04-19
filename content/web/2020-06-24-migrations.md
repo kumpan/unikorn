@@ -10,6 +10,7 @@ description: "Unikorn has helped many site owners migrate their websites to new
 canonical: https://www.unikorn.se/web/website-migration/
 path: /web/website-migration/
 language: en
+original: null
 menu_position: 1
 og_image:
   src: ../assets/webmigrations.png

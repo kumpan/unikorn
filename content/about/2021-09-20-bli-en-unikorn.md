@@ -6,6 +6,7 @@ description: Have you decided that it's a Unikorn you want to be? Then you
 canonical: https://www.unikorn.se/sv/om-oss/bli-en-unikorn/
 path: /sv/om-oss/bli-en-unikorn/
 language: sv
+original: /about/be-a-unikorn/
 og_image:
   src: ../assets/new-unikorn.jpg
   alt: Always be a Unikorn

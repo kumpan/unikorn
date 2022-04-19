@@ -8,6 +8,7 @@ description: Meet Ulrika Viberg, the Unikorn founder with a passion for
 canonical: https://www.unikorn.se/unikorns/ulrika-viberg/
 path: /unikorns/ulrika-viberg/
 language: en
+original: null
 menu_position: 1
 category: unikorn
 og_image:
