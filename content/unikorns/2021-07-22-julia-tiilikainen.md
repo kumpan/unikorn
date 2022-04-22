@@ -9,11 +9,11 @@ canonical: https://www.unikorn.se/unikorns/julia-tiilikainen/
 menu_position: 3
 category: unikorn
 og_image:
-  src: ../assets/julia-tiilikainen.jpg
+  src: ../assets/julia-unikorn.jpg
   alt: Julia Tiilikainen
 path: julia-tiilikainen/
 icon:
-  src: ../assets/julia.svg
+  src: ../assets/julia-icon.svg
   alt: Julia Tiilikainen SEO Unikorn
 hero:
   heading: Julia Tiilikainen
@@ -32,9 +32,7 @@ SEOform:
 ---
 ## SEO Unikorn
 
-![Julia Tiilikainen SEO Unikorn](../assets/julia-tiilikainen.jpg)
-
-
+![Julia Tiilikainen SEO Unikorn](../assets/julia-unikorn.jpg)
 
 ### Julia’s super powers
 
