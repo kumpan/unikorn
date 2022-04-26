@@ -150,6 +150,13 @@ class Nav extends Component {
       )
     });
 
+    let otherLanguage
+    if(prefix === '/') {
+      otherLanguage = 'se'
+    } else {
+      otherLanguage = 'gb'
+    }
+
     return (
       <div>
 
@@ -251,6 +258,16 @@ class Nav extends Component {
               </div>
             </Link>
           }
+
+          <Link to={prefix === '/' ? '/sv/' : '/'}>
+            <img
+              src={`https://flagcdn.com/h20/${otherLanguage}.png`}
+              srcSet={`https://flagcdn.com/h40/${otherLanguage}.png 2x,
+                 https://flagcdn.com/h60/${otherLanguage}.png 3x`}
+              height="20"
+              alt="Sweden"
+            />
+          </Link>
 
           <div className={Styles.nav_button + " " + (this.state.showMenu ? Styles.opened : "")}
             onClick={this.toggleMenu}

@@ -279,7 +279,7 @@ module.exports = {
                   shorttitle
                   language
                   original
-                  path
+                  canonical
                 }
               }
             }
@@ -331,7 +331,7 @@ module.exports = {
 
             if(language === null) {
               const match = allMarkdownRemark.edges.filter(
-                el => el.node.frontmatter.path === node.path
+                el => el.node.frontmatter.canonical == `${site.siteMetadata.siteUrl}${node.path}`
               )
 
               if(match.length > 0) {
@@ -359,7 +359,7 @@ module.exports = {
                       url: site.siteMetadata.siteUrl + node.path,
                         lastmodISO: lastmod,
                         links: [
-                          { lang: 'sv', url: site.siteMetadata.siteUrl + swedish[0].node.frontmatter.path },
+                          { lang: 'sv', url: swedish[0].node.frontmatter.canonical },
                           // The default in case page for user's language is not localized.
                           { lang: 'x-default', url: site.siteMetadata.siteUrl + node.path }
                         ]
