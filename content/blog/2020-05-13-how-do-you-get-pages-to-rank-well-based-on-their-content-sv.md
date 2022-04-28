@@ -1,9 +1,9 @@
 ---
-path: sociala-medier-rapport-template
+path: social-media-report-template
 title: How to create an easy-to-use report for Social Media
 description: Template for goal-oriented reporting of Social Media efforts.
   Download the template here!
-canonical: https://www.unikorn.se/sv/blogg/sociala-medier-rapport-template/
+canonical: https://www.unikorn.se/sv/blogg/social-media-report-template/
 language: sv
 original: /blog/social-media-report-template/
 og_image:

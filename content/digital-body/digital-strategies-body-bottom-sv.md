@@ -1,6 +1,6 @@
 ---
-shorttitle: Digital Strategies Body Bottom
-title: Digital Strategies Body Bottom
+shorttitle: Digital Strategies Body Bottom SV
+title: Digital Strategies Body Bottom SV
 order: 2
 language: sv
 ---

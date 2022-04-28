@@ -4,8 +4,8 @@ title: The Unikorn Approach
 description: Behind every successful campaign, lies a vision of what to achieve,
   a plan of what to do and when for whom. Plus a consensus of what success is.
   In short, a strategy.
-canonical: https://www.unikorn.se/sv/om-oss/varat-arbetssatt/
-path: /sv/om-oss/varat-arbetssatt/
+canonical: https://www.unikorn.se/sv/om-oss/our-approach/
+path: /sv/om-oss/our-approach/
 language: sv
 original: /about/our-approach/
 og_image:

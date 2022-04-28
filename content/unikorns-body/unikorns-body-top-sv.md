@@ -1,6 +1,6 @@
 ---
-shorttitle: Unikorns Body Top
-title: Unikorns Body Top
+shorttitle: Unikorns Body Top SV
+title: Unikorns Body Top SV
 order: 1
 language: sv
 ---

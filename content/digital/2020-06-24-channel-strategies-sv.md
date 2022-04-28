@@ -4,8 +4,8 @@ shortdesc: Let each channel sparkle with Unikorn magic.
 title: Channel strategies boost visibility
 description: To get the most out of your digital marketing efforts, you need a
   strategy for each of your channels. Let us help you figure it out!
-canonical: https://www.unikorn.se/sv/digitala-strategier/kanal-strategier/
-path: /sv/digitala-strategier/kanal-strategier/
+canonical: https://www.unikorn.se/sv/digitala-strategier/channel-strategies/
+path: /sv/digitala-strategier/channel-strategies/
 language: sv
 original: /digital-strategies/channel-strategies/
 menu_position: 3

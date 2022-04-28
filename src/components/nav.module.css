@@ -93,6 +93,21 @@
   margin-top: auto;
 }
 
+.language {
+  margin-right: 32px;
+  display: none;
+  align-items: center;
+}
+
+.language a {
+  display: flex;
+  align-items: center;
+}
+
+.language img {
+  width: 32px;
+}
+
 .nav_button {
   width: 56px;
   height: 56px;
@@ -201,7 +216,7 @@
   display: none;
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1212px) {
   .nav_cta {
     display: block;
     margin-right: 32px;
@@ -228,9 +243,7 @@
     color: var(--primary);
     text-decoration: underline;
   }
-}
 
-@media screen and (min-width: 992px) {
   .logo {
     margin-top: 2px;
   }
@@ -251,6 +264,10 @@
     background-color: transparent;
     box-shadow: none;
     padding: 36px 0 0 0;
+  }
+
+  .language {
+    display: flex;
   }
 
   .nav_button {

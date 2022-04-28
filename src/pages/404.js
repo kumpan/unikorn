@@ -14,12 +14,7 @@ const FouroFour = () => {
             title
           }
         }
-        allMdx(
-          filter: {
-            fileAbsolutePath: { regex: "/(/fourofour)/" }
-            frontmatter: { language: { eq: "en" } }
-          }
-        ) {
+        allMdx(filter: { fileAbsolutePath: { regex: "/(/fourofour)/" } }) {
           edges {
             node {
               body

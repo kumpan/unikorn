@@ -85,6 +85,7 @@ const MarketingPage = () => {
                 shorttitle
                 shortdesc
                 menu_position
+                language
                 icon {
                   src {
                     childImageSharp {

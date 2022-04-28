@@ -89,6 +89,7 @@ const DigitalPage = () => {
                 shorttitle
                 shortdesc
                 menu_position
+                language
                 icon {
                   src {
                     childImageSharp {

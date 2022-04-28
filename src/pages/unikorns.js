@@ -81,6 +81,7 @@ const UnikornsPage = () => {
                 shorttitle
                 shortdesc
                 menu_position
+                language
                 category
                 path
                 icon {

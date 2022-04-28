@@ -7,8 +7,15 @@ import Styles from "./subpages-post.module.css"
 
 class SubpagesPost extends Component {
   render() {
-    const { shorttitle, shortdesc, icon, alt, path } = this.props.post
+    const { shorttitle, shortdesc, icon, alt, path, language } = this.props.post
     const subpagesLink = path
+
+    let text;
+    if(language === 'en') {
+      text = "Read more"
+    } else {
+      text = "Läs mer"
+    }
 
     const subpagesIcon = (icon.src.extension === "svg") ? (
       <div className={Styles.subpages_icon}>
@@ -29,7 +36,7 @@ class SubpagesPost extends Component {
           {subpagesIcon}
           <h3>{shorttitle}</h3>
           <p>{shortdesc}</p>
-          <SecondaryButton link={subpagesLink} text="Read more" arrow/>
+          <SecondaryButton link={subpagesLink} text={text} arrow/>
         </div>
       </div>
     )

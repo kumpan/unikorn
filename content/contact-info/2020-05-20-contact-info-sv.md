@@ -1,5 +1,5 @@
 ---
-shorttitle: Contact info
+shorttitle: Kontakt info
 language: sv
 col1:
   title: Ring oss

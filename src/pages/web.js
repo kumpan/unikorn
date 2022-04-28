@@ -84,6 +84,7 @@ const WebPage = () => {
                 shorttitle
                 shortdesc
                 menu_position
+                language
                 path
                 icon {
                   src {

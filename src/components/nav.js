@@ -259,15 +259,17 @@ class Nav extends Component {
             </Link>
           }
 
-          <Link to={prefix === '/' ? '/sv/' : '/'}>
-            <img
-              src={`https://flagcdn.com/h20/${otherLanguage}.png`}
-              srcSet={`https://flagcdn.com/h40/${otherLanguage}.png 2x,
-                 https://flagcdn.com/h60/${otherLanguage}.png 3x`}
-              height="20"
-              alt="Sweden"
-            />
-          </Link>
+          <div className={Styles.language}>
+            <Link to={prefix === '/' ? '/sv/' : '/'}>
+              <img
+                src={`https://flagcdn.com/h20/${otherLanguage}.png`}
+                srcSet={`https://flagcdn.com/h40/${otherLanguage}.png 2x,
+                  https://flagcdn.com/h60/${otherLanguage}.png 3x`}
+                height="20"
+                alt="Sweden"
+              />
+            </Link>
+          </div>
 
           <div className={Styles.nav_button + " " + (this.state.showMenu ? Styles.opened : "")}
             onClick={this.toggleMenu}
