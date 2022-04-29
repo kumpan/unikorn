@@ -1,6 +1,6 @@
 ---
-shorttitle: Sebastian Sjööns, Unikorn
-shortdesc: Content Unikorn with a passion for the written word and the power of langauage
+shorttitle: Sebastian Sjööns
+shortdesc: Content Unikorn with a passion for the written word and the power of language
 title: Sebastian Sjööns - Content Unikorn
 description: Get in touch with Sebastian if your website is in need of SEO friendly content!
 canonical: https://www.unikorn.se/unikorns/sebastian-sjoons/
