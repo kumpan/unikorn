@@ -27,6 +27,7 @@ const Contactpage = () => {
                 title
                 description
                 canonical
+                language
                 og_image {
                   src {
                     childImageSharp {

@@ -112,7 +112,7 @@ class MarketingTemplate extends Component {
           />
           <div className="bg-color-section-desktop">
             <div className="overlay-container">
-              <Container data={formData}>
+              <Container data={formData} language={language}>
                 <div className="content-container-text">
                   <MDXRenderer>{this.props.data.currentPost.body}</MDXRenderer>
                 </div>

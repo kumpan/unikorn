@@ -192,7 +192,11 @@ class BlogTemplate extends Component {
         {relatedPosts.length > 0 &&
           <div className={Styles.single_related_wrapper}>
             <div className={Styles.single_related_wrapper_inner}>
-              <h2>Read another post about {currentCategory}</h2>
+
+              {language === 'en' ?
+                <h2>Read another post about {currentCategory}</h2> :
+                <h2>Läs ett annat inlägg om {currentCategory}</h2>
+              }
               <BlogList language={language} posts={relatedPosts} />
             </div>
         </div>

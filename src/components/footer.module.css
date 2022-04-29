@@ -86,11 +86,17 @@
 
 .copyright {
   margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .copyright p {
   font-weight: 500;
   opacity: 0.72;
+}
+
+.copyright .language img {
+  width: 32px;
 }
 
 @media screen and (min-width: 767px) {

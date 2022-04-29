@@ -37,7 +37,7 @@ const ContactContent = (props) => {
             {contactPopupImg}
           </div>
           <div className={Styles.contact_popup_col2}>
-            <Form data={contactData.form}/>
+            <Form data={contactData.form} language={contactData.language}/>
             <div className={Styles.contact_popup_contactinfo}>
               <a href={"mailto:" + contactData.contact_email}>{contactData.contact_email}</a>
               <a href={"tel:" + contactData.contact_tel}>{contactData.contact_tel}</a>

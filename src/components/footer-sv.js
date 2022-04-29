@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import remark from "remark"
 import recommended from "remark-preset-lint-recommended"
 import remarkHtml from "remark-html"
@@ -101,7 +101,21 @@ const Footer = (props) => {
               {columnElements}
             </div>
           </div>
-          <div className={Styles.copyright}><p>Unikorn {new Date().getFullYear()} ©</p></div>
+          <div className={Styles.copyright}>
+            <p>Unikorn {new Date().getFullYear()} ©</p>
+          
+            <div className={Styles.language}>
+              <Link to={'/'}>
+                <img
+                  src={`https://flagcdn.com/h20/gb.png`}
+                  srcSet={`https://flagcdn.com/h40/gb.png 2x,
+                    https://flagcdn.com/h60/gb.png 3x`}
+                  height="20"
+                  alt="Sweden"
+                />
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>
