@@ -55,6 +55,17 @@ class BlogPost extends Component {
       typeIcon = <FileDocumentIcon />
     }
 
+    let typeText
+    if (type === "blog") {
+      if (this.props.language === "sv") {
+        typeText = "blogg"
+      } else {
+        typeText = "blog"
+      }
+    } else {
+      typeText = "video"
+    }
+
     return (
       <div className={Styles.blog_post_wrapper + " blog-post-wrapper " + (this.props.keepMobileStyling ? Styles.blog_post_mobile_style : "") + " type-" + type }>
         <Link to={prefix + slugify(path) + "/"}>
@@ -62,7 +73,7 @@ class BlogPost extends Component {
             <div className={Styles.blog_post_text_wrapper}>
               <span className={Styles.blog_cat}>
                 {typeIcon}
-                {type}
+                {typeText}
               </span>
               <h2 className={Styles.blog_title}>{title}</h2>
               <div className={Styles.blog_info}>
