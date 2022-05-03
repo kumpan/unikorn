@@ -2,6 +2,7 @@
 shorttitle: Digital Strategies Body Bottom
 title: Digital Strategies Body Bottom
 order: 2
+language: en
 ---
 ## Unikorn’s digital strategy magic
 

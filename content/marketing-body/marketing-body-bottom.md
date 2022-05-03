@@ -2,6 +2,7 @@
 title: Marketing Body Bottom
 shorttitle: Marketing Body Bottom
 order: 2
+language: en
 ---
 ### Social media platforms
 

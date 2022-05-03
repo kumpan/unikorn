@@ -4,6 +4,9 @@ shortdesc: Processes & Ways of working
 title: Processes & Ways of working
 description: Processes & Ways of working
 canonical: https://www.unikorn.se/digital-strategies/processes-ways-of-working/
+path: /digital-strategies/processes-ways-of-working/
+language: en
+original: null
 menu_position: 2
 og_image:
   src: ../assets/og.png

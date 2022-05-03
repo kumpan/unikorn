@@ -5,6 +5,8 @@ description: Image SEO is an often untapped source for organic traffic. Read
   more about how you can optimize your images for more traffic and better page
   speed.
 canonical: https://www.unikorn.se/blog/image-optimisation/
+language: en
+original: null
 og_image:
   src: ../assets/image-optimisation-smaller.jpg
   alt: Image Optimisation

@@ -4,6 +4,9 @@ title: Always be a Unikorn! Apply for a position as SEO Unikorn
 description: Have you decided that it's a Unikorn you want to be? Then you
   should fill in the magical form and hope to join us!
 canonical: https://www.unikorn.se/about/be-a-unikorn/
+path: /about/be-a-unikorn/
+language: en
+original: null
 og_image:
   src: ../assets/new-unikorn.jpg
   alt: Always be a Unikorn

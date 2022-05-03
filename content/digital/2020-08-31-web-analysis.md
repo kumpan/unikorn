@@ -13,6 +13,9 @@ description: " It is obvious, that one of the major priorities for your website
   boost. To achieve this vision of your digital presence you need to measure it
   and measure it right! "
 canonical: https://www.unikorn.se/digital-strategies/web-analysis/
+path: /digital-strategies/web-analysis/
+language: en
+original: null
 og_image:
   src: ../assets/og.png
   alt: Web Analysis

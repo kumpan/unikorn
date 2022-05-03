@@ -18,6 +18,9 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -108,7 +111,7 @@ collections:
             - { label: Heading, name: heading, widget: string }
             - { label: Text, name: text, widget: text }
             - { label: Reference person, name: person, widget: string }
-  
+
   - name: web-page
     label: Web Magic
     folder: content/web-page
@@ -121,6 +124,9 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -148,8 +154,9 @@ collections:
       - { name: shorttitle, label: Short Title }
       - { name: title, label: SEO Title }
       - { name: order, label: Order, widget: number }
+      - { name: language, label: Language }
       - { name: body, label: Text, widget: markdown }
-  
+
   - name: web
     label: Web Magic subpages
     folder: content/web
@@ -159,10 +166,13 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { label: Path, name: path }
       - { name: shortdesc, label: Short description }
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
@@ -216,6 +226,9 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -243,6 +256,7 @@ collections:
       - { name: shorttitle, label: Short Title }
       - { name: title, label: SEO Title }
       - { name: order, label: Order, widget: number }
+      - { name: language, label: Language }
       - { name: body, label: Text, widget: markdown }
 
   - name: marketing
@@ -254,10 +268,13 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { label: Path, name: path }
       - { name: shortdesc, label: Short description }
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
@@ -298,7 +315,7 @@ collections:
           - { name: form_title, label: Form title, widget: string }
           - { name: form_text, label: Form text, widget: string }
           - { name: form_button, label: Form button, widget: string }
-  
+
   - name: unikorns-page
     label: We are Unicorn
     folder: content/unikorns-page
@@ -311,6 +328,9 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -338,6 +358,7 @@ collections:
       - { name: shorttitle, label: Short Title }
       - { name: title, label: SEO Title }
       - { name: order, label: Order, widget: number }
+      - { name: language, label: Language }
       - { name: body, label: Text, widget: markdown }
 
   - name: unikorns
@@ -349,10 +370,13 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { label: Path, name: path }
       - { name: shortdesc, label: Short description }
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - { name: menu_position, label: Menu position, widget: number }
       - { name: category, label: Category, widget: select, options: [{label: Unikorn, value: unikorn}, {label: Friends, value: friends}], default: unikorn  }
       - name: og_image
@@ -361,7 +385,6 @@ collections:
         fields:
           - { label: Image, name: src, widget: image }
           - { label: Alt text, name: alt, widget: string }
-      - { label: Path, name: path }
       - label: Icon
         name: icon
         widget: object
@@ -408,6 +431,9 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -435,8 +461,9 @@ collections:
       - { name: shorttitle, label: Short Title }
       - { name: title, label: SEO Title }
       - { name: order, label: Order, widget: number }
+      - { name: language, label: Language }
       - { name: body, label: Text, widget: markdown }
-  
+
   - name: digital
     label: Digital subpages
     folder: content/digital
@@ -446,10 +473,13 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { label: Path, name: path }
       - { name: shortdesc, label: Short description }
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
@@ -503,6 +533,9 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -539,13 +572,14 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - name: og_image
         label: OG Image
         widget: object
         fields:
           - { label: Image, name: src, widget: image }
           - { label: Alt text, name: alt, widget: string }
-      - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Author, name: author, widget: string }
       - { label: Author Page, name: author_page}
@@ -573,13 +607,14 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - name: og_image
         label: OG Image
         widget: object
         fields:
           - { label: Image, name: src, widget: image }
           - { label: Alt text, name: alt, widget: string }
-      - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Author, name: author, widget: string }
       - { label: Author Page, name: author_page}
@@ -608,6 +643,9 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -630,7 +668,7 @@ collections:
           - { label: Button text, name: button, widget: string, required: false }
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
-  
+
   - name: about
     label: About Subpages
     folder: content/about
@@ -640,9 +678,12 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { label: Path, name: path }
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
       - name: og_image
         label: OG Image
         widget: object
@@ -675,6 +716,7 @@ collections:
       preview: false
     fields:
       - { label: Short title, name: shorttitle, widget: string }
+      - { name: language, label: Language }
       - name: col1
         label: Column 1
         widget: object
@@ -710,6 +752,9 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -770,6 +815,7 @@ collections:
     fields:
       - { label: Small heading, name: smallheading, widget: string }
       - { label: Heading, name: heading, widget: string }
+      - { name: language, label: Language }
       - name: col1
         label: Column 1
         widget: object
@@ -838,6 +884,7 @@ collections:
       preview: false
     fields:
       - { name: shorttitle, label: Short Title }
+      - { name: language, label: Language }
       - name: hero
         label: Hero
         widget: object
@@ -866,6 +913,9 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object
@@ -901,6 +951,9 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
+      - { name: language, label: Language }
+      - { name: original, label: Original Url }
+      - { label: Path, name: path }
       - name: og_image
         label: OG Image
         widget: object

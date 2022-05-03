@@ -3,6 +3,9 @@ shorttitle: Cookie policy
 title: Cookie policy
 description: Cookie policy
 canonical: https://www.unikorn.se/cookie-policy/
+path: /cookie-policy/
+language: en
+original: null
 og_image:
   src: 
   alt: 

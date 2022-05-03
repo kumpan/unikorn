@@ -175,7 +175,7 @@ exports.createPages = ({ graphql, actions }) => {
     // Create about pages.
     aboutPosts.forEach((post, index) => {
       createPage({
-        path: `about/${slugify(post.node.frontmatter.shorttitle)}`,
+        path: post.node.frontmatter.path,
         component: aboutPost,
         context: {
           slug: post.node.fields.slug,
@@ -187,7 +187,7 @@ exports.createPages = ({ graphql, actions }) => {
     // Create web pages.
     webPosts.forEach((post, index) => {
       createPage({
-        path: `web/${slugify(post.node.frontmatter.shorttitle)}`,
+        path: post.node.frontmatter.path,
         component: webPost,
         context: {
           slug: post.node.fields.slug,
@@ -199,7 +199,7 @@ exports.createPages = ({ graphql, actions }) => {
     // Create marketing pages.
     marketingPosts.forEach((post, index) => {
       createPage({
-        path: `marketing/${slugify(post.node.frontmatter.shorttitle)}`,
+        path: post.node.frontmatter.path,
         component: marketingPost,
         context: {
           slug: post.node.fields.slug,
@@ -211,7 +211,7 @@ exports.createPages = ({ graphql, actions }) => {
     // Create Unikorn pages.
     unikornsPosts.forEach((post, index) => {
       createPage({
-        path: `unikorns/${post.node.frontmatter.path}`,
+        path: post.node.frontmatter.path,
         component: unikornsPost,
         context: {
           slug: post.node.fields.slug,
@@ -223,7 +223,7 @@ exports.createPages = ({ graphql, actions }) => {
     // Create digital pages.
     digitalPosts.forEach((post, index) => {
       createPage({
-        path: `digital-strategies/${slugify(post.node.frontmatter.shorttitle)}`,
+        path: post.node.frontmatter.path,
         component: digitalPost,
         context: {
           slug: post.node.fields.slug,

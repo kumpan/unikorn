@@ -77,6 +77,7 @@ const WebPage = () => {
                 shorttitle
                 shortdesc
                 menu_position
+                path
                 icon {
                   src {
                     childImageSharp {
