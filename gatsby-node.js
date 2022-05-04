@@ -6,7 +6,6 @@ exports.createPages = ({ graphql, actions }) => {
   const blogPost = path.resolve(`./src/templates/blog-post-single.js`)
   const marketingPost = path.resolve(`./src/templates/marketing-subpage.js`)
   const unikornsPost = path.resolve(`./src/templates/unikorns-subpage.js`)
-  const digitalPost = path.resolve(`./src/templates/digital-subpage.js`)
   const webPost = path.resolve(`./src/templates/web-subpage.js`)
   const aboutPost = path.resolve(`./src/templates/about-subpage.js`)
   const { slugify } = require(`./src/global-functions.js`)
@@ -172,32 +171,6 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         }
-        digitalPosts: allMdx(
-          filter: {
-            fileAbsolutePath: { regex: "/(/digital/)/" }
-          }
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                shorttitle
-                path
-                language
-                original
-              }
-              parent {
-                ... on File {
-                  mtime
-                }
-              }
-            }
-          }
-        }
       }
     `
   ).then(result => {
@@ -211,7 +184,6 @@ exports.createPages = ({ graphql, actions }) => {
     const webPosts = result.data.webPosts.edges
     const marketingPosts = result.data.marketingPosts.edges
     const unikornsPosts = result.data.unikornsPosts.edges
-    const digitalPosts = result.data.digitalPosts.edges
 
     // Create blog posts pages.
     blogPosts.forEach((post, index) => {
@@ -287,20 +259,6 @@ exports.createPages = ({ graphql, actions }) => {
       createPage({
         path: post.node.frontmatter.path,
         component: unikornsPost,
-        context: {
-          slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime,
-          language: post.node.frontmatter.language,
-          original: post.node.frontmatter.original
-        },
-      })
-    })
-
-    // Create digital pages.
-    digitalPosts.forEach((post, index) => {
-      createPage({
-        path: post.node.frontmatter.path,
-        component: digitalPost,
         context: {
           slug: post.node.fields.slug,
           lastmod: post.node.parent.mtime,

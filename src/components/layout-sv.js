@@ -79,23 +79,6 @@ const Layout = (props) => {
             }
           }
         }
-        digital: allMdx(
-          filter: {
-            fileAbsolutePath: { regex: "/(/digital/)/" }
-            frontmatter: { language: { eq: "sv" } }
-          }
-          sort: { fields: [frontmatter___date], order: DESC }
-        ) {
-          edges {
-            node {
-              frontmatter {
-                path
-                shorttitle
-                menu_position
-              }
-            }
-          }
-        }
       }
     `
   )
@@ -103,12 +86,11 @@ const Layout = (props) => {
   const aboutPages = data.about.edges
   const webPages = data.web.edges
   const marketingPages = data.marketing.edges
-  const digitalPages = data.digital.edges
   const unikornsPages = data.unikorns.edges
 
   return (
     <div className="main-container">
-      <Nav language="/sv/" location={props.location} aboutPages={aboutPages} webPages={webPages} marketingPages={marketingPages} unikornsPages={unikornsPages} digitalPages={digitalPages}/>
+      <Nav language="/sv/" location={props.location} aboutPages={aboutPages} webPages={webPages} marketingPages={marketingPages} unikornsPages={unikornsPages}/>
       <main>{children}</main>
       <Footer show_contact_info={props.show_contact_info} />
       <CookieConsent buttonText="OK" cookieName="cookieConcent" contentClasses="cookie-text" buttonWrapperClasses="cookie-btn">

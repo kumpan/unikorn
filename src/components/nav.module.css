@@ -216,7 +216,7 @@
   display: none;
 }
 
-@media screen and (min-width: 1212px) {
+@media screen and (min-width: 1150px) {
   .nav_cta {
     display: block;
     margin-right: 32px;
@@ -244,6 +244,9 @@
     text-decoration: underline;
   }
 
+}
+
+@media screen and (min-width: 992px) {
   .logo {
     margin-top: 2px;
   }

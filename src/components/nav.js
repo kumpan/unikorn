@@ -84,7 +84,6 @@ class Nav extends Component {
 
     const sortWeb = this.props.webPages
     const sortMarketing = this.props.marketingPages
-    const sortDigital = this.props.digitalPages
 
     function sortItems( a, b ) {
       if ( a.node.frontmatter.menu_position < b.node.frontmatter.menu_position ){
@@ -98,7 +97,6 @@ class Nav extends Component {
     
     sortWeb.sort( sortItems );
     sortMarketing.sort( sortItems );
-    sortDigital.sort( sortItems );
 
     const prefix = this.props.language
 
@@ -133,18 +131,6 @@ class Nav extends Component {
 
       marketingMenuItems.push(
         <li className={location === menuItemLink ? Styles.active : ""} key={`${i}marketingmenu`}>
-          <Link to={menuItemLink}>{menuItem}</Link>
-        </li>
-      )
-    });
-
-    const digitalMenuItems = []
-    this.props.digitalPages.forEach(function (page, i) {
-      const menuItem = page.node.frontmatter.shorttitle
-      const menuItemLink = page.node.frontmatter.path
-
-      digitalMenuItems.push(
-        <li className={location === menuItemLink ? Styles.active : ""} key={`${i}digitalmenu`}>
           <Link to={menuItemLink}>{menuItem}</Link>
         </li>
       )

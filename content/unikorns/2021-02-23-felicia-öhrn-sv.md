@@ -15,7 +15,7 @@ og_image:
   src: ../assets/felicia-ohrn.jpg
   alt: Felicia Öhrn - SEO Specialist
 icon:
-  src: ../assets/felicia-seo-ohrn.svg
+  src: ../assets/felicia-icon.svg
   alt: Felicia Öhrn - SEO Specialist
 hero:
   featured_image:
