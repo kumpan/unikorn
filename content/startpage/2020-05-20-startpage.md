@@ -37,7 +37,7 @@ tabs_section:
         Marketing) expertise.
       buttontext: Read more about SEO
       buttontext_mobile: Unikorn Search
-      buttonlink: /marketing/seo/
+      buttonlink: /seo/seo/
     - tab_title: Marketing
       text: "Our Digital Marketing experience is massive forming our view of
         successful Digital Marketing, as aggressive, and not just for Start-ups,
@@ -45,7 +45,7 @@ tabs_section:
         Kick-off start and go-to-market phase aggressive expertise for full
         traction throughout all cycle stages. "
       heading: Unikorn Marketing
-      buttonlink: /marketing/
+      buttonlink: /seo/
       buttontext: Read more about Unikorn marketing
       buttontext_mobile: Unikorn Marketing
     - tab_title: Web
@@ -57,7 +57,7 @@ tabs_section:
         Project Management."
       buttontext: Read more about Unikorn web
       buttontext_mobile: Read more
-      buttonlink: /web/
+      buttonlink: /web-analytics/
     - tab_title: Strategy
       heading: Unikorn Strategy
       text: How to walk the walk and talk the talk is all about knowing who you are
@@ -126,7 +126,7 @@ faq_section:
         We hope these fun-facts have shed a light on the empowering force SEO is for your Digital Marketing, and through many of its streams. One that shines brightest is the humongous amount of users searching the web on informational, commercial, and transactional search basis. Other aspects shining are the exponential market share the #1 search engine has. Data that forms the picture of the paths a business needs to walk, for its digital presence to standout from the crowd.
 
 
-        [Read more about SEO >>](https://www.unikorn.se/marketing/seo/)
+        [Read more about SEO >>](https://www.unikorn.se/seo/seo/)
     - question: What is Unikorn Marketing
       answer: >-
         Unikorn Marketing is an aggressive marketing and user-focused way of
@@ -164,7 +164,7 @@ faq_section:
         The Unikorn Marketing team step-it-up upgrading the whole process, actioning on your digital presence, UX (user-experience), search optimisation, and a number of other advantages that we’d be delighted to discuss with you. If you still see the need or have curiosity to learn more about Unikorn Marketing, feel free to access the following link.
 
 
-        [Read more about Unikorn Marketing >>](https://www.unikorn.se/marketing/)
+        [Read more about Unikorn Marketing >>](https://www.unikorn.se/seo/)
     - question: What is a Search Customer Journey?
       answer: >-
         A search customer journey is a model we use at Unikorn, developed by

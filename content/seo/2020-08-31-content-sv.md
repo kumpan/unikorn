@@ -5,10 +5,10 @@ title: Content Marketing, Web content and Online Reputation
 description: Spreading the word is one of the basic foundations in marketing.
   Great content does the job for more easy and meaningful messages. Let us help
   you rock!
-canonical: https://www.unikorn.se/marketing/content/
-path: /marketing/content/
-language: en
-original: null
+canonical: https://www.unikorn.se/sv/seo/content/
+path: /sv/seo/content/
+language: sv
+original: /seo/content/
 menu_position: 2
 og_image:
   src: ../assets/og.png
@@ -25,7 +25,7 @@ hero:
     src: ../assets/undraw_browsing_urt9-1-.svg
     alt: Content
   button: Let us help you with Content!
-  buttonlink: /contact/
+  buttonlink: /sv/kontakt/
 latest_posts_text: Read more about Content Marketing
 posts_category: Unikorn Marketing
 SEOform: 
@@ -121,4 +121,4 @@ To help us achieve growth hacking and being your performance-partner, we aggluti
 
 Implementing this formula to our content marketing strategy we achieve a scalable and dynamic professional team. Ready to produce an ample array of content focused on spotlight and virality to engage and perform at its highest potential.
 
-**Want to know more about how your company can work with Content Marketing? [Contact us and we will tell you more.](/contact/)**
+**Want to know more about how your company can work with Content Marketing? [Contact us and we will tell you more.](/sv/kontakt/)**

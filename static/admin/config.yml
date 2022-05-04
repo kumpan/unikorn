@@ -214,9 +214,9 @@ collections:
           - { name: form_text, label: Form text, widget: string, required: false }
           - { name: form_button, label: Form button, widget: string, required: false }
 
-  - name: marketing-page
-    label: Unikorn Marketing
-    folder: content/marketing-page
+  - name: seo-page
+    label: Unikorn SEO
+    folder: content/seo-page
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
     editor:
@@ -245,9 +245,9 @@ collections:
           - { label: Button link, name: buttonlink, widget: string, required: false }
       - { name: body, label: Text, widget: markdown }
 
-  - name: marketing-body
-    label: Unikorn Marketing Body
-    folder: content/marketing-body
+  - name: seo-body
+    label: Unikorn SEO Body
+    folder: content/seo-body
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
     editor:
@@ -259,9 +259,9 @@ collections:
       - { name: language, label: Language }
       - { name: body, label: Text, widget: markdown }
 
-  - name: marketing
-    label: Marketing subpages
-    folder: content/marketing
+  - name: seo
+    label: SEO subpages
+    folder: content/seo
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
     editor:

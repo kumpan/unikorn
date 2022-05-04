@@ -7,8 +7,8 @@ shortdesc: Unikorn offers advanced website migration services for both large and
 title: Website Migration Services
 description: "Unikorn has helped many site owners migrate their websites to new
   platforms, domains and entirely new webs. Let us help you as well! "
-canonical: https://www.unikorn.se/web/website-migration/
-path: /web/website-migration/
+canonical: https://www.unikorn.se/web-analytics/website-migration/
+path: /web-analytics/website-migration/
 language: en
 original: null
 menu_position: 1

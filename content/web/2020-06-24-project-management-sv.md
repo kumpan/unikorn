@@ -6,10 +6,10 @@ shortdesc: The secret sauce lies in building the best web thing you possibly can
   your content.
 title: Web Project Management
 description: Web Project Management
-canonical: https://www.unikorn.se/sv/webb/project-management/
-path: /sv/webb/project-management/
+canonical: https://www.unikorn.se/sv/webbanalys/project-management/
+path: /sv/webbanalys/project-management/
 language: sv
-original: /web/project-management/
+original: /web-analytics/project-management/
 menu_position: 2
 og_image:
   src: ../assets/og.png

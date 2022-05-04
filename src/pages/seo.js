@@ -1,15 +1,15 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import SEO from "../../components/seo"
-import Layout from "../../components/layout-sv.js"
-import Hero from "../../components/hero.js"
-import SubpagesList from "../../components/subpages/subpages-list.js"
+import SEO from "../components/seo"
+import Layout from "../components/layout.js"
+import Hero from "../components/hero.js"
+import SubpagesList from "../components/subpages/subpages-list.js"
 
-import Container from "../../components/container.js"
+import Container from "../components/container.js"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import Styles from "../subpages.module.css"
+import Styles from "./subpages.module.css"
 
 const MarketingPage = () => {
   const data = useStaticQuery(
@@ -21,9 +21,9 @@ const MarketingPage = () => {
           }
         }
         pageData: allMdx(
-          filter: { 
-            fileAbsolutePath: { regex: "/(/marketing-page/)/" }
-            frontmatter: {language: {eq: "sv"}}
+          filter: {
+            fileAbsolutePath: { regex: "/(/seo-page/)/" }
+            frontmatter: {language: {eq: "en"}}
           }
         ) {
           edges {
@@ -59,8 +59,8 @@ const MarketingPage = () => {
 
         bodyData: allMdx(
           filter: { 
-            fileAbsolutePath: { regex: "/(/marketing-body/)/" }
-            frontmatter: {language: {eq: "sv"}}
+            fileAbsolutePath: { regex: "/(/seo-body/)/" }
+            frontmatter: {language: {eq: "en"}}
           }
           sort: { fields: [frontmatter___order] order: ASC }
         ) {
@@ -73,8 +73,8 @@ const MarketingPage = () => {
 
         posts: allMdx(
           filter: { 
-            fileAbsolutePath: { regex: "/(/marketing/)/" }
-            frontmatter: {language: {eq: "sv"}}
+            fileAbsolutePath: { regex: "/(/seo/)/" }
+            frontmatter: {language: {eq: "en"}}
           }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
@@ -131,14 +131,14 @@ const MarketingPage = () => {
   }
 
   return (
-    <Layout location="/sv/marknadsforing" show_contact_info>
+    <Layout location="/seo" show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}
         canonical={pageData.canonical}
         schemaMarkup={schema}
         image={pageData.og_image.src}
-        language={'sv'}
+        language={'en'}
       />
       <Hero 
         shorttitle={pageData.shorttitle}
@@ -156,7 +156,7 @@ const MarketingPage = () => {
       </div>
       <div className={Styles.subpages_list_section + " bg-color-section-desktop"}>
         <div className="overlay-container container">
-          <SubpagesList posts={posts} parentPage="/sv/marknadsforing" />
+          <SubpagesList posts={posts} parentPage="/seo" />
         </div>
       </div>
       {pageBody[1] && (

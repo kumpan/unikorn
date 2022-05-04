@@ -6,12 +6,12 @@ import Layout from "../../components/layout-sv.js"
 import Hero from "../../components/hero.js"
 import SubpagesList from "../../components/subpages/subpages-list.js"
 
-import { MDXRenderer } from "gatsby-plugin-mdx"
 import Container from "../../components/container.js"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Styles from "../subpages.module.css"
 
-const WebPage = () => {
+const MarketingPage = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -21,8 +21,8 @@ const WebPage = () => {
           }
         }
         pageData: allMdx(
-          filter: {
-            fileAbsolutePath: { regex: "/(/web-page/)/" }
+          filter: { 
+            fileAbsolutePath: { regex: "/(/seo-page/)/" }
             frontmatter: {language: {eq: "sv"}}
           }
         ) {
@@ -58,8 +58,8 @@ const WebPage = () => {
         }
 
         bodyData: allMdx(
-          filter: {
-            fileAbsolutePath: { regex: "/(/web-body/)/" }
+          filter: { 
+            fileAbsolutePath: { regex: "/(/seo-body/)/" }
             frontmatter: {language: {eq: "sv"}}
           }
           sort: { fields: [frontmatter___order] order: ASC }
@@ -72,8 +72,8 @@ const WebPage = () => {
         }
 
         posts: allMdx(
-          filter: {
-            fileAbsolutePath: { regex: "/(/web/)/" }
+          filter: { 
+            fileAbsolutePath: { regex: "/(/seo/)/" }
             frontmatter: {language: {eq: "sv"}}
           }
           sort: { fields: [frontmatter___date], order: DESC }
@@ -131,7 +131,7 @@ const WebPage = () => {
   }
 
   return (
-    <Layout location="/sv/webb" show_contact_info>
+    <Layout location="/sv/seo" show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}
@@ -156,7 +156,7 @@ const WebPage = () => {
       </div>
       <div className={Styles.subpages_list_section + " bg-color-section-desktop"}>
         <div className="overlay-container container">
-          <SubpagesList posts={posts} parentPage="/sv/webb" />
+          <SubpagesList posts={posts} parentPage="/sv/seo" />
         </div>
       </div>
       {pageBody[1] && (
@@ -172,4 +172,4 @@ const WebPage = () => {
   )
 }
 
-export default WebPage
+export default MarketingPage

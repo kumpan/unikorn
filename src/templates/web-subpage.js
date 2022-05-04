@@ -138,8 +138,8 @@ class MarketingTemplate extends Component {
             show_contact_info
           >
             <Subpage
-              title="Web Magic"
-              link="/web"
+              title="Data Magic"
+              link="/web-analytics"
             />
           </Layout>
         ) : (
@@ -149,8 +149,8 @@ class MarketingTemplate extends Component {
             show_contact_info
           >
             <Subpage
-               title="Webbmagi"
-               link="/sv/webb"
+               title="Data Magic"
+               link="/sv/webbanalys"
             />
           </LayoutSv>
         )}

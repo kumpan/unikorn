@@ -73,7 +73,7 @@ const About = () => {
   }
 
   return (
-    <Layout location="/sv/om-oss"  show_contact_info>
+    <Layout location="/sv/om-unikorn"  show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}

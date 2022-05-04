@@ -131,7 +131,7 @@ const WebPage = () => {
   }
 
   return (
-    <Layout location="/web" show_contact_info>
+    <Layout location="/web-analytics" show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}

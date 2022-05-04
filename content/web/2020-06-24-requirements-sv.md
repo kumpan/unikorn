@@ -7,10 +7,10 @@ shortdesc: We help you writing up proper requirements for your developers, so
 title: Website Requirement Services
 description: Unikorn helps you with writing the best possible website
   requirements for your new shiny web. Let us help you shine!
-canonical: https://www.unikorn.se/sv/webb/website-requirements/
-path: /sv/webb/website-requirements/
+canonical: https://www.unikorn.se/sv/webbanalys/website-requirements/
+path: /sv/webbanalys/website-requirements/
 language: sv
-original: /web/website-requirements/
+original: /web-analytics/website-requirements/
 menu_position: 3
 og_image:
   src: ../assets/website-requirements.png

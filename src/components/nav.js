@@ -170,13 +170,13 @@ class Nav extends Component {
           <div className={Styles.navigation + " " + (this.state.showMenu ? Styles.opened : "")}>
             <div className={Styles.navigation_inner}>
               <ul className={Styles.navigation_links}>
-                <li className={Styles.has_submenu + " " + ( location.includes("/web") || location.includes("/webb") ? Styles.active : "")}>
+                <li className={Styles.has_submenu + " " + ( location.includes("/web-analytics") || location.includes("/webbanalys") ? Styles.active : "")}>
                   {prefix === '/' ?
-                    <Link to="/web/">
-                      Web Magic
+                    <Link to="/web-analytics/">
+                      Data Magic
                     </Link>
-                  : <Link to="/sv/webb/">
-                      Webbmagi
+                  : <Link to="/sv/webbanalys/">
+                      Data Magic
                     </Link>
                   }
                   <ChevronDownIcon />
@@ -184,32 +184,18 @@ class Nav extends Component {
                     {webMenuItems}
                   </ul>
                 </li>
-                <li className={Styles.has_submenu + " " + ( location.includes("/marketing") || location.includes("/marknadsforing") ? Styles.active : "")}>
+                <li className={Styles.has_submenu + " " + ( location.includes("/seo") ? Styles.active : "")}>
                   {prefix === '/' ?
-                    <Link to="/marketing/">
-                      Unikorn Marketing
+                    <Link to="/seo/">
+                      Unikorn SEO
                     </Link>
-                  : <Link to="/sv/marknadsforing/">
-                      Unikorn Marknadsföring
+                  : <Link to="/sv/seo/">
+                      Unikorn SEO
                     </Link>
                   }
                   <ChevronDownIcon />
                   <ul className={Styles.submenu}>
                     {marketingMenuItems}
-                  </ul>
-                </li>
-                <li className={Styles.has_submenu + " " + ( location.includes("/digital-strategies") || location.includes("/digitala-strategier") ? Styles.active : "")}>
-                  {prefix === '/' ?
-                    <Link to="/digital-strategies/">
-                      Digital Strategies
-                    </Link>
-                  : <Link to="/sv/digitala-strategier/">
-                      Digitala Strategier
-                    </Link>
-                  }
-                  <ChevronDownIcon />
-                  <ul className={Styles.submenu}>
-                    {digitalMenuItems}
                   </ul>
                 </li>
                 <li className={location === "/blog" || location === "/blogg" ? Styles.active : ""}>
@@ -222,12 +208,12 @@ class Nav extends Component {
                     </Link>
                   }
                 </li>
-                <li className={Styles.has_submenu + " " + ( location.includes("/about") || location.includes("/om-oss") ? Styles.active : "")}>
+                <li className={Styles.has_submenu + " " + ( location.includes("/about") || location.includes("/om-unikorn") ? Styles.active : "")}>
                   {prefix === '/' ?
                     <Link to="/about/">
                       About Unikorn
                     </Link>
-                  : <Link to="/sv/om-oss/">
+                  : <Link to="/sv/om-unikorn/">
                       Om Unikorn
                     </Link>
                   }

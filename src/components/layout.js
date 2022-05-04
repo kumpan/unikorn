@@ -48,7 +48,7 @@ const Layout = (props) => {
         }
         marketing: allMdx(
           filter: {
-            fileAbsolutePath: { regex: "/(/marketing/)/" }
+            fileAbsolutePath: { regex: "/(/seo/)/" }
             frontmatter: { language: { eq: "en" } }
           }
           sort: { fields: [frontmatter___date], order: DESC }

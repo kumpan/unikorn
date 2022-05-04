@@ -106,22 +106,22 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/marketing-page`,
-        name: `marketing-page`,
+        path: `${__dirname}/content/seo-page`,
+        name: `seo-page`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/marketing`,
-        name: `marketing`,
+        path: `${__dirname}/content/seo`,
+        name: `seo`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/marketing-body`,
-        name: `marketing-body`,
+        path: `${__dirname}/content/seo-body`,
+        name: `seo-body`,
       },
     },
     {

@@ -1,8 +1,8 @@
 ---
-title: Marketing Body Bottom
-shorttitle: Marketing Body Bottom
+title: SEO Body Bottom SV
+shorttitle: SEO Body Bottom SV
 order: 2
-language: en
+language: sv
 ---
 ### Social media platforms
 
@@ -43,4 +43,4 @@ In a succinct way, Unikorn’s content marketing offers a series of expertise fo
 
 Are you digging what our digital marketing expertise can do for you? Enter Unikorn Marketing to experience a digital presence at growth hacking levels.
 
-##### [Get in touch!](/contact/)
+##### [Get in touch!](/sv/kontakt/)

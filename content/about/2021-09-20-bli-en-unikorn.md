@@ -1,10 +1,10 @@
 ---
-shorttitle: Be a Unikorn
+shorttitle: Bli en Unikorn
 title: Always be a Unikorn! Apply for a position as SEO Unikorn
 description: Have you decided that it's a Unikorn you want to be? Then you
   should fill in the magical form and hope to join us!
-canonical: https://www.unikorn.se/sv/om-oss/be-a-unikorn/
-path: /sv/om-oss/be-a-unikorn/
+canonical: https://www.unikorn.se/sv/om-unikorn/bli-en-unikorn/
+path: /sv/om-unikorn/bli-en-unikorn/
 language: sv
 original: /about/be-a-unikorn/
 og_image:

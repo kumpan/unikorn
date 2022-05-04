@@ -138,8 +138,8 @@ class MarketingTemplate extends Component {
             show_contact_info
           >
             <Subpage
-              title="Marketing"
-              link="/marketing"
+              title="SEO"
+              link="/seo"
             />
           </Layout>
         ) : (
@@ -149,8 +149,8 @@ class MarketingTemplate extends Component {
             show_contact_info
           >
             <Subpage
-              title="Marknadsforing"
-              link="/sv/marknadsforing"
+              title="SEO"
+              link="/sv/seo"
             />
           </LayoutSv>
         )}

@@ -1,13 +1,13 @@
 ---
-shorttitle: Marketing
-title: Unikorn Marketing - Aggressive Digital Success
+shorttitle: SEO
+title: Unikorn SEO - Aggressive Digital Success
 description: The know-how and experience to handle every aspect of your Digital
   Marketing. From the initial stages to follow-ups, solid SEO, SoMe and content
   marketing!
-canonical: https://www.unikorn.se/sv/marknadsforing/
-path: /sv/marknadsforing/
+canonical: https://www.unikorn.se/sv/seo/
+path: /sv/seo/
 language: sv
-original: /marketing/
+original: /seo/
 og_image:
   src: ../assets/og.png
   alt: Unikorn Marketing

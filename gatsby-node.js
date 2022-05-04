@@ -122,7 +122,7 @@ exports.createPages = ({ graphql, actions }) => {
         }
         marketingPosts: allMdx(
           filter: {
-            fileAbsolutePath: { regex: "/(/marketing/)/" }
+            fileAbsolutePath: { regex: "/(/seo/)/" }
           }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000

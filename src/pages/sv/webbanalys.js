@@ -1,17 +1,17 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import SEO from "../components/seo"
-import Layout from "../components/layout.js"
-import Hero from "../components/hero.js"
-import SubpagesList from "../components/subpages/subpages-list.js"
+import SEO from "../../components/seo"
+import Layout from "../../components/layout-sv.js"
+import Hero from "../../components/hero.js"
+import SubpagesList from "../../components/subpages/subpages-list.js"
 
-import Container from "../components/container.js"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import Container from "../../components/container.js"
 
-import Styles from "./subpages.module.css"
+import Styles from "../subpages.module.css"
 
-const MarketingPage = () => {
+const WebPage = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -22,8 +22,8 @@ const MarketingPage = () => {
         }
         pageData: allMdx(
           filter: {
-            fileAbsolutePath: { regex: "/(/marketing-page/)/" }
-            frontmatter: {language: {eq: "en"}}
+            fileAbsolutePath: { regex: "/(/web-page/)/" }
+            frontmatter: {language: {eq: "sv"}}
           }
         ) {
           edges {
@@ -58,9 +58,9 @@ const MarketingPage = () => {
         }
 
         bodyData: allMdx(
-          filter: { 
-            fileAbsolutePath: { regex: "/(/marketing-body/)/" }
-            frontmatter: {language: {eq: "en"}}
+          filter: {
+            fileAbsolutePath: { regex: "/(/web-body/)/" }
+            frontmatter: {language: {eq: "sv"}}
           }
           sort: { fields: [frontmatter___order] order: ASC }
         ) {
@@ -72,9 +72,9 @@ const MarketingPage = () => {
         }
 
         posts: allMdx(
-          filter: { 
-            fileAbsolutePath: { regex: "/(/marketing/)/" }
-            frontmatter: {language: {eq: "en"}}
+          filter: {
+            fileAbsolutePath: { regex: "/(/web/)/" }
+            frontmatter: {language: {eq: "sv"}}
           }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
@@ -131,14 +131,14 @@ const MarketingPage = () => {
   }
 
   return (
-    <Layout location="/marketing" show_contact_info>
+    <Layout location="/sv/webbanalys" show_contact_info>
       <SEO
         title={pageData.title}
         description={pageData.description}
         canonical={pageData.canonical}
         schemaMarkup={schema}
         image={pageData.og_image.src}
-        language={'en'}
+        language={'sv'}
       />
       <Hero 
         shorttitle={pageData.shorttitle}
@@ -156,7 +156,7 @@ const MarketingPage = () => {
       </div>
       <div className={Styles.subpages_list_section + " bg-color-section-desktop"}>
         <div className="overlay-container container">
-          <SubpagesList posts={posts} parentPage="/marketing" />
+          <SubpagesList posts={posts} parentPage="/sv/webbanalys" />
         </div>
       </div>
       {pageBody[1] && (
@@ -172,4 +172,4 @@ const MarketingPage = () => {
   )
 }
 
-export default MarketingPage
+export default WebPage
