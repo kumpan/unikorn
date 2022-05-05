@@ -136,11 +136,24 @@ class Nav extends Component {
       )
     });
 
-    let otherLanguage
+    let currentLang;
+    let currentFlag;
+    let otherLang;
+    let otherFlag;
+    let otherUrl;
+
     if(prefix === '/') {
-      otherLanguage = 'se'
+      currentLang = 'English';
+      currentFlag = 'gb';
+      otherLang = 'Swedish';
+      otherFlag = 'se';
+      otherUrl = '/sv/';
     } else {
-      otherLanguage = 'gb'
+      currentLang = 'Svenska';
+      currentFlag = 'se';
+      otherLang = 'Engelska';
+      otherFlag = 'gb';
+      otherUrl = '/';
     }
 
     return (
@@ -231,17 +244,35 @@ class Nav extends Component {
             </Link>
           }
 
-          <div className={Styles.language}>
-            <Link to={prefix === '/' ? '/sv/' : '/'}>
-              <img
-                src={`https://flagcdn.com/h20/${otherLanguage}.png`}
-                srcSet={`https://flagcdn.com/h40/${otherLanguage}.png 2x,
-                  https://flagcdn.com/h60/${otherLanguage}.png 3x`}
-                height="20"
-                alt="Sweden"
-              />
-            </Link>
-          </div>
+          <ul className={Styles.navigation_links + ' ' + Styles.language}>
+            <li className={Styles.has_submenu}>
+              <p>
+                <img
+                  src={`https://flagcdn.com/h20/${currentFlag}.png`}
+                  srcSet={`https://flagcdn.com/h40/${currentFlag}.png 2x,
+                    https://flagcdn.com/h60/${currentFlag}.png 3x`}
+                  height="20"
+                  alt={currentLang}
+                />
+                {currentLang}
+              </p>
+              <ChevronDownIcon />
+              <ul className={Styles.submenu}>
+                <li>
+                  <Link to={otherUrl}>
+                    <img
+                      src={`https://flagcdn.com/h20/${otherFlag}.png`}
+                      srcSet={`https://flagcdn.com/h40/${otherFlag}.png 2x,
+                        https://flagcdn.com/h60/${otherFlag}.png 3x`}
+                      height="20"
+                      alt={otherLang}
+                    />
+                    {otherLang}
+                  </Link>
+                </li>
+              </ul>
+            </li>
+          </ul>
 
           <div className={Styles.nav_button + " " + (this.state.showMenu ? Styles.opened : "")}
             onClick={this.toggleMenu}
