@@ -5,6 +5,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Hero from "../components/hero.js"
 import SEO from "../components/seo"
 import Layout from "../components/layout.js"
+import LayoutSv from "../components/layout-sv.js"
 import Container from "../components/container.js"
 
 class AboutTemplate extends Component {
@@ -12,6 +13,7 @@ class AboutTemplate extends Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const pageData = this.props.data.currentPost.frontmatter
     const body = this.props.data.currentPost.body
+    const language = pageData.language
 
     const schema = {
       "@context": "https://schema.org",
@@ -37,34 +39,59 @@ class AboutTemplate extends Component {
       ]
     }
 
-    return (
-      <Layout location={this.props.location} title={siteTitle} show_contact_info>
-        <SEO
-          title={pageData.title}
-          description={pageData.description}
-          canonical={pageData.canonical}
-          schemaMarkup={schema}
-          image={pageData.og_image.src}
-        />
-        <Hero 
-          shorttitle={pageData.shorttitle}
-          heading={pageData.hero.heading} 
-          text={pageData.hero.text}
-          img={pageData.hero.featured_image.src}
-          button={pageData.hero.button}
-          buttonlink={pageData.hero.buttonlink}
-          alt={pageData.hero.featured_image.alt}
-        />
-        <div className="bg-color-section-desktop">
-          <div className="overlay-container">
-            <Container>
-              <div className="content-container-text">
-                <MDXRenderer>{body}</MDXRenderer>
-              </div>
-            </Container>
+    const Subpage = () => {
+      return (
+        <>
+          <SEO
+            title={pageData.title}
+            description={pageData.description}
+            canonical={pageData.canonical}
+            schemaMarkup={schema}
+            image={pageData.og_image.src}
+            language={language}
+          />
+          <Hero
+            shorttitle={pageData.shorttitle}
+            heading={pageData.hero.heading}
+            text={pageData.hero.text}
+            img={pageData.hero.featured_image.src}
+            button={pageData.hero.button}
+            buttonlink={pageData.hero.buttonlink}
+            alt={pageData.hero.featured_image.alt}
+          />
+          <div className="bg-color-section-desktop">
+            <div className="overlay-container">
+              <Container>
+                <div className="content-container-text">
+                  <MDXRenderer>{body}</MDXRenderer>
+                </div>
+              </Container>
+            </div>
           </div>
-        </div>
-      </Layout>
+        </>
+      )
+    }
+
+    return (
+      <>
+        {language === "en" ? (
+          <Layout
+            location={this.props.location}
+            title={siteTitle}
+            show_contact_info
+          >
+            <Subpage />
+          </Layout>
+        ) : (
+          <LayoutSv
+            location={this.props.location}
+            title={siteTitle}
+            show_contact_info
+          >
+            <Subpage />
+          </LayoutSv>
+        )}
+      </>
     )
   }
 }
@@ -88,6 +115,7 @@ export const pageQuery = graphql`
         title
         description
         canonical
+        language
         og_image {
           src {
             childImageSharp {

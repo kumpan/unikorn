@@ -106,43 +106,22 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/marketing-page`,
-        name: `marketing-page`,
+        path: `${__dirname}/content/seo-page`,
+        name: `seo-page`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/marketing`,
-        name: `marketing`,
+        path: `${__dirname}/content/seo`,
+        name: `seo`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/marketing-body`,
-        name: `marketing-body`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/digital-page`,
-        name: `digital-page`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/digital`,
-        name: `digital`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/digital-body`,
-        name: `digital-body`,
+        path: `${__dirname}/content/seo-body`,
+        name: `seo-body`,
       },
     },
     {
@@ -266,26 +245,114 @@ module.exports = {
                 context {
                   lastmod
                   slug
+                  language
+                  original
+                }
+              }
+            }
+          }
+          allMarkdownRemark {
+            edges {
+              node {
+                frontmatter {
+                  shorttitle
+                  language
+                  original
+                  canonical
                 }
               }
             }
           }
         }
       `,
-        serialize: ({ site, allSitePage }) => {
+        serialize: ({ site, allSitePage, allMarkdownRemark }) => {
           return allSitePage.edges.map(({ node }) => {
-            let slug = node.context.slug
+            let lastmod = node.context.lastmod
+            const language = node.context.language
+            const original = node.context.original
 
-            if (slug !== null) {
-              let splitslash = slug.split("/")
-              let splitdash = splitslash[1].split("-")
-              var newslug =
-                splitdash[0] + "-" + splitdash[1] + "-" + splitdash[2]
+            if (lastmod !== null) {
+              lastmod = lastmod.split("T")[0]
+            }
+
+            //Swedish subpages
+            if(language === 'sv') {
+              return {
+                url: site.siteMetadata.siteUrl + node.path,
+                lastmodISO: lastmod,
+                links: [
+                  { lang: 'en', url: site.siteMetadata.siteUrl + original },
+                  { lang: 'sv', url: site.siteMetadata.siteUrl + node.path },
+                  { lang: 'x-default', url: site.siteMetadata.siteUrl + original }
+                ]
+              }
+            }
+
+            //English subpages
+            if(language === 'en') {
+              const swedish = allSitePage.edges.filter(
+                el => el.node.context.original === node.path
+              )
+
+              if(swedish.length > 0) {
+                return {
+                  url: site.siteMetadata.siteUrl + node.path,
+                    lastmodISO: lastmod,
+                    links: [
+                      { lang: 'en', url: site.siteMetadata.siteUrl + node.path },
+                      { lang: 'sv', url: site.siteMetadata.siteUrl + swedish[0].node.path },
+                      { lang: 'x-default', url: site.siteMetadata.siteUrl + node.path }
+                    ]
+                }
+              }
+            }
+
+
+            if(language === null) {
+              const match = allMarkdownRemark.edges.filter(
+                el => el.node.frontmatter.canonical == `${site.siteMetadata.siteUrl}${node.path}`
+              )
+
+              if(match.length > 0) {
+                const lang = match[0].node.frontmatter.language
+
+                if(lang == 'sv') {
+                  return {
+                    url: site.siteMetadata.siteUrl + node.path,
+                    lastmodISO: lastmod,
+                    links: [
+                      { lang: 'en', url: site.siteMetadata.siteUrl + match[0].node.frontmatter.original },
+                      { lang: 'sv', url: site.siteMetadata.siteUrl + node.path },
+                      { lang: 'x-default', url: site.siteMetadata.siteUrl + match[0].node.frontmatter.original }
+                    ]
+                  }
+                }
+
+                if(lang == 'en') {
+                  const swedish = allMarkdownRemark.edges.filter(
+                    el => el.node.frontmatter.original === node.path
+                  )
+    
+                  if(swedish.length > 0) {
+                    return {
+                      url: site.siteMetadata.siteUrl + node.path,
+                        lastmodISO: lastmod,
+                        links: [
+                          { lang: 'en', url: site.siteMetadata.siteUrl + node.path },
+                          { lang: 'sv', url: swedish[0].node.frontmatter.canonical },
+                          { lang: 'x-default', url: site.siteMetadata.siteUrl + node.path }
+                        ]
+                    }
+                  }
+
+
+                }
+              }
             }
 
             return {
               url: site.siteMetadata.siteUrl + node.path,
-              lastmodISO: newslug ? newslug : node.context.slug,
+              lastmodISO: lastmod,
             }
           })
         },

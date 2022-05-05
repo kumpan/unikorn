@@ -15,7 +15,12 @@ const Contactpage = () => {
             title
           }
         }
-        allMdx(filter: { fileAbsolutePath: { regex: "/(/contact-modal)/" } }) {
+        allMdx(
+          filter: {
+            fileAbsolutePath: { regex: "/(/contact-modal)/" }
+            frontmatter: { language: { eq: "en" } }
+          }
+        ) {
           edges {
             node {
               frontmatter {
@@ -47,6 +52,29 @@ const Contactpage = () => {
                   }
                   alt
                 }
+                form {
+                  form_title
+                  name {
+                    label
+                    placeholder
+                  }
+                  email {
+                    label
+                    placeholder
+                  }
+                  message {
+                    label
+                    placeholder
+                  }
+                  subjects {
+                    label
+                    choices
+                  }
+                  form_info_text
+                  submit_text
+                }
+                contact_email
+                contact_tel
               }
             }
           }
@@ -64,8 +92,9 @@ const Contactpage = () => {
         description={pageData.description}
         canonical={pageData.canonical}
         image={pageData.og_image.src}
+        language={'en'}
       />
-      <ContactPopup></ContactPopup>
+      <ContactPopup data={pageData}></ContactPopup>
     </Layout>
   )
 }

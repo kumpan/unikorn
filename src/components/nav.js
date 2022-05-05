@@ -2,9 +2,7 @@ import React, { Component }  from "react"
 import { Link } from "gatsby"
 import ChevronDownIcon from "../../content/assets/icons/chevron-down.svg"
 
-import ContactInfo from "../components/contact/contactinfo.js"
 import Logo from "../../content/assets/logo-unikorn.svg"
-import { slugify } from "../global-functions.js"
 
 import Styles from "./nav.module.css"
 
@@ -86,7 +84,6 @@ class Nav extends Component {
 
     const sortWeb = this.props.webPages
     const sortMarketing = this.props.marketingPages
-    const sortDigital = this.props.digitalPages
 
     function sortItems( a, b ) {
       if ( a.node.frontmatter.menu_position < b.node.frontmatter.menu_position ){
@@ -100,16 +97,17 @@ class Nav extends Component {
     
     sortWeb.sort( sortItems );
     sortMarketing.sort( sortItems );
-    sortDigital.sort( sortItems );
+
+    const prefix = this.props.language
 
     const aboutMenuItems = []
     this.props.aboutPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
-      const menuItemLink = slugify(menuItem)
+      const menuItemLink = page.node.frontmatter.path
 
       aboutMenuItems.push(
-        <li className={location === `/about/${menuItemLink}/` ? Styles.active : ""} key={`${i}aboutmenu`}>
-          <Link to={"/about/" + menuItemLink + "/"}>{menuItem}</Link>
+        <li className={location === menuItemLink ? Styles.active : ""} key={`${i}aboutmenu`}>
+          <Link to={menuItemLink}>{menuItem}</Link>
         </li>
       )
     });
@@ -117,11 +115,11 @@ class Nav extends Component {
     const webMenuItems = []
     this.props.webPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
-      const menuItemLink = slugify(menuItem)
+      const menuItemLink = page.node.frontmatter.path
 
       webMenuItems.push(
-        <li className={location === `/web/${menuItemLink}/` ? Styles.active : ""} key={`${i}webmenu`} >
-          <Link to={"/web/" + menuItemLink + "/"}>{menuItem}</Link>
+        <li className={location === menuItemLink ? Styles.active : ""} key={`${i}webmenu`} >
+          <Link to={menuItemLink}>{menuItem}</Link>
         </li>
       )
     });
@@ -129,33 +127,41 @@ class Nav extends Component {
     const marketingMenuItems = []
     this.props.marketingPages.forEach(function (page, i) {
       const menuItem = page.node.frontmatter.shorttitle
-      const menuItemLink = slugify(menuItem)
+      const menuItemLink = page.node.frontmatter.path
 
       marketingMenuItems.push(
-        <li className={location === `/marketing/${menuItemLink}/` ? Styles.active : ""} key={`${i}marketingmenu`}>
-          <Link to={"/marketing/" + menuItemLink + "/"}>{menuItem}</Link>
+        <li className={location === menuItemLink ? Styles.active : ""} key={`${i}marketingmenu`}>
+          <Link to={menuItemLink}>{menuItem}</Link>
         </li>
       )
     });
 
-    const digitalMenuItems = []
-    this.props.digitalPages.forEach(function (page, i) {
-      const menuItem = page.node.frontmatter.shorttitle
-      const menuItemLink = slugify(menuItem)
+    let currentLang;
+    let currentFlag;
+    let otherLang;
+    let otherFlag;
+    let otherUrl;
 
-      digitalMenuItems.push(
-        <li className={location === `/digital-strategies/${menuItemLink}/` ? Styles.active : ""} key={`${i}digitalmenu`}>
-          <Link to={"/digital-strategies/" + menuItemLink + "/"}>{menuItem}</Link>
-        </li>
-      )
-    });
+    if(prefix === '/') {
+      currentLang = 'English';
+      currentFlag = 'gb';
+      otherLang = 'Swedish';
+      otherFlag = 'se';
+      otherUrl = '/sv/';
+    } else {
+      currentLang = 'Svenska';
+      currentFlag = 'se';
+      otherLang = 'Engelska';
+      otherFlag = 'gb';
+      otherUrl = '/';
+    }
 
     return (
       <div>
 
         <nav id="primary-nav" className={Styles.navigation_wrapper + " " + (this.state.showMenu ? Styles.opened : "") + " " + (this.state.activeNavbar ? Styles.active : "") + " " + (this.state.hideNavbar ? Styles.nav_up : "")}>
           <div className={Styles.logo}>
-            <Link to="/" aria-label="Home">
+            <Link to={prefix} aria-label="Home">
               <Logo />
             </Link>
           </div>
@@ -163,62 +169,110 @@ class Nav extends Component {
           <div className={Styles.navigation + " " + (this.state.showMenu ? Styles.opened : "")}>
             <div className={Styles.navigation_inner}>
               <ul className={Styles.navigation_links}>
-                <li className={Styles.has_submenu + " " + ( location.includes("/web") ? Styles.active : "")}>
-                  <Link to="/web/">
-                    Web Magic
-                  </Link>
-                  <ChevronDownIcon />
-                  <ul className={Styles.submenu}>
-                    {webMenuItems}
-                  </ul>
-                </li>
-                <li className={Styles.has_submenu + " " + ( location.includes("/marketing") ? Styles.active : "")}>
-                  <Link to="/marketing/">
-                    Unikorn Marketing
-                  </Link>
+                <li className={Styles.has_submenu + " " + ( location.includes("/seo") ? Styles.active : "")}>
+                  {prefix === '/' ?
+                    <Link to="/seo/">
+                      Unikorn SEO
+                    </Link>
+                  : <Link to="/sv/seo/">
+                      Unikorn SEO
+                    </Link>
+                  }
                   <ChevronDownIcon />
                   <ul className={Styles.submenu}>
                     {marketingMenuItems}
                   </ul>
                 </li>
-                <li className={Styles.has_submenu + " " + ( location.includes("/digital-strategies") ? Styles.active : "")}>
-                  <Link to="/digital-strategies/">
-                    Digital Strategies
-                  </Link>
+                <li className={Styles.has_submenu + " " + ( location.includes("/web-analytics") || location.includes("/webbanalys") ? Styles.active : "")}>
+                  {prefix === '/' ?
+                    <Link to="/web-analytics/">
+                      Data Magic
+                    </Link>
+                  : <Link to="/sv/webbanalys/">
+                      Data Magic
+                    </Link>
+                  }
                   <ChevronDownIcon />
                   <ul className={Styles.submenu}>
-                    {digitalMenuItems}
+                    {webMenuItems}
                   </ul>
                 </li>
-                <li className={location === "/blog" ? Styles.active : ""}>
-                  <Link to="/blog/">
-                    Blog
-                  </Link>
+                <li className={location === "/blog" || location === "/blogg" ? Styles.active : ""}>
+                  {prefix === '/' ?
+                    <Link to="/blog/">
+                      Blog
+                    </Link>
+                  : <Link to="/sv/blogg/">
+                      Blogg
+                    </Link>
+                  }
                 </li>
-                <li className={Styles.has_submenu + " " + ( location.includes("/about") ? Styles.active : "")}>
-                  <Link to="/about/">
-                    About Unikorn
-                  </Link>
+                <li className={Styles.has_submenu + " " + ( location.includes("/about") || location.includes("/om-unikorn") ? Styles.active : "")}>
+                  {prefix === '/' ?
+                    <Link to="/about/">
+                      About Unikorn
+                    </Link>
+                  : <Link to="/sv/om-unikorn/">
+                      Om Unikorn
+                    </Link>
+                  }
                   <ChevronDownIcon />
                   <ul className={Styles.submenu}>
                     {aboutMenuItems}
-                    <li>
+                    <li className={location.includes("/unikorns") || location.includes("/unikorns") ? Styles.active : ""}>
+                    {prefix === '/' ?
                       <Link to={"/unikorns/"}>We are Unikorns</Link>
+                    : <Link to={"/sv/unikorns/"}>Vi är Unikorns</Link>
+                    }
                     </li>
                   </ul>
                 </li>
               </ul>
-              <div className={Styles.nav_contact_info}>
-                <ContactInfo transparent />
-              </div>
             </div>
           </div>
 
-          <Link to={"/contact/"}>
-            <div id="nav-cta" className={Styles.nav_cta + " " + ( location.includes("/contact") ? Styles.active : "")} role="button" tabIndex="0">
-              <span>Get in touch now</span>
-            </div>
-          </Link>
+          {prefix === '/' ?
+            <Link to={"/contact/"}>
+              <div id="nav-cta" className={Styles.nav_cta + " " + ( location.includes("/contact") ? Styles.active : "")} role="button" tabIndex="0">
+                <span>Get in touch now</span>
+              </div>
+            </Link>
+          : <Link to={"/sv/kontakt/"}>
+              <div id="nav-cta" className={Styles.nav_cta + " " + ( location.includes("/kontakt") ? Styles.active : "")} role="button" tabIndex="0">
+                <span>Kom i kontakt nu</span>
+              </div>
+            </Link>
+          }
+
+          <ul className={Styles.navigation_links + ' ' + Styles.language}>
+            <li className={Styles.has_submenu}>
+              <p>
+                <img
+                  src={`https://flagcdn.com/h20/${currentFlag}.png`}
+                  srcSet={`https://flagcdn.com/h40/${currentFlag}.png 2x,
+                    https://flagcdn.com/h60/${currentFlag}.png 3x`}
+                  height="20"
+                  alt={currentLang}
+                />
+                {currentLang}
+              </p>
+              <ChevronDownIcon />
+              <ul className={Styles.submenu}>
+                <li>
+                  <Link to={otherUrl}>
+                    <img
+                      src={`https://flagcdn.com/h20/${otherFlag}.png`}
+                      srcSet={`https://flagcdn.com/h40/${otherFlag}.png 2x,
+                        https://flagcdn.com/h60/${otherFlag}.png 3x`}
+                      height="20"
+                      alt={otherLang}
+                    />
+                    {otherLang}
+                  </Link>
+                </li>
+              </ul>
+            </li>
+          </ul>
 
           <div className={Styles.nav_button + " " + (this.state.showMenu ? Styles.opened : "")}
             onClick={this.toggleMenu}

@@ -7,12 +7,14 @@ description: Meet our SEO Unikorn Amanda Ljungberg. Amanda is a curious person
   who always wants to learn something new and gladly uses Google for virtually
   everything.
 canonical: https://www.unikorn.se/unikorns/amanda-ljungberg/
+path: /unikorns/amanda-ljungberg/
+language: en
+original: null
 menu_position: 4
 category: unikorn
 og_image:
   src: ../assets/amanda2.jpg
   alt: Amanda Ljungberg - SEO Consult
-path: amanda-ljungberg/
 icon:
   src: ../assets/amanda2.jpg
   alt: SEO Consult

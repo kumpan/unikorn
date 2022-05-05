@@ -4,6 +4,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import SEO from "../components/seo"
 import Layout from "../components/layout.js"
+import LayoutSv from "../components/layout-sv.js"
 import Hero from "../components/hero.js"
 import Container from "../components/container.js"
 import BlogList from "../components/blog/blog-list.js"
@@ -41,13 +42,22 @@ class MarketingTemplate extends Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
     const allPosts = this.props.data.relatedPosts.edges
+    const allPostsSwe = this.props.data.relatedPostsSwe.edges
     const formData = this.props.data.currentPost.frontmatter.SEOform
 
-    const { shorttitle, title, description, canonical, og_image, hero, posts_category, latest_posts_text } = this.props.data.currentPost.frontmatter
+    const { shorttitle, title, description, canonical, og_image, hero, posts_category, latest_posts_text, language } = this.props.data.currentPost.frontmatter
 
-    const relatedPosts = allPosts.filter(
-      relatedPost => relatedPost.node.frontmatter.category.includes(posts_category)
-    )
+    let relatedPosts
+
+    if (language === "en") {
+      relatedPosts = allPosts.filter(relatedPost =>
+        relatedPost.node.frontmatter.category.includes(posts_category)
+      )
+    } else {
+      relatedPosts = allPostsSwe.filter(relatedPost =>
+        relatedPost.node.frontmatter.category.includes(posts_category)
+      )
+    }
 
     if (relatedPosts.length > 3) {
       relatedPosts.length = 3
@@ -76,44 +86,75 @@ class MarketingTemplate extends Component {
         }
       ]
     }
-    
-    return (
-      <Layout location={this.props.location} title={siteTitle} show_contact_info>
-        <SEO
-          title={title}
-          description={description}
-          canonical={canonical}
-          schemaMarkup={schema}
-          image={og_image.src}
-        />
-        <Hero 
-          shorttitle={shorttitle}
-          heading={hero.heading} 
-          text={hero.preamble}
-          img={hero.featured_image.src}
-          button={hero.button}
-          buttonlink={hero.buttonlink}
-          alt={hero.featured_image.alt}
-          parentPageTitle="Web Magic"
-          parentPageLink="/web"
-          lowerImg
-        />
-        <div className="bg-color-section-desktop">
-          <div className="overlay-container">
-            <Container data={formData}>
-              <div className="content-container-text">
-                <MDXRenderer>{this.props.data.currentPost.body}</MDXRenderer>
-              </div>
-              {relatedPosts.length > 0 &&
-                <div className="content-container-posts">
-                  <h2>{latest_posts_text}</h2>
-                  <BlogList posts={relatedPosts} />
+
+    const Subpage = (props) => {
+      return (
+        <>
+          <SEO
+            title={title}
+            description={description}
+            canonical={canonical}
+            schemaMarkup={schema}
+            image={og_image.src}
+            language={language}
+          />
+          <Hero
+            shorttitle={shorttitle}
+            heading={hero.heading}
+            text={hero.preamble}
+            img={hero.featured_image.src}
+            button={hero.button}
+            buttonlink={hero.buttonlink}
+            alt={hero.featured_image.alt}
+            parentPageTitle={props.title}
+            parentPageLink={props.link}
+            lowerImg
+          />
+          <div className="bg-color-section-desktop">
+            <div className="overlay-container">
+              <Container data={formData} language={language}>
+                <div className="content-container-text">
+                  <MDXRenderer>{this.props.data.currentPost.body}</MDXRenderer>
                 </div>
-              }
-            </Container>
+                {relatedPosts.length > 0 && (
+                  <div className="content-container-posts">
+                    <h2>{latest_posts_text}</h2>
+                    <BlogList language={language} posts={relatedPosts} />
+                  </div>
+                )}
+              </Container>
+            </div>
           </div>
-        </div>
-      </Layout>
+        </>
+      )
+    }
+
+    return (
+      <>
+        {language === "en" ? (
+          <Layout
+            location={this.props.location}
+            title={siteTitle}
+            show_contact_info
+          >
+            <Subpage
+              title="Data Magic"
+              link="/web-analytics"
+            />
+          </Layout>
+        ) : (
+          <LayoutSv
+            location={this.props.location}
+            title={siteTitle}
+            show_contact_info
+          >
+            <Subpage
+               title="Data Magic"
+               link="/sv/webbanalys"
+            />
+          </LayoutSv>
+        )}
+      </>
     )
   }
 }
@@ -137,6 +178,7 @@ export const pageQuery = graphql`
         title
         description
         canonical
+        language
         og_image {
           src {
             childImageSharp {
@@ -180,32 +222,66 @@ export const pageQuery = graphql`
     relatedPosts: allMdx(
       filter: {
         fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
-      }) {
-        edges {
-          node {
-            id
-            frontmatter {
-              path
-              title
-              date(formatString: "DD/MM/YY")
-              category
-              author
-              author_page
-              video_url
-              type
-              featured_image {
-                src {
-                  childImageSharp {
-                    fluid(maxWidth: 560) {
-                      ...GatsbyImageSharpFluid
-                    }
+        frontmatter: { language: { eq: "en" } }
+      }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            path
+            title
+            date(formatString: "DD/MM/YY")
+            category
+            author
+            author_page
+            video_url
+            type
+            featured_image {
+              src {
+                childImageSharp {
+                  fluid(maxWidth: 560) {
+                    ...GatsbyImageSharpFluid
                   }
                 }
-                alt
               }
+              alt
             }
           }
         }
+      }
+    }
+    relatedPostsSwe: allMdx(
+      filter: {
+        fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
+        frontmatter: { language: { eq: "sv" } }
+      }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            path
+            title
+            date(formatString: "DD/MM/YY")
+            category
+            author
+            author_page
+            video_url
+            type
+            featured_image {
+              src {
+                childImageSharp {
+                  fluid(maxWidth: 560) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              alt
+            }
+          }
+        }
+      }
     }
   }
 `

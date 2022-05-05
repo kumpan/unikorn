@@ -85,6 +85,7 @@ class Startpage extends Component {
           canonical={pageData.canonical}
           schemaMarkup={schema}
           image={pageData.og_image.src}
+          language={'en'}
         />
         <Hero 
           heading={pageData.hero.heading} 
@@ -172,7 +173,7 @@ export const data = graphql`
         title
       }
     }
-    pageData: allMdx(filter: { fileAbsolutePath: { regex: "/(/startpage)/" } }) {
+    pageData: allMdx(filter: { fileAbsolutePath: { regex: "/(/startpage)/" } , frontmatter: {language: {eq: "en"}}}) {
       edges {
         node {
           frontmatter {
@@ -280,7 +281,10 @@ export const data = graphql`
       }
     }
     posts: allMdx(
-      filter: { fileAbsolutePath: { regex: "/(/blog/|/video/)/" } }
+      filter: { 
+        fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
+        frontmatter: {language: {eq: "en"}}
+      }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 3
     ) {

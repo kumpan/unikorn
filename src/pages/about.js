@@ -16,7 +16,7 @@ const About = () => {
             title
           }
         }
-        allMdx(filter: { fileAbsolutePath: { regex: "/(/about-page)/" } }) {
+        allMdx(filter: { fileAbsolutePath: { regex: "/(/about-page)/" } , frontmatter: {language: {eq: "en"}}}) {
           edges {
             node {
               body
@@ -80,6 +80,7 @@ const About = () => {
         canonical={pageData.canonical}
         schemaMarkup={schema}
         image={pageData.og_image.src}
+        language={'en'}
       />
       <Hero 
         shorttitle={pageData.shorttitle}

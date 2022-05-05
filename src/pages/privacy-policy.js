@@ -16,7 +16,12 @@ const Policy = () => {
             title
           }
         }
-        allMdx(filter: { fileAbsolutePath: { regex: "/(/policy)/" } }) {
+        allMdx(
+          filter: {
+            fileAbsolutePath: { regex: "/(/policy)/" }
+            frontmatter: { language: { eq: "en" } }
+          }
+        ) {
           edges {
             node {
               body
@@ -71,6 +76,7 @@ const Policy = () => {
         description={pageData.description}
         canonical={pageData.canonical}
         image={pageData.og_image.src}
+        language={'en'}
       />
       <Hero 
         shorttitle={pageData.shorttitle}

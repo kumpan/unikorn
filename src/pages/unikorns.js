@@ -22,6 +22,7 @@ const UnikornsPage = () => {
         pageData: allMdx(
           filter: {
             fileAbsolutePath: { regex: "/(/unikorns-page/)/" }
+            frontmatter: {language: {eq: "en"}}
           }
         ) {
           edges {
@@ -55,7 +56,10 @@ const UnikornsPage = () => {
           }
         }
         bodyData: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/unikorns-body/)/" } }
+          filter: {
+            fileAbsolutePath: { regex: "/(/unikorns-body/)/" }
+            frontmatter: {language: {eq: "en"}}
+          }
           sort: { fields: [frontmatter___order] order: ASC }
         ) {
           edges {
@@ -65,7 +69,10 @@ const UnikornsPage = () => {
           }
         }
         posts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/unikorns/)/" } }
+          filter: {
+            fileAbsolutePath: { regex: "/(/unikorns/)/" }
+            frontmatter: {language: {eq: "en"}}
+          }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {
@@ -74,6 +81,7 @@ const UnikornsPage = () => {
                 shorttitle
                 shortdesc
                 menu_position
+                language
                 category
                 path
                 icon {
@@ -139,6 +147,7 @@ const UnikornsPage = () => {
         canonical={pageData.canonical}
         schemaMarkup={schema}
         image={pageData.og_image.src}
+        language={'en'}
       />
       <Hero 
         shorttitle={pageData.shorttitle}

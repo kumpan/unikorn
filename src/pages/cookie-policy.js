@@ -16,7 +16,12 @@ const Cookie = () => {
             title
           }
         }
-        allMdx(filter: { fileAbsolutePath: { regex: "/(/cookie)/" } }) {
+        allMdx(
+          filter: {
+            fileAbsolutePath: { regex: "/(/cookie)/" }
+            frontmatter: { language: { eq: "en" } }
+          }
+        ) {
           edges {
             node {
               body
@@ -71,6 +76,7 @@ const Cookie = () => {
         description={pageData.description}
         canonical={pageData.canonical}
         image={pageData.og_image.src}
+        language={'en'}
       />
       <Hero 
         shorttitle={pageData.shorttitle}

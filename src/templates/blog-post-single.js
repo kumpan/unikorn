@@ -7,6 +7,7 @@ import PlayCircleIcon from "../../content/assets/icons/play.svg"
 
 import SEO from "../components/seo"
 import Layout from "../components/layout"
+import LayoutSv from "../components/layout-sv.js"
 import BlogList from "../components/blog/blog-list.js"
 import BlogDate from "../components/blog/blog-date.js"
 import { truncateText } from "../global-functions.js"
@@ -55,14 +56,23 @@ class BlogTemplate extends Component {
     const post = this.props.data.currentPost
     const siteTitle = this.props.data.site.siteMetadata.title
     const allPosts = this.props.data.relatedPosts.edges
+    const allPostsSwe = this.props.data.relatedPostsSwe.edges
 
     const currentCategory = post.frontmatter.category
     const currentId = post.id
-    const { title, description, canonical, og_image, author, author_page, date, featured_image, video_url, preamble, popup_btn } = this.props.data.currentPost.frontmatter
+    const { title, description, canonical, og_image, author, author_page, date, featured_image, video_url, preamble, popup_btn, language } = this.props.data.currentPost.frontmatter
 
-    const relatedPosts = allPosts.filter(
-      relatedPost => relatedPost.node.frontmatter.category.includes(currentCategory) && relatedPost.node.id !== currentId
-    )
+    let relatedPosts
+
+    if (language === "en") {
+      relatedPosts = allPosts.filter(
+        relatedPost => relatedPost.node.frontmatter.category.includes(currentCategory) && relatedPost.node.id !== currentId
+      )
+    } else {
+      relatedPosts = allPostsSwe.filter(
+        relatedPost => relatedPost.node.frontmatter.category.includes(currentCategory) && relatedPost.node.id !== currentId
+      )
+    }
 
     if(relatedPosts.length > 3) {
       relatedPosts.length = 3
@@ -120,8 +130,9 @@ class BlogTemplate extends Component {
       schema.push(target)
     }
 
+    const Subpage = (props) => {
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <>
         <SEO
           title={title}
           description={description}
@@ -129,6 +140,7 @@ class BlogTemplate extends Component {
           video={video_url}
           schemaMarkup={schema}
           image={og_image.src}
+          language={language}
         />
         {this.state.showVideo && video_url &&
           <VideoPopup url={video_url} title={title} handleVideo={this.handleVideo}/>
@@ -137,7 +149,7 @@ class BlogTemplate extends Component {
         <div className={Styles.single_hero + " " + this.state.activeClass}>
           <div className={Styles.single_hero_inner}>
             <div className={"breadcrumbs " + Styles.breadcrumbs}>
-              <span><Link to="/blog">Blog</Link></span>
+              <span><Link to={props.link}>{props.title}</Link></span>
               <span> / {truncateText(title, 10)}</span>
             </div>
             <h1>{title}</h1>
@@ -168,7 +180,7 @@ class BlogTemplate extends Component {
             </div>
 
             {popup_btn &&
-              <Link to={"/contact/"}>
+              <Link to={props.contactLink}>
                 <div className={Styles.cta_link} role="button" tabIndex="0">
                   <ArrowButton text="Get in touch now" />
                 </div>
@@ -180,12 +192,47 @@ class BlogTemplate extends Component {
         {relatedPosts.length > 0 &&
           <div className={Styles.single_related_wrapper}>
             <div className={Styles.single_related_wrapper_inner}>
-              <h2>Read another post about {currentCategory}</h2>
-              <BlogList posts={relatedPosts} />
+
+              {language === 'en' ?
+                <h2>Read another post about {currentCategory}</h2> :
+                <h2>Läs ett annat inlägg om {currentCategory}</h2>
+              }
+              <BlogList language={language} posts={relatedPosts} />
             </div>
         </div>
         }
-      </Layout>
+      </>
+      )
+    }
+
+    return (
+      <>
+        {language === "en" ? (
+          <Layout
+            location={this.props.location}
+            title={siteTitle}
+            show_contact_info
+          >
+            <Subpage
+              title={"Blog"}
+              link={"/blog/"}
+              contactLink={"/contact/"}
+            />
+          </Layout>
+        ) : (
+          <LayoutSv
+            location={this.props.location}
+            title={siteTitle}
+            show_contact_info
+          >
+            <Subpage
+              title={"Blogg"}
+              link={"/sv/blogg/"}
+              contactLink={"/sv/kontakt/"}
+            />
+          </LayoutSv>
+        )}
+      </>
     )
   }
 }
@@ -207,6 +254,7 @@ export const pageQuery = graphql`
         title
         description
         canonical
+        language
         og_image {
           src {
             childImageSharp {
@@ -241,32 +289,66 @@ export const pageQuery = graphql`
     relatedPosts: allMdx(
       filter: {
         fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
-      }) {
-        edges {
-          node {
-            id
-            frontmatter {
-              path
-              title
-              date(formatString: "DD/MM/YY")
-              category
-              author
-              author_page
-              video_url
-              type
-              featured_image {
-                src {
-                  childImageSharp {
-                    fluid(maxWidth: 560) {
-                      ...GatsbyImageSharpFluid
-                    }
+        frontmatter: { language: { eq: "en" } }
+      }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            path
+            title
+            date(formatString: "DD/MM/YY")
+            category
+            author
+            author_page
+            video_url
+            type
+            featured_image {
+              src {
+                childImageSharp {
+                  fluid(maxWidth: 560) {
+                    ...GatsbyImageSharpFluid
                   }
                 }
-                alt
               }
+              alt
             }
           }
         }
+      }
+    }
+    relatedPostsSwe: allMdx(
+      filter: {
+        fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
+        frontmatter: { language: { eq: "sv" } }
+      }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            path
+            title
+            date(formatString: "DD/MM/YY")
+            category
+            author
+            author_page
+            video_url
+            type
+            featured_image {
+              src {
+                childImageSharp {
+                  fluid(maxWidth: 560) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              alt
+            }
+          }
+        }
+      }
     }
   }
 `

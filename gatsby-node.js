@@ -6,7 +6,6 @@ exports.createPages = ({ graphql, actions }) => {
   const blogPost = path.resolve(`./src/templates/blog-post-single.js`)
   const marketingPost = path.resolve(`./src/templates/marketing-subpage.js`)
   const unikornsPost = path.resolve(`./src/templates/unikorns-subpage.js`)
-  const digitalPost = path.resolve(`./src/templates/digital-subpage.js`)
   const webPost = path.resolve(`./src/templates/web-subpage.js`)
   const aboutPost = path.resolve(`./src/templates/about-subpage.js`)
   const { slugify } = require(`./src/global-functions.js`)
@@ -15,7 +14,10 @@ exports.createPages = ({ graphql, actions }) => {
     `
       {
         blogPosts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/blog/|/video/)/" } }
+          filter: {
+            fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
+            frontmatter: { language: { eq: "en" } }
+          }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
@@ -27,6 +29,35 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 title
                 path
+                language
+                original
+              }
+              parent {
+                ... on File {
+                  mtime
+                }
+              }
+            }
+          }
+        }
+        blogPostsSwe: allMdx(
+          filter: {
+            fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
+            frontmatter: { language: { eq: "sv" } }
+          }
+          sort: { fields: [frontmatter___date], order: DESC }
+          limit: 1000
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                path
+                language
+                original
               }
               parent {
                 ... on File {
@@ -37,7 +68,9 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
         aboutPosts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/about/)/" } }
+          filter: {
+            fileAbsolutePath: { regex: "/(/about/)/" }
+          }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
@@ -49,6 +82,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 shorttitle
                 path
+                language
+                original
               }
               parent {
                 ... on File {
@@ -59,7 +94,9 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
         webPosts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/web/)/" } }
+          filter: {
+            fileAbsolutePath: { regex: "/(/web/)/" }
+          }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
@@ -71,6 +108,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 shorttitle
                 path
+                language
+                original
               }
               parent {
                 ... on File {
@@ -81,7 +120,9 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
         marketingPosts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/marketing/)/" } }
+          filter: {
+            fileAbsolutePath: { regex: "/(/seo/)/" }
+          }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
@@ -93,6 +134,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 shorttitle
                 path
+                language
+                original
               }
               parent {
                 ... on File {
@@ -103,29 +146,9 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
         unikornsPosts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/unikorns/)/" } }
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                shorttitle
-                path
-              }
-              parent {
-                ... on File {
-                  mtime
-                }
-              }
-            }
+          filter: {
+            fileAbsolutePath: { regex: "/(/unikorns/)/" }
           }
-        }
-        digitalPosts: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/digital/)/" } }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
@@ -137,6 +160,8 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 shorttitle
                 path
+                language
+                original
               }
               parent {
                 ... on File {
@@ -154,11 +179,11 @@ exports.createPages = ({ graphql, actions }) => {
     }
 
     const blogPosts = result.data.blogPosts.edges
+    const blogPostsSwe = result.data.blogPostsSwe.edges
     const aboutPosts = result.data.aboutPosts.edges
     const webPosts = result.data.webPosts.edges
     const marketingPosts = result.data.marketingPosts.edges
     const unikornsPosts = result.data.unikornsPosts.edges
-    const digitalPosts = result.data.digitalPosts.edges
 
     // Create blog posts pages.
     blogPosts.forEach((post, index) => {
@@ -167,7 +192,22 @@ exports.createPages = ({ graphql, actions }) => {
         component: blogPost,
         context: {
           slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime
+          lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
+        },
+      })
+    })
+
+    blogPostsSwe.forEach((post, index) => {
+      createPage({
+        path: `sv/blogg/${slugify(post.node.frontmatter.path)}`,
+        component: blogPost,
+        context: {
+          slug: post.node.fields.slug,
+          lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
         },
       })
     })
@@ -175,11 +215,13 @@ exports.createPages = ({ graphql, actions }) => {
     // Create about pages.
     aboutPosts.forEach((post, index) => {
       createPage({
-        path: `about/${slugify(post.node.frontmatter.shorttitle)}`,
+        path: post.node.frontmatter.path,
         component: aboutPost,
         context: {
           slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime
+          lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
         },
       })
     })
@@ -187,23 +229,27 @@ exports.createPages = ({ graphql, actions }) => {
     // Create web pages.
     webPosts.forEach((post, index) => {
       createPage({
-        path: `web/${slugify(post.node.frontmatter.shorttitle)}`,
+        path: post.node.frontmatter.path,
         component: webPost,
         context: {
           slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime
+          lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
         },
       })
     })
-    
+
     // Create marketing pages.
     marketingPosts.forEach((post, index) => {
       createPage({
-        path: `marketing/${slugify(post.node.frontmatter.shorttitle)}`,
+        path: post.node.frontmatter.path,
         component: marketingPost,
         context: {
           slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime
+          lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
         },
       })
     })
@@ -211,23 +257,13 @@ exports.createPages = ({ graphql, actions }) => {
     // Create Unikorn pages.
     unikornsPosts.forEach((post, index) => {
       createPage({
-        path: `unikorns/${post.node.frontmatter.path}`,
+        path: post.node.frontmatter.path,
         component: unikornsPost,
         context: {
           slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime
-        },
-      })
-    })
-
-    // Create digital pages.
-    digitalPosts.forEach((post, index) => {
-      createPage({
-        path: `digital-strategies/${slugify(post.node.frontmatter.shorttitle)}`,
-        component: digitalPost,
-        context: {
-          slug: post.node.fields.slug,
-          lastmod: post.node.parent.mtime
+          lastmod: post.node.parent.mtime,
+          language: post.node.frontmatter.language,
+          original: post.node.frontmatter.original
         },
       })
     })

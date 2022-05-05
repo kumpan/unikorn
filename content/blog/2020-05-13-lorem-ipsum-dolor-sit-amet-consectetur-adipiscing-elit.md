@@ -1,9 +1,11 @@
 ---
-path: Choosing an agency
+path: choosing-an-agency
 title: How to choose an agency to work with
 description: Many companies hire an agency to help out with their digital
   marketing. Here is an article to help you choose the right agency!
 canonical: https://www.unikorn.se/blog/choosing-an-agency/
+language: en
+original: null
 og_image:
   src: ../assets/og.png
   alt: How to shop for an agency

@@ -37,9 +37,16 @@ class BlogPost extends Component {
       })
     }
   }
-  
+
   render() {
     const { type, title, author, date, featured_image, video_url, path } = this.props.post
+
+    let prefix
+    if (this.props.language === "sv") {
+      prefix = "/sv/blogg/"
+    } else {
+      prefix = "/blog/"
+    }
 
     let typeIcon
     if (type === "video") {
@@ -48,14 +55,25 @@ class BlogPost extends Component {
       typeIcon = <FileDocumentIcon />
     }
 
+    let typeText
+    if (type === "blog") {
+      if (this.props.language === "sv") {
+        typeText = "blogg"
+      } else {
+        typeText = "blog"
+      }
+    } else {
+      typeText = "video"
+    }
+
     return (
       <div className={Styles.blog_post_wrapper + " blog-post-wrapper " + (this.props.keepMobileStyling ? Styles.blog_post_mobile_style : "") + " type-" + type }>
-        <Link to={"/blog/" + slugify(path) + "/"}>
+        <Link to={prefix + slugify(path) + "/"}>
           <div className={Styles.blog_post + " type-" + type + " " + (this.props.large ? Styles.large + " large" : "")}>
             <div className={Styles.blog_post_text_wrapper}>
               <span className={Styles.blog_cat}>
                 {typeIcon}
-                {type}
+                {typeText}
               </span>
               <h2 className={Styles.blog_title}>{title}</h2>
               <div className={Styles.blog_info}>

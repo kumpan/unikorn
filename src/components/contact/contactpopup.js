@@ -1,5 +1,4 @@
 import React, { Component }  from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import Form from "./form.js"
@@ -8,64 +7,8 @@ import Styles from "./contactpopup.module.css"
 
 
 const ContactContent = (props) => {
-  const data = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-        allMdx(filter: { fileAbsolutePath: { regex: "/(/contact-modal)/" } }) {
-          edges {
-            node {
-              frontmatter {
-                title
-                text
-                featured_image {
-                  src {
-                    childImageSharp {
-                      fluid(maxWidth: 560) {
-                        ...GatsbyImageSharpFluid
-                      }
-                    }
-                    extension
-                    publicURL
-                  }
-                  alt
-                }
-                form {
-                  form_title
-                  name {
-                    label
-                    placeholder
-                  }
-                  email {
-                    label
-                    placeholder
-                  }
-                  message {
-                    label
-                    placeholder
-                  }
-                  subjects {
-                    label
-                    choices
-                  }
-                  form_info_text
-                  submit_text
-                }
-                contact_email
-                contact_tel
-              }
-            }
-          }
-        }
-      }
-    `
-  )
 
-  const contactData = data.allMdx.edges[0].node.frontmatter
+  const contactData = props.data.data
   const contactImg = contactData.featured_image
 
   let contactPopupImg
@@ -94,7 +37,7 @@ const ContactContent = (props) => {
             {contactPopupImg}
           </div>
           <div className={Styles.contact_popup_col2}>
-            <Form data={contactData.form}/>
+            <Form data={contactData.form} language={contactData.language}/>
             <div className={Styles.contact_popup_contactinfo}>
               <a href={"mailto:" + contactData.contact_email}>{contactData.contact_email}</a>
               <a href={"tel:" + contactData.contact_tel}>{contactData.contact_tel}</a>
@@ -109,9 +52,7 @@ const ContactContent = (props) => {
 
 class ContactPopup extends Component {  
   render() {
-      return (
-        <ContactContent />
-      )
+    return <ContactContent data={this.props} />
   }
 }
 export default ContactPopup

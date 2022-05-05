@@ -14,24 +14,32 @@ const Layout = (props) => {
     graphql`
       query {
         about: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/about/)/" } }
+          filter: {
+            fileAbsolutePath: { regex: "/(/about/)/" }
+            frontmatter: { language: { eq: "en" } }
+          }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {
             node {
               frontmatter {
+                path
                 shorttitle
               }
             }
           }
         }
         web: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/web/)/" } }
+          filter: {
+            fileAbsolutePath: { regex: "/(/web/)/" }
+            frontmatter: { language: { eq: "en" } }
+          }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {
             node {
               frontmatter {
+                path
                 shorttitle
                 menu_position
               }
@@ -39,12 +47,16 @@ const Layout = (props) => {
           }
         }
         marketing: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/marketing/)/" } }
+          filter: {
+            fileAbsolutePath: { regex: "/(/seo/)/" }
+            frontmatter: { language: { eq: "en" } }
+          }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {
             node {
               frontmatter {
+                path
                 shorttitle
                 menu_position
               }
@@ -52,26 +64,17 @@ const Layout = (props) => {
           }
         }
         unikorns: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/unikorns/)/" } }
-          sort: { fields: [frontmatter___date], order: DESC }
-        ) {
-          edges {
-            node {
-              frontmatter {
-                shorttitle
-              }
-            }
+          filter: {
+            fileAbsolutePath: { regex: "/(/unikorns/)/" }
+            frontmatter: { language: { eq: "en" } }
           }
-        }
-        digital: allMdx(
-          filter: { fileAbsolutePath: { regex: "/(/digital/)/" } }
           sort: { fields: [frontmatter___date], order: DESC }
         ) {
           edges {
             node {
               frontmatter {
+                path
                 shorttitle
-                menu_position
               }
             }
           }
@@ -83,12 +86,11 @@ const Layout = (props) => {
   const aboutPages = data.about.edges
   const webPages = data.web.edges
   const marketingPages = data.marketing.edges
-  const digitalPages = data.digital.edges
   const unikornsPages = data.unikorns.edges
 
   return (
     <div className="main-container">
-      <Nav location={props.location} aboutPages={aboutPages} webPages={webPages} marketingPages={marketingPages} unikornsPages={unikornsPages} digitalPages={digitalPages}/>
+      <Nav language="/" location={props.location} aboutPages={aboutPages} webPages={webPages} marketingPages={marketingPages} unikornsPages={unikornsPages}/>
       <main>{children}</main>
       <Footer show_contact_info={props.show_contact_info} />
       <CookieConsent buttonText="OK" cookieName="cookieConcent" contentClasses="cookie-text" buttonWrapperClasses="cookie-btn">

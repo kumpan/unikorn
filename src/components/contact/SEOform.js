@@ -104,7 +104,11 @@ class Form extends Component {
         })
       })
         .then(() => {
-          return navigate('/thanks')
+          if(this.props.language === 'en') {
+            return navigate('/thanks')
+          } else {
+            return navigate('/sv/tack')
+          } 
         })
         .catch(error => {
           this.setState({

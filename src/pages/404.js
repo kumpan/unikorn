@@ -69,6 +69,7 @@ const FouroFour = () => {
         description={pageData.description}
         canonical={pageData.canonical}
         image={pageData.og_image.src}
+        language={'en'}
       />
       <Hero 
         shorttitle={pageData.shorttitle}
