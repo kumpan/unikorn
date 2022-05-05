@@ -113,7 +113,7 @@ collections:
             - { label: Reference person, name: person, widget: string }
 
   - name: web-page
-    label: Web Magic
+    label: Data Magic
     folder: content/web-page
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
@@ -144,7 +144,7 @@ collections:
       - { name: body, label: Text, widget: markdown }
 
   - name: web-body
-    label: Web Magic Body
+    label: Data Magic Body
     folder: content/web-body
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
@@ -158,7 +158,7 @@ collections:
       - { name: body, label: Text, widget: markdown }
 
   - name: web
-    label: Web Magic subpages
+    label: Data Magic subpages
     folder: content/web
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"
@@ -260,7 +260,7 @@ collections:
       - { name: body, label: Text, widget: markdown }
 
   - name: seo
-    label: SEO subpages
+    label: Unikorn SEO subpages
     folder: content/seo
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{shorttitle}}"

@@ -94,7 +94,7 @@ const Layout = (props) => {
       <main>{children}</main>
       <Footer show_contact_info={props.show_contact_info} />
       <CookieConsent buttonText="OK" cookieName="cookieConcent" contentClasses="cookie-text" buttonWrapperClasses="cookie-btn">
-        Den här webbsidan använder cookies för att ge dig den bästa upplevelsen. <Link to="/sv/cookie-policy/">Läs policyn här.</Link>.
+        Den här webbsidan använder cookies för att ge dig den bästa upplevelsen. <Link to="/sv/cookie-policy/">Läs policyn här.</Link>
         <CloseIcon />
       </CookieConsent>
       <div id="modal-root"></div>
