@@ -1,23 +1,15 @@
 ---
-title: SEO Body Top SV
 shorttitle: SEO Body Top SV
+title: SEO Body Top SV
 order: 1
 language: sv
 ---
-## Reaching your digital community
+## SEO vs. Unikorn SEO
 
-Our Marketing ingredient to reach growth hacking levels inside digital communities is formed with a mixture of curated specialities. A service and tool formation compiling three pillars: SEO (search engine optimisation), SoMe (social media), and CM (content marketing).
+Sökmotoroptimering, eller SEO, har blivit något av en osynlig hörnsten i digital marknadsföring. Kortfattat är det flera optimeringsstrategier och taktiker som hjälper din webbplats att ranka högre i sökmotorer som Google. Detta kan i sin tur ha en dramatisk effekt på den organiska trafiken. 
 
-To grasp Unikorn’s Marketing motions let’s present some basic descriptions to these marketing steppingstones, that help achieve growth hacking status.
+Med över 50 miljoner individuella sökningar på Google varje dag, blir SEO ett kostnadseffektivt komplement till dina andra digitala kanaler. Det här har tyvärr lett till att många har glömt sina användare och ser sökmotorrobotar som sin målgrupp.
 
-### Search engine optimisation
+På Unikorn flirtar vi med botarna samtidigt som vi aldrig glömmer användaren. Våra strategier är alltid användarfokuserade och ser till att de får den typen av upplevelse som bygger lojalitet.
 
-SEO is in Unikorn’s genes because we’ve been at it since the internet’s dawning, offering analytical services to a wide array of businesses. Involving our Unikorn Superhero SEO focusing on:
-
-* Search intention start-up workshop.
-* Content analysis review.
-* Keyword structure analysis.
-* Technical bot-friendly analysis
-* Link analysis authoritativeness.
-
-A company’s data footprint digital presence compilation leading to a culminating report, presenting necessary recommendations and an actionable order of priority. Knowing fixed and inflexible procedure paths are downfalls, we help implement recommendations, including ongoing reports and follow-ups.
+Vårt tillvägagångssätt lämnar ingen sten ovänd, och vår breda kunskapsbas låter oss hjälpa dig med allt SEO har att erbjuda:
