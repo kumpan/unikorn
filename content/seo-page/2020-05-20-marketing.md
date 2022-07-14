@@ -6,7 +6,7 @@ description: Our secret sauce to solid SEO is a user-friendly focus tailored to
   friends on this journey.
 canonical: https://www.unikorn.se/seo/
 language: en
-original: https://www.unikorn.se/seo/
+original: /seo/
 path: /seo/
 og_image:
   src: ../assets/og.png
