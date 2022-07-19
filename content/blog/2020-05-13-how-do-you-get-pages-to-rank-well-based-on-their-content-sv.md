@@ -12,7 +12,7 @@ og_image:
 date: 2019-11-04T08:55:00.000Z
 author: Anna Råström
 author_page: /sv/unikorns/anna-rastrom/
-category: Unikorn Marketing
+category: Unikorn SEO, Social media
 featured_image:
   src: ../assets/pexels-jameson-mallari-atenta-4619829.jpg
   alt: Social Media template Photo by Jameson Mallari Atenta
