@@ -1,25 +1,24 @@
 ---
 path: javascript-auditing-in-development
 title: "Auditing a website in development "
-description: "Auditing a website in development "
+description: JavaScript is the new black in developing new websites. Learn how
+  to audit a JavaScript website while still in development!
 canonical: https:///www.unikorn.se/blog/javascript-auditing-in-development
 language: en
 original: /blog/javascript-auditing-in-development/
 og_image:
-  src: ../assets/new-unikorn.jpg
+  src: ../assets/how-to-audit-a-javascript-site-in-development.jpg
   alt: "Auditing a website in development "
 date: 2022-09-13T13:52:24.923Z
 author: Ulrika
 author_page: /unikorns/ulrika-viberg/
 category: Technical SEO, JavaScript SEO
 featured_image:
-  src: ../assets/gray-bridge-and-trees-814499.jpg
-  alt: "Auditing a website in development "
-preamble: "As building new websites in JavaScript has become more or less a
+  src: ../assets/javascriptseo.jpg
+  alt: "SEO auditing a JavaScript website in development "
+preamble: As building new websites in JavaScript has become more or less a
   normality for web developers, SEOers also need to learn how to audit and
-  troubleshoot JS site to ensure they are indexed properly. In this session we
-  will look at the most important things to consider when auditing and
-  troubleshooting, as well as getting a few tips on what tools to use. "
+  troubleshoot JavaScript site to ensure they are indexed properly.
 type: blog
 popup_btn: true
 ---
