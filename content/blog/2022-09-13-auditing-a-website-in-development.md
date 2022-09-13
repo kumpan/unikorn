@@ -8,9 +8,9 @@ language: en
 original: /blog/javascript-auditing-in-development/
 og_image:
   src: ../assets/how-to-audit-a-javascript-site-in-development.jpg
-  alt: "Auditing a website in development "
+  alt: SEO auditing a JavaScript website in development
 date: 2022-09-13T13:52:24.923Z
-author: Ulrika
+author: Ulrika Viberg
 author_page: /unikorns/ulrika-viberg/
 category: Technical SEO, JavaScript SEO
 featured_image:
