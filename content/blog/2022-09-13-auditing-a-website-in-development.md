@@ -22,6 +22,8 @@ preamble: As building new websites in JavaScript has become more or less a
 type: blog
 popup_btn: true
 ---
+![JavaScript SEO is not Rocket Science](../assets/javascriptseo-big.jpg)
+
 Nowadays, new websites are more often built in one of the JavaScript frameworks. This is especially true for ecommerce websites. As JavaScript creates a whole set of new interesting challenges for SEO, it demands a whole new set of skills from the technical SEOer who is to both understand what a searchbot can render and not. Of course, this also changes very rapidly and we have to stay up to date in a universe of working from home Google devs who are literally spitting out other types of algo updates.
 
 The main goal with a new website is almost always to gain more visibility, traffic and often conversions. Traffic from search engines has earned an increasing reputation the last couple of years, so organic traffic has become crucial for most businesses.
