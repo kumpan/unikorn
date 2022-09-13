@@ -4,14 +4,14 @@ title: "Auditing a website in development "
 description: "Auditing a website in development "
 canonical: https:///www.unikorn.se/blog/javascript-auditing-in-development
 language: en
-original: https:///www.unikorn.se/blog/javascript-auditing-in-development/
+original: /blog/javascript-auditing-in-development/
 og_image:
   src: ../assets/new-unikorn.jpg
   alt: "Auditing a website in development "
 date: 2022-09-13T13:52:24.923Z
 author: Ulrika
-author_page: /ulrika-viberg/
-category: Technical SEO
+author_page: /unikorns/ulrika-viberg/
+category: Technical SEO, JavaScript SEO
 featured_image:
   src: ../assets/gray-bridge-and-trees-814499.jpg
   alt: "Auditing a website in development "
