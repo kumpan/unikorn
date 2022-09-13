@@ -4,7 +4,7 @@ title: "Auditing a website in development "
 description: "Auditing a website in development "
 canonical: https:///www.unikorn.se/blog/javascript-auditing-in-development
 language: /en/
-original: https:///www.unikorn.se/blog/javascript-auditing-in-development
+original: https:///www.unikorn.se/blog/javascript-auditing-in-development/
 og_image:
   src: ../assets/og-share-img.png
   alt: "Auditing a website in development "
