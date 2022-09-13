@@ -6,11 +6,11 @@ canonical: https:///www.unikorn.se/blog/javascript-auditing-in-development
 language: en
 original: https:///www.unikorn.se/blog/javascript-auditing-in-development/
 og_image:
-  src: ../assets/og-share-img.png
+  src: ../assets/new-unikorn.jpg
   alt: "Auditing a website in development "
 date: 2022-09-13T13:52:24.923Z
 author: Ulrika
-author_page: /ulrika/
+author_page: /ulrika-viberg/
 category: Technical SEO
 featured_image:
   src: ../assets/gray-bridge-and-trees-814499.jpg
