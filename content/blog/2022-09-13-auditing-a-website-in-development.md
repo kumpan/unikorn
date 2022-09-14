@@ -22,7 +22,7 @@ preamble: As building new websites in JavaScript has become more or less a
 type: blog
 popup_btn: true
 ---
-![JavaScript SEO is not Rocket Science](../assets/javanaut-1-.jpg)
+![JavaNaut is optimising JavaScript for better SEO](../assets/javanaut-1-.jpg)
 
 Nowadays, new websites are more often built in one of the JavaScript frameworks. As JavaScript creates a whole set of new interesting challenges for SEO, it also demands for a whole new set of skills from the technical SEOer. Naturally, as we are talking about SEO, the rules for what can be rendered and not by a searchbot, changes over time and we have to stay up to date in a universe of working from home Google devs who are literally spitting out all types of algo updates.
 
@@ -47,8 +47,6 @@ For us and our clients, the way to handle this new JS world inferno, has been to
 
 W﻿ith a toolbox containing Chrome DevTool, Screaming Frog and a few chrome add-ons, it's time to get cracking and audit the page types. 
 
-
-
 **✅ The first and maybe most important requirement and thing to audit is - will the searchbot be able to crawl the pages.** 
 
 **Requirement**: All on-page elements with content should be available in the rendered code.
@@ -56,8 +54,6 @@ W﻿ith a toolbox containing Chrome DevTool, Screaming Frog and a few chrome add
 **Check**: Chrome dev tool manually per page type, and with Screaming Frog.
 
 **Look for**: Links, menu, CTAs, footer links, images, text, videos and in fold-out elements that the content is in the rendered code.
-
-
 
 **✅ Make sure all JavaScript assets can be reached by the bots.**
 
@@ -67,8 +63,6 @@ W﻿ith a toolbox containing Chrome DevTool, Screaming Frog and a few chrome add
 
 **Look for**: disallowed paths that contain JS assets, crawl with SF checking the respect robots.txt and then check the JS section.
 
-
-
 **✅ It should go really fast to load a page** (like the page you are reading now 😎)
 
 **Requirement**: Time to first paint shouldn’t be exceeded by loading large JS resources. If we are looking at a CSR page and the assets are large, can the devs bundle and split the JS? If it's a SSR, and the assets are too heavy, can it be solved with caching?
@@ -77,15 +71,11 @@ W﻿ith a toolbox containing Chrome DevTool, Screaming Frog and a few chrome add
 
 **Look for**: number of resource calls, big chunks of loadings, how fast can the first paint be painted?
 
-
-
 **✅ Make sure that the metas in the first load differ from metas in the rendered code**
 
 **Requirement**: The meta data in head should be correctly set up and not changing while rendering.
 
 **Check**: Use View rendered source add-on.Look for: Title, meta description, canonical, OG:s, hreflangs.
-
-
 
 ## Learnings from auditing 14+ new sites during the covid years
 
