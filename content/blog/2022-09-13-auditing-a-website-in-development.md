@@ -7,7 +7,7 @@ canonical: https:///www.unikorn.se/blog/javascript-auditing-in-development
 language: en
 original: /blog/javascript-auditing-in-development/
 og_image:
-  src: ../assets/javanaut.jpg
+  src: ../assets/how-to-audit-a-javascript-site-in-development.jpg
   alt: SEO auditing a JavaScript website in development
 date: 2022-09-13T13:52:24.923Z
 author: Ulrika Viberg
@@ -22,7 +22,7 @@ preamble: As building new websites in JavaScript has become more or less a
 type: blog
 popup_btn: true
 ---
-![JavaScript SEO is not Rocket Science](../assets/javascriptseo-big.jpg)
+![JavaScript SEO is not Rocket Science](../assets/javanaut.jpg)
 
 Nowadays, new websites are more often built in one of the JavaScript frameworks. As JavaScript creates a whole set of new interesting challenges for SEO, it also demands for a whole new set of skills from the technical SEOer. Naturally, as we are talking about SEO, the rules for what can be rendered and not by a searchbot, changes over time and we have to stay up to date in a universe of working from home Google devs who are literally spitting out all types of algo updates.
 
@@ -43,8 +43,6 @@ For us and our clients, the way to handle this new JS world inferno, has been to
 * The requirements are used to set up test protocols
 * We ask for frequent demos during development and to be a part of the dev team and participate to all dev planning meetings
 
-
-
 ## Time for Auditing
 
 W﻿ith a toolbox containing Chrome DevTool, Screaming Frog and a few chrome add-ons, it's time to get cracking and audit the page types. 
@@ -57,8 +55,6 @@ W﻿ith a toolbox containing Chrome DevTool, Screaming Frog and a few chrome add
 
 **Look for**: Links, menu, CTAs, footer links, images, text, videos and in fold-out elements that the content is in the rendered code.
 
-
-
 **✅ Make sure all JavaScript assets can be reached by the bots.**
 
 **Requirement**: Make sure all JavaScript assets can be reached - do not block them in robots.txt, behind rules in CDNs, JS files that cannot be loaded or are corrupt
@@ -66,8 +62,6 @@ W﻿ith a toolbox containing Chrome DevTool, Screaming Frog and a few chrome add
 **Check**: the robots.txt manually and with the help of screaming frog. I often ask the CSS to be reachable as well, as it makes my job as an auditor way more easy if I can see the page properly.
 
 **Look for**: disallowed paths that contain JS assets, crawl with SF checking the respect robots.txt and then check the JS section.
-
-
 
 **✅ It should go really fast to load a page** (like the page you are reading now 😎)
 
@@ -77,15 +71,11 @@ W﻿ith a toolbox containing Chrome DevTool, Screaming Frog and a few chrome add
 
 **Look for**: number of resource calls, big chunks of loadings, how fast can the first paint be painted?
 
-
-
 **✅ Make sure that the metas in the first load differ from metas in the rendered code**
 
 **Requirement**: The meta data in head should be correctly set up and not changing while rendering.
 
 **Check**: Use View rendered source add-on.Look for: Title, meta description, canonical, OG:s, hreflangs.
-
-
 
 ## Learnings from auditing 14+ new sites during the covid years
 
