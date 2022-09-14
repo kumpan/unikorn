@@ -22,7 +22,7 @@ preamble: As building new websites in JavaScript has become more or less a
 type: blog
 popup_btn: true
 ---
-![JavaScript SEO is not Rocket Science](../assets/javanaut.jpg)
+![JavaScript SEO is not Rocket Science](../assets/javanaut-1-.jpg)
 
 Nowadays, new websites are more often built in one of the JavaScript frameworks. As JavaScript creates a whole set of new interesting challenges for SEO, it also demands for a whole new set of skills from the technical SEOer. Naturally, as we are talking about SEO, the rules for what can be rendered and not by a searchbot, changes over time and we have to stay up to date in a universe of working from home Google devs who are literally spitting out all types of algo updates.
 
