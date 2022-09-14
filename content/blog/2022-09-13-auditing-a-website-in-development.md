@@ -47,11 +47,15 @@ For us and our clients, the way to handle this new JS world inferno, has been to
 
 ## Time for Auditing
 
+W﻿ith a toolbox containing Chrome DevTool, Screaming Frog and a few chrome add-ons, it's time to get cracking and audit the page types. 
+
 **✅ The first and maybe most important requirement and thing to audit is - will the searchbot be able to crawl the pages.** 
 
 **Requirement**: All on-page elements with content should be available in the rendered code.
 
-**Check**: Chrome dev tool manually per page type, and with Screaming Frog.Look for: Links, menu, CTAs, footer links, images, text, videos and in fold-out elements that the content is in the rendered code.
+**Check**: Chrome dev tool manually per page type, and with Screaming Frog.
+
+**Look for**: Links, menu, CTAs, footer links, images, text, videos and in fold-out elements that the content is in the rendered code.
 
 
 
