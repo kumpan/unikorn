@@ -40,13 +40,15 @@ SEOform:
 
 ### Story
 
-Sara has been working with digital strategies and web analytics since 2018 developing digital strategies for the web and with strategic advising based on data analysis. 📈 She loves to take on new challenges and during her first 4 years in her digital career she has been working with digital strategies at 2 agencies, one media house and as a freelancer before deciding to become a thoroughbred Unikorn 🦄. In addition, Sara is currently working with digital marketing for a training studio. 🤸
+Sara has been working with digital strategies and web analytics since 2018. 📈 She loves to take on new challenges and during her first four years in her digital career she has been working with digital strategies at two agencies, one media house and as a freelancer before deciding to become a thoroughbred Unikorn 🦄. In addition, Sara is currently working with digital marketing for a training studio. 🤸 
 
 ### Sara’s super powers
 
 * Google Analytics
 * Digital, Data based, Strategies
-* SEO and Customer Search Journeys
+* SEO 
+
+
 
 ### What makes Sara’s inner Unikorn jump around with joy?
 
