@@ -1,28 +1,28 @@
 ---
-shorttitle: Startpage
+shorttitle: SV Startpage
 title: Your partner for SEO, Web Projects & Digital Strategies
 description: We help companies with Web Projects, Digital Marketing, Strategies
   and Advanced SEO. Ask us how we can help you gain more relevant and converting
   traffic!
 canonical: https://www.unikorn.se/sv/
-path: /sv/
 language: sv
 original: /
+path: /sv/
 og_image:
   src: ../assets/og.png
   alt: unikorn
 hero:
-  heading: Rocket your digital presence.
-  text: "We’re your best friend when it comes to helping you find the path to a
-    successful digital strategy. We have the know-how and experience to handle
-    every aspect of your Digital Marketing, and thus, will be by your side
-    throughout the entire process. From the initial stages to follow-ups,
-    revisions, and course direction, a solid constant SEO, web project and
-    digital strategies' performance-partner. "
+  heading: Lyft din digitala närvaro.
+  text: Vi är din bästa vän när det gäller att hjälpa dig hitta vägen till en
+    framgångsrik digital strategi. Vi har kunskapen och erfarenheten för att
+    hantera alla aspekter av din digitala marknadsföring och kommer därför att
+    finnas vid din sida under hela processen. Från de inledande stadierna till
+    uppföljningar, revideringar och kursriktning, en solid konstant SEO,
+    webbprojekt och digitala strategiers prestationspartner.
   featured_image:
     src: ../assets/digital-growth-unikorn.svg
     alt: Digital Growth
-  button: Start growing now
+  button: Börja din resa här
   buttonlink: /sv/kontakt/
 tabs_section:
   tabs_heading: We help our partners grow through well executed
