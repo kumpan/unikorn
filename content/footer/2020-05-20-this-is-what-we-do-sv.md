@@ -7,9 +7,7 @@ col1:
   text: |-
     * SEO
     * Content Marketing
-    * SEM
-    * Social Media
-    * PR
+    * W﻿ebbanalys
 col2:
   heading: Web
   text: |-
@@ -18,12 +16,12 @@ col2:
     * Website Migration
     * Technical Project Management
     * Web development
+    *﻿ Webbanalys
 col3:
   heading: Search
   text: |-
     * Technical SEO 
     * SEO PR
-    * PPC campaigns
     * Content Marketing 
     * SEO Audits
 col4:
