@@ -24,8 +24,8 @@ hero:
   featured_image:
     src: ../assets/undraw_progress_data_4ebj-1-.svg
     alt: Sara Boberg Unikorn
-  button: Kontakta Sara
-  buttonlink: /kontakt/
+  button: ""
+  buttonlink: ""
 latest_posts_text: Inlägg av Sara
 posts_category: Sara
 SEOform:
