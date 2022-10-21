@@ -3,7 +3,7 @@ shorttitle: Sara Boberg
 path: /unikorns/sara-boberg/
 shortdesc: Sara is a curious SEO Unikorn with passion for data driven
   developement of new solutions.
-title: Sara Boberg - SEO Consultant and Web Analyst
+title: Sara Boberg - SEO Specialist and Web Analyst
 description: Meet Sara, a curious SEO Unikorn with passion for data driven
   developement of new solutions.
 canonical: https://www.unikorn.se/unikorns/sara-boberg/
@@ -34,25 +34,19 @@ SEOform:
   form_button: Send
   form_text: "Your email:"
 ---
-## S﻿EO Consultant and Web Analyst
+## S﻿EO Specialist and Web Analyst
 
 ![Sara Boberg Unikorn](../assets/new-unikorn.jpg)
-
-
 
 ### Story
 
 Sara has been working with digital strategies and web analytics since 2018 developing digital strategies for the web and with strategic advising based on data analysis. 📈 She loves to take on new challenges and during her first 4 years in her digital career she has been working with digital strategies at 2 agencies, one media house and as a freelancer before deciding to become a thoroughbred Unikorn 🦄. In addition, Sara is currently working with digital marketing for a training studio. 🤸
-
-
 
 ### Sara’s super powers
 
 * Google Analytics
 * Digital, Data based, Strategies
 * SEO and Customer Search Journeys
-
-
 
 ### What makes Sara’s inner Unikorn jump around with joy?
 
