@@ -5,14 +5,14 @@ description: Template for goal-oriented reporting of Social Media efforts.
   Download the template here!
 canonical: https://www.unikorn.se/blog/social-media-report-template/
 language: en
-original: null
+original: /blog/social-media-report-template/
 og_image:
   src: ../assets/og.png
   alt: Social media report template
 date: 2019-11-04T08:55:00.000Z
 author: Anna Råström
 author_page: /unikorns/anna-rastrom/
-category: Unikorn Marketing
+category: Unikorn Marketing, SoMe, Reporting
 featured_image:
   src: ../assets/pexels-jameson-mallari-atenta-4619829.jpg
   alt: Social Media template Photo by Jameson Mallari Atenta
