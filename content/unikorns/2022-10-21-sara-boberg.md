@@ -34,7 +34,7 @@ SEOform:
   form_button: Send
   form_text: "Your email:"
 ---
-## S﻿EO Specialist and Web Analyst
+## S﻿EO Specialist & Web Analyst
 
 ![Sara Boberg Unikorn](../assets/new-unikorn.jpg)
 
