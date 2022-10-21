@@ -7,7 +7,7 @@ description: Träffa Sara, en nyfiken SEO Unikorn med passion för datadriven
   utveckling av nya lösningar.
 canonical: https://www.unikorn.se/sv/unikorns/sara-boberg/
 language: sv
-original: /unikorns/sara-boberg/
+original: /sv/unikorns/sara-boberg/
 menu_position: 4
 category: unikorn
 og_image:
