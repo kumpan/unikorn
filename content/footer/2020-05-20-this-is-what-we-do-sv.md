@@ -9,14 +9,13 @@ col1:
     * Content Marketing
     * W﻿ebbanalys
 col2:
-  heading: Web
+  heading: Webb
   text: |-
     * Website requirements 
     * Technical Audits
     * Website Migration
     * Technical Project Management
     * Web development
-    *﻿ Webbanalys
 col3:
   heading: Search
   text: |-
