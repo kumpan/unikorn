@@ -32,7 +32,7 @@ SEOform:
   form_text: Kontakta Sara
   form_button: Kontakta Sara
 ---
-![Sara Boberg](../assets/og.png)
+![Sara Boberg](../assets/new-unikorn.jpg)
 
 ### B﻿akgrund
 
