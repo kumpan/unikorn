@@ -40,7 +40,7 @@ SEOform:
 
 ### Bakgrund
 
-Sara har arbetat med digitala strategier och webbanalys sedan 2018. 📈 Hon älskar att ta sig an nya utmaningar och projekt. Under de första fyra åren i sin digitala karriär har hon arbetat med digital strategi och analys på 2 byråer, ett mediehus och som frilansare innan hon bestämde sig för att bli en Unikorn 🦄. Utöver Unikorn jobbar Sara även med digital marknadsföring för en träningsstudio. 🤸
+Sara har arbetat med digitala strategier och webbanalys sedan 2018. 📈 Hon älskar att ta sig an nya utmaningar och projekt. Under de första fyra åren i sin digitala karriär har hon arbetat med digital strategi och analys på två byråer, ett mediehus och som frilansare innan hon bestämde sig för att bli en Unikorn 🦄. Utöver Unikorn jobbar Sara även med digital marknadsföring för en träningsstudio. 🤸
 
 ### Saras superkrafter
 
