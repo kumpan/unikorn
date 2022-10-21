@@ -31,25 +31,17 @@ SEOform:
   form_text: Get in touch
   form_button: Get in touch
 ---
-
-
-![Amanda Ljungberg](../assets/og.png)
-
-
+![Sara Boberg](../assets/new-unikorn.jpg)
 
 ### Story
 
 Sara has been working with digital strategies and web analytics since 2018. 📈 She loves to take on new challenges and projects. During her first four years in her digital career she has been working with digital strategies at 2 agencies, one media house and as a freelancer before deciding to become a thoroughbred Unikorn 🦄. Besides working at Unikorn, Sara is working with digital marketing for a training studio. 🤸‍♀️
-
-
 
 ### Sara’s super powers
 
 * Google Analytics
 * Data based Strategies
 * SEO 
-
-
 
 ### What makes Sara’s inner Unikorn jump around with joy?
 
