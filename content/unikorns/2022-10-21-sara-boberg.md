@@ -45,7 +45,7 @@ Sara has been working with digital strategies and web analytics since 2018. 📈
 ### Sara’s super powers
 
 * Google Analytics
-* Digital, Data based, Strategies
+* Data Based Strategies
 * SEO 
 
 ### What makes Sara’s inner Unikorn jump around with joy?
