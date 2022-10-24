@@ -1,14 +1,14 @@
 ---
 shorttitle: Innehåll
-path: /sv/seo/content/
+path: /sv/seo/innehall/
 shortdesc: Innehållsstrategier skapade för användare och inte sökmotorer.
 title: SEO - Innehåll
 description: Spreading the word is one of the basic foundations in marketing.
   Great content does the job for more easy and meaningful messages. Let us help
   you rock!
-canonical: https://www.unikorn.se/sv/seo/content/
+canonical: https://www.unikorn.se/sv/seo/innehall/
 language: sv
-original: /seo/content/
+original: https://www.unikorn.se/seo/content/
 menu_position: 2
 og_image:
   src: ../assets/og.png
