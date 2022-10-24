@@ -1,12 +1,12 @@
 ---
-shorttitle: Content
-shortdesc: Content Marketing
-title: Content Marketing, Web content and Online Reputation
+shorttitle: Innehåll
+path: /sv/seo/content/
+shortdesc: Innehållsstrategier skapade för användare och inte sökmotorer.
+title: SEO - Innehåll
 description: Spreading the word is one of the basic foundations in marketing.
   Great content does the job for more easy and meaningful messages. Let us help
   you rock!
 canonical: https://www.unikorn.se/sv/seo/content/
-path: /sv/seo/content/
 language: sv
 original: /seo/content/
 menu_position: 2
@@ -17,108 +17,42 @@ icon:
   src: ../assets/content-1-.svg
   alt: "Content Marketing and Website content "
 hero:
-  heading: Web content marketing
-  preamble: Content is the message, but also the brand’s digital reputation,
-    therefore, make yourself heard through great and focus crafted messages via
-    an amalgam, comprising copy, text, images and video.
+  heading: Innehåll
+  preamble: En webbplats är som en present. Vare sig den är stor, liten, färgglad
+    eller för svårt inslagen så är innehållet det vi vill åt. Det kommer kanske
+    inte som en överraskning att innehåll är en av de viktigaste delarna av SEO.
+    På Unikorn är vi experter på både innehållsstrategier och presenter, och vi
+    kan hjälpa dig skapa något som kommer vinna både användares och sökmotorers
+    hjärtan.
   featured_image:
     src: ../assets/undraw_browsing_urt9-1-.svg
     alt: Content
-  button: Let us help you with Content!
+  button: Påbörja din resa
   buttonlink: /sv/kontakt/
-latest_posts_text: Read more about Content Marketing
+latest_posts_text: Läs mer om Content Marketing
 posts_category: Unikorn Marketing
-SEOform: 
-  form_name:
-  form_title: 
-  form_text: 
-  form_button: 
+SEOform:
+  form_name: " "
+  form_title: " "
+  form_text: " "
+  form_button: " "
 ---
-## What is content marketing?
+## Att sätta användaren först
 
-A good content marketing description is working content to attract and interest your target group instead of adding to the buzz experienced in their everyday feed. Picturing this description, we can image the traditional “advertising is the interruption between the TV shows”, and change it to your content marketing becoming the TV show itself. Which begs the question:
 
-> Why pay for breadcrumbs during breaks when your content can be the main course?
 
-Viewing content marketing as a spotlight, increases incredibly the importance it has for your digital marketing, we must remember that content is what carries your message forward. But content processes are time-consuming and need the know-how and experience to publish at outstanding levels.
+Många glömmer tyvärr bort användaren när de håller på med SEO. De arbetar med inställningen att sökmotorerna är deras webbplats målgrupp. En sådan inställning leder ofta till sidor fyllda med irrelevant och repetitivt innehåll. Det kan vara lätt att tro att sådant innehåll kommer få en att ranka högre, eftersom det i teorin uppfyller Googles önskemål. Men även om du skulle ranka högst så är frågan vad det tjänar till ifall ingen vill stanna på din webbplats?
 
-A fact that indicates the necessity to meditate seriously, by companies at all levels, to outsource to an agency. Giving those who decide in favour, a kickstart to their content marketing efforts. This is especially true for plans to be implemented yesterday.
+SEO med användaren i fokus innebär att skapa relevant innehåll. Det ska engagera användaren och guida dem genom varje steg längs kundresan. Du måste förse dem med svaren de både behöver och vill ha. För att det ska hända så måste du se bortom individuella sidors innehåll.
 
-### Content marketing benefits
+Vi ser alltid till att analysera innehåll holistiskt. För oss betyder det att bygga en strategi som skapar synergi mellan innehållet i alla dina digitala kanaler. Viss statistik visar på att upp till 60% av innehåll som skapas av marknadsavdelningar kan förbli oanvänt. För att förhindra något liknande måste du skapa strategier som faktiskt aktiverar ditt innehåll, så att det når ut till sin publik. Att göra det ökar chansen att användare fullföljer kundresan och förblir lojala, något som reflekterar positivt på både rankning och konvertering.
 
-If you are still not convinced of the advantages content marketing brings to your online presence, we present a few, e.g. inbound, authority, link-building.
+* Innehållsskapande – Att hitta balansen mellan att flirta med Google och att få användare att vilja fortsätta läsa.
+* Content Gap Analysis – Identifiera fallgroparna i din kundresa och upptäck oanvända sökord.
+* Sökordsanalys – SEO:s förstfödde. Analysera vad användare söker efter och väv in relevanta sökord i din strategi.
 
-### What are the benefits of inbound marketing?
 
-Inbound marketing has over a decade of existence and is the process of creating valuable content, which performs by listening to customers needs. Conforming content that answers questions, doubts, or step-by-step instructions, instead of shoving a product/service in your customers’ faces.
 
-The basic benefits produced by introducing this actionability into your content marketing strategy are the following:
+På Unikorn har vi en mängd olika professionella bakgrunder samt en bred kunskapsbas. Det tillåter oss att närma oss varje uppdrag holistiskt. Våra strategier är alltid en del av en helhet som sätter användaren i fokus samtidigt som de ser till att din rankning når sin fulla potential. Kort sagt så skapar vår SEO den bästa upplevelsen för både användaren, sökmotorn och dig.
 
-* Cost-efficient- Inbound marketing offers cost efficiency, in the long-run, because it deviates from ads, to produce content with a higher interaction percentages. This is achievable because the content can be produced in-house, and has a higher life expectancy, as well as, being reusable.
-* Trust and credibility growth- As a result of the right content published, trust and credibility rises, gaining growth hacking levels, by presenting content sought after by customers. Wining their trust also opens the path for the content being shared, positioning it under viral potentiality.
-* Elevate traffic and leads- One of the consequences, arising from the first to points being executed correctly, is the traffic increase with higher levels of interaction. Which simultaneously brings leads predisposed to listen to your company’s solutions for their needs and problems.
-* Learn as you go- A huge bonus to this technique is the fact that it's a flexible and adjustable procedure, allowing to change directions or return to forgotten paths. Providing a space where learning as you go comes naturally into the equation.
-
-### Benefits of authority marketing
-
-As mentioned above, content marketing with an inbound approach, provides a spotlight scene resulting in sought after content. To achieve authoritativeness within the digital market, there are certain roads one has to drive through for the end-user and search engines to perceive content as authoritative.
-
-Once authoritativeness is granted, the benefits it brings are a result of following and listening to the customer’s journey:
-
-* Evergreen content- When this type of content is published, the potential of its life cycle is evergreen, because it relates to the present customer needs. It also has the reusable empowering possibility to update, add, or better old content to republish, a practice appreciated by search engines and users.
-* Cost-efficient- Having the evergreen label stamped on your digital marketing content, provides obvious cost reductions within the budget. Secondly, as there is an increase in the interaction, and the leads’ predisposition when accessing the content grows, it will also accentuate revenues.
-* Boosting customer trust- As a side result to listening and answering the problems, needs, questions, doubts, and/or thoughts of your customers, their trust bullets. Forming a community where numbers aren’t as important as the interest predisposition of the audience.
-
-### Advantages of link-building marketing
-
-Link-building marketing is the internet interaction of the company’s webpages, a technique compiling a number of platforms, and content presentations. A process evolving through referrals, internal-links, guest blogging, or social media sharing, which provides authority and indexing relevance.
-
-Up to standards, which is one of the hardest steps to master, link-building presents the following benefits to the content marketing strategy:
-
-* Online and offline authority- Producing interesting and sought after content empowers it to create a buzz inside the digital sphere, and offline by word-of-mouth. Such advantages translate into better indexing, and ranking of your website pages in the search engines.
-* Cost-efficient- A recurrent benefit, is the downfall of expense with the lowering budget upturn, and without loosing traction or lead reduction. A pattern that is achieved, as stated earlier, with sought after content, at spotlight levels and viral potentiality.
-* Growth hacking presence- Forming webpages linkage networks, sets your business in the centre with inbound content that will be interacted with. Making your digital presence reach growth hacking levels, meaning high exposure and ROI (return of investment).
-
-### Unikorn Content Marketing
-
-Our process plan always keep a holistic view, being no different for content marketing, this is why before starting to produce content, knowing the why, what and how of your enterprise’s service and/or product, is a vital part of the equation.
-
-To do this we begin by overviewing the current situation, purpose and goals. Focusing on what the business wants to achieve through digital marketing and why. Once this first step is finalised mapping the target groups, the customer journey, conforming a strategy and a content plan, follow to construct solid and reachable goals.
-
-The content production is created together with you and/or our professional creators, encompassing:
-
-* Texts- White paper, blog posts, informative, guest blog, article, etc.
-* Video- Series, spot, storytelling, educational, informative, guest vlog, etc.
-* Podcast- Series, interview, informative, guest podcast, etc.
-
-Or something completely different suiting your business and target group, is always a possibility on our brainstorming table. Our outlook on these options is to combine several formats to gain the most traction out of the content, enhancing it by adapting the content for different channels: web, social media and marketing automation.
-
-Once the content is produced, and ready to serve, we form a sharing plan to launch on the Internet, based on selected channels and target groups. To hold the reins fast we develop dashboards, follow-ups, analysis, and optimising throughout, in this way you see the results from your investment.
-
-In this sense Unikorn Content Marketing, to achieve set-goals, and attract high-performance leads to achieve authority, cost efficiency, and evergreen content, among other benefits, includes:
-
-* Current situation analysis.
-* Target group analysis.
-* Customer journey.
-* Content plan.
-* Text, image and video production.
-* SEO and Search customer journey.
-* Social media outreach.
-
-### Unikorn content is not just text
-
-We already indicated that content isn’t just the written text format, thus when you talk about content, it is also the text on links, videos, images, design, subtitles, social media posts...you name it! Practically all the data in your website can be used as content.
-
-A huge array of possibilities, that we, at Unikorn, in addition to producing content for web and social media, also create entire communication concepts that interest and give your target group that extra touch. Comparable to TV program production or newspaper rollout.
-
-To help us achieve growth hacking and being your performance-partner, we agglutinate, to hire on demand, professionals and incredibly talented:
-
-* Creators.
-* Screenwriters.
-* Filmmakers.
-* Writers.
-* Journalists.
-
-Implementing this formula to our content marketing strategy we achieve a scalable and dynamic professional team. Ready to produce an ample array of content focused on spotlight and virality to engage and perform at its highest potential.
-
-**Want to know more about how your company can work with Content Marketing? [Contact us and we will tell you more.](/sv/kontakt/)**
+** [Låt din SEO flyga!](/sv/kontakt/)**
