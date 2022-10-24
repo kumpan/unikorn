@@ -5,7 +5,7 @@ description: Unikorn sätter alltid dina användare i första rum. Vi har kunska
   och erfarenheten för att hantera alla aspekter av din sökmotoroptimering!
 canonical: https://www.unikorn.se/sv/seo/
 language: sv
-original: /seo/
+original: https://www.unikorn.se/seo/
 path: /sv/seo/
 og_image:
   src: ../assets/og.png
