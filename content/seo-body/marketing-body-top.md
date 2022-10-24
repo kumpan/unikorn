@@ -1,5 +1,5 @@
 ---
-shorttitle: SEO Body Top
+shorttitle: SEO Body Top EN
 title: Unikorn SEO
 order: 1
 language: en
