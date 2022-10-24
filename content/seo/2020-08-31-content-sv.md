@@ -32,10 +32,10 @@ hero:
 latest_posts_text: Läs mer om Content Marketing
 posts_category: Unikorn Marketing
 SEOform:
-  form_name: .
-  form_title: .
-  form_text: .
-  form_button: .
+  form_name: .nan
+  form_title: .nan
+  form_text: .nan
+  form_button: .nan
 ---
 ## Att sätta användaren först
 
@@ -50,8 +50,6 @@ Vi ser alltid till att analysera innehåll holistiskt. För oss betyder det att 
 * Innehållsskapande – Att hitta balansen mellan att flirta med Google och att få användare att vilja fortsätta läsa.
 * Content Gap Analysis – Identifiera fallgroparna i din kundresa och upptäck oanvända sökord.
 * Sökordsanalys – SEO:s förstfödde. Analysera vad användare söker efter och väv in relevanta sökord i din strategi.
-
-
 
 På Unikorn har vi en mängd olika professionella bakgrunder samt en bred kunskapsbas. Det tillåter oss att närma oss varje uppdrag holistiskt. Våra strategier är alltid en del av en helhet som sätter användaren i fokus samtidigt som de ser till att din rankning når sin fulla potential. Kort sagt så skapar vår SEO den bästa upplevelsen för både användaren, sökmotorn och dig.
 
