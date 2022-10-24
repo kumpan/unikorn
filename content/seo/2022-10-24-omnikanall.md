@@ -5,7 +5,7 @@ SEOform:
   form_text: .nan
   form_button: .nan
 src: ../assets/plus.svg
-shorttitle: Omnikanall
+shorttitle: Omnikanal
 path: /sv/seo/omnikanal/
 title: Omnikanal
 description: Holistisk SEO som utnyttjar alla kanaler
