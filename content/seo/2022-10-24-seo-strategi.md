@@ -7,7 +7,7 @@ title: SEO Strategi
 description: Skapa en seo-strategi skräddarsydd för dina behov.
 canonical: https://www.unikorn.se/sv/seo/strategi/
 language: sv
-original: https://www.unikorn.se/seo/strategi/
+original: https://www.unikorn.se/seo/strategy/
 menu_position: 6
 og_image:
   src: ../assets/og.png
