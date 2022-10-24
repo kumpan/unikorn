@@ -5,20 +5,20 @@ description: We help companies with Web Projects, Digital Marketing, Strategies
   and Advanced SEO. Ask us how we can help you gain more relevant and converting
   traffic!
 canonical: https://www.unikorn.se/
-path: /
 language: en
-original: null
+original: https://www.unikorn.se/
+path: /
 og_image:
   src: ../assets/og.png
   alt: unikorn
 hero:
   heading: Rocket your digital presence.
-  text: "We’re your best friend when it comes to helping you find the path to a
-    successful digital strategy. We have the know-how and experience to handle
-    every aspect of your Digital Marketing, and thus, will be by your side
-    throughout the entire process. From the initial stages to follow-ups,
-    revisions, and course direction, a solid constant SEO, web project and
-    digital strategies' performance-partner. "
+  text: "We’re your best friend when it comes to finding the path to successful
+    digital strategies. We have the knowledge, experience and grit to handle
+    every aspect of your Digital Marketing, and will be by your side throughout
+    the entire process. From the initial stages to implementation, revisions and
+    beyond, we are your own magical Unikorn for solid SEO, web projects and
+    digital marketing. "
   featured_image:
     src: ../assets/digital-growth-unikorn.svg
     alt: Digital Growth
@@ -87,111 +87,63 @@ faq_section:
   pre_heading: Frequently asked questions (FAQ)
   heading: Answering your questions
   faqs:
-    - question: What is SEO
+    - question: What is SEO?
       answer: >-
-        SEO stands for Search Engine Optimisation, and is a collection of
-        disciplines to make your content rank for relevant search queries on
-        search engines. SEO is important for many websites, to make sure the
-        users are able to find and interact with the desired content when they
-        search for it.
+        SEO - Search Engine Optimisation - is several strategies and
+        optimisations that help your website rank higher in search engines like
+        Google. This in turn can have a dramatic effect on organic traffic. In
+        short, it is a cost-effective complement to more traditional forms of
+        marketing.
 
 
-        We must remember that the Internet is a vast space offering huge opportunities, and also immense downfall because no matter how good is the product and/or service if it’s not visible there’s nothing to do. SEO plays a vital part in this visibility because one of its prime objectives is the content presentation focused on users and search bots (crawlers, spiders).
+        W﻿ith an increasing percentage of user journeys beginning with a query in a search engine, it is becoming integral for websites and companies to be visible on the results pages. 
 
 
-        Some SEO disciplines we use, to achieve a perfect balance between the necessities of the users and those of the search engine crawlers include:
-
-
-        * Technical optimisation
-
-        * Content Creation
-
-        * Links and authority building
-
-        * User engagement optimisation
-
-        * App Store Optimisation (ASO)
-
-        * YouTube Optimisation
-
-        * ...and more
-
-
-        To be able to foster and nurture these techniques, patience is crucial, and craftsmanship vital, these reasons make it clear SEO is a fundamental pillar in the digital marketing space. Thus, a solid team of specialised professionals is required to reach the set-targets and we at Unikorn have the knowledge, know-how, and the wo-manpower to reach your businesses online needs through our curated SEO.
-
-
-        Interesting facts that may shine a better light on SEO are the top-5 search engines worldwide, at number #1 Google, #2 Bing, #3 Baidu, #4 Yahoo, and #5 Yandex. Google alone holds the crown encompassing market share at over 90%, and Bing, in second places has a 2%-12% market share. Inside this top-5 the amount of users who surf the search engines rises to over 4,000,000,000 which is nearly 60% of the World’s population.
-
-
-        We hope these fun-facts have shed a light on the empowering force SEO is for your Digital Marketing, and through many of its streams. One that shines brightest is the humongous amount of users searching the web on informational, commercial, and transactional search basis. Other aspects shining are the exponential market share the #1 search engine has. Data that forms the picture of the paths a business needs to walk, for its digital presence to standout from the crowd.
-
-
-        [Read more about SEO >>](https://www.unikorn.se/seo/seo/)
-    - question: What is Unikorn Marketing
+        [Read more about SEO >>](https://www.unikorn.se/seo/)
+    - question: Can SEO help us reach our business goals?
       answer: >-
-        Unikorn Marketing is an aggressive marketing and user-focused way of
-        working we have developed at Unikorn. Aggressive in the sense of
-        hands-on to help companies kick off their marketing efforts, or
-        go-to-market phase with bullet traction.
+        **Yes.** 
 
 
-        A mastery formed by a well integrated team of professionals who understand that, regardless of what channel or marketing technique is on the table, the user is always in its centre. She is the deciding factor determining the next flow or actionability, the enterprise, start-up, multinational or small business need to follow through. Unikorn Marketing focus, is used by our experts, to deliver results to the aimed targets, structured previously within the strategy creation, on:
+        SEO is the organic road to marketing, meaning it helps your customer find you. In this way, you don't have to rely on on large billboards or clever ads in social media feeds. I﻿t's not unusual for good SEO to drive around 60% of a website's traffic. In other words, it is one of the biggest digital marketing channels today. 
 
 
-        * SoMe
-
-        * SEO
-
-        * SEM
-
-        * Display
-
-        * ...and more
 
 
-        Focusing our hands-on marketing approach, within the named tools above, we coordinate a mean machine of specialists. Who in turn digest the targets to aggressively act upon and start creating conversion through brand reputation, indexing, targeted-ads, and page authority. In other words:
-
-
-        * Brand reputation = Social media (SoMe).
-
-        * Indexing = Search engine optimisation (SEO).
-
-        * Targeted-ads = SEM (Search Engine Marketing).
-
-        * Authority = Linking-building.
-
-
-        The Unikorn Marketing team step-it-up upgrading the whole process, actioning on your digital presence, UX (user-experience), search optimisation, and a number of other advantages that we’d be delighted to discuss with you. If you still see the need or have curiosity to learn more about Unikorn Marketing, feel free to access the following link.
-
-
-        [Read more about Unikorn Marketing >>](https://www.unikorn.se/seo/)
-    - question: What is a Search Customer Journey?
+        [Want to know more about SEO and how we can help you? →](https://www.unikorn.se/seo/)
+    - question: How does SEO work together with other types of digital marketing?
       answer: >-
-        A search customer journey is a model we use at Unikorn, developed by
-        Ulrika Viberg.
+        We should always look at marketing holistically, and how our channels
+        can complement each other. Your digital channels can serve the double
+        purpose of activating your website’s content and increasing your link
+        building, two crucial things for ranking high in Google.
 
 
-        The model is based on a traditional customer journey, with the phases awareness, interest, consideration, evaluation and conversion. As these phases translate to the search intents of informational, transactional and commercial searches, they can be added as a layer on the customer journey.
+        Moreover, user behaviour and user journeys are becoming increasingly complex. They move between channels in unpredictable ways, both digital and analogue. Therefore it is important to have digital strategies that cater to these movements and that create seamless experiences.
 
 
-        In this sense, as we often do customer journeys as a start-off in our web projects, it seemed logical to add a layer of search on top of it. Resulting in:
+        With good SEO you will be ready for search queries at every step of the user journey, no matter which channel your users came from, leading to higher conversion rates and more loyal users.
 
 
-        * Inspirational content for the awareness phase.
-
-        * Situational and informational content inside the interest stage + Informational search.
-
-        * Consideration phase offers USP (Unique selling proposition) and value proposition content + Informational and commercial search.
-
-        * Evaluation phase translating into reviews and cases production + Informational and transactional search.
-
-        * Purchase stage produces CRO (Conversion rate optimisation) and secure purchasing content + Transactional search.
+        [W﻿ant to know more about combining SEO with your other digital channels? →](https://www.unikorn.se/seo/omni-channel/)
+    - question: How quickly can you see results from SEO work?
+      answer: >-
+        SEO is like planting a seed. If you care for it properly in the
+        beginning it will start growing pretty quickly. And if you keep caring
+        for it, there is no limit to how much it can grow.
 
 
-        Servicing a search customer journey as ours, the exactitude, relates to minimal changes in e.g. keywords’ slight differences “wine with food” and “wine and food”, as Ulrika explains in the following in-depth article about Unikorn’s customer journey.
+        But leaving the analogies aside, first results are usually noticeable around two weeks after you begin implementing an SEO strategy.
+    - question: Can’t we just buy links?
+      answer: >-
+        Google’s algorithms are more adept at identifying and punishing bought
+        links and link spamming these days. Backlinks should be relevant to your
+        content and not bought from the source. If Google does not see why the
+        link from another webpage makes sense for your content, you will not get
+        any advantage in the Google Search.
 
 
-        [Read the article about The Customer Journey >>](https://www.unikorn.se/blog/search-customer-journey/)
+        [R﻿ead more about link building →](https://www.unikorn.se/seo/off-page/)
   featured_image:
     src: ../assets/answers.png
     alt: Unikorn FAQ
