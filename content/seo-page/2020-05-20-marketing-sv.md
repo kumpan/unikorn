@@ -1,5 +1,5 @@
 ---
-shorttitle: SEO SV
+shorttitle: SEO
 title: Unikorn SEO
 description: Unikorn sätter alltid dina användare i första rum. Vi har kunskapen
   och erfarenheten för att hantera alla aspekter av din sökmotoroptimering!
@@ -20,4 +20,4 @@ hero:
   button: Ja, jag vill bli magisk
   buttonlink: /sv/kontakt/
 ---
-## .
+.
