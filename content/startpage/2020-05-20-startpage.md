@@ -6,7 +6,7 @@ description: We help companies with Web Projects, Digital Marketing, Strategies
   traffic!
 canonical: https://www.unikorn.se/
 language: en
-original: https://www.unikorn.se/
+original: /
 path: /
 og_image:
   src: ../assets/og.png
