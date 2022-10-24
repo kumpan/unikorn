@@ -5,56 +5,57 @@ SEOform:
   form_text: .nan
   form_button: .nan
 src: ../assets/plus.svg
-shorttitle: Teknisk SEO
-path: /sv/seo/teknisk-seo/
-title: Teknisk SEO
-description: Se till att Google kan crawla och indexera din webbplats.
-canonical: https://www.unikorn.se/sv/seo/teknisk-seo/
+shorttitle: Website Migration
+path: /sv/seo/web-migration/
+title: Website Migration
+description: Website migration som leder till bra SEO.
+canonical: https://www.unikorn.se/sv/seo/website-migration/
 language: sv
-menu_position: 1
+menu_position: 8
 og_image:
   src: ../assets/og.png
   alt: "SEO services "
 posts_category: Unikorn Marketing
 latest-posts-text: Read the latest posts about web analysis
-shortdesc: Är du inte försiktig så kanske inte Google hittar din sida. Bygg en
-  stadig bas som du kan avfyra din ranknings-raket från.
-original: https://www.unikorn.se/seo/teknisk-seo/
+shortdesc: Från att byta domän till att renovera strukturen; vi ser till att det
+  är en dans på rosor.
+original: https://www.unikorn.se/seo/website-migration/
 icon:
   src: ../assets/seo.svg
-  alt: SEO teknisk sökmotoroptimering
+  alt: SEO website migration
 hero:
-  heading: Teknisk SEO
+  heading: Website Migration
   text: We’re your best friend when it comes to helping you find the best path to
     a successful digital strategy. We know how to handle every aspect of your
     Digital Marketing.
   featured_image:
     src: ../assets/undraw_web_search_eetr-1-.svg
     alt: SEO services
-  button: Påbörja din resa!
+  button: Sätt igång att packa!
   buttonlink: /sv/kontakt/
-  preamble: Teknisk SEO är de osynliga strategierna och optimeringarna som under
-    huven säkerställer att sökmotorer kan crawla och indexera din webbplats.
-    Ifall Google inte kan indexera dina sidor så kommer de inte att ranka. Från
-    små ändringar i koden till själva strukturen på webbplatsen så kan vi hjälpa
-    dig att både fånga och hålla Googles uppmärksamhet. Inom kort så kommer allt
-    ditt innehåll nå sin fulla potential.
+  preamble: "Vi är alla bekanta med hur besvärligt det kan vara att flytta, och
+    att flytta en webbplats är inget undantag. Det kan vara ett tidskrävande,
+    stressigt och kaotiskt åtagande som är proppfullt med fallgropar och risken
+    att ha sönder saker. Som tur är har vi hjälpt många stora och små företag
+    att migrera sina webbplatser, och vi lyfter alltid med våra ben. Våra
+    luttrade strategier är alltid skräddarsydda till dina behov och vi ser
+    självklart till att ingenting kommer bort längs vägen. "
 latest_posts_text: Läs de senaste inläggen om SEO
 ---
-## Glöm inte landningsbanan
+## Din nya favorit när det kommer till flyttföretag
 
-Samtal kring sökmotoroptimering handlar ofta om hur man kan de högsta positionerna på rankningssidan. Och även om konversationer kring koordinater är viktiga så måste din rankningsraket faktiskt lyfta till att börja med.
+Att migrera en webbplats syftar till förändringar som är så pass stora att de kan ha en påtaglig inverkan på dess synlighet i sökmotorer. Det kan röra sig om en ändring av domän eller plattform, en upprustning av webbplatsens innehåll, eller att skaka om strukturen, designen eller användarupplevelsen. Dessa områden är alltid av intresse när man skapar en SEO-strategi.
 
-Även om ditt innehåll och din Off-page SEO är bäst i världen så kan en dåligt strukturerad webbplats hindra dig från att ens bli hittad och upplockad av Google. Teknisk SEO ser till att din webbplats möter sökmotorernas standard. Det täcker allt från säkerhet och hastigheter till sidstruktur och optimering för telefoner och surfplattor.
+Av den anledningen är det alltid viktigt att ha SEO-experter med i rummet när man planerar migrationsprojekt, helst SEO-experter med erfarenhet av just migrationer. Vi kommer vara vid din sida ända från planering till implementation och vidare. Vi kommer hålla i ratten precis så mycket som du behöver. Det finns många fallgropar inom webbplatsmigrationer, men våra Unikorns kan se dem från flera mils avstånd.
 
-Det finns hundratals olika överlappande faktorer som kommer i spel när man gör teknisk SEO. Tre bra startpunkter för resan är indexering, tillgänglighet och rendering.
+Några punkter vi kan hjälpa dig med är:
 
-* Indexering – Se till eller förhindra att dina sidor läggs in i sökmotorernas index.
-* Tillgänglighet – Fixa eventuella flaskhalsar och återvändsgränder i sökbottarnas crawl-process.
-* Rendering – Skapa de bästa förhållandena för att sökbottar ska förstå din webbplats.
+* Projektledning
+* Teknisk granskning av den nya webbplatsen
+* En komparativ granskning av den gamla och nya webbplatsen
+* Kartläggningar av URL-migrationer
+* Installation och testning av nya analysverktyg
 
+Förändring kan alltid vara lite oroväckande, men med oss vid din sida så är det också alltid någonting bra. Vi går i förväg och håller utkik efter gömda monster medan vi leder vägen, så att du kan komma ut på andra sidan med en högre rank än någonsin.
 
-
-Vi hittar och tämjer även de mest svårfångade enhörningarna när det kommer till teknisk SEO. Det finns inga variabler som undkommer varken våra blickar eller analyser. Vi hjälper dig skapa den starkaste grunden som du sedan kan bygga din SEO-strategi utifrån.
-
-[Dags för avfärd](https://www.unikorn.se/sv/kontakt/)
+[Jag är redo för flytten!](https://www.unikorn.se/sv/kontakt/)
