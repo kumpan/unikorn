@@ -1,5 +1,5 @@
 ---
-shorttitle: SEO EN
+shorttitle: SEO
 title: Unikorn SEO
 description: Our secret sauce to solid SEO is a user-friendly focus tailored to
   your specific needs. We are proven magicians at SEO and will be your best
@@ -20,4 +20,4 @@ hero:
   button: "Yes, I want that magic "
   buttonlink: /contact/
 ---
-## .
+.
