@@ -1,0 +1,64 @@
+---
+SEOform:
+  form_name: .nan
+  form_title: .nan
+  form_text: .nan
+  form_button: .nan
+src: ../assets/plus.svg
+shorttitle: Teknisk SEO
+path: /sv/seo/teknisk-seo/
+title: Teknisk SEO
+description: Se till att Google kan crawla och indexera din webbplats.
+canonical: https://www.unikorn.se/sv/seo/teknisk-seo/
+language: sv
+menu_position: 1
+og_image:
+  src: ../assets/og.png
+  alt: "SEO services "
+posts_category: Unikorn Marketing
+latest-posts-text: Read the latest posts about web analysis
+shortdesc: Är du inte försiktig så kanske inte Google hittar din sida. Bygg en
+  stadig bas som du kan avfyra din ranknings-raket från.
+original: https://www.unikorn.se/seo/teknisk-seo/
+icon:
+  src: ../assets/seo.svg
+  alt: SEO teknisk sökmotoroptimering
+hero:
+  heading: Teknisk SEO
+  text: We’re your best friend when it comes to helping you find the best path to
+    a successful digital strategy. We know how to handle every aspect of your
+    Digital Marketing.
+  featured_image:
+    src: ../assets/undraw_web_search_eetr-1-.svg
+    alt: SEO services
+  button: Påbörja din resa!
+  buttonlink: /sv/kontakt/
+  preamble: Teknisk SEO är de osynliga strategierna och optimeringarna som under
+    huven säkerställer att sökmotorer kan crawla och indexera din webbplats.
+    Ifall Google inte kan indexera dina sidor så kommer de inte att ranka. Från
+    små ändringar i koden till själva strukturen på webbplatsen så kan vi hjälpa
+    dig att både fånga och hålla Googles uppmärksamhet. Inom kort så kommer allt
+    ditt innehåll nå sin fulla potential.
+latest_posts_text: Läs de senaste inläggen om SEO
+---
+## Glöm inte landningsbanan
+
+
+
+Samtal kring sökmotoroptimering handlar ofta om hur man kan de högsta positionerna på rankningssidan. Och även om konversationer kring koordinater är viktiga så måste din rankningsraket faktiskt lyfta till att börja med.
+
+Även om ditt innehåll och din Off-page SEO är bäst i världen så kan en dåligt strukturerad webbplats hindra dig från att ens bli hittad och upplockad av Google. Teknisk SEO ser till att din webbplats möter sökmotorernas standard. Det täcker allt från säkerhet och hastigheter till sidstruktur och optimering för telefoner och surfplattor.
+
+Det finns hundratals olika överlappande faktorer som kommer i spel när man gör teknisk SEO. Tre bra startpunkter för resan är indexering, tillgänglighet och rendering.
+
+
+
+* Indexering – Se till eller förhindra att dina sidor läggs in i sökmotorernas index.
+* Tillgänglighet – Fixa eventuella flaskhalsar och återvändsgränder i sökbottarnas crawl-process.
+* Rendering – Skapa de bästa förhållandena för att sökbottar ska förstå din webbplats.
+
+
+
+Vi hittar och tämjer även de mest svårfångade enhörningarna när det kommer till teknisk SEO. Det finns inga variabler som undkommer varken våra blickar eller analyser. Vi hjälper dig skapa den starkaste grunden som du sedan kan bygga din SEO-strategi utifrån.
+
+[Dags för avfärd](https://www.unikorn.se/sv/kontakt/)
