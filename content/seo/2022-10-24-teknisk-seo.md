@@ -43,15 +43,11 @@ latest_posts_text: Läs de senaste inläggen om SEO
 ---
 ## Glöm inte landningsbanan
 
-
-
 Samtal kring sökmotoroptimering handlar ofta om hur man kan de högsta positionerna på rankningssidan. Och även om konversationer kring koordinater är viktiga så måste din rankningsraket faktiskt lyfta till att börja med.
 
 Även om ditt innehåll och din Off-page SEO är bäst i världen så kan en dåligt strukturerad webbplats hindra dig från att ens bli hittad och upplockad av Google. Teknisk SEO ser till att din webbplats möter sökmotorernas standard. Det täcker allt från säkerhet och hastigheter till sidstruktur och optimering för telefoner och surfplattor.
 
 Det finns hundratals olika överlappande faktorer som kommer i spel när man gör teknisk SEO. Tre bra startpunkter för resan är indexering, tillgänglighet och rendering.
-
-
 
 * Indexering – Se till eller förhindra att dina sidor läggs in i sökmotorernas index.
 * Tillgänglighet – Fixa eventuella flaskhalsar och återvändsgränder i sökbottarnas crawl-process.
