@@ -32,10 +32,10 @@ hero:
 latest_posts_text: Läs mer om Content Marketing
 posts_category: Unikorn Marketing
 SEOform:
-  form_name: " "
-  form_title: " "
-  form_text: " "
-  form_button: " "
+  form_name: .
+  form_title: .
+  form_text: .
+  form_button: .
 ---
 ## Att sätta användaren först
 
