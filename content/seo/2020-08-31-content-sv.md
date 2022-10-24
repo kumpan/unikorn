@@ -39,13 +39,13 @@ SEOform:
 ---
 ## Att sätta användaren först
 
-
-
 Många glömmer tyvärr bort användaren när de håller på med SEO. De arbetar med inställningen att sökmotorerna är deras webbplats målgrupp. En sådan inställning leder ofta till sidor fyllda med irrelevant och repetitivt innehåll. Det kan vara lätt att tro att sådant innehåll kommer få en att ranka högre, eftersom det i teorin uppfyller Googles önskemål. Men även om du skulle ranka högst så är frågan vad det tjänar till ifall ingen vill stanna på din webbplats?
 
 SEO med användaren i fokus innebär att skapa relevant innehåll. Det ska engagera användaren och guida dem genom varje steg längs kundresan. Du måste förse dem med svaren de både behöver och vill ha. För att det ska hända så måste du se bortom individuella sidors innehåll.
 
 Vi ser alltid till att analysera innehåll holistiskt. För oss betyder det att bygga en strategi som skapar synergi mellan innehållet i alla dina digitala kanaler. Viss statistik visar på att upp till 60% av innehåll som skapas av marknadsavdelningar kan förbli oanvänt. För att förhindra något liknande måste du skapa strategier som faktiskt aktiverar ditt innehåll, så att det når ut till sin publik. Att göra det ökar chansen att användare fullföljer kundresan och förblir lojala, något som reflekterar positivt på både rankning och konvertering.
+
+
 
 * Innehållsskapande – Att hitta balansen mellan att flirta med Google och att få användare att vilja fortsätta läsa.
 * Content Gap Analysis – Identifiera fallgroparna i din kundresa och upptäck oanvända sökord.
