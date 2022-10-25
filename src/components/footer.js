@@ -5,7 +5,7 @@ import recommended from "remark-preset-lint-recommended"
 import remarkHtml from "remark-html"
 
 import ToggleItem from "../components/toggle.js"
-import ContactInfo from "../components/contact/contactinfo-sv.js"
+import ContactInfo from "../components/contact/contactinfo.js"
 
 import ChevronDownIcon from "../../content/assets/icons/chevron-down.svg"
 
