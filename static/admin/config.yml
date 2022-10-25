@@ -19,7 +19,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - { label: Path, name: path }
       - name: og_image
         label: OG Image
@@ -125,7 +125,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - { label: Path, name: path }
       - name: og_image
         label: OG Image
@@ -172,7 +172,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
@@ -227,7 +227,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - { label: Path, name: path }
       - name: og_image
         label: OG Image
@@ -274,7 +274,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - { name: menu_position, label: Menu position, widget: number }
       - name: og_image
         label: OG Image
@@ -329,7 +329,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - { label: Path, name: path }
       - name: og_image
         label: OG Image
@@ -432,7 +432,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - { label: Path, name: path }
       - name: og_image
         label: OG Image
@@ -471,7 +471,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - name: og_image
         label: OG Image
         widget: object
@@ -506,7 +506,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - name: og_image
         label: OG Image
         widget: object
@@ -542,7 +542,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - { label: Path, name: path }
       - name: og_image
         label: OG Image
@@ -581,7 +581,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - name: og_image
         label: OG Image
         widget: object
@@ -651,7 +651,7 @@ collections:
       - { name: description, label: Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - { label: Path, name: path }
       - name: og_image
         label: OG Image
@@ -751,7 +751,7 @@ collections:
       - { name: title, label: SEO Title }
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - name: og_image
         label: OG Image
         widget: object
@@ -813,7 +813,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - { label: Path, name: path }
       - name: og_image
         label: OG Image
@@ -851,7 +851,7 @@ collections:
       - { name: description, label: SEO Description }
       - { name: canonical, label: Canonical URL }
       - { name: language, label: Language }
-      - { name: original, label: Original Url }
+      - { name: original, label: Original Url, required: false }
       - { label: Path, name: path }
       - name: og_image
         label: OG Image
