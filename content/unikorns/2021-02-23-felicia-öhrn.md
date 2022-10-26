@@ -1,12 +1,12 @@
 ---
 shorttitle: Felicia Öhrn
+path: /unikorns/felicia-ohrn/
 shortdesc: Felicia Öhrn - SEO Unikorn with a passion for creative ideations and solutions
 title: Felicia Öhrn, SEO Specialist
 description: Meet our SEO Specialist Felicia Öhrn. Felicia has specialised in
   content marketing and creative content ideation, to connect with the audience
   more efficiently.
 canonical: https://www.unikorn.se/unikorns/felicia-ohrn/
-path: /unikorns/felicia-ohrn/
 language: en
 original: null
 menu_position: 2
@@ -24,7 +24,7 @@ hero:
   heading: Felicia Öhrn
   preamble: >-
     Meet our organiser and second in command at Unikorn! Felicia Öhrn has a
-    sixth sens in all human behaviour, including search behaviour and life on
+    sixth sense in all human behaviour, including search behaviour and life on
     the Internet! Felicia's focus always lies on understanding the person behind
     the search.
 
