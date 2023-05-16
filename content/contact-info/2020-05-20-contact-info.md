@@ -7,8 +7,8 @@ col1:
   link: tel:+46761043302
 col2:
   title: Send us snail mail
-  text: Storsjövägen 38, 120 56 Årsta
-  link: https://goo.gl/maps/dLZ3G2Vehwkmqhk69
+  text: Brännkyrkagatan 99, 117 26 Stockholm
+  link: https://goo.gl/maps/PdV9qJqheSjQggWAA
 col3:
   title: Send a message
   text: hello@unikorn.se
