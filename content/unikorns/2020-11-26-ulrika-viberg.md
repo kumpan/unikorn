@@ -41,7 +41,7 @@ SEOform:
 
 ### Ulrika's Story
 
-Ulrika has worked in the search business since 2007, with both organic and paid search, in-house and as a consultant. Before starting her own agency, she worked with a few of the largest companies in the world, such as eBay, Rocket Internet, eDreams and Omnicom Media Group. Ulrika started Unikorn in 2016 in order to be a full-time consultant at eBay Classifieds Global Growth Team. In 2018, Ulrika decided to take on multiple clients and converted Unikorn to a consultancy.
+Ulrika has worked in the search business since 2007, with both organic and paid search, in-house and as a consultant. Before starting her own agency, she worked with a few of the largest companies in the world, such as eBay, Rocket Internet, eDreams and Omnicom Media Group. Ulrika started Unikorn in 2016 in order to be a full-time consultant at eBay Classifieds Global Growth Team. In 2018, Ulrika decided to take on multiple clients and converted Unikorn to an agency.
 
 ### Ulrika’s super powers
 
