@@ -1,9 +1,8 @@
 ---
 shorttitle: Ulrika Viberg, Unikorn
 path: /unikorns/ulrika-viberg/
-shortdesc: Agency Owner and Senior SEO Unikorn, with a passion for Technical SEO
-  and Digital Strategies
-title: Ulrika Viberg - Agency Owner and Senior SEO Unikorn
+shortdesc: Senior SEO and CEO, with a passion for Technical SEO and Digital Strategies
+title: Ulrika Viberg - Senior SEO and CEO
 description: Meet Ulrika Viberg, the Unikorn founder with a passion for
   Technical SEO and user focused websites!
 canonical: https://www.unikorn.se/unikorns/ulrika-viberg/
