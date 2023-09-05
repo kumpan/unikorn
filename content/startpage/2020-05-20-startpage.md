@@ -55,15 +55,15 @@ tabs_section:
       buttontext_mobile: Read more
       buttonlink: /web-analytics/
     - tab_title: Strategy
-      heading: Unikorn Strategy
+      heading: SEO and Digital Strategy
       text: How to walk the walk and talk the talk is all about knowing who you are
         and where you are heading. A concept translatable to the digital scene
-        and where a map to success is essential. We are talking about Digital
-        Strategies - A cacophony we transform into a harmonious selection of
-        channel strategies, web analysis, processes and ways of working
+        and where a map to success is essential. We are talking about SEO and
+        Digital Strategies - A cacophony we transform into a harmonious
+        selection of SEO strategies, web analysis, processes and ways of working
         expertise.
-      buttontext: Read more about SEO strategies
-      buttontext_mobile: SEO Strategies
+      buttontext: Let's set up your SEO strategy
+      buttontext_mobile: SEO Strategy
       buttonlink: /seo/strategy/
 blog_section:
   pre_heading: Blog
