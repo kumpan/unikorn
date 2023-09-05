@@ -12,7 +12,7 @@ og_image:
   src: ../assets/og.png
   alt: unikorn
 hero:
-  heading: Large e-com SEO consulting Unikorns.
+  heading: Large e-com SEO consulting Unikorns
   text: Unikorn grows e-com businesses through advanced SEO. By understanding
     customer needs, we drive relevant traffic, this boosts conversions, and
     maximises their ROI. Which means that they can confidently scale their
