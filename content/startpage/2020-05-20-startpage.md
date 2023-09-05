@@ -12,32 +12,28 @@ og_image:
   src: ../assets/og.png
   alt: unikorn
 hero:
-  heading: Rocket your digital presence.
-  text: "We’re your best friend when it comes to finding the path to successful
-    digital strategies. We have the knowledge, experience and grit to handle
-    every aspect of your Digital Marketing, and will be by your side throughout
-    the entire process. From the initial stages to implementation, revisions and
-    beyond, we are your own magical Unikorn for solid SEO, web projects and
-    digital marketing. "
+  heading: Large e-com SEO consulting Unikorns.
+  text: Unikorn grows e-com businesses through advanced SEO. By understanding
+    customer needs, we drive relevant traffic, this boosts conversions, and
+    maximises their ROI. Which means that they can confidently scale their
+    businesses.
   featured_image:
     src: ../assets/digital-growth-unikorn.svg
-    alt: Digital Growth
+    alt: SEO Unikorn
   button: Start growing now
   buttonlink: /contact/
 tabs_section:
   tabs_heading: We help our partners grow through well executed
   tab_fields:
     - tab_title: Search
-      heading: Unikorn Search
-      text: Organic and Paid Search is in our genes, with two decades handling the
-        market, it has brought to us the successful recipe to tame the search
-        landscape. At well-known brands and start-ups level, recognizing their
-        necessities and budgets, to accentuate results. We call it Unikorn
-        Search - SEO (Search Engine Optimisation) | SEM (Search Engine
-        Marketing) expertise.
+      heading: Unikorn SEO
+      text: Organic search is in our genes, with two decades handling the market, it
+        has brought to us the successful recipe to tame the search landscape. At
+        well-known brands and start-ups level, recognising their necessities and
+        budgets, to accentuate results. We call it Unikorn SEO.
       buttontext: Read more about SEO
-      buttontext_mobile: Unikorn Search
-      buttonlink: /seo/seo/
+      buttontext_mobile: Unikorn SEO
+      buttonlink: /seo/
     - tab_title: Marketing
       text: "Our Digital Marketing experience is massive forming our view of
         successful Digital Marketing, as aggressive, and not just for Start-ups,
@@ -66,9 +62,9 @@ tabs_section:
         Strategies - A cacophony we transform into a harmonious selection of
         channel strategies, web analysis, processes and ways of working
         expertise.
-      buttontext: Read more about digital strategies
-      buttontext_mobile: Digital Strategies
-      buttonlink: /digital-strategies/
+      buttontext: Read more about SEO strategies
+      buttontext_mobile: SEO Strategies
+      buttonlink: /seo/strategy/
 blog_section:
   pre_heading: Blog
   heading: Unikorn knowledge-base
