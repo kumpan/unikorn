@@ -1,8 +1,8 @@
 ---
 shorttitle: Startpage
-title: Your partner for SEO, Web Projects & Digital Strategies
-description: We help companies with Web Projects, Digital Marketing, Strategies
-  and Advanced SEO. Ask us how we can help you gain more relevant and converting
+title: SEO consulting, SEO advisory for Web Projects & Digital Strategies
+description: We help e-coms with Advanced SEO, Web Analysis, Web Projects and
+  Strategies Ask us how we can help you gain more relevant and converting
   traffic!
 canonical: https://www.unikorn.se/
 language: en
