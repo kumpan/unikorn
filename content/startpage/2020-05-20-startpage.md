@@ -83,63 +83,47 @@ faq_section:
   pre_heading: Frequently asked questions (FAQ)
   heading: Answering your questions
   faqs:
-    - question: What is SEO?
-      answer: >-
-        SEO - Search Engine Optimisation - is several strategies and
-        optimisations that help your website rank higher in search engines like
-        Google. This in turn can have a dramatic effect on organic traffic. In
-        short, it is a cost-effective complement to more traditional forms of
-        marketing.
-
-
-        W﻿ith an increasing percentage of user journeys beginning with a query in a search engine, it is becoming integral for websites and companies to be visible on the results pages. 
-
-
-        [Read more about SEO >>](https://www.unikorn.se/seo/)
-    - question: Can SEO help us reach our business goals?
-      answer: >-
-        **Yes.** 
-
-
-        SEO is the organic road to marketing, meaning it helps your customer find you. In this way, you don't have to rely on on large billboards or clever ads in social media feeds. I﻿t's not unusual for good SEO to drive around 60% of a website's traffic. In other words, it is one of the biggest digital marketing channels today. 
-
-
-
-
-        [Want to know more about SEO and how we can help you? →](https://www.unikorn.se/seo/)
-    - question: How does SEO work together with other types of digital marketing?
-      answer: >-
-        We should always look at marketing holistically, and how our channels
-        can complement each other. Your digital channels can serve the double
-        purpose of activating your website’s content and increasing your link
-        building, two crucial things for ranking high in Google.
-
-
-        Moreover, user behaviour and user journeys are becoming increasingly complex. They move between channels in unpredictable ways, both digital and analogue. Therefore it is important to have digital strategies that cater to these movements and that create seamless experiences.
-
-
-        With good SEO you will be ready for search queries at every step of the user journey, no matter which channel your users came from, leading to higher conversion rates and more loyal users.
-
-
-        [W﻿ant to know more about combining SEO with your other digital channels? →](https://www.unikorn.se/seo/omni-channel/)
-    - question: How quickly can you see results from SEO work?
-      answer: >-
-        SEO is like planting a seed. If you care for it properly in the
-        beginning it will start growing pretty quickly. And if you keep caring
-        for it, there is no limit to how much it can grow.
-
-
-        But leaving the analogies aside, first results are usually noticeable around two weeks after you begin implementing an SEO strategy.
-    - question: Can’t we just buy links?
-      answer: >-
-        Google’s algorithms are more adept at identifying and punishing bought
-        links and link spamming these days. Backlinks should be relevant to your
-        content and not bought from the source. If Google does not see why the
-        link from another webpage makes sense for your content, you will not get
-        any advantage in the Google Search.
-
-
-        [R﻿ead more about link building →](https://www.unikorn.se/seo/off-page/)
+    - question: What parts within SEO can you help my business with?
+      answer: Unikorn is all about SEO, we offer services in strategic SEO, technical
+        SEO, content analysis, content mapping and site migration.
+    - question: How do we know what services we need from you?
+      answer: To figure out the best set up for you, the best thing is to set up a
+        meeting with us so that you can explain where your company is at, what
+        your challenges are and what your goals are with SEO.
+    - question: Do you operate outside of Sweden as well?
+      answer: We work with national as well as international clients with both global
+        and local seo.
+    - question: Why should we buy SEO services from Unikorn?
+      answer: At Unikorn we work from the users perspective, our mission is to create
+        a holistic SEO approach that resonates with the audience and creates a
+        great user experience as well as great results with organic traffic.
+    - question: What’s the first thing Unikorn does when starting up a project?
+      answer: After having a meeting to determine what your business individual
+        challenges, expectations and timeline are, we make a roadmap and then
+        begin with our various seo audits that will be the foundation of the
+        strategy and SEO implementations ahead. In some cases we begin a project
+        with a workshop to align all stakeholders. This workshop we prefer to do
+        in person, but online works totally fine as well!
+    - question: Do you also do UX design?
+      answer: No, but we do work with site structures and deliver suggestions based on
+        data from our keyword research. A design of a website is not only about
+        the layout, it’s also important to be strategic with where you place
+        elements.The hierarki of a website is important for SEO and therefore we
+        cooperate with UX designers and Web Developers.
+    - question: What tools does Unikorn use?
+      answer: Depending on the project, we operate through different tools. Some of
+        our most used tools are Google Search Console, Screaming Frog, SEMrush
+        and GTMetrix.
+    - question: Can Unikorn help me to set up Google Search Console and Google My
+        Business for my website?
+      answer: Yes, we can assist you in setting up necessary tools for your business
+        during a project.
+    - question: What’s the benefits of a SEO strategy from Unikorn?
+      answer: With an SEO strategy from Unikorn you will get actionable insights and
+        plans on how you are going to move forward with your website and attract
+        the right type of traffic. All while being sure you are maintaining a
+        holistic and long-term strategy that will grow your business in a
+        wholesome manner.
   featured_image:
     src: ../assets/answers.png
     alt: Unikorn FAQ
