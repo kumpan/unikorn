@@ -1,12 +1,12 @@
 ---
 shorttitle: Unikorns
-title: Meet the Unikorn team and friends
-description: Get to know the unikorns and the unikorn network! We are the ones
-  making magic for our clients digital marketing.
+title: Meet the Unikorn team
+description: Get to know the unikorns! We are the ones making magic for our
+  clients digital marketing.
 canonical: https://www.unikorn.se/sv/unikorns/
-path: /sv/unikorns/
 language: sv
 original: /unikorns/
+path: /sv/unikorns/
 og_image:
   src: ../assets/og.png
   alt: We are Unikorns
