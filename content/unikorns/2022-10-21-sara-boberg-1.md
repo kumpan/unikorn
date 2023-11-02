@@ -34,7 +34,7 @@ SEOform:
   form_text: "Din mejl:"
   form_button: Skicka
 ---
-## S﻿EO specialist & webbanalytiker
+## S﻿EO konsult & webbanalytiker
 
 ![Sara Boberg Unikorn](../assets/new-unikorn.jpg)
 
