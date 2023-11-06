@@ -1,9 +1,8 @@
 ---
 shorttitle: SV Startpage
-title: Your partner for SEO, Web Projects & Digital Strategies
-description: We help companies with Web Projects, Digital Marketing, Strategies
-  and Advanced SEO. Ask us how we can help you gain more relevant and converting
-  traffic!
+title: Hollistisk SEO, datamagi och digitala strategier - Unikorn
+description: Unikorn är en internationell, digital byrå med fokus på hollistisk
+  SEO och webbrealterad datamagi.
 canonical: https://www.unikorn.se/sv/
 language: sv
 original: /
@@ -27,8 +26,8 @@ hero:
 tabs_section:
   tabs_heading: We help our partners grow through well executed
   tab_fields:
-    - tab_title: Search
-      heading: Unikorn Search
+    - tab_title: Sök
+      heading: Sök
       text: Organic and Paid Search is in our genes, with two decades handling the
         market, it has brought to us the successful recipe to tame the search
         landscape. At well-known brands and start-ups level, recognizing their
@@ -38,16 +37,16 @@ tabs_section:
       buttontext: Read more about SEO
       buttontext_mobile: Unikorn Search
       buttonlink: /sv/seo/seo/
-    - tab_title: Marketing
+    - tab_title: Marknadsföring
       text: "Our Digital Marketing experience is massive forming our view of
         successful Digital Marketing, as aggressive, and not just for Start-ups,
         but well established organisations too. We call it Unikorn Marketing -
         Kick-off start and go-to-market phase aggressive expertise for full
         traction throughout all cycle stages. "
-      heading: Unikorn Marketing
+      heading: Marknadsföring
       buttonlink: /sv/seo/
-      buttontext: Read more about Unikorn marketing
-      buttontext_mobile: Unikorn Marketing
+      buttontext: Läs mer om vår marknadsföring
+      buttontext_mobile: "Läs mer "
     - tab_title: Web
       heading: Unikorn Web
       text: "Web projects in the hundreds have formed a profound understanding, as a
