@@ -24,7 +24,7 @@ hero:
   button: Börja din resa här
   buttonlink: /sv/kontakt/
 tabs_section:
-  tabs_heading: We help our partners grow through well executed
+  tabs_heading: Vi hjälper våra partners växa genom
   tab_fields:
     - tab_title: Organiskt sök
       heading: Organiskt sök
@@ -47,7 +47,7 @@ tabs_section:
       buttonlink: /sv/seo/
       buttontext: Läs mer om marknadsföring
       buttontext_mobile: Läs mer om marknadsföring
-    - tab_title: Webbstrategi
+    - tab_title: Webbanalys
       heading: Unikorn Web
       text: "Web projects in the hundreds have formed a profound understanding, as a
         whole, of webs as platforms for small, medium, large and multinational
@@ -57,7 +57,7 @@ tabs_section:
       buttontext: Läs mer om webbstrategi
       buttontext_mobile: Läs mer om webbstrategi
       buttonlink: /sv/webbanalys/
-    - tab_title: Digital strategi
+    - tab_title: Strategi
       heading: Digital strategi
       text: How to walk the walk and talk the talk is all about knowing who you are
         and where you are heading. A concept translatable to the digital scene
