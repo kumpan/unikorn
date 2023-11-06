@@ -26,16 +26,16 @@ hero:
 tabs_section:
   tabs_heading: We help our partners grow through well executed
   tab_fields:
-    - tab_title: Sök
-      heading: Sök
+    - tab_title: Organiskt sök
+      heading: Organiskt sök
       text: Organic and Paid Search is in our genes, with two decades handling the
         market, it has brought to us the successful recipe to tame the search
         landscape. At well-known brands and start-ups level, recognizing their
         necessities and budgets, to accentuate results. We call it Unikorn
         Search - SEO (Search Engine Optimisation) | SEM (Search Engine
         Marketing) expertise.
-      buttontext: Read more about SEO
-      buttontext_mobile: Unikorn Search
+      buttontext: Läs mer om SEO
+      buttontext_mobile: Läs mer om SEO
       buttonlink: /sv/seo/seo/
     - tab_title: Marknadsföring
       text: "Our Digital Marketing experience is massive forming our view of
@@ -45,28 +45,28 @@ tabs_section:
         traction throughout all cycle stages. "
       heading: Marknadsföring
       buttonlink: /sv/seo/
-      buttontext: Läs mer om vår marknadsföring
-      buttontext_mobile: "Läs mer "
-    - tab_title: Web
+      buttontext: Läs mer om marknadsföring
+      buttontext_mobile: Läs mer om marknadsföring
+    - tab_title: Webbstrategi
       heading: Unikorn Web
       text: "Web projects in the hundreds have formed a profound understanding, as a
         whole, of webs as platforms for small, medium, large and multinational
         organisations. We call it Unikorn Web - A curated set of disciplines
         constructed under three pillars of expertise: Migration | Requirements |
         Project Management."
-      buttontext: Read more about Unikorn web
-      buttontext_mobile: Read more
+      buttontext: Läs mer om webbstrategi
+      buttontext_mobile: Läs mer om webbstrategi
       buttonlink: /sv/webbanalys/
-    - tab_title: Strategy
-      heading: Unikorn Strategy
+    - tab_title: Digital strategi
+      heading: Digital strategi
       text: How to walk the walk and talk the talk is all about knowing who you are
         and where you are heading. A concept translatable to the digital scene
         and where a map to success is essential. We are talking about Digital
         Strategies - A cacophony we transform into a harmonious selection of
         channel strategies, web analysis, processes and ways of working
         expertise.
-      buttontext: Read more about digital strategies
-      buttontext_mobile: Digital Strategies
+      buttontext: Läs mer om digital strategi
+      buttontext_mobile: Läs mer om digital strategi
       buttonlink: /sv/digitala-strategier/
 blog_section:
   pre_heading: Blog
