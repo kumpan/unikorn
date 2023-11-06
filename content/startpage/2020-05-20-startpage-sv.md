@@ -57,7 +57,7 @@ tabs_section:
       buttontext: Läs mer om webbstrategi
       buttontext_mobile: Läs mer om webbstrategi
       buttonlink: /sv/webbanalys/
-    - tab_title: Strategi
+    - tab_title: Digital strategi
       heading: Digital strategi
       text: How to walk the walk and talk the talk is all about knowing who you are
         and where you are heading. A concept translatable to the digital scene
