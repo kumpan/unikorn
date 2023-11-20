@@ -11,7 +11,9 @@ col1:
     * Social Media
     * PR
 
-    [C﻿ookie Settings](https://www.unikorn.se/)
+
+
+    C﻿ookie Settings
 col2:
   heading: Web
   text: |-
