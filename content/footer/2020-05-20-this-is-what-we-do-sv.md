@@ -9,9 +9,7 @@ col1:
     * Content Marketing
     * W﻿ebbanalys
 
-
-
-    C﻿ookie Settings
+    [C﻿ookie Settings](https://www.unikorn.se/sv/)
 col2:
   heading: Webb
   text: |-
