@@ -10,6 +10,8 @@ col1:
     * SEM
     * Social Media
     * PR
+
+    C﻿ookie Settings
 col2:
   heading: Web
   text: |-
