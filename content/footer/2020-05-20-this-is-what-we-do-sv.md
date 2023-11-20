@@ -8,6 +8,8 @@ col1:
     * SEO
     * Content Marketing
     * W﻿ebbanalys
+
+    C﻿ookie settings
 col2:
   heading: Webb
   text: |-
