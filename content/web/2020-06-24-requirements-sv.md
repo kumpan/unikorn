@@ -1,14 +1,14 @@
 ---
 shorttitle: Website Requirements
+path: /sv/webbanalys/website-requirements/
 shortdesc: We help you writing up proper requirements for your developers, so
   that they know what you want and how they can do their absolute best work.
   Because you want not only the latest technology, but also the fastest and with
   all the extra SEO trimmings.
-title: Website Requirement Services
+title: Effektiv kravställning för webbutveckling
 description: Unikorn helps you with writing the best possible website
   requirements for your new shiny web. Let us help you shine!
 canonical: https://www.unikorn.se/sv/webbanalys/website-requirements/
-path: /sv/webbanalys/website-requirements/
 language: sv
 original: /web-analytics/website-requirements/
 menu_position: 3
@@ -19,7 +19,7 @@ icon:
   src: ../assets/requirement.svg
   alt: Website Requirements
 hero:
-  heading: Website Requirements
+  heading: Effektiv kravställning för webbutveckling
   preamble: To build the best website you need the best ingredients! Such as
     sparkles and magic code. Because your website should be perfect.
   buttonlink: /sv/kontakt/
@@ -29,11 +29,11 @@ hero:
     alt: Web requirements
 latest_posts_text: Articles about Web
 posts_category: Web Magic
-SEOform: 
-  form_name:
-  form_title: 
-  form_text: 
-  form_button: 
+SEOform:
+  ? form_name
+  ? form_title
+  ? form_text
+  ? form_button
 ---
 ## Magic in - magic out is our motto.
 
