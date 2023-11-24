@@ -1,6 +1,6 @@
 ---
 shorttitle: Startpage
-title: SEO consulting, SEO advisory for Web Projects & Digital Strategies
+title: Holistic SEO, Data Magic and Digital Strategies
 description: We help e-coms with Advanced SEO, Web Analysis, Web Projects and
   Strategies Ask us how we can help you gain more relevant and converting
   traffic!
