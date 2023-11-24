@@ -1,14 +1,15 @@
 ---
 shorttitle: Website Migration
+path: /sv/webbanalys/website-migration/
 shortdesc: Unikorn offers advanced website migration services for both large and
   small migration projects. We help you with everything from planing the whole
   project to mapping up the redirects to monitoring the results before and after
   the move.
-title: Website Migration Services
-description: "Unikorn has helped many site owners migrate their websites to new
-  platforms, domains and entirely new webs. Let us help you as well! "
+title: Migrering av hemsidor med SEO och användaren i fokus
+description: Unikorn har hjälpt många sajtägare att migrera sina hemsidor till
+  nya plattformar, domäner, och även helt nya webbstrukturer. Låt oss hjälpa dig
+  också!
 canonical: https://www.unikorn.se/sv/webbanalys/website-migration/
-path: /sv/webbanalys/website-migration/
 language: sv
 original: /web-analytics/website-migration/
 menu_position: 1
