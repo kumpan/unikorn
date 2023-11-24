@@ -1,13 +1,13 @@
 ---
 shorttitle: Data Magic
-title: Web projects, migrations and requirements
+title: Webbprojekt, Migreringar & Kravställning för utveckling
 description: Unikorn Web is us helping you planning and setting up requirements
   for that new amazing web. Then we help migrate the old one. This is how we do
   it!
 canonical: https://www.unikorn.se/sv/webbanalys/
-path: /sv/webbanalys/
 language: sv
 original: /web-analytics/
+path: /sv/webbanalys/
 og_image:
   src: ../assets/og.png
   alt: Web projects
@@ -20,3 +20,4 @@ hero:
   button: Help us improve our web!
   buttonlink: /sv/kontakt/
 ---
+.
