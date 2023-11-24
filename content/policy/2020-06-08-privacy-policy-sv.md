@@ -1,14 +1,14 @@
 ---
-shorttitle: Privacy policy
+shorttitle: Privacy policy - sv
 title: Privacy policy
 description: Digital Unikorn AB Privacy Policy
 canonical: https://www.unikorn.se/sv/privacy-policy/
-path: /sv/privacy-policy/
 language: sv
 original: /privacy-policy/
+path: /sv/privacy-policy/
 og_image:
-  src: 
-  alt: 
+  src: ../assets/cookies.png
+  alt: cookies
 hero:
   heading: Privacy policy
   text: "Your data is important! "
