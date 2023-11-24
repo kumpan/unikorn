@@ -1,25 +1,23 @@
 ---
-shorttitle: Cookie policy
-title: Cookie policy
-description: Cookie policy
+shorttitle: Cookie Declaration
+title: Cookie Declaration
+description: Cookie Declaration
 canonical: https://www.unikorn.se/sv/cookie-policy/
-path: /sv/cookie-policy/
 language: sv
 original: /cookie-policy/
+path: /sv/cookie-policy/
 og_image:
-  src: 
-  alt: 
+  src: ../assets/cookies.png
+  alt: Cookies
 hero:
-  heading: Cookie policy
+  heading: Cookie Declaration
   text: We have cookies!
   featured_image:
     src: ../assets/cookie-policy.svg
-    alt: privacy policy
+    alt: Cookie Declaration
 ---
-We use cookies and similar technologies to recognise your repeat visits and preferences, as well as to measure the effectiveness of campaigns and analyse traffic.
+We use cookies and similar technologies to recognise your repeat visits and preferences, as well as to analyse traffic.
 
 To learn more about how we use cookies, view the [Privacy Policy](https://unikorn.se/sv/privacy-policy) page. 
-
-By clicking “I accept” or “X” on the banner or using our site, you consent to the use of cookies unless you have disabled them.
 
 ![cookies](../assets/cookies.png)
