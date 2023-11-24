@@ -1,13 +1,13 @@
 ---
 shorttitle: Project Management
+path: /sv/webbanalys/project-management/
 shortdesc: The secret sauce lies in building the best web thing you possibly can
   from the start. We can help you with planning the web project based on your
   customers user intent, so that the customers more easily can interact with
   your content.
-title: Web Project Management
+title: Projektledning av webb och digitala strategier
 description: Web Project Management
 canonical: https://www.unikorn.se/sv/webbanalys/project-management/
-path: /sv/webbanalys/project-management/
 language: sv
 original: /web-analytics/project-management/
 menu_position: 2
@@ -18,7 +18,7 @@ icon:
   alt: Web Project Management
   src: ../assets/project-2-.svg
 hero:
-  heading: Digital and Web Project Management
+  heading: Projektledning av webb och digitala strategier
   preamble: Your project is important! We get that and leave nothing to chance,
     thus, we want to follow your strategy through. Providing a well-structured
     web project to cement your company’s digital presence for the long-run.
