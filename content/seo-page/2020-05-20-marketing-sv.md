@@ -1,6 +1,6 @@
 ---
 shorttitle: SEO
-title: Unikorn SEO
+title: Unikorn SEO - Ett magiskt alternativ
 description: Unikorn sätter alltid dina användare i första rum. Vi har kunskapen
   och erfarenheten för att hantera alla aspekter av din sökmotoroptimering!
 canonical: https://www.unikorn.se/sv/seo/
