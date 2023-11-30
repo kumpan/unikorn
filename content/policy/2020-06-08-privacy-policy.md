@@ -14,7 +14,7 @@ hero:
   text: >-
     The website is provided by Digital Unikorn AB  (“us”, “we”, or “our”). 
 
-    &nbsp;
+    (<br>)
 
 
     Your trust is key to us, and we therefore take responsibility for protecting your privacy. Our Personal Data Policy covers how we handle and safeguard your personal data.
