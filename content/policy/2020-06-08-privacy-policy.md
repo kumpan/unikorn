@@ -32,8 +32,8 @@ We use two different types of cookies, each serving distinct purposes:
 
 **Necessary Cookies:** These cookies are essential for our website to function properly. Therefore, they must be accepted to use the site.
 
-\
-\
+
+
 **Visitor statistics:** These cookies anonymously collect data on visitor interactions, like frequently visited pages and error messages, helping us improve our website.
 
 
@@ -130,7 +130,7 @@ If you have any questions regarding your personal data, you are welcome to conta
 
 ### Contact Us
 
-We are happy to help with any questions or requests regarding your data.\
-\
-Please contact:\
+We are happy to help with any questions or requests regarding your data.
+
+Please contact:
 hello@unikorn.se
