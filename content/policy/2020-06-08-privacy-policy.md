@@ -33,11 +33,7 @@ We use two different types of cookies, each serving distinct purposes:
 
 **Necessary Cookies:** These cookies are essential for our website to function properly. Therefore, they must be accepted to use the site.
 
-
-
 **Visitor statistics:** These cookies anonymously collect data on visitor interactions, like frequently visited pages and error messages, helping us improve our website.
-
-
 
 ##### Site specific control 
 
@@ -49,11 +45,7 @@ Do you want to change your cookie settings on our site? Click below to manage yo
 
 Web browsers allow you to view, manage, and delete cookies for visited websites, usually found in the 'Settings' or 'Preferences' menu. Deleting cookies may require re-login, slow down some sites, and reset preferences. For detailed instructions, consult the help section or support site of your browser.
 
-
-
 ![Cookies på www.unikorn.se](../assets/cookies.png)
-
-
 
 ### What Tools do We Use?
 
@@ -68,8 +60,6 @@ We use Google Forms for job applications. This form collects personal informatio
 ##### Contact Form
 
 We use the contact form to receive general questions and requests for quotations. 
-
-
 
 
 
@@ -95,7 +85,7 @@ If you consent to cookies for visitor statistics, Google Analytics assigns anony
 
 **Cross-Platform Tracking:** Google Signals provides insights about devices and platforms when enabled in a signed-in Google Account.
 
-##### Google Forms and Contact form
+##### Google Forms and Contact Form
 
 We collect information you provide in our website forms, including your name, email, phone number, other personal details, and responses to form questions.
 
@@ -123,7 +113,7 @@ Data collected by our tools is stored on Google's servers, which are distributed
 
 
 
-### How Do You Delete your Data?
+### How Do You Delete Your Data?
 
 If you have any questions regarding your personal data, you are welcome to contact Unikorn. You are entitled to request the rectification or deletion of your personal data at any time, or to request that the processing of your personal data be limited. 
 
@@ -134,4 +124,5 @@ If you have any questions regarding your personal data, you are welcome to conta
 We are happy to help with any questions or requests regarding your data.
 
 Please contact:
+
 hello@unikorn.se
