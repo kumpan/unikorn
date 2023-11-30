@@ -11,138 +11,122 @@ og_image:
   alt: Privacy Policy
 hero:
   heading: Privacy Policy
-  text: "Your data is important! "
+  text: >-
+    Last updated: December 2023
+
+
+    The website is provided by Digital Unikorn AB  (“us”, “we”, or “our”). 
+
+
+    Your trust is key to us, and we therefore take responsibility for protecting your privacy. Our Personal Data Policy covers how we handle and safeguard your personal data.
   featured_image:
-    src: ../assets/privacy-policy.svg
+    src: ../assets/cookies.png
     alt: Privacy Policy
 ---
-## PRIVACY POLICY
+# This Website Uses Cookies
 
-1. Table of contents
-2. Introduction
-3. Controller
-4. Consumer Rights
-5. Overview
-6. Processing of Data
+## What is a Cookie?
 
-### 1.1 LAST UPDATED
+A "cookie" is a small piece of data that our website sends to your browser, which is then stored on your device when you visit our site. Cookies are used to make websites more efficient and to provide information to the owners of the site.
 
-This privacy policy is last updated 10th of October 2020.
+We use two different types of cookies, each serving distinct purposes:
 
-## 2. INTRODUCTION
+**Necessary Cookies:** These cookies are essential for our website to function properly. Therefore, they must be accepted to use the site.\
+\
+**Visitor statistics:** These cookies anonymously collect data on visitor interactions, like frequently visited pages and error messages, helping us improve our website.
 
-This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
-We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from unikorn.se.
 
-## 3. CONTROLLER
+### Site specific control 
 
-Digital Unikorn AB (“us”, “we”, or “our”) operates the unikorn.se website (the “Service”).
+Do you want to change your cookie settings on our site? Click below to manage your consent settings. We only collect and use data for purposes you’ve consented to.
 
-### 3.1. SERVICE
+###### Cookie Settings
 
-Service is the unikron.se website operated by Digtial Unikorn AB.
+### Global Control
 
-### 3.2. DATA CONTROLLER
+Web browsers allow you to view, manage, and delete cookies for visited websites, usually found in the 'Settings' or 'Preferences' menu. Deleting cookies may require re-login, slow down some sites, and reset preferences. For detailed instructions, consult the help section or support site of your browser.
 
-Data Controller means the natural or legal person who (either alone or jointly or in common with other persons) determines the purposes for which and the way any personal information are, or are to be, processed.
 
-For the purpose of this Privacy Policy, we are a Data Controller of your Personal Data.
 
-### 3.3. DATA PROCESSORS (OR SERVICE PROVIDERS)
+## What Tools do We Use?
 
-Data Processor (or Service Provider) means any natural or legal person who processes the data on behalf of the Data Controller.
+### Google Analytics
 
-We may use the services of various Service Providers in order to process your data more effectively.
+We use Google Analytics to understand how visitors interact with our website. The information is used to improve website functionality and user experience.
 
-### 3.4. STORAGE LOCATION: GENERAL WHERE IS ALL INFORMATION STORED
+### Google Forms
 
-Data usage of the service is being stored anonymously in Google Analytics, Google Search Console and 3rd party data Tools such as Ryte.com and Ahreflang.com.
+We use Google Forms for job applications. This form collects personal information you provide. 
 
-## 4. CONSUMER RIGHTS
+### Contact Form
 
-Your Data Protection Rights Under General Data Protection Regulation (GDPR).
+We use the contact form to receive general questions and requests for quotations. 
 
-If you are a resident of the European Economic Area (EEA), you have certain data protection rights. Digital Unikorn AB aims to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data.
 
-If you wish to be informed what Personal Data, we hold about you and if you want it to be removed from our systems, please contact us.
 
-In certain circumstances, you have the following data protection rights:
+## What Data do We Collect About You?
 
-* The right to access, update or to delete the information we have on you. Whenever made possible, you can access, update or request deletion of your Personal Data directly within your account settings section. If you are unable to perform these actions yourself, please contact us to assist you.
+### Google Analytics
 
-* The right of rectification. You have the right to have your information rectified if that information is inaccurate or incomplete.
+If you consent to cookies for visitor statistics, Google Analytics assigns anonymous codes as cookies on your first visit. As you navigate our website, Google Analytics collects the following information:
 
-* The right to object. You have the right to object to our processing of your Personal Data.
+**User Engagement Data:** Page visits, actions (e.g. clicks or form submissions), and time spent on our site.
 
-* The right of restriction. You have the right to request that we restrict the processing of your personal information.
+**Event-Based Data:** Interactions like page URL, page title, and custom events related to our site.
 
-* The right to data portability. You have the right to be provided with a copy of the information we have on you in a structured, machine-readable and commonly used format.
+**Conversions:** Actions like newsletter sign-ups or form submissions.
 
-* The right to withdraw consent. You also have the right to withdraw your consent at any time where Digital Unikorn AB relied on your consent to process your personal information.
+**Demographics and Interests:** Google Signals provides insights into your age, gender, and interests when enabled in a signed-in Google Account.
 
-Please note that we may ask you to verify your identity before responding to such requests.
+**Device and Browser**:  Device type, operating system, and browser type.
 
-You have the right to complain to a Data Protection Authority about our collection and use of your Personal Data. For more information, please contact your local data protection authority in the European Economic Area (EEA).
+**Geographical and Language:** General location (not specific to your exact address) and browser language settings.
 
-### 5.1. DEFINITIONS
+**Traffic Sources and User Journey:** How you arrived and navigated through our site, including referral sources and page sequence.
 
-#### 5.1.1. Personal Data
+**Cross-Platform Tracking:** Google Signals provides insights about devices and platforms when enabled in a signed-in Google Account.
 
-Personal Data means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).
+### Google Forms and Contact form
 
-#### 5.1.2. Usage Data
+We collect information you provide in our website forms, including your name, email, phone number, other personal details, and responses to form questions.
 
-Usage Data is data collected automatically either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).
 
-#### 5.1.3. Cookies
 
-Cookies are small pieces of data stored on your device (computer or mobile device).
+## How is Your Data Collected and Handled?
 
-#### 5.1.4. Data Subject (or User)
+### Google Analytics
 
-Data Subject is any living individual who is using our Service and is the subject of Personal Data.
+Google Analytics assigns a new random digit for each website visit, sending hits with page and browser details when you interact. Google stores and processes this data per their [privacy policy](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage). Information tied to cookies is deleted after 14 months.
 
-#### 5.1.5. Information Collection and Use
+### Google Forms
 
-We collect several different types of information for various purposes to provide and improve our Service to you.
+Information provided in Google Forms is stored in Unikorn's Google Drive, for details on data processing, see [Google's privacy policy.](https://policies.google.com/privacy#intro) We access form responses for recruitment, including applicant selection, interviews, and employee feedback, but never share data with external third parties. The data is kept only as long as necessary or as mandated by law.
 
-### 5.2. TYPES OF DATA COLLECTED
+### Contact Form
 
-#### 5.2.1. Personal Data
+Information from our contact form is sent to our G-mail, for details on data processing, see [Google’s privacy policy](https://policies.google.com/privacy#intro). We, as form administrators, access the data, never sharing it with third parties outside of Unikorn.The data is kept only as long as necessary or as mandated by law, after which it is deleted.
 
-While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (“Personal Data”). Personally identifiable information may include, but is not limited to:
 
-* Email address
 
-* First name and last name
+## Where is Your Data Stored?
 
-#### 5.2.2. Usage Data
+### Google Analytics / Google Forms / Google Drive
 
-We may also collect information how the Service is accessed and used (“Usage Data”). This Usage Data may include information such as your computer’s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+Data collected by our tools is stored on Google's servers, which are distributed across numerous data centres worldwide. 
 
-#### 5.2.3. Location Data
 
-We may use and store information about your location if you give us permission to do so (“Location Data”). We use this data to provide features of our Service, to improve and customize our Service.
 
-You can enable or disable location services when you use our Service at any time, through your device or browser settings.
+## How Do You Delete Data Collected About You?
 
-## 6. PROCESSING OF DATA
+If you have any questions regarding your personal data, you are welcome to contact Unikorn. You are entitled to request the rectification or deletion of your personal data at any time, or to request that the processing of your personal data be limited. 
 
-Digital Unikorn AB uses the collected data for various purposes:
 
-* To provide and maintain our Service
 
-* To reply to any request made by the user
+## Contact Information to Unikorn
 
-* To notify you about changes to our Service
+We are happy to help with any questions or requests regarding your data.\
+\
+Please contact:
 
-* To allow you to participate in interactive features of our Service when you choose to do so
-
-* To gather analysis or valuable information so that we can improve our Service
-
-* To monitor the usage of our Service
-
-* To detect, prevent and address technical issues
-
-* To provide you with news, special offers and general information about our service, unless you have opted not to receive such information
+Mail: hello@unikorn.se
