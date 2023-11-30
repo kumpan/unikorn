@@ -41,7 +41,7 @@ We use two different types of cookies, each serving distinct purposes:
 
 Do you want to change your cookie settings on our site? Click below to manage your consent settings. We only collect and use data for purposes you’ve consented to.
 
-**C﻿ookie settings**
+**C﻿ookie Settings**
 
 ##### Global Control
 
