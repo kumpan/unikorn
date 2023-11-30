@@ -22,25 +22,27 @@ hero:
 ---
 ### This Website Uses Cookies
 
-#### What is a Cookie?
+##### What is a Cookie?
 
 A "cookie" is a small piece of data that our website sends to your browser, which is then stored on your device when you visit our site. Cookies are used to make websites more efficient and to provide information to the owners of the site.
 
 We use two different types of cookies, each serving distinct purposes:
 
-**Necessary Cookies:** These cookies are essential for our website to function properly. Therefore, they must be accepted to use the site.\
+**Necessary Cookies:** These cookies are essential for our website to function properly. Therefore, they must be accepted to use the site.
+
+\
 \
 **Visitor statistics:** These cookies anonymously collect data on visitor interactions, like frequently visited pages and error messages, helping us improve our website.
 
 
 
-#### Site specific control 
+##### Site specific control 
 
 Do you want to change your cookie settings on our site? Click below to manage your consent settings. We only collect and use data for purposes you’ve consented to.
 
 **C﻿ookie settings**
 
-#### Global Control
+##### Global Control
 
 Web browsers allow you to view, manage, and delete cookies for visited websites, usually found in the 'Settings' or 'Preferences' menu. Deleting cookies may require re-login, slow down some sites, and reset preferences. For detailed instructions, consult the help section or support site of your browser.
 
@@ -48,15 +50,15 @@ Web browsers allow you to view, manage, and delete cookies for visited websites,
 
 ### What Tools do We Use?
 
-#### Google Analytics
+##### Google Analytics
 
 We use Google Analytics to understand how visitors interact with our website. The information is used to improve website functionality and user experience.
 
-#### Google Forms
+##### Google Forms
 
 We use Google Forms for job applications. This form collects personal information you provide. 
 
-#### Contact Form
+##### Contact Form
 
 We use the contact form to receive general questions and requests for quotations. 
 
@@ -66,7 +68,7 @@ We use the contact form to receive general questions and requests for quotations
 
 ### What Data do We Collect About You?
 
-#### Google Analytics
+##### Google Analytics
 
 If you consent to cookies for visitor statistics, Google Analytics assigns anonymous codes as cookies on your first visit. As you navigate our website, Google Analytics collects the following information:
 
@@ -86,23 +88,23 @@ If you consent to cookies for visitor statistics, Google Analytics assigns anony
 
 **Cross-Platform Tracking:** Google Signals provides insights about devices and platforms when enabled in a signed-in Google Account.
 
-#### Google Forms and Contact form
+##### Google Forms and Contact form
 
 We collect information you provide in our website forms, including your name, email, phone number, other personal details, and responses to form questions.
 
 
 
-### How is Your Data Collected and Handled?
+### How is Your Data Handled?
 
-#### Google Analytics
+##### Google Analytics
 
 Google Analytics assigns a new random digit for each website visit, sending hits with page and browser details when you interact. Google stores and processes this data per their [privacy policy](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage). Information tied to cookies is deleted after 14 months.
 
-#### Google Forms
+##### Google Forms
 
 Information provided in Google Forms is stored in Unikorn's Google Drive, for details on data processing, see [Google's privacy policy.](https://policies.google.com/privacy#intro) We access form responses for recruitment, including applicant selection, interviews, and employee feedback, but never share data with external third parties. The data is kept only as long as necessary or as mandated by law.
 
-#### Contact Form
+##### Contact Form
 
 Information from our contact form is sent to our G-mail, for details on data processing, see [Google’s privacy policy](https://policies.google.com/privacy#intro). We, as form administrators, access the data, never sharing it with third parties outside of Unikorn.The data is kept only as long as necessary or as mandated by law, after which it is deleted.
 
@@ -110,19 +112,17 @@ Information from our contact form is sent to our G-mail, for details on data pro
 
 ### Where is Your Data Stored?
 
-#### Google Analytics / Google Forms / Google Drive
-
 Data collected by our tools is stored on Google's servers, which are distributed across numerous data centres worldwide. 
 
 
 
-### How Do You Delete Data Collected About You?
+### How Do You Delete your Data?
 
 If you have any questions regarding your personal data, you are welcome to contact Unikorn. You are entitled to request the rectification or deletion of your personal data at any time, or to request that the processing of your personal data be limited. 
 
 
 
-### Contact Information to Unikorn
+### Contact Us
 
 We are happy to help with any questions or requests regarding your data.\
 \
