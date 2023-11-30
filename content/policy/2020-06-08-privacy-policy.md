@@ -50,6 +50,10 @@ Web browsers allow you to view, manage, and delete cookies for visited websites,
 
 
 
+![Cookies på www.unikorn.se](../assets/cookies.png)
+
+
+
 ### What Tools do We Use?
 
 ##### Google Analytics
