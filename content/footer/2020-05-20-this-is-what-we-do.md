@@ -1,5 +1,5 @@
 ---
-smallheading: Our services.
+smallheading: Our services - DENNA SYNS EJ LIVE
 heading: This is what we do
 language: en
 col1:
