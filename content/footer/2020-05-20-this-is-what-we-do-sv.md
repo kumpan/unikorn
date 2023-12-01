@@ -6,13 +6,13 @@ col1:
   heading: SEO
   text: |-
     * Hollistisk SEO
-    * Tekniska analyser
-    * Innehållsstrategier
+    * Teknisk analys
+    * Innehållsstrategi
     * Migrering
 col2:
   heading: Webbanalys
   text: |-
-    * I﻿nteraktion och engagemang
+    * Trafik och engagemang
     * K﻿onverteringsoptimering
     * KPIer och dashboards
     * Installation av analysverkyg
