@@ -23,7 +23,7 @@ col3:
     * C﻿ontent Strategies
     * D﻿ata-driven Strategies
 col4:
-  heading: About Unikorn
+  heading: Explore
   text: |-
     * [Our employees](https://www.unikorn.se/unikorns/)
     * [Become a Unikorn](https://www.unikorn.se/about/be-a-unikorn/)
