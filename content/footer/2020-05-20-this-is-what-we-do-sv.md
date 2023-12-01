@@ -25,9 +25,9 @@ col3:
 col4:
   heading: Om Unikorn
   text: |-
-    ﻿Unikorns arbetssätt
-    ﻿Våra medarbetare
-    Bli en Unikorn
-    Cookie-inställningar
-    Personuppgiftspolicy
+    * Unikorns arbetssätt
+    * Våra medarbetare
+    * Bli en Unikorn
+    * Personuppgiftspolicy
+    * Cookie-inställningar
 ---
