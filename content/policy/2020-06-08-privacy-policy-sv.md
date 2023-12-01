@@ -1,6 +1,6 @@
 ---
 shorttitle: "Senast uppdaterad: December 2023"
-title: Personuppgiftspolicy för Digital Unikorn AB
+title: Personuppgiftspolicy | Digital Unikorn AB
 description: Ditt förtroende är viktigt för oss, därför tar vi ansvar för att
   skydda din integritet. Vår personuppgiftspolicy täcker hur vi hanterar och
   skyddar din data.
