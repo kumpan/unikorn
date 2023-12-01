@@ -1,7 +1,9 @@
 ---
 shorttitle: "Last updated: December 2023"
-title: Privacy Policy
-description: Digital Unikorn AB Privacy Policy
+title: "Privacy Policy Digital Unikorn AB "
+description: Your trust is key to us, and we therefore take responsibility for
+  protecting your privacy. Our Personal Data Policy covers how we handle and
+  safeguard your personal data.
 canonical: https://www.unikorn.se/privacy-policy/
 language: en
 original: null
