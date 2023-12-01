@@ -27,6 +27,6 @@ col4:
   text: |-
     * Våra medarbetare
     * Bli en Unikorn
-    * Personuppgiftspolicy
-    * [Cookie-inställningar](https://www.unikorn.se/sv/privacy-policy/)
+    * [Personuppgiftspolicy](https://www.unikorn.se/sv/privacy-policy/)
+    * Cookie-inställningar
 ---
