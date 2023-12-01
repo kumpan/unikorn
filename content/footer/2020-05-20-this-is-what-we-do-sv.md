@@ -28,5 +28,5 @@ col4:
     * [Our employees](https://www.unikorn.se/unikorns/)
     * [Become a Unikorn](https://www.unikorn.se/about/be-a-unikorn/)
     * [Privacy Policy](https://www.unikorn.se/privacy-policy/)
-    * *C﻿ookie Settings*
+    * C﻿ookie Settings
 ---
