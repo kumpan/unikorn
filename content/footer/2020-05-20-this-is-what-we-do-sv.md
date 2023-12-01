@@ -7,7 +7,7 @@ col1:
   text: |-
     * Hollistic SEO
     * Tech Audits
-    * Content plans
+    * Content Plans
     * Migration
 col2:
   heading: Webanalysis
@@ -19,9 +19,9 @@ col2:
 col3:
   heading: Strategy
   text: |
-    * S﻿EO strategies
-    * C﻿ontent strategies
-    * D﻿atadriven strategies
+    * S﻿EO Strategies
+    * C﻿ontent Strategies
+    * D﻿ata-driven Strategies
 col4:
   heading: About Unikorn
   text: |-
