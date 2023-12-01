@@ -14,7 +14,7 @@ col2:
   text: |-
     * KPI Definition
     * Tracking Implementation
-    * Data Visualisation
+    * Data Visualization
     * Conversion Optimization
 col3:
   heading: Strategy
