@@ -1,6 +1,6 @@
 ---
 smallheading: " "
-heading: " "
+heading: " Våra tjänster"
 language: sv
 col1:
   heading: SEO
