@@ -22,7 +22,7 @@ hero:
 ---
 ### Denna webbplats använder cookies
 
-#### Vad är en cookie?
+##### Vad är en cookie?
 
 En "cookie" är en datafil som vår webbplats skickar till din webbläsare, som sedan lagras på din enhet när du besöker vår webbplats. Cookies används för att göra webbplatser mer effektiva och för att ge information till webbplatsens ägare.
 
@@ -32,13 +32,13 @@ Vi använder två olika typer av cookies:
 
 **Besöksstatistik:** Dessa cookies samlar anonymt in data om interaktioner med sidan, som besökta sidor och klick vilket hjälper oss att förbättra webbplatsen.
 
-#### Kontrollera cookies på vår webb
+##### Kontrollera cookies på vår webb
 
 Vill du ändra dina cookie-inställningar på vår webbplats? Klicka nedan för att hantera dina inställningar. Vi samlar endast in och använder data för ändamål du har samtyckt till. 
 
 **Cookie-inställningar**
 
-#### Global kontroll
+##### Global kontroll
 
 Webbläsare tillåter dig att visa, hantera och radera cookies för besökta webbplatser, vanligtvis i "Inställningar" eller "Preferenser" menyn. Att radera cookies kan kräva återinloggning, fördröja vissa webbplatser och återställa preferenser. För detaljerade instruktioner, se hjälpavsnittet eller supportwebbplatsen för din webbläsare.
 
@@ -46,21 +46,21 @@ Webbläsare tillåter dig att visa, hantera och radera cookies för besökta web
 
 ### Vilka verktyg använder vi?
 
-#### Google Analytics
+##### Google Analytics
 
 Vi använder Google Analytics för att förstå hur besökare interagerar med vår webbplats. Informationen används för att förbättra webbplatsens funktionalitet och användarupplevelse.
 
-#### Google Formulär
+##### Google Formulär
 
 Vi använder Google Formulär för jobbansökningar. Detta formulär samlar in personlig information som du tillhandahåller.
 
-#### Kontaktformulär
+##### Kontaktformulär
 
 Vi använder kontaktformulär för att ta emot allmänna frågor och förfrågningar om offert.
 
 ### Vilken data samlar vi in om dig?
 
-#### Google Analytics
+##### Google Analytics
 
 Om du samtycker till cookies för besöksstatistik tilldelar Google Analytics anonyma koder som cookies vid ditt första besök. När du navigerar på vår webbplats, samlar Google Analytics in följande information:
 
@@ -80,21 +80,21 @@ Om du samtycker till cookies för besöksstatistik tilldelar Google Analytics an
 
 **Spårning över olika plattformar:** Google Signals ger insikter om enheter och plattformar när det är aktiverat i ett inloggat Google-konto.
 
-#### Google Formulär och Kontaktformulär
+##### Google Formulär och Kontaktformulär
 
 Vi samlar in information som du tillhandahåller i våra formulär, inklusive ditt namn, e-post, telefonnummer, andra personuppgifter och svar på frågor i formuläret.
 
 ### Hur insamlas och hanteras din data?
 
-#### Google Analytics
+##### Google Analytics
 
 Google Analytics tilldelar besökaren en slumpmässig siffra för varje webbplatsbesök, och skickar träffar med sid- och webbläsardetaljer när du interagerar. Google lagrar och behandlar denna data enligt deras [sekretesspolicy](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage). Information kopplad till cookies raderas efter 14 månader.
 
-#### Google Formulär
+##### Google Formulär
 
 Information som tillhandahålls i Google Formulär lagras i Unikorns Google Drive, för detaljer om databehandling, se Googles sekretesspolicy. Vi får åtkomst till formulärsvar för rekrytering, inklusive urval av sökande, intervjuer och anställdas feedback, men delar aldrig data med externa tredje parter. Data behålls endast så länge det är nödvändigt eller enligt lag, varefter det raderas.
 
-#### Kontaktformulär
+##### Kontaktformulär
 
 Information från vårt kontaktformulär skickas till vår Gmail, för detaljer om databehandling, se [Googles sekretesspolicy.](https://policies.google.com/privacy#intro) Vi, som administratörer för formuläret, får tillgång till dess data. Vi delar aldrig informationen med tredje part. Data behålls endast så länge det är nödvändigt eller krävs enligt lag.
 
