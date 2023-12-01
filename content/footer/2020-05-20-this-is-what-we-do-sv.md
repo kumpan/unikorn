@@ -15,19 +15,18 @@ col2:
     * I﻿nteraktion och engagemang
     * K﻿onverteringsoptimering
     * KPIer och dashboards
-    * I﻿mplementation av analysverktyg
+    * Installation av analysverkyg
 col3:
   heading: Strategi
   text: |-
     * S﻿EO strategier
-    * H﻿ollistiska digitala strategier
+    * Digitala strategier
     * D﻿atadrivna strategier
 col4:
   heading: Om Unikorn
   text: |-
-    * Unikorns arbetssätt
     * Våra medarbetare
     * Bli en Unikorn
     * Personuppgiftspolicy
-    * Cookie-inställningar
+    * [Cookie-inställningar](https://www.unikorn.se/sv/privacy-policy/)
 ---
