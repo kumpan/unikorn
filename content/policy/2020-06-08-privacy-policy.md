@@ -20,7 +20,7 @@ hero:
 
 
 
-    Your trust is key to us, and we therefore take responsibility for protecting your privacy. Our Personal Data Policy covers how we handle and safeguard your personal data.
+    Your trust is key to us, and we therefore take responsibility for protecting your privacy. Our Privacy Policy covers how we handle and safeguard your personal data.
   featured_image:
     src: ../assets/privacy-policy.svg
     alt: Privacy Policy
