@@ -1,6 +1,6 @@
 ---
-smallheading: Our services
-heading: This is what we do.
+smallheading: " "
+heading: " "
 language: sv
 col1:
   heading: SEO
