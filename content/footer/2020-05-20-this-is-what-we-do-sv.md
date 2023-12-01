@@ -26,7 +26,7 @@ col4:
   heading: Explore
   text: |-
     * [Our Employees](https://www.unikorn.se/unikorns/)
-    * [Become a Unikorn](https://www.unikorn.se/about/be-a-unikorn/)
+    * [Job Application](https://www.unikorn.se/about/be-a-unikorn/)
     * [Privacy Policy](https://www.unikorn.se/privacy-policy/)
     * C﻿ookie Settings
 ---
