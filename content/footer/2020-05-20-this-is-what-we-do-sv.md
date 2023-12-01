@@ -3,33 +3,31 @@ smallheading: Our services
 heading: This is what we do.
 language: sv
 col1:
-  heading: Marketing
+  heading: SEO
   text: |-
-    * SEO
-    * Content Marketing
-    * W﻿ebbanalys
-    * C﻿ookie Settings
+    * Hollistisk SEO
+    * Tekniska analyser
+    * Innehållsstrategier
+    * Migrering
 col2:
-  heading: Webb
+  heading: Webbanalys
   text: |-
-    * Website requirements 
-    * Technical Audits
-    * Website Migration
-    * Technical Project Management
-    * Web development
+    * I﻿nteraktion och engagemang
+    * K﻿onverteringsoptimering
+    * KPIer och dashboards
+    * I﻿mplementation av analysverktyg
 col3:
-  heading: Search
+  heading: Strategi
   text: |-
-    * Technical SEO 
-    * SEO PR
-    * Content Marketing 
-    * SEO Audits
+    * S﻿EO strategier
+    * H﻿ollistiska digitala strategier
+    * D﻿atadrivna strategier
 col4:
-  heading: Strategy
+  heading: Om Unikorn
   text: |-
-    * Digital Strategies
-    * SEO Strategy
-    * Content Strategy
-    * Social Media Strategy
-    * Conversion Strategies
+    ﻿Unikorns arbetssätt
+    ﻿Våra medarbetare
+    Bli en Unikorn
+    Cookie-inställningar
+    Personuppgiftspolicy
 ---
