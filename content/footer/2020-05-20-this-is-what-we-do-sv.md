@@ -1,6 +1,6 @@
 ---
 smallheading: " Unikorn"
-heading: Our services
+heading: Our Services
 language: sv
 col1:
   heading: SEO
@@ -25,7 +25,7 @@ col3:
 col4:
   heading: Explore
   text: |-
-    * [Our employees](https://www.unikorn.se/unikorns/)
+    * [Our Employees](https://www.unikorn.se/unikorns/)
     * [Become a Unikorn](https://www.unikorn.se/about/be-a-unikorn/)
     * [Privacy Policy](https://www.unikorn.se/privacy-policy/)
     * C﻿ookie Settings
