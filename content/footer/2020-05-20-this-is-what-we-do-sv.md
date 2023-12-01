@@ -12,10 +12,10 @@ col1:
 col2:
   heading: Webanalysis
   text: |-
-    * Traffic & Engagement
-    * Conversion optimization
-    * KPI:s & Dashboards
-    * Installation of Analytics Tools
+    * KPI Definition
+    * Tracking Implementation
+    * Data Visualisation
+    * Conversion Optimization
 col3:
   heading: Strategy
   text: |
