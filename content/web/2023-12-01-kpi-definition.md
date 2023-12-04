@@ -2,7 +2,7 @@
 shorttitle: KPI Definition
 path: /web-analytics/kpi-definition/
 shortdesc: x
-title: Deciding KPIs for Your Website
+title: The Process of Deciding KPIs
 description: At Unikorn, we understand that Key Performance Indicators (KPIs)
   are more than just data points; they are the north star of your website's
   success.
@@ -17,12 +17,11 @@ icon:
   alt: Unikorn KPI Defintion
 hero:
   heading: Deciding KPIs for Your Website
-  preamble: At Unikorn, we understand that Key Performance Indicators (KPIs) are
-    more than just data points; they are the north star of your website's
-    success. We emphasize the critical role of KPIs in gauging your site's
-    health, effectiveness, and alignment with your business aspirations. By
-    leveraging these indicators, we can help you navigate the digital landscape,
-    making informed decisions that amplify engagement and conversions.
+  preamble: "KPIs are the most important control tool that your company can define
+    and measure to achieve its business goals. We see these metrics as more than
+    just data points; they can, like the North Star, provide a clear direction
+    for how to navigate. When KPIs are used correctly, it becomes easy make
+    informed decisions that strengthen engagement and conversion. "
   featured_image:
     src: ../assets/kpi-definition-as-a-north-star.svg
     alt: Unikorn KPI Defintion
