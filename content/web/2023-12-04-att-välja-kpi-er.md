@@ -54,6 +54,4 @@ Vi hjälper dig gärna att hitta rätt fokus.
 
 [Kontakta Unikorn](https://www.unikorn.se/sv/kontakt/)
 
-
-
-![KPI navigation](../assets/choices-monochrome.svg "KPI navigation")
+![KPI navigation](../assets/choices-monochrome.png "KPI navigation")
