@@ -2,7 +2,7 @@
 shorttitle: KPI Definition
 path: /kpi-definition/
 shortdesc: x
-title: Unikorn help you Deciding KPIs for Your Website
+title: Deciding KPIs for Your Website
 description: At Unikorn, we understand that Key Performance Indicators (KPIs)
   are more than just data points; they are the north star of your website's
   success.
@@ -16,7 +16,7 @@ icon:
   src: ../assets/content-1-.svg
   alt: Unikorn KPI Defintion
 hero:
-  heading: Unikorn help you Deciding KPIs for Your Website
+  heading: Deciding KPIs for Your Website
   preamble: At Unikorn, we understand that Key Performance Indicators (KPIs) are
     more than just data points; they are the north star of your website's
     success. We emphasize the critical role of KPIs in gauging your site's
