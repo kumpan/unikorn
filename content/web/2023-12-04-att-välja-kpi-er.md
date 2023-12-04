@@ -17,11 +17,12 @@ icon:
   src: ../assets/kpi-definition-as-a-north-star.svg
   alt: KPIer sätter riktningen, likt nordstjärnan
 hero:
-  preamble: De övergripande KPI:erna är de viktigaste styrmedlet som ditt företag
-    kan definiera och mäta. Vi ser dessa mätvärden som mer än bara datapunkter;
-    de kan likt norrstjärnan ge en tydlig riktling för vägen frammåt. Används
-    KPI:er på rätt sätt blir det lätt att navigera i det digitala landskapet och
-    fatta informerade beslut som stärker engagemang och konvertering.
+  preamble: KPI:er är det viktigaste styrmedlet som ditt företag kan definiera och
+    mäta för att nå sina mål. Vi ser dessa mätvärden som mer än bara
+    datapunkter; de kan likt norrstjärnan ge en tydlig riktling för vägen
+    frammåt. Används KPI:er på rätt sätt blir det lätt att navigera i det
+    digitala landskapet och fatta informerade beslut som stärker engagemang och
+    konvertering.
   heading: Att välja KPI:er
   featured_image:
     alt: KPIer sätter riktningen, likt nordstjärnan
