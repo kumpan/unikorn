@@ -32,7 +32,7 @@ posts_category: Analytics
 ---
 ## Vanliga Utmaningar
 
-Att identifiera rätt KPI:er bland tillgånglig data är en process, och vi är här för att hjälpa dig att navigera igenom den. En stor utmaning är det omfattande utbudet av tillgänglig data som presenteras i olika verktyg. PVi är specialister på att urskilja mätvärden värda att fokusera på som skapar riktigt värde för dina affärsmål. I den snabbt föränderliga världen av digital marknadsföring ser vi också till att dina KPI:er är anpassningsbara och hålls uppdaterade, för att kunna spegla förändringar i marknadstrenderna.
+Att identifiera rätt KPI:er bland tillgånglig data är en process, och vi är här för att hjälpa dig att navigera igenom den. En stor utmaning är det omfattande utbudet av tillgänglig data som presenteras i olika verktyg. Vi är specialister på att urskilja mätvärden värda att fokusera på som skapar riktigt värde för dina affärsmål. I den snabbt föränderliga världen av digital marknadsföring ser vi också till att dina KPI:er är anpassningsbara och hålls uppdaterade, för att kunna spegla förändringar i marknadstrenderna.
 
 ## Vår KPI-process
 
