@@ -54,8 +54,4 @@ We are happy to help you find the right focus.
 
 
 
-![svg](../assets/answers.svg "svg")
-
-
-
-![png](../assets/answers.png "png")
+![KPI navigation](../assets/kpi-navigation.png "KPI navigation")
