@@ -56,4 +56,4 @@ Vi hjälper dig gärna att hitta rätt fokus.
 
 
 
-![KPI navigation](../assets/kpi-navigation.svg "KPI navigation")
+![KPI navigation](../assets/choices-monochrome.svg "KPI navigation")
