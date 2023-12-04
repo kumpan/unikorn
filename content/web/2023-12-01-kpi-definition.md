@@ -34,7 +34,7 @@ Identifying valuable KPIs is a process, and we are here to help you navigate thr
 ## Our KPI Process
 
 1. **Business Objectives:** We start by understanding your specific business goals, whether it's increasing sales, engagement, or customer loyalty.
-2. **Website Analysis:** Our team evaluates your current website to identify strengths and areas for improvement, shaping relevant KPIs for conversion and SEO.
+2. **Website Analysis:** Our team evaluates your current website to identify strengths and areas for improvement, defining relevant KPIs for conversion and SEO.
 3. **Selection of Metrics:** We carefully choose metrics that directly reflect your business objectives and web potential.
 4. **Simplicity:** Less is more. We believe in limiting tracking to data that offers clear insights and actual value, therefore we meticulously filter out metrics of low or dubious value.
 5. **Ongoing Evaluation:** We continuously refine the focus on what is valuable, to keep KPIs updated following internal strategies and market trends.
