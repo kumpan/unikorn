@@ -4,8 +4,9 @@ path: /definiera-kpier/
 shortdesc: x
 title: Att välja KPI:er
 description: x
-canonical: /definiera-kpier/
+canonical: https://www.unikorn.se/web-analytics/definiera-kpier/
 language: se
+original: https://www.unikorn.se/web-analytics/kpi-definition/
 menu_position: 1
 og_image:
   alt: x
