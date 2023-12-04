@@ -2,7 +2,7 @@
 shorttitle: Att välja KPI:er
 path: /definiera-kpier/
 shortdesc: x
-title: x
+title: Att välja KPI:er
 description: x
 canonical: /definiera-kpier/
 language: se
@@ -20,7 +20,7 @@ hero:
     och överensstämmelse med affärsmålen. Genom att använda KPI:er på rätt sätt
     blir det lättare att navigera i det digitala landskapet och fatta
     informerade beslut som stärker engagemang och konvertering.
-  heading: x
+  heading: Att välja KPI:er
   featured_image:
     alt: x
     src: ../assets/choices-monochrome.svg
