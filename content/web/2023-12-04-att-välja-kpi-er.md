@@ -1,11 +1,11 @@
 ---
 shorttitle: Att välja KPI:er
 path: /sv/webbanalys/definiera-kpier/
-shortdesc: "På Unikorn ser vi nyckeltal (KPI:er) som mer än bara datapunkter; de
-  kan likt norrstjärnan ge en tydlig riktling för vägen frammåt. "
+shortdesc: "På Unikorn ser vi KPI:er som mer än bara datapunkter; de kan likt
+  norrstjärnan ge en tydlig riktling för vägen frammåt. "
 title: Att välja KPI:er till din webb
-description: "På Unikorn ser vi nyckeltal (KPI:er) som mer än bara datapunkter;
-  de kan likt norrstjärnan ge en tydlig riktling för vägen frammåt. "
+description: "På Unikorn ser vi KPI:er som mer än bara datapunkter; de kan likt
+  norrstjärnan ge en tydlig riktling för vägen frammåt. "
 canonical: https://www.unikorn.se/sv/webbanalys/definiera-kpier/
 language: se
 original: /web-analytics/kpi-definition/
@@ -17,12 +17,12 @@ icon:
   src: ../assets/kpi-definition-as-a-north-star.svg
   alt: KPIer sätter riktningen, likt nordstjärnan
 hero:
-  preamble: På Unikorn ser vi nyckeltal (KPI:er) som mer än bara datapunkter; de
-    kan likt norrstjärnan ge en tydlig riktling för vägen frammåt. För
-    Webbplatser har KPI:er en viktig roll i att mäta sajtens hälsa, effektivitet
-    och överensstämmelse med affärsmålen. Används KPI:er på rätt sätt blir det
-    lätt att navigera i det digitala landskapet och fatta informerade beslut som
-    stärker engagemang och konvertering.
+  preamble: På Unikorn ser vi Key Performance Indicators (KPI:er) som mer än bara
+    datapunkter; de kan likt norrstjärnan ge en tydlig riktling för vägen
+    frammåt. För Webbplatser har KPI:er en viktig roll i att mäta sajtens hälsa,
+    effektivitet och överensstämmelse med affärsmålen. Används KPI:er på rätt
+    sätt blir det lätt att navigera i det digitala landskapet och fatta
+    informerade beslut som stärker engagemang och konvertering.
   heading: Att välja KPI:er
   featured_image:
     alt: KPIer sätter riktningen, likt nordstjärnan
@@ -44,7 +44,7 @@ Att identifiera rätt KPI:er bland tillgånglig data är en process, och vi är 
 
 **Enkelhet:** Less is more. Vi tror på begränsning av uppföljning till data som erbjuder tydliga insikter och faktiskt värde, därför filtrerar vi nogrannt bort märvärden av låg eller tvivelaktigt värde.
 
-**Löpande utvärdering:** Vi finslipar löpande fokus på vad som är av värde för att hålla nyckeltalen uppdaterade efter dina interna strategier och marknadstrender.
+**Löpande utvärdering:** Vi finslipar löpande fokus på vad som är av värde för att hålla KPI:erna uppdaterade efter dina interna strategier och marknadstrender.
 
 ## N﻿avigation mot framgång
 
