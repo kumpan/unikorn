@@ -36,18 +36,13 @@ Att identifiera KPI:er av värde bland tillgånglig data är en process, vi finn
 
 ## Vår KPI-process
 
-**Affärsmål:** Vi börjar med att sätta oss in i dina specifika affärsmål, vare sig det gäller att öka försäljning, engagemang eller kundlojalitet.
-
-**Webbplatsanalys:** Vårt team utvärderar din nuvarande webb för att identifiera styrkor och förbättringsområden, vilket formar relevanta KPI:er för konvertering och SEO.
-
-**Val av mätvärden:** Vi väljer noggrant ut mätvärden som direkt speglar dina affärsmål och webb-potential.
-
-**Enkelhet:** Less is more. Vi tror på begränsning av uppföljning till data som erbjuder tydliga insikter och faktiskt värde, därför filtrerar vi nogrannt bort märvärden av låg eller tvivelaktigt värde.
-
-**Löpande utvärdering:** Vi finslipar löpande fokus på vad som är av värde för att hålla KPI:erna uppdaterade efter dina interna strategier och marknadstrender.
+1. **Affärsmål:** Vi börjar med att sätta oss in i dina specifika affärsmål, vare sig det gäller att öka försäljning, engagemang eller kundlojalitet.
+2. **Webbplatsanalys:** Vårt team utvärderar din nuvarande webb för att identifiera styrkor och förbättringsområden, vilket formar relevanta KPI:er för konvertering och SEO.
+3. **Val av mätvärden:** Vi väljer noggrant ut mätvärden som direkt speglar dina affärsmål och webb-potential.
+4. **Enkelhet:** Less is more. Vi tror på begränsning av uppföljning till data som erbjuder tydliga insikter och faktiskt värde, därför filtrerar vi nogrannt bort märvärden av låg eller tvivelaktigt värde.
+5. **Löpande utvärdering:** Vi finslipar löpande fokus på vad som är av värde, för att hålla KPI:erna uppdaterade efter interna strategier och marknadstrender.
 
 ## N﻿avigation mot framgång
-
 
 Genom en pålitlig spårning av kunddata och effektiv datavisualisering baserat på strategiskt valda KPI:er så blir det enkelt att identifiera trender och resultat som verkligen betyder något för verksamhetens framgång. 
 
@@ -55,6 +50,5 @@ Våra ambitioner är större en enbart överlevnad i den ständigt konkurrentuts
 
 Behöver ditt företag hjälp att navigera rätt bland er data?
 Vi hjälper er gärna att hitta rätt fokus.
-
 
 [Kontakta Unikorn](https://www.unikorn.se/sv/kontakt/)
