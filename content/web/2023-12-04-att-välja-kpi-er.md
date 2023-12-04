@@ -39,7 +39,7 @@ Att identifiera KPI:er av värde är en process, vi finns här för att hjälpa 
 1. **Affärsmål:** Vi börjar med att sätta oss in i dina specifika affärsmål, vare sig det gäller att öka försäljning, engagemang eller kundlojalitet.
 2. **Webbplatsanalys:** Vårt team utvärderar din nuvarande webb för att identifiera styrkor och förbättringsområden, vilket formar relevanta KPI:er för konvertering och SEO.
 3. **Val av mätvärden:** Vi väljer noggrant ut mätvärden som direkt speglar dina affärsmål och webb-potential.
-4. **Enkelhet:** Less is more. Vi tror på begränsning av uppföljning till data som erbjuder tydliga insikter och faktiskt värde, därför filtrerar vi nogrannt bort märvärden av låg eller tvivelaktigt värde.
+4. **Enkelhet:** Less is more. Vi tror på begränsning av uppföljning till data som erbjuder tydliga insikter och faktiskt värde, därför filtrerar vi nogrannt bort märvärden av lågt eller tvivelaktigt värde.
 5. **Löpande utvärdering:** Vi finslipar löpande fokus på vad som är av värde, för att hålla KPI:erna uppdaterade efter interna strategier och marknadstrender.
 
 ## N﻿avigation mot framgång
