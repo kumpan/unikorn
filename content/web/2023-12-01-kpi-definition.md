@@ -19,7 +19,7 @@ hero:
   preamble: "KPIs are the most important control tool that your company can define
     and measure to achieve its business goals. We see these metrics as more than
     just data points; they can, like the North Star, provide a clear direction
-    for how to navigate. When KPIs are used correctly, it becomes easy make
+    for how to navigate. When KPIs are used correctly, it becomes easy to make
     informed decisions that strengthen engagement and conversion. "
   featured_image:
     src: ../assets/kpi-definition-as-a-north-star.svg
