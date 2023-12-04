@@ -49,4 +49,4 @@ Does your company need help to achieve sucessfull navigation?
 
 We are happy to help you find the right focus.
 
-[Contact Unikorn](https://www.unikorn.se/sv/kontakt/)
+[Contact Unikorn](https://www.unikorn.se/contact/)
