@@ -42,7 +42,7 @@ Att identifiera rätt KPI:er bland tillgånglig data är en process, och vi är 
 
 **Val av mätvärden:** Vi väljer noggrant ut mätvärden som direkt speglar dina affärsmål och webb-potential.
 
-**Enkelhet:** Less is more. Vi tror på begränsning av uppföljning till data som erbjuder tydliga insikter och faktiskt värde.
+**Enkelhet:** Less is more. Vi tror på begränsning av uppföljning till data som erbjuder tydliga insikter och faktiskt värde, därför filtrerar vi nogrannt bort märvärden av låg eller tvivelaktigt värde.
 
 **Löpande utvärdering:** Vi finslipar löpande fokus på vad som är av värde för att hålla nyckeltalen uppdaterade efter interna strategier och marknadstrender.
 
