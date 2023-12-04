@@ -1,6 +1,6 @@
 ---
 shorttitle: KPI Definition
-path: /kpi-definition/
+path: /web-analytics/kpi-definition/
 shortdesc: x
 title: Deciding KPIs for Your Website
 description: At Unikorn, we understand that Key Performance Indicators (KPIs)
