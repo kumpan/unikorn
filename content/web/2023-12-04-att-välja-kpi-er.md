@@ -49,12 +49,12 @@ Att identifiera rätt KPI:er bland tillgånglig data är en process, och vi är 
 ## N﻿avigation mot framgång
 
 
-Genom en pålitlig spårning av kunddata och effektiv datavisualisering baserat på strategiskt valda KPI:er så blir det enkelt att identifiera trender och resultat som verkligen betyder något för verksamhetens framgång. Vi hjälper dig att optimera din webbplats för en förbättrad användarupplevelse, SEO och konverteringsgrad. 
+Genom en pålitlig spårning av kunddata och effektiv datavisualisering baserat på strategiskt valda KPI:er så blir det enkelt att identifiera trender och resultat som verkligen betyder något för verksamhetens framgång. 
 
-Våra ambitioner är större en enbart överlevnad i den ständigt konkurrentutsatta digitala världen. Vi stävar mot att våra kunder ska bli den starkast lysande stjärnan som sätter nya standarder för andra aktörer att följa.
+Våra ambitioner är större en enbart överlevnad i den ständigt konkurrentutsatta digitala världen. Vi stävar mot att våra kunder ska bli den starkast lysande stjärnan som sätter nya standarder för andra aktörer.
 
 Behöver ditt företag hjälp att navigera rätt bland er data?
-Vi hjälper er gärna att hitta ett starkt fokus av värde.
+Vi hjälper er gärna att hitta rätt fokus.
 
 
 [Kontakta Unikorn](https://www.unikorn.se/sv/kontakt/)
