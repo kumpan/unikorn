@@ -36,7 +36,7 @@ Att identifiera rätt KPI:er bland tillgånglig data är en process, och vi är 
 
 ## Vår KPI-process
 
-**Affärsmål:** Vi börjar med att anpassa KPI:erna till dina specifika affärsmål, vare sig det gäller att öka försäljning, engagemang eller kundlojalitet.
+**Affärsmål:** Vi börjar med att sätta oss in i dina specifika affärsmål, vare sig det gäller att öka försäljning, engagemang eller kundlojalitet.
 
 **Webbplatsanalys:** Vårt team utvärderar din nuvarande webb för att identifiera styrkor och förbättringsområden, vilket formar relevanta KPI:er för konvertering och SEO.
 
