@@ -3,9 +3,8 @@ shorttitle: KPI Definition
 path: /web-analytics/kpi-definition/
 shortdesc: x
 title: The Process of Deciding KPIs
-description: At Unikorn, we understand that Key Performance Indicators (KPIs)
-  are more than just data points; they are the north star of your website's
-  success.
+description: At Unikorn, we understand that Key Performance Indicators are more
+  than just data points; they are the north star of your business success.
 canonical: https://www.unikorn.se/web-analytics/kpi-definition/
 language: en
 menu_position: 4
