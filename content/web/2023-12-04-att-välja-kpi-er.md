@@ -1,11 +1,11 @@
 ---
 shorttitle: Att välja KPI:er
 path: /sv/webbanalys/definiera-kpier/
-shortdesc: På Unikorn ser vi nyckeltal (KPI:er) som mer än bara datapunkter; de
-  ger likt norrstjärnan en tydlig riktling för företagets framgång.
+shortdesc: "På Unikorn ser vi nyckeltal (KPI:er) som mer än bara datapunkter; de
+  kan likt norrstjärnan ge en tydlig riktling för vägen frammåt. "
 title: Att välja KPI:er till din webb
-description: På Unikorn ser vi nyckeltal (KPI:er) som mer än bara datapunkter;
-  de ger likt norrstjärnan en tydlig riktling för företagets framgång.
+description: "På Unikorn ser vi nyckeltal (KPI:er) som mer än bara datapunkter;
+  de kan likt norrstjärnan ge en tydlig riktling för vägen frammåt. "
 canonical: https://www.unikorn.se/sv/webbanalys/definiera-kpier/
 language: se
 original: /web-analytics/kpi-definition/
