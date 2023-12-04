@@ -1,6 +1,6 @@
 ---
 shorttitle: Att välja KPI:er
-path: /definiera-kpier/
+path: /web-analytics/definiera-kpier/
 shortdesc: x
 title: Att välja KPI:er
 description: x
