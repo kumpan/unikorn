@@ -6,7 +6,7 @@ title: Deciding KPIs for Your Website
 description: At Unikorn, we understand that Key Performance Indicators (KPIs)
   are more than just data points; they are the north star of your website's
   success.
-canonical: /kpi-definition/
+canonical: https://www.unikorn.se/web-analytics/kpi-definition/
 language: en
 menu_position: 1
 og_image:
