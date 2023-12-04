@@ -18,11 +18,11 @@ icon:
   alt: KPIer sätter riktningen, likt nordstjärnan
 hero:
   preamble: På Unikorn ser vi nyckeltal (KPI:er) som mer än bara datapunkter; de
-    ger likt norrstjärnan en tydlig riktling för företagets framgång. För
+    kan likt norrstjärnan ge en tydlig riktling för vägen frammåt. För
     Webbplatser har KPI:er en viktig roll i att mäta sajtens hälsa, effektivitet
-    och överensstämmelse med affärsmålen. Genom att använda KPI:er på rätt sätt
-    blir det lättare att navigera i det digitala landskapet och fatta
-    informerade beslut som stärker engagemang och konvertering.
+    och överensstämmelse med affärsmålen. Används KPI:er på rätt sätt blir det
+    lätt att navigera i det digitala landskapet och fatta informerade beslut som
+    stärker engagemang och konvertering.
   heading: Att välja KPI:er
   featured_image:
     alt: KPIer sätter riktningen, likt nordstjärnan
