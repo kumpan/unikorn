@@ -53,3 +53,7 @@ Behöver ditt företag hjälp att navigera rätt?
 Vi hjälper dig gärna att hitta rätt fokus.
 
 [Kontakta Unikorn](https://www.unikorn.se/sv/kontakt/)
+
+
+
+![KPI navigation](../assets/kpi-navigation.svg "KPI navigation")
