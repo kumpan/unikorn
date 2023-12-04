@@ -10,9 +10,9 @@ original: /web-analytics/kpi-definition/
 menu_position: 4
 og_image:
   alt: x
-  src: ../assets/choices-monochrome.svg
+  src: ../assets/kpi-definition-as-a-north-star.svg
 icon:
-  src: ../assets/choices-monochrome.svg
+  src: ../assets/kpi-definition-as-a-north-star.svg
   alt: x
 hero:
   preamble: På Unikorn ser vi nyckeltal (KPI:er) som mer än bara datapunkter; de
@@ -24,7 +24,7 @@ hero:
   heading: Att välja KPI:er
   featured_image:
     alt: x
-    src: ../assets/choices-monochrome.svg
+    src: ../assets/kpi-definition-as-a-north-star.svg
 latest_posts_text: x
 posts_category: x
 ---
