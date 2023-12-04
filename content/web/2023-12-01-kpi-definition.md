@@ -29,7 +29,7 @@ posts_category: Analytics
 ---
 ## Common Challenges
 
-Identifying valuable KPIs is a process, and we are here to help you navigate through it. A major challenge is the extensive array of available data presented in various tools. We are specialists in discerning metrics worth focusing on that create insights making a difference for your business objectives.
+Identifying valuable KPIs is a process, and we are here to help you navigate through it. A major challenge is the extensive array of available data presented in various tools. We are specialists in defining metrics worth focusing on that makes a difference for your business objectives. 
 
 ## Our KPI Process
 
