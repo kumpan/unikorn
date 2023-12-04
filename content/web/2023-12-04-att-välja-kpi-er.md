@@ -6,7 +6,7 @@ title: Att välja KPI:er
 description: x
 canonical: https://www.unikorn.se/webbanalys/definiera-kpier/
 language: se
-original: https://www.unikorn.se/web-analytics/kpi-definition/
+original: /web-analytics/kpi-definition/
 menu_position: 4
 og_image:
   alt: x
