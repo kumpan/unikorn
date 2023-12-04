@@ -32,7 +32,7 @@ posts_category: Analytics
 ---
 ## Vanliga Utmaningar
 
-Att identifiera rätt KPI:er bland tillgånglig data är en process, och vi är här för att hjälpa dig att navigera igenom den. En stor utmaning är det omfattande utbudet av tillgänglig data som presenteras i olika verktyg. Vi är specialister på att urskilja mätvärden värda att fokusera på som skapar riktigt värde för dina affärsmål. 
+Att identifiera KPI:er av värde bland tillgånglig data är en process, vi finns här för att hjälpa dig att navigera igenom den. En stor utmaning är det omfattande utbudet av tillgänglig data som presenteras i olika verktyg. Vi är specialister på att urskilja mätvärden värda att fokusera på som skapar insikter som ger skillnad för dina affärsmål.
 
 ## Vår KPI-process
 
