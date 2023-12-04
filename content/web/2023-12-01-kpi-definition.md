@@ -52,6 +52,4 @@ We are happy to help you find the right focus.
 
 [Contact Unikorn](https://www.unikorn.se/contact/)
 
-
-
-![KPI navigation](../assets/kpi-navigation.png "KPI navigation")
+![KPI selection](../assets/data-selection.png "KPI selection")
