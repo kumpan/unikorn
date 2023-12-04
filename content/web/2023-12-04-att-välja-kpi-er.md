@@ -30,7 +30,7 @@ hero:
 latest_posts_text: Anda inlägg inom analys
 posts_category: Analytics
 ---
-## Vanliga Utmaningar
+## Vanliga utmaningar
 
 Att identifiera KPIer av värde är en process, vi finns här för att hjälpa dig att navigera igenom den. En stor utmaning är det omfattande utbudet av tillgänglig data som presenteras i olika verktyg. Vi är specialister på att urskilja mätvärden värda att fokusera på som skapar insikter som ger skillnad för dina affärsmål.
 
