@@ -10,10 +10,10 @@ canonical: https://www.unikorn.se/web-analytics/kpi-definition/
 language: en
 menu_position: 4
 og_image:
-  src: ../assets/content-1-.svg
+  src: ../assets/kpi-definition-as-a-north-star.svg
   alt: Unikorn KPI Defintion
 icon:
-  src: ../assets/content-1-.svg
+  src: ../assets/kpi-definition-as-a-north-star.svg
   alt: Unikorn KPI Defintion
 hero:
   heading: Deciding KPIs for Your Website
@@ -24,7 +24,7 @@ hero:
     leveraging these indicators, we can help you navigate the digital landscape,
     making informed decisions that amplify engagement and conversions.
   featured_image:
-    src: ../assets/stats.svg
+    src: ../assets/kpi-definition-as-a-north-star.svg
     alt: Unikorn KPI Defintion
 latest_posts_text: Latest posts
 posts_category: Analytics
