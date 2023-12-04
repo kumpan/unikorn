@@ -1,10 +1,10 @@
 ---
 shorttitle: Att välja KPI:er
-path: /webbanalys/definiera-kpier/
+path: /sv/webbanalys/definiera-kpier/
 shortdesc: x
 title: Att välja KPI:er
 description: x
-canonical: https://www.unikorn.se/webbanalys/definiera-kpier/
+canonical: https://www.unikorn.se/sv/webbanalys/definiera-kpier/
 language: se
 original: /web-analytics/kpi-definition/
 menu_position: 4
