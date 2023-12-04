@@ -50,3 +50,11 @@ Does your company need help to achieve sucessfull navigation?
 We are happy to help you find the right focus.
 
 [Contact Unikorn](https://www.unikorn.se/contact/)
+
+
+
+![svg](../assets/answers.svg "svg")
+
+
+
+![png](../assets/answers.png "png")
