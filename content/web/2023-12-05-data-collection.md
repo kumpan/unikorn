@@ -18,7 +18,7 @@ icon:
   src: ../assets/data-collection.svg
   alt: The Key to Successful Data Collection
 hero:
-  heading: The Key to Successful Data Collection
+  heading: Successful Data Collection
   preamble: To be able to measure and follow up defined KPIs, data collection is
     required. Whenever sites or tools are updated, analysis of the data
     collection is required to ensure that the data remains reliable. Therefore,
