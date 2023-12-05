@@ -19,12 +19,11 @@ icon:
   alt: The Key to Successful Data Collection
 hero:
   heading: Successful Data Collection
-  preamble: To be able to measure and follow up defined KPIs, data collection is
-    required. Whenever sites or tools are updated, analysis of the data
-    collection is required to ensure that the data remains reliable. Therefore,
-    regular review by experts in analytics and tag management is necessary.
-    Unikorn's analysis team is specialised in measuring web interaction and tag
-    management.
+  preamble: To be able to follow up defined KPIs, data collection is required.
+    Whenever sites or tools are updated, analysis of the data collection is
+    required to ensure that the data remains reliable. Therefore, regular review
+    by experts in analytics and tag management is necessary. Unikorn's analysis
+    team is specialised in measuring web interaction and tag management.
   featured_image:
     src: ../assets/data-collection.svg
     alt: The Key to Successful Data Collection
@@ -33,12 +32,12 @@ posts_category: Analytics
 ---
 ## Common Challenges
 
-Many companies struggle to collect relevant data efficiently. Common challenges include complex web structures, difficulties in tracking specific interactions, or handling large volumes of data. These obstacles can, if not carefully monitored, create misleading data, which in turn negatively affects business decisions.
+Many companies struggle to collect relevant data efficiently. Common challenges include complex web structures, difficulties in tracking specific interactions, or handling large volumes of data. These obstacles can, if not carefully monitored, create misleading data , which in turn negatively affects business decisions. 
 
 ## Our Process
 
 1. **Analysis of Current System:** Review of existing web structure and data collection methods to identify shortcomings and areas for improvement.
-2. **Plan and Custom Solutions:** Creation of a customised plan that suits the company's specific needs. Choice and implementation of appropriate technology for collecting relevant data.
+2. **Plan and Custom Solutions:** Creation of a customised plan that suits the company's specific needs and [defined KPIs](https://www.unikorn.se/web-analytics/kpi-definition/). Choice and implementation of appropriate technology for collecting relevant data. 
 3. **Implementation and Integration**: Installation and configuration of tags on the website. Integration with analytics platforms for data storage and analysis.
 4. **Quality Assurance and Testing**: Testing to ensure that all data is collected and presented correctly.
 5. **Monitoring and Adjustments:** Monitoring of system performance and data quality over time. Regular updates and adjustments to stay up-to-date with new trends and technologies.
