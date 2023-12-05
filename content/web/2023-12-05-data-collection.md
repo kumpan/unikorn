@@ -12,10 +12,10 @@ canonical: https://www.unikorn.se/web-analytics/data-collection/
 language: en
 menu_position: 5
 og_image:
-  src: ../assets/agency-collaboration.png
+  src: ../assets/data-collection.svg
   alt: The Key to Successful Data Collection
 icon:
-  src: ../assets/agency-collaboration.png
+  src: ../assets/data-collection.svg
   alt: The Key to Successful Data Collection
 hero:
   heading: The Key to Successful Data Collection
@@ -26,7 +26,7 @@ hero:
     Unikorn's analysis team is specialised in measuring web interaction and tag
     management.
   featured_image:
-    src: ../assets/agency-collaboration.png
+    src: ../assets/data-collection.svg
     alt: The Key to Successful Data Collection
 latest_posts_text: Latest posts
 posts_category: Analytics
@@ -37,15 +37,11 @@ Many companies struggle to collect relevant data efficiently. Common challenges 
 
 ## Our Process
 
-
-
 1. **Analysis of Current System:** Review of existing web structure and data collection methods to identify shortcomings and areas for improvement.
 2. **Plan and Custom Solutions:** Creation of a customised plan that suits the company's specific needs. Choice and implementation of appropriate technology for collecting relevant data.
 3. **Implementation and Integration**: Installation and configuration of tags on the website. Integration with analytics platforms for data storage and analysis.
 4. **Quality Assurance and Testing**: Testing to ensure that all data is collected and presented correctly.
 5. **Monitoring and Adjustments:** Monitoring of system performance and data quality over time. Regular updates and adjustments to stay up-to-date with new trends and technologies.
-
-
 
 ## The Value of User Data
 
