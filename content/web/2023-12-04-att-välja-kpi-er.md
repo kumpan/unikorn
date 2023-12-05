@@ -3,7 +3,7 @@ shorttitle: Att välja KPIer - kopia
 path: /sv/webbanalys/definiera-kpier/
 shortdesc: "På Unikorn ser vi KPIer som mer än bara datapunkter; de kan likt
   norrstjärnan ge en tydlig riktling för vägen frammåt. "
-title: Att välja KPIer till din webb
+title: Att välja KPIer till din webb - kopia
 description: "På Unikorn ser vi KPIer som mer än bara datapunkter; de kan likt
   norrstjärnan ge en tydlig riktling för vägen frammåt. "
 canonical: https://www.unikorn.se/sv/webbanalys/definiera-kpier/
