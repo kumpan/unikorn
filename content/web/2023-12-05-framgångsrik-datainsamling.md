@@ -1,5 +1,5 @@
 ---
-shorttitle: Framgångsrik datainsamling
+shorttitle: Datainsamling
 path: /sv/webbanalys/datainsamling/
 shortdesc: För att kunna mäta och följa upp definierade KPIer så krävs
   datainsamling. Unikorn's analys-team är specialiserade på mätning av webb och
