@@ -21,7 +21,7 @@ hero:
   heading: Successful Data Collection
   preamble: To be able to follow up defined KPIs, data collection is required.
     Whenever sites or tools are updated, analysis of the data collection is
-    required to ensure that the data remains reliable. Therefore, regular review
+    needed to ensure that the data remains reliable. Therefore, regular review
     by experts in analytics and tag management is necessary. Unikorn's analysis
     team is specialised in measuring web interaction and tag management.
   featured_image:
