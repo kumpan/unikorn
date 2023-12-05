@@ -1,13 +1,11 @@
 ---
 shorttitle: Datainsamling
 path: /sv/webbanalys/datainsamling/
-shortdesc: För att kunna mäta och följa upp definierade KPIer så krävs
-  datainsamling. Unikorn's analys-team är specialiserade på mätning av webb och
-  tag management.
+shortdesc: För att kunna följa upp definierade KPIer så krävs datainsamling.
+  Unikorn's analys-team är specialiserade på mätning av webb och tag management.
 title: Framgångsrik datainsamling
-description: För att kunna mäta och följa upp definierade KPIer så krävs
-  datainsamling. Unikorn's analys-team är specialiserade på mätning av webb och
-  tag management.
+description: För att kunna följa upp definierade KPIer så krävs datainsamling.
+  Unikorn's analys-team är specialiserade på mätning av webb och tag management.
 canonical: https://www.unikorn.se/sv/webbanalys/datainsamling/
 language: sv
 original: /web-analytics/data-collection/
