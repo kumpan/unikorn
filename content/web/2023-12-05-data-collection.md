@@ -1,13 +1,13 @@
 ---
 shorttitle: Data Collection
 path: /web-analytics/data-collection/
-shortdesc: To be able to measure and follow up defined KPIs, data collection is
-  required. Unikorn's analysis team is specialised in measuring web interaction
-  and tag management.
+shortdesc: To be able to follow up defined KPIs, data collection is required.
+  Unikorn's analysis team is specialised in measuring web interaction and tag
+  management.
 title: The Key to Successful Data Collection
-description: To be able to measure and follow up defined KPIs, data collection
-  is required. Unikorn's analysis team is specialised in measuring web
-  interaction and tag management.
+description: To be able to follow up defined KPIs, data collection is required.
+  Unikorn's analysis team is specialised in measuring web interaction and tag
+  management.
 canonical: https://www.unikorn.se/web-analytics/data-collection/
 language: en
 menu_position: 5
