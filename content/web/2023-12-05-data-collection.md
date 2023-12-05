@@ -50,3 +50,7 @@ Investing in analytics and tag management is key to increased customer insights 
 Welcome to contact Unikorn to unlock your site's full potential!
 
 **[Contact Unikorn](https://www.unikorn.se/contact/)**
+
+
+
+![Data driven insights](../assets/data-insights.png "Data driven insights")
