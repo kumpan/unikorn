@@ -29,6 +29,11 @@ hero:
     src: ../assets/kpi-definition-as-a-north-star.svg
 latest_posts_text: Anda inlägg inom analys
 posts_category: Analytics
+SEOform:
+  form_name: Kontakta Unikorn 1
+  form_title: Kontakta Unikorn 2
+  form_text: Kontakta Unikorn 3
+  form_button: Kontakta Unikorn 4
 ---
 ## Vanliga utmaningar
 
