@@ -18,11 +18,11 @@ icon:
   alt: Nyckeln till framgångsrik datainsamling
 hero:
   heading: Framgångsrik datainsamling
-  preamble: För att kunna mäta och följa upp definierade KPIer så krävs
-    datainsamling. När sajter och verktyg uppdateras behövs analyser av
-    spårningen för att säkerställa att data förblir pålitlig. Detta kräver
-    regelbunden översyn av expertis inom analytics och tag management. Unikorn's
-    analys-team är specialiserade på mätning av webb och tag management.
+  preamble: För att kunna följa upp definierade KPIer så krävs datainsamling. När
+    sajter och verktyg uppdateras behövs analyser av spårningen för att
+    säkerställa att data förblir pålitlig. Detta kräver regelbunden översyn av
+    expertis inom analytics och tag management. Unikorn's analys-team är
+    specialiserade på mätning av webb och tag management.
   featured_image:
     src: ../assets/data-collection.svg
     alt: Nyckeln till framgångsrik datainsamling
