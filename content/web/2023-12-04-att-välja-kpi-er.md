@@ -30,9 +30,9 @@ hero:
 latest_posts_text: Anda inlägg inom analys
 posts_category: Analytics
 SEOform:
-  form_name: Behöver ditt företag hjälp att navigera rätt?
-  form_title: Behöver ditt företag hjälp att navigera rätt?
-  form_text: Vi hjälper dig gärna att hitta rätt fokus.
+  form_name: Behöver du hjälp?
+  form_title: Behöver du hjälp?
+  form_text: Vi hjälper gärna ditt företag att hitta rätt fokus genom rätt val av KPIer.
   form_button: Kontakta Unikorn
 ---
 ## Vanliga utmaningar
