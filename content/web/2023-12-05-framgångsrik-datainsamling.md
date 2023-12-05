@@ -24,7 +24,7 @@ hero:
     datainsamling. När sajter och verktyg uppdateras behövs analyser av
     spårningen för att säkerställa att data förblir pålitlig. Detta kräver
     regelbunden översyn av expertis inom analytics och tag management. Unikorn's
-    analys team är specialiserade på mätning av webb och tag management.
+    analys-team är specialiserade på mätning av webb och tag management.
   featured_image:
     src: ../assets/data-collection.svg
     alt: Nyckeln till framgångsrik datainsamling
