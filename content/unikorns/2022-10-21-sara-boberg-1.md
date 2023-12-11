@@ -22,7 +22,7 @@ hero:
   preamble: Träffa Sara Boberg, Unikorns Webbanalytiker med passion för datadriven
     utveckling.
   featured_image:
-    src: ../assets/sara-boberg-unikorn.jpg
+    src: ../assets/efficient-data-visualization.svg
     alt: Sara Boberg Unikorn
   button: ""
   buttonlink: ""
