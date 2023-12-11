@@ -31,7 +31,7 @@ posts_category: Sara
 SEOform:
   form_name: Kontakta Sara
   form_title: Kontakta Sara
-  form_text: Skicka ett mejl om du vill prata webbanalys!
+  form_text: Skicka din mejl om du vill prata webbanalys!
   form_button: Skicka
 ---
 ## S﻿EO konsult & Analytiker
