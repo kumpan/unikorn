@@ -53,4 +53,4 @@ Jag har arbetat med digitala strategier och webbanalys sedan 2018. Innan jag bö
 
 ### Drivkrafter
 
-> "Genom tillgång till pålitlig data kan man urskilja mönster och trender som man tidigare inte kännt till, eller enbart spekulerat kring. Genom att identifiera trafikflöden, engagerande innehåll och tekniska förutsättnigar för SEO och konvertering skapas vädefulla insikter för vilken väg man ska ta frammåt vädefull. Likt en skattjakt älskar jag ovissheten om vad man kommer hitta när man väl börjar leta!"
+> "Genom tillgång till pålitlig data kan man urskilja mönster och trender som man tidigare inte kännt till, eller enbart spekulerat kring. Genom att identifiera trafikflöden, engagerande innehåll och tekniska förutsättnigar för SEO och konvertering skapas vädefulla insikter för vilken väg man ska ta frammåt. Likt en skattjakt älskar jag ovissheten om vad man kommer hitta när man väl börjar leta!"
