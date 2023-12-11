@@ -49,6 +49,6 @@ I have been working with digital strategies and web analysis since 2018. Before 
 * Implementation of Analysis Tools
 * Effective Data Visualization
 
-## Motivations 
+## Motivators
 
 > "Through access to reliable data, one can discern patterns and trends that were previously unknown, or merely speculated about. By identifying traffic flows, engaging content, and technical conditions for SEO and conversion, valuable insights are created for the path forward. Like a treasure hunt, I love the moment when one identifies the treasure and gets to see what it consist of." 
