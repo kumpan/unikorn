@@ -12,7 +12,7 @@ original: /unikorns/sara-boberg/
 menu_position: 4
 category: unikorn
 og_image:
-  src: ../assets/sara-boberg-unikorn.jpg
+  src: ../assets/efficient-data-visualization.svg
   alt: Sara Boberg
 icon:
   src: ../assets/sara-boberg-5-.svg
