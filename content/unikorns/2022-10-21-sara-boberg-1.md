@@ -46,7 +46,7 @@ Jag har arbetat med digitala strategier och webbanalys sedan 2018. Innan jag bö
 
 * Datadriven SEO
 * T﻿eknisk webbanalys
-* Implementation av analysverktyg Implementation
+* Implementation av analysverktyg
 * Effektiv datavisualisering
 
 ### Drivkrafter
