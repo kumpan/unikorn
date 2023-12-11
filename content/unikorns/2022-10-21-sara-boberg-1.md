@@ -15,7 +15,7 @@ og_image:
   src: ../assets/sara-boberg-5-.jpg
   alt: Sara Boberg
 icon:
-  src: ../assets/sara-boberg-5-.jpg
+  src: ../assets/sara-boberg-ikon.png
   alt: Sara Boberg
 hero:
   heading: Sara Boberg
