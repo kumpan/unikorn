@@ -1,21 +1,21 @@
 ---
 shorttitle: Sara Boberg
 path: /sv/unikorns/sara-boberg/
-shortdesc: Sara är en nyfiken "SEO Unikorn" med passion för datadriven
-  utveckling av nya lösningar.
-title: Sara Boberg - SEO konsult och analytiker
-description: Träffa Sara, en nyfiken "SEO Unikorn" med passion för datadriven
-  utveckling av nya lösningar.
+shortdesc: Träffa Sara Boberg, Unikorns Webbanalytiker med passion för
+  datadriven utveckling.
+title: Sara Boberg - SEO konsult och Analytiker
+description: Träffa Sara Boberg, Unikorns Webbanalytiker med passion för
+  datadriven utveckling.
 canonical: https://www.unikorn.se/sv/unikorns/sara-boberg/
 language: sv
 original: /unikorns/sara-boberg/
 menu_position: 4
 category: unikorn
 og_image:
-  src: ../assets/sara-boberg-unikorn.jpeg
+  src: ../assets/sara-boberg-5-.jpg
   alt: Sara Boberg
 icon:
-  src: ../assets/sara-boberg-unikorn.jpeg
+  src: ../assets/sara-boberg-5-.jpg
   alt: Sara Boberg
 hero:
   heading: Sara Boberg
@@ -36,7 +36,7 @@ SEOform:
 ---
 ## S﻿EO konsult & webbanalytiker
 
-![Sara Boberg Unikorn](../assets/sara-boberg-unikorn.jpeg)
+![Sara Boberg Unikorn](../assets/sara-boberg-5-.jpg)
 
 ### Bakgrund
 
