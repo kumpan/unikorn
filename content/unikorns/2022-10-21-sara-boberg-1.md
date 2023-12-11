@@ -40,7 +40,7 @@ SEOform:
 
 ### M﻿in bakgrund
 
-Jag har arbetat med digitala strategier och webbanalys sedan 2018. Innan jag började arbeta på Unikorn så har jag bland annat jobbat med digital inovation, digital marknadsföring och som analytiker för ett mediavaruhus. Under mina år på Unikorn så har jag fått möjligheten att bredda mina kunskaper inom SEO och implementation av olika analysverktyg. 
+Jag har arbetat med digitala strategier och webbanalys sedan 2018. Innan jag började arbeta på Unikorn så har jag jobbat med digital inovation, digital marknadsföring och som analytiker på ett mediavaruhus. Under mina år på Unikorn så har jag fått möjligheten att bredda mina kunskaper inom SEO och implementation av olika analysverktyg. 
 
 ### Stryrkor
 
