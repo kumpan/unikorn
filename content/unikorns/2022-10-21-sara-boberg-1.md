@@ -40,7 +40,7 @@ SEOform:
 
 ### M﻿in bakgrund
 
-Jag har arbetat med digitala strategier och webbanalys sedan 2018. Innan jag började arbeta på Unikorn så har jag bland annat jobbat med digital inovation, digital marknadsföring och som analytiker för ett mediavaruhus. Under mina år på Unikorn så har jag öven fått möjligheten att bredda mina kunskaper inom SEO och implementation av olika analysverktyg. 
+Jag har arbetat med digitala strategier och webbanalys sedan 2018. Innan jag började arbeta på Unikorn så har jag bland annat jobbat med digital inovation, digital marknadsföring och som analytiker för ett mediavaruhus. Under mina år på Unikorn så har jag fått möjligheten att bredda mina kunskaper inom SEO och implementation av olika analysverktyg. 
 
 ### Stryrkor
 
@@ -49,6 +49,8 @@ Jag har arbetat med digitala strategier och webbanalys sedan 2018. Innan jag bö
 * Upprättning av analysverktyg
 * Effektiv datavisualisering
 
+
+
 ### Drivkrafter
 
-> "Genom tillgång till pålitlig data kan man urskilja mönster och trender som man tidigare inte kännt till, eller enbart spekulerat kring. Genom att identifiera trafikflöden, engagerande innehåll och tekniska förutsättnigar för SEO och konvertering skapas vädefulla insikter för vilken väg man ska ta frammåt vädefull. Likt en skattjakt älskar jag ovissheten om vad man kommer hitta när man väl börjar leta!
+> "Genom tillgång till pålitlig data kan man urskilja mönster och trender som man tidigare inte kännt till, eller enbart spekulerat kring. Genom att identifiera trafikflöden, engagerande innehåll och tekniska förutsättnigar för SEO och konvertering skapas vädefulla insikter för vilken väg man ska ta frammåt vädefull. Likt en skattjakt älskar jag ovissheten om vad man kommer hitta när man väl börjar leta!"
