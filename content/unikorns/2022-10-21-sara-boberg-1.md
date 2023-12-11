@@ -15,7 +15,7 @@ og_image:
   src: ../assets/sara-boberg-unikorn.jpg
   alt: Webbanalys på Unikorn
 icon:
-  src: ../assets/sara-boberg-5-.svg
+  src: ../assets/sara-boberg-icon.svg
   alt: Sara Boberg
 hero:
   heading: Sara Boberg
