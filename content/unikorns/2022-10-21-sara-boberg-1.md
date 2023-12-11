@@ -12,7 +12,7 @@ original: /unikorns/sara-boberg/
 menu_position: 4
 category: unikorn
 og_image:
-  src: ../assets/sara-boberg-5-.jpg
+  src: ../assets/sara-boberg-unikorn.jpg
   alt: Sara Boberg
 icon:
   src: ../assets/sara-boberg-5-.svg
@@ -22,7 +22,7 @@ hero:
   preamble: Träffa Sara Boberg, Unikorns Webbanalytiker med passion för datadriven
     utveckling.
   featured_image:
-    src: ../assets/efficient-data-visualization.svg
+    src: ../assets/sara-boberg-unikorn.jpg
     alt: Sara Boberg Unikorn
   button: ""
   buttonlink: ""
@@ -36,7 +36,7 @@ SEOform:
 ---
 ## S﻿EO konsult & Analytiker
 
-![Sara Boberg Unikorn](../assets/untitled-design-1-.jpg)
+![Sara Boberg Unikorn](../assets/sara-boberg-unikorn.jpg)
 
 ### M﻿in bakgrund
 
