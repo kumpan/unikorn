@@ -19,8 +19,8 @@ icon:
   alt: Sara Boberg
 hero:
   heading: Sara Boberg
-  preamble: Träffa Sara, en nyfiken "SEO Unikorn" med passion för datadriven
-    utveckling av nya lösningar.
+  preamble: Träffa Sara Boberg, Unikorns Webbanalytiker med passion för datadriven
+    utveckling.
   featured_image:
     src: ../assets/undraw_progress_data_4ebj-1-.svg
     alt: Sara Boberg Unikorn
@@ -34,7 +34,7 @@ SEOform:
   form_text: "Din mejl:"
   form_button: Skicka
 ---
-## S﻿EO konsult & webbanalytiker
+## S﻿EO konsult & Analytiker
 
 ![Sara Boberg Unikorn](../assets/sara-boberg-5-.jpg)
 
