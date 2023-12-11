@@ -36,7 +36,7 @@ SEOform:
 ---
 ## S﻿EO konsult & Analytiker
 
-![Sara Boberg Unikorn](../assets/untitled-design.jpg)
+![Sara Boberg Unikorn](../assets/untitled-design-1-.jpg)
 
 ### M﻿in bakgrund
 
