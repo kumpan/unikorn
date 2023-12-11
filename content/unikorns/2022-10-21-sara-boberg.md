@@ -23,7 +23,7 @@ hero:
     developement of new solutions.
   featured_image:
     src: ../assets/efficient-data-visualization.png
-    alt: Sara Boberg Unikorn
+    alt: Web Analytics
   button: ""
   buttonlink: ""
 latest_posts_text: Posts by Sara Boberg
