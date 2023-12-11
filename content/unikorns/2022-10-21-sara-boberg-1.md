@@ -22,7 +22,7 @@ hero:
   preamble: Träffa Sara Boberg, Unikorns Webbanalytiker med passion för datadriven
     utveckling.
   featured_image:
-    src: ../assets/undraw_progress_data_4ebj-1-.svg
+    src: ../assets/efficient-data-visualization.svg
     alt: Sara Boberg Unikorn
   button: ""
   buttonlink: ""
@@ -38,21 +38,17 @@ SEOform:
 
 ![Sara Boberg Unikorn](../assets/sara-boberg-5-.jpg)
 
-### Bakgrund
+### M﻿in bakgrund
 
-Sara har arbetat med digitala strategier och webbanalys sedan 2018. 📈 Hon älskar att ta sig an nya utmaningar och projekt. Under de första fyra åren i sin digitala karriär har hon arbetat med digital strategi och analys på två byråer, ett mediehus och som frilansare innan hon bestämde sig för att bli en Unikorn 🦄. Utöver Unikorn jobbar Sara även med digital marknadsföring för en träningsstudio. 🤸
+Jag har arbetat med digitala strategier och webbanalys sedan 2018. Innan jag började arbeta på Unikorn så har jag bland annat jobbat med digital inovation, digital marknadsföring och som analytiker för ett mediavaruhus. Under mina år på Unikorn så har jag öven fått möjligheten att bredda mina kunskaper inom SEO och implementation av olika analysverktyg. 
 
-### Saras superkrafter
+### Stryrkor
 
-* Google Analytics 
-* Databaserarade strategier
-* SEO
+* Datadriven SEO
+* T﻿eknisk webbanalys
+* Upprättning av analysverktyg
+* Effektiv datavisualisering
 
-### Vad får Saras inre Unikorn att studsa av glädje?
+### Drivkrafter
 
-> "Förutom att utmana mig själv med webboptimering älskar jag att dansa, att underhålla mig själv med DIY-inredningsprojekt, segla och umgås med vänner och familj."
-
-### Saker du inte visste om Sara
-
-* Sara är silvermedaljör i SM i Pole Sports. 🥈
-* Sara har varit medlem i en (snäll) motorcykelklubb "Motorcykelentusiasterna" sedan födseln. 🏍️
+> "Genom tillgång till pålitlig data kan man urskilja mönster och trender som man tidigare inte kännt till, eller enbart spekulerat kring. Genom att identifiera trafikflöden, engagerande innehåll och tekniska förutsättnigar för SEO och konvertering skapas vädefulla insikter för vilken väg man ska ta frammåt vädefull. Likt en skattjakt älskar jag ovissheten om vad man kommer hitta när man väl börjar leta!
