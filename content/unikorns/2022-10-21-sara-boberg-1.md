@@ -3,7 +3,7 @@ shorttitle: Sara Boberg
 path: /sv/unikorns/sara-boberg/
 shortdesc: Träffa Sara Boberg, Unikorns Webbanalytiker med passion för
   datadriven utveckling.
-title: Sara Boberg - SEO konsult och Analytiker
+title: Sara Boberg - SEO konsult och analytiker
 description: Träffa Sara Boberg, Unikorns Webbanalytiker med passion för
   datadriven utveckling.
 canonical: https://www.unikorn.se/sv/unikorns/sara-boberg/
@@ -42,13 +42,13 @@ SEOform:
 
 Jag har arbetat med digitala strategier och webbanalys sedan 2018. Innan jag började arbeta på Unikorn så har jag jobbat med digital inovation, digital marknadsföring och som analytiker på ett mediavaruhus. Under mina år på Unikorn så har jag fått möjligheten att bredda mina kunskaper inom SEO och implementation av olika analysverktyg. 
 
-### Stryrkor
+### Styrkor
 
 * Datadriven SEO
 * T﻿eknisk webbanalys
-* Upprättning av analysverktyg
+* Implementation av analysverktyg Implementation
 * Effektiv datavisualisering
 
 ### Drivkrafter
 
-> "Genom tillgång till pålitlig data kan man urskilja mönster och trender som man tidigare inte kännt till, eller enbart spekulerat kring. Genom att identifiera trafikflöden, engagerande innehåll och tekniska förutsättnigar för SEO och konvertering skapas vädefulla insikter för vilken väg man ska ta frammåt. Likt en skattjakt älskar jag när man identifierar skattkistan och får se vad den innehåller."
+> "Genom tillgång till pålitlig data kan man urskilja mönster och trender som man tidigare inte kännt till, eller enbart spekulerat kring. Genom att identifiera trafikflöden, engagerande innehåll och tekniska förutsättnigar för SEO och konvertering skapas vädefulla insikter för vilken väg man ska ta framåt. Likt en skattjakt älskar jag när man identifierar skattkistan och får se vad den innehåller."
