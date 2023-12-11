@@ -13,9 +13,9 @@ menu_position: 4
 category: unikorn
 og_image:
   src: ../assets/efficient-data-visualization.svg
-  alt: Sara Boberg
+  alt: Webbanalys på Unikorn
 icon:
-  src: ../assets/sara-boberg-icon.svg
+  src: ../assets/sara-boberg-5-.svg
   alt: Sara Boberg
 hero:
   heading: Sara Boberg
