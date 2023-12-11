@@ -10,11 +10,11 @@ canonical: https://www.unikorn.se/web-analytics/data-visualization/
 language: en
 menu_position: 6
 og_image:
-  src: ../assets/agency-collaboration.png
+  src: ../assets/efficient-data-visualization.svg
   alt: Efficient data visualization by Unikorn
 icon:
   alt: Efficient data visualization by Unikorn
-  src: ../assets/agency-collaboration.png
+  src: ../assets/efficient-data-visualization.svg
 hero:
   heading: Transform Your Data into Insights
   preamble: In a world where data is available in endless amounts, the ability to
@@ -23,7 +23,7 @@ hero:
     engaging insights. Our expertise in this area is a fundamental part of our
     data-driven work in our work with SEO and conversion optimization.
   featured_image:
-    src: ../assets/agency-collaboration.png
+    src: ../assets/efficient-data-visualization.svg
     alt: Efficient data visualization by Unikorn
 latest_posts_text: Lates posts about Analytics
 posts_category: Analytics
@@ -31,8 +31,6 @@ posts_category: Analytics
 ## Common Challenges
 
 Navigating all available data is often overwhelming. Commonly, companies struggle to make their data meaningful and useful. Our expertise lies in identifying and extracting the most valuable and relevant data points.
-
-
 
 ## Unikorn’s Process for Data Visualization
 
@@ -49,3 +47,7 @@ By clearly presenting complex data, we help you with data-driven decision-making
 Unikorn is ready to help you transform data into insights.
 
 [Contact Unikorn](https://www.unikorn.se/contact/)
+
+
+
+![Efficient data presentation by Unikorn](../assets/data-presentation.png "Efficient data presentation by Unikorn")
