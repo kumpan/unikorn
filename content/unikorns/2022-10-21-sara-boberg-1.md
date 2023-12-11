@@ -31,7 +31,7 @@ posts_category: Sara
 SEOform:
   form_name: Kontakta Sara
   form_title: Kontakta Sara
-  form_text: "Din mejl:"
+  form_text: Skicka ett mejl om du vill prata webbanalys!
   form_button: Skicka
 ---
 ## S﻿EO konsult & Analytiker
@@ -48,8 +48,6 @@ Jag har arbetat med digitala strategier och webbanalys sedan 2018. Innan jag bö
 * T﻿eknisk webbanalys
 * Upprättning av analysverktyg
 * Effektiv datavisualisering
-
-
 
 ### Drivkrafter
 
