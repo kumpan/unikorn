@@ -22,7 +22,7 @@ hero:
   preamble: Meet Sara Boberg, Unikorn's Web Analyst with a passion for data-driven
     development.
   featured_image:
-    src: ../assets/efficient-data-visualization.png
+    src: ../assets/efficient-data-visualization.svg
     alt: Web Analytics
   button: ""
   buttonlink: ""
