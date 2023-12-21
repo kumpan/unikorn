@@ -1,5 +1,5 @@
 ---
-shorttitle: Konverterings- optimering
+shorttitle: Optimera för konvertering
 path: /sv/webbanalys/konverteringsoptimering/
 shortdesc: Vår målbild är att skapa en sömlös och inbjudande
   konverteringsupplevelse från att användaren börjar söka efter information
