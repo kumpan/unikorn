@@ -57,4 +57,4 @@ Do you need help increasing your website's profitability?
 
 
 
-![Path to the goal](../assets/navigate-to-the-goal.svg "Path to the goal")
+![Path to the goal](../assets/navigate-to-the-goal..png "Path to the goal")
