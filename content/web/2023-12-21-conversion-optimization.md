@@ -12,15 +12,15 @@ canonical: https://www.unikorn.se/web-analytics/conversion-optimization/
 language: en
 menu_position: 7
 og_image:
-  src: ../assets/agency-collaboration.png
-  alt: Conversion Optimization for increased profitability
+  src: ../assets/customer-journey.svg
+  alt: Navigate to the goal
 icon:
-  src: ../assets/agency-collaboration.png
-  alt: Conversion Optimization for increased profitability
+  src: ../assets/customer-journey.svg
+  alt: Navigate to the goal
 hero:
   featured_image:
-    src: ../assets/agency-collaboration.png
-    alt: Conversion Optimization for increased profitability
+    src: ../assets/customer-journey.svg
+    alt: Navigate to the goal
   heading: Conversion Optimization for increased profitability
   preamble: To convert means that the visitor performs a desired action on the
     website, such as completing a purchase or contacting the company. Conversion
@@ -54,3 +54,7 @@ When we optimize for conversion, the user experience naturally improves through 
 Do you need help increasing your website's profitability?
 
 [Contact Unikorn](https://www.unikorn.se/contact/)
+
+
+
+![Path to the goal](../assets/navigate-to-the-goal.svg "Path to the goal")
