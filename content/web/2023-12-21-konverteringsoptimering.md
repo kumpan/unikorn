@@ -28,7 +28,7 @@ hero:
     Konverteringsoptimering handlar om att göra det mer attraktivt och enkelt
     för användare att genomföra dessa handlingar. Vår målbild är att skapa en
     sömlös och inbjudande konverteringsupplevelse från att användaren börjar
-    söka efter information online till att personen konverterar
+    söka efter information online till att personen konverterar.
 latest_posts_text: Senaste inläggen inom Analytics
 posts_category: Analytics
 ---
