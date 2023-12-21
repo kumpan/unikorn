@@ -3,11 +3,11 @@ shorttitle: Konverteringsoptimering
 path: /sv/webbanalys/konverteringsoptimering/
 shortdesc: Vår målbild är att skapa en sömlös och inbjudande
   konverteringsupplevelse från att användaren börjar söka efter information
-  online till att personen konverterar
+  online till konvertering.
 title: Konverteringsoptimering för ökad lönsamhet
 description: Vår målbild är att skapa en sömlös och inbjudande
   konverteringsupplevelse från att användaren börjar söka efter information
-  online till att personen konverterar
+  online till konvertering.
 canonical: https://www.unikorn.se/sv/webbanalys/konverteringsoptimering/
 language: sv
 original: /web-analytics/conversion-optimization/
