@@ -34,8 +34,8 @@ posts_category: Analytics
 ---
 ## Vanliga utmaningar 
 
-I många fall läggs stora investeringar på att driva in trafik till sin webbplats via annonsering eller SEO, men att det saknas fokus att ta tillvara på att trafiken är relevant och skapar riktigt värde genom konvertering. Detta misstag hänger ofta ihop med att sina målsättningar och [KPIer](https://www.unikorn.se/sv/webbanalys/definiera-kpi/) lägger fokus på kvantitet snarare än kvalitet.\
-\
+I många fall läggs stora investeringar på att driva in trafik till sin webbplats via annonsering eller SEO, men att det saknas fokus att ta tillvara på att trafiken är relevant och skapar riktigt värde genom konvertering. Detta misstag hänger ofta ihop med att sina målsättningar och [KPIer](https://www.unikorn.se/sv/webbanalys/definiera-kpi/) lägger fokus på kvantitet snarare än kvalitet.
+
 Konverteringsoptimering handlar om att förstå användarens behov och upplevelser genom hela resan mot att konvertera. För att lyckas krävs rätt kommunikation på rätt ställe, en användarvänlig struktur för att skapa enkla och engagerande navigeringsmöjligheter mot konvertering och att inga tekniska hinder såsom trasiga funktioner eller långsamma laddtider får besökaren att avbryta sitt besök.   
 
 ## Vår process för optimering
@@ -52,11 +52,10 @@ Konverteringsoptimering handlar om att förstå användarens behov och upplevels
 
 Genom att förbättra konverteringsgraden kan företag effektivt öka avkastningen av sina investeringar. En högre konverteringsgrad leder till högre försäljning och intäkter utan att nödvändigtvis öka trafiken till webbplatsen. Konverteringsoptimering syftar till att specifikt attrahera den lönsamma målgruppen och göra det attraktivt för dessa att genomföra det som ger värde till verksamheten.
 
-När vi optimerar för konvertering förbättras av naturliga skäl även användarupplevelsen genom investeringar med användaren i fokus, vilket i sin tur stärker kundlojalitet och varumärke.\
-Vill du ha hjälp att öka din webbsidas lönsamhet?\
-\
+När vi optimerar för konvertering förbättras av naturliga skäl även användarupplevelsen genom investeringar med användaren i fokus, vilket i sin tur stärker kundlojalitet och varumärke.
+
+Vill du ha hjälp att öka din webbsidas lönsamhet?
+
 [Kontakta Unikorn](https://www.unikorn.se/sv/kontakt/)
-
-
 
 ![Vägen mot målet](../assets/navigate-to-the-goal..png "Vägen mot målet")
