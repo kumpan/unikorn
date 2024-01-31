@@ -18,7 +18,7 @@ hero:
     maximises their ROI. Which means that they can confidently scale their
     businesses.
   featured_image:
-    src: ../assets/mobile-friendly-site.svg
+    src: ../assets/mobile-only.svg
     alt: SEO Unikorn
   button: Start growing now
   buttonlink: /contact/
