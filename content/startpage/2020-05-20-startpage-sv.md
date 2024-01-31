@@ -11,16 +11,13 @@ og_image:
   src: ../assets/og.png
   alt: unikorn
 hero:
-  heading: Lyft din digitala närvaro.
-  text: Vi är din bästa vän när det gäller att hjälpa dig hitta vägen till en
-    framgångsrik digital strategi. Vi har kunskapen och erfarenheten för att
-    hantera alla aspekter av din digitala marknadsföring och kommer därför att
-    finnas vid din sida under hela processen. Från de inledande stadierna till
-    uppföljningar, revideringar och kursriktning, en solid konstant SEO,
-    webbprojekt och digitala strategiers prestationspartner.
+  heading: SEO-konsulter för större ehandlare
+  text: Unikorn ser till att ehandlare växer genom avancerad SEO. Genom att förstå
+    kundens behov driver vi relevant trafik, ökar konverteringar och maximerar
+    deras ROI. Vilket innebär att de med säkerhet kan skala sina verksamheter.
   featured_image:
     src: ../assets/mobile-only.svg
-    alt: Digital Growth
+    alt: SEO för ehandel
   button: Börja din resa här
   buttonlink: /sv/kontakt/
 tabs_section:
