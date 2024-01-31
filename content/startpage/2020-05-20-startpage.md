@@ -1,6 +1,6 @@
 ---
 shorttitle: Startpage
-title: Holistic SEO, Data Magic and Digital Strategies
+title: User centric SEO and Web Analysis
 description: We help e-coms with Advanced SEO, Web Analysis, Web Projects and
   Strategies Ask us how we can help you gain more relevant and converting
   traffic!
@@ -18,7 +18,7 @@ hero:
     maximises their ROI. Which means that they can confidently scale their
     businesses.
   featured_image:
-    src: ../assets/digital-growth-unikorn.svg
+    src: ../assets/mobile-friendly-site.svg
     alt: SEO Unikorn
   button: Start growing now
   buttonlink: /contact/
