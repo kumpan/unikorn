@@ -1,8 +1,8 @@
 ---
 shorttitle: SV Startpage
-title: Hollistisk SEO, datamagi och digitala strategier
-description: Unikorn är en internationell, digital byrå med fokus på hollistisk
-  SEO och webbrealterad datamagi.
+title: Användarfokuserad SEO och Webbanalys
+description: Vi hjälper ehandlare med avancerad SEO, webbanalys och webbprojekt.
+  Fråga oss hur vi kan hjälpa dig att få mer relevant och konverterande trafik!
 canonical: https://www.unikorn.se/sv/
 language: sv
 original: /
@@ -19,7 +19,7 @@ hero:
     uppföljningar, revideringar och kursriktning, en solid konstant SEO,
     webbprojekt och digitala strategiers prestationspartner.
   featured_image:
-    src: ../assets/digital-growth-unikorn.svg
+    src: ../assets/mobile-only.svg
     alt: Digital Growth
   button: Börja din resa här
   buttonlink: /sv/kontakt/
