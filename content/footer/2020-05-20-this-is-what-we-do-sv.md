@@ -10,7 +10,7 @@ col1:
     * Content Plans
     * Migration
 col2:
-  heading: Webanalysis
+  heading: Analytics
   text: |-
     * KPI Definition
     * Tracking Implementation
