@@ -11,11 +11,14 @@ col1:
     * Migration
 col2:
   heading: Analytics
-  text: |-
-    * KPI Definition
-    * Tracking Implementation
-    * Data Visualization
-    * Conversion Optimization
+  text: >-
+    * [KPI Definition](https://www.unikorn.se/web-analytics/kpi-definition/)
+
+    * [Tracking Implementation](https://www.unikorn.se/web-analytics/data-collection/)
+
+    * [Data Visualization](https://www.unikorn.se/web-analytics/data-visualization/)
+
+    * [Conversion Optimization](https://www.unikorn.se/web-analytics/conversion-optimization/)
 col3:
   heading: Strategy
   text: |
