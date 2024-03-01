@@ -36,10 +36,10 @@ tabs_section:
       buttonlink: /seo/
     - tab_title: Marketing
       text: "Our Digital Marketing experience is massive forming our view of
-        successful Digital Marketing, as aggressive, and not just for Start-ups,
-        but well established organisations too. We call it Unikorn Marketing -
-        Kick-off start and go-to-market phase aggressive expertise for full
-        traction throughout all cycle stages. "
+        successful Digital Marketing, and not just for Start-ups, but well
+        established organisations too. We call it Unikorn Marketing - Kick-off
+        start and go-to-market phase expertise for full traction throughout all
+        cycle stages. "
       heading: Unikorn Marketing
       buttonlink: /seo/
       buttontext: Read more about Unikorn marketing
