@@ -1,8 +1,9 @@
 ---
 shorttitle: SV Startpage
 title: Användarfokuserad SEO och Webbanalys
-description: Vi hjälper ehandlare med avancerad SEO, webbanalys och webbprojekt.
-  Fråga oss hur vi kan hjälpa dig att få mer relevant och konverterande trafik!
+description: Vi hjälper E-handlare med avancerad SEO, webbanalys och
+  webbprojekt. Fråga oss hur vi kan hjälpa dig att få mer relevant och
+  konverterande trafik!
 canonical: https://www.unikorn.se/sv/
 language: sv
 original: /
@@ -25,53 +26,52 @@ tabs_section:
   tab_fields:
     - tab_title: Organiskt sök
       heading: Organiskt sök
-      text: Organic and Paid Search is in our genes, with two decades handling the
-        market, it has brought to us the successful recipe to tame the search
-        landscape. At well-known brands and start-ups level, recognizing their
-        necessities and budgets, to accentuate results. We call it Unikorn
-        Search - SEO (Search Engine Optimisation) | SEM (Search Engine
-        Marketing) expertise.
+      text: Organiskt och betalt sök är i vårt DNA. Med över två decennier av
+        erfarenhet på marknaden har vi tagit fram ett framgångsrikt recept för
+        att tämja söklandskapet. Från välkända varumärken till start-up-företag,
+        och med hänsyn till varierande behov och budgetar, förstärker vi
+        resultat. Vi kallar det Unikorn Sökexpertis.
       buttontext: Läs mer om SEO
       buttontext_mobile: Läs mer om SEO
       buttonlink: /sv/seo/seo/
     - tab_title: Marknadsföring
-      text: "Our Digital Marketing experience is massive forming our view of
-        successful Digital Marketing,  and not just for Start-ups, but well
-        established organisations too. We call it Unikorn Marketing - Kick-off
-        start and go-to-market phase expertise for full traction throughout all
-        cycle stages. "
+      text: Vår omfattande erfarenhet av digital marknadsföring har format vår syn på
+        framgång inom området, inte bara för start-ups utan även för
+        väletablerade organisationer. Vi kallar det Unikorn Marketing – expertis
+        inom allt från Kick-off till Go-to-market, för att säkerställa full
+        kraft genom alla stadier.
       heading: Marknadsföring
       buttonlink: /sv/seo/
       buttontext: Läs mer om marknadsföring
       buttontext_mobile: Läs mer om marknadsföring
     - tab_title: Webbanalys
       heading: Unikorn Web
-      text: "Web projects in the hundreds have formed a profound understanding, as a
-        whole, of webs as platforms for small, medium, large and multinational
-        organisations. We call it Unikorn Web - A curated set of disciplines
-        constructed under three pillars of expertise: Migration | Requirements |
-        Project Management."
+      text: "Hundratals olika projekt har lett till en djup förståelse för webben som
+        en plattform för både små, medelstora, stora samt multinationella
+        organisationer. Vi kallar det Unikorn Web - En noggrant framtagen
+        uppsättning discipliner som faller under tre expertispelare: Migration |
+        Kravställning | Projektledning."
       buttontext: Läs mer om webbstrategi
       buttontext_mobile: Läs mer om webbstrategi
       buttonlink: /sv/webbanalys/
     - tab_title: Digital strategi
       heading: Digital strategi
-      text: How to walk the walk and talk the talk is all about knowing who you are
-        and where you are heading. A concept translatable to the digital scene
-        and where a map to success is essential. We are talking about Digital
-        Strategies - A cacophony we transform into a harmonious selection of
-        channel strategies, web analysis, processes and ways of working
-        expertise.
+      text: Att kunna leva som man lär handlar om att veta vem man är och vart man är
+        på väg. Det är ett koncept som enkelt kan översättas till den digitala
+        scenen, där en plan och en karta är avgörande för att nå framgång. Vi
+        pratar om digitala strategier – konsten att förvandla en kakofoni till
+        ett harmoniskt urval av kanalstrategier, webbanalyser, processer och
+        expertis inom arbetsmetoder.
       buttontext: Läs mer om digital strategi
       buttontext_mobile: Läs mer om digital strategi
       buttonlink: /sv/digitala-strategier/
 blog_section:
-  pre_heading: Blog
-  heading: Unikorn knowledge-base
-  button: Explore more articles
+  pre_heading: Blogg
+  heading: Unikorn kunskapsbas
+  button: Uforska fler artiklar
   buttonlink: /sv/blogg/
 video_section:
-  pre_heading: About Unikorn
+  pre_heading: Om Unikorn
   heading: What we can do for you!
   video_url: https://youtu.be/4IOgRc6k5QM
   video_image:
