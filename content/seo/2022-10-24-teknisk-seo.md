@@ -5,10 +5,10 @@ SEOform:
   form_text: .nan
   form_button: .nan
 src: ../assets/plus.svg
-shorttitle: Website Migration
+shorttitle: Migrering
 path: /sv/seo/web-migration/
-title: Website Migration
-description: Website migration som leder till bra SEO.
+title: Migrering
+description: Migrering som leder till bra SEO.
 canonical: https://www.unikorn.se/sv/seo/website-migration/
 language: sv
 menu_position: 8
@@ -24,7 +24,7 @@ icon:
   src: ../assets/seo.svg
   alt: SEO website migration
 hero:
-  heading: Website Migration
+  heading: Migrering
   text: We’re your best friend when it comes to helping you find the best path to
     a successful digital strategy. We know how to handle every aspect of your
     Digital Marketing.
