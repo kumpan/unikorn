@@ -12,7 +12,7 @@ og_image:
   src: ../assets/og.png
   alt: unikorn
 hero:
-  heading: SEO-konsulter för större ehandlare
+  heading: SEO-konsulter för större E-handlare
   text: Unikorn ser till att ehandlare växer genom avancerad SEO. Genom att förstå
     kundens behov driver vi relevant trafik, ökar konverteringar och maximerar
     deras ROI. Vilket innebär att de med säkerhet kan skala sina verksamheter.
