@@ -14,7 +14,7 @@ language: sv
 menu_position: 8
 og_image:
   src: ../assets/og.png
-  alt: "SEO services "
+  alt: "SEO tjänster "
 posts_category: Unikorn Marketing
 latest-posts-text: Read the latest posts about web analysis
 shortdesc: Från att byta domän till att renovera strukturen; vi ser till att det
@@ -22,7 +22,7 @@ shortdesc: Från att byta domän till att renovera strukturen; vi ser till att d
 original: https://www.unikorn.se/seo/website-migration/
 icon:
   src: ../assets/seo.svg
-  alt: SEO website migration
+  alt: SEO webbmigrering
 hero:
   heading: Migrering
   text: We’re your best friend when it comes to helping you find the best path to
