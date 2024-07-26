@@ -113,7 +113,9 @@ faq_section:
 
         * Bildoptimering: Optimering av bilder för snabbare laddningstider och bättre synlighet i bildsökningar.
 
-        * Analys och rapportering: Löpande övervakning och analys av SEO-prestanda för att justera strategier och maximera resultat.
+        * Analys och rapportering: Löpande övervakning och analys av SEO-prestanda för att justera strategier och maximera resultat.  
+
+
 
 
 
@@ -141,7 +143,11 @@ faq_section:
 
         * U﻿SPar, guider, FaQ och annat hjälpande innehåll i mitten av kundresan.
 
-        * Recensioner, leverans och betalningsinformation, kampanjer och erbjudanden för att behmöta behov i slutet av kundresan. 
+        * Recensioner, leverans och betalningsinformation, kampanjer och erbjudanden för att behmöta behov i slutet av kundresan.   
+
+
+
+
 
 
 
