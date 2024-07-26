@@ -72,128 +72,94 @@ blog_section:
   buttonlink: /sv/blogg/
 video_section:
   pre_heading: Om Unikorn
-  heading: What we can do for you!
+  heading: Vårt erbjudande!
   video_url: https://youtu.be/4IOgRc6k5QM
   video_image:
     src: ../assets/screenshot-2021-05-19-at-16.57.42.png
-    alt: About Unikorn
-  button: Learn more about us
+    alt: Om Unikorn
+  button: Mer om Unikorn
   buttonlink: /sv/om-unikorn/
 faq_section:
-  pre_heading: Frequently asked questions (FAQ)
-  heading: Answering your questions
+  pre_heading: FAQ
+  heading: Vanliga frågor
   faqs:
-    - question: What is SEO
+    - question: Vad är SEO?
       answer: >-
-        SEO stands for Search Engine Optimisation, and is a collection of
-        disciplines to make your content rank for relevant search queries on
-        search engines. SEO is important for many websites, to make sure the
-        users are able to find and interact with the desired content when they
-        search for it.
+        SEO står för sökmotoroptimering och är en samling strategier som hjälper
+        ditt innehåll att rankas högre för relevanta sökfrågor på sökmotorer.
+        Internet är ett enormt landskap fullt av möjligheter och utmaningar.
+        Oavsett hur fantastisk din produkt eller tjänst är, spelar det ingen
+        roll om ingen kan hitta den. Här kommer SEO in i bilden som en nyckel
+        för att säkerställa synlighet. Ett av dess främsta målen med SEO är att
+        optimera innehållet för både användare och för sökmotorernas robotar
+        (crawlers, spindlar), så att din sajt blir lätt att upptäcka och
+        attraktiv att besöka.
 
 
-        We must remember that the Internet is a vast space offering huge opportunities, and also immense downfall because no matter how good is the product and/or service if it’s not visible there’s nothing to do. SEO plays a vital part in this visibility because one of its prime objectives is the content presentation focused on users and search bots (crawlers, spiders).
+        ### En balans mellan användarnas behov och sökmotorernas krav
 
 
-        Some SEO disciplines we use, to achieve a perfect balance between the necessities of the users and those of the search engine crawlers include:
+        Att arbeta med en sajts SEO innefattar:
 
 
-        * Technical optimisation
+        * Teknisk optimering: Förbättring av webbplatsens infrastruktur och kod för bättre indexering och snabbare laddningstider.
 
-        * Content Creation
+        * Innehållsskapande: Skapande av engagerande, relevant och värdefullt innehåll som svarar på användarnas frågor och behov.
 
-        * Links and authority building
+        * Länkar och auktoritet: Utveckling av en stark länkprofil genom kvalitativa länkar för att öka webbplatsens trovärdighet.
 
-        * User engagement optimisation
+        * Optimering för ökat engagemang: Förbättring av webbplatsens användarupplevelse för att öka besökarnas interaktion och minska avvisningsfrekvensen.
 
-        * App Store Optimisation (ASO)
+        * Lokal SEO: Anpassning av innehåll för språkliga och kulturella skillnader för att förbättra synligheten för lokala sökningar.
 
-        * YouTube Optimisation
+        * Holistisk SEO: Skapa synergieffekter mellan sociala medieplattformar och andra digitala kanaler för att förstärka den organiska synligheten.
 
-        * ...and more
+        * Bildoptimering: Optimering av bilder för snabbare laddningstider och bättre synlighet i bildsökningar.
 
-
-        To be able to foster and nurture these techniques, patience is crucial, and craftsmanship vital, these reasons make it clear SEO is a fundamental pillar in the digital marketing space. Thus, a solid team of specialised professionals is required to reach the set-targets and we at Unikorn have the knowledge, know-how, and the wo-manpower to reach your businesses online needs through our curated SEO.
-
-
-        Interesting facts that may shine a better light on SEO are the top-5 search engines worldwide, at number #1 Google, #2 Bing, #3 Baidu, #4 Yahoo, and #5 Yandex. Google alone holds the crown encompassing market share at over 90%, and Bing, in second places has a 2%-12% market share. Inside this top-5 the amount of users who surf the search engines rises to over 4,000,000,000 which is nearly 60% of the World’s population.
+        * Analys och rapportering: Löpande övervakning och analys av SEO-prestanda för att justera strategier och maximera resultat.
 
 
-        We hope these fun-facts have shed a light on the empowering force SEO is for your Digital Marketing, and through many of its streams. One that shines brightest is the humongous amount of users searching the web on informational, commercial, and transactional search basis. Other aspects shining are the exponential market share the #1 search engine has. Data that forms the picture of the paths a business needs to walk, for its digital presence to standout from the crowd.
+        ...och mycket, mycket mer!
 
 
-        [Read more about SEO >>](https://www.unikorn.se/sv/seo/seo/)
-    - question: What is Unikorn Marketing
+        SEO är en grundpelare inom digital marknadsföring och kräver som sagt både kunskaper inom både tekniska aspekter och användarbeteenden, samt löpande anpassningar till föränderliga algoritmer och konkurrens. Dessutom behöver man arbeta med både kortsiktig och långsiktig optimering för att skapa stabilitet och hållbar utveckling. Därför krävs ett starkt team av specialiserade experter för att uppnå de uppsatta målen. På Unikorn besitter vi den kunskap och expertis som krävs för att effektivt öka din organiska synlighet.
+
+
+        \
+
+        [Läs mer om SEO >>](https://www.unikorn.se/sv/seo/seo/)
+    - question: Vad är Sökkundresan?
       answer: >-
-        Unikorn Marketing is an aggressive marketing and user-focused way of
-        working we have developed at Unikorn. Aggressive in the sense of
-        hands-on to help companies kick off their marketing efforts, or
-        go-to-market phase with bullet traction.
+        En sökkundresa är en modell vi använder på Unikorn, utvecklad av [Ulrika
+        Viberg](https://www.unikorn.se/sv/unikorns/ulrika-viberg/).
 
 
-        A mastery formed by a well integrated team of professionals who understand that, regardless of what channel or marketing technique is on the table, the user is always in its centre. She is the deciding factor determining the next flow or actionability, the enterprise, start-up, multinational or small business need to follow through. Unikorn Marketing focus, is used by our experts, to deliver results to the aimed targets, structured previously within the strategy creation, on:
+        Modellen bygger på den traditionella kundresan med faserna medvetenhet, intresse, övervägande, utvärdering och konvertering. Genom att översätta dessa faser till sökintentioner som informationssökningar, transaktionssökningar och kommersiella sökningar, får vi en extra dimension som kan effektivisera arbetet att med att öka den organiska synligheten genom hela köpresan.
 
 
-        * SoMe
-
-        * SEO
-
-        * SEM
-
-        * Display
-
-        * ...and more
+        Vi inleder vanligtvis våra webbprojekt med att kartlägga sajtens sökkundresa, och hur väl olika kundbehov möts upp i de olika faserna. Denna analys möjliggör att vi får kännedom i hur sajten presterar gällande:
 
 
-        Focusing our hands-on marketing approach, within the named tools above, we coordinate a mean machine of specialists. Who in turn digest the targets to aggressively act upon and start creating conversion through brand reputation, indexing, targeted-ads, and page authority. In other words:
+        * Inspirerande och informerande innehåll tidigt i kundresan.
+
+        * U﻿SPar, guider, FaQ och annat hjälpande innehåll i mitten av kundresan.
+
+        * Recensioner, leverans och betalningsinformation, kampanjer och erbjudanden för att behmöta behov i slutet av kundresan. 
 
 
-        * Brand reputation = Social media (SoMe).
-
-        * Indexing = Search engine optimisation (SEO).
-
-        * Targeted-ads = SEM (Search Engine Marketing).
-
-        * Authority = Linking-building.
+        När vi arbetar med en sökkundresa är noggrannhet avgörande. Små variationer i nyckelord, som "vin till mat" och "vin och mat", kan göra stor skillnad för att förstå kundens intention och behov.
 
 
-        The Unikorn Marketing team step-it-up upgrading the whole process, actioning on your digital presence, UX (user-experience), search optimisation, and a number of other advantages that we’d be delighted to discuss with you. If you still see the need or have curiosity to learn more about Unikorn Marketing, feel free to access the following link.
+        L﻿äs Ulrikas artikel för en mer djupgående förklaring av Unikorns sökkundresa.
 
 
-        [Read more about Unikorn Marketing >>](https://www.unikorn.se/sv/seo/)
-    - question: What is a Search Customer Journey?
-      answer: >-
-        A search customer journey is a model we use at Unikorn, developed by
-        Ulrika Viberg.
-
-
-        The model is based on a traditional customer journey, with the phases awareness, interest, consideration, evaluation and conversion. As these phases translate to the search intents of informational, transactional and commercial searches, they can be added as a layer on the customer journey.
-
-
-        In this sense, as we often do customer journeys as a start-off in our web projects, it seemed logical to add a layer of search on top of it. Resulting in:
-
-
-        * Inspirational content for the awareness phase.
-
-        * Situational and informational content inside the interest stage + Informational search.
-
-        * Consideration phase offers USP (Unique selling proposition) and value proposition content + Informational and commercial search.
-
-        * Evaluation phase translating into reviews and cases production + Informational and transactional search.
-
-        * Purchase stage produces CRO (Conversion rate optimisation) and secure purchasing content + Transactional search.
-
-
-        Servicing a search customer journey as ours, the exactitude, relates to minimal changes in e.g. keywords’ slight differences “wine with food” and “wine and food”, as Ulrika explains in the following in-depth article about Unikorn’s customer journey.
-
-
-        [Read the article about The Customer Journey >>](https://www.unikorn.se/sv/blogg/)
+        [Sökkundresan  >>](https://www.unikorn.se/sv/blogg/)
   featured_image:
     src: ../assets/answers.png
     alt: Unikorn FAQ
-  load_more_faq_text: View more FAQ’s
+  load_more_faq_text: Se fler FAQ’s
 references_section:
-  references_tabs_heading: What do our friends and clients say about Unikorn
+  references_tabs_heading: Vad säger våra vänner om oss
   reference_tab_fields:
     - text: '"I highly recommend partnering with Unikorn on any web project. Having
         someone with a profound theoretical and technical knowledge of SEO was
