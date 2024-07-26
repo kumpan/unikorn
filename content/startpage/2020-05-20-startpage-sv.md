@@ -144,6 +144,8 @@ faq_section:
         * Recensioner, leverans och betalningsinformation, kampanjer och erbjudanden för att behmöta behov i slutet av kundresan. 
 
 
+
+
         När vi arbetar med en sökkundresa är noggrannhet avgörande. Små variationer i nyckelord, som "vin till mat" och "vin och mat", kan göra stor skillnad för att förstå kundens intention och behov.
 
 
