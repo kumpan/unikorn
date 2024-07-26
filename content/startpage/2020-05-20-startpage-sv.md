@@ -86,14 +86,11 @@ faq_section:
     - question: Vad är SEO?
       answer: >-
         SEO står för sökmotoroptimering och är en samling strategier som hjälper
-        ditt innehåll att rankas högre för relevanta sökfrågor på sökmotorer.
-        Internet är ett enormt landskap fullt av möjligheter och utmaningar.
-        Oavsett hur fantastisk din produkt eller tjänst är, spelar det ingen
-        roll om ingen kan hitta den. Här kommer SEO in i bilden som en nyckel
-        för att säkerställa synlighet. Ett av dess främsta målen med SEO är att
-        optimera innehållet för både användare och för sökmotorernas robotar
-        (crawlers, spindlar), så att din sajt blir lätt att upptäcka och
-        attraktiv att besöka.
+        ditt innehåll att rankas högre för relevanta sökfrågor på sökmotorer. \
+
+        \
+
+        Internet är ett enormt landskap fullt av möjligheter och utmaningar. Oavsett hur fantastisk din produkt eller tjänst är, spelar det ingen roll om ingen kan hitta den. Här kommer SEO in i bilden som en nyckel för att säkerställa synlighet. Ett av dess främsta målen med SEO är att optimera innehållet för både användare och för sökmotorernas robotar (crawlers, spindlar), så att din sajt blir lätt att upptäcka och attraktiv att besöka.
 
 
         ### En balans mellan användarnas behov och sökmotorernas krav
@@ -119,13 +116,13 @@ faq_section:
         * Analys och rapportering: Löpande övervakning och analys av SEO-prestanda för att justera strategier och maximera resultat.
 
 
+
+
         ...och mycket, mycket mer!
 
 
         SEO är en grundpelare inom digital marknadsföring och kräver som sagt både kunskaper inom både tekniska aspekter och användarbeteenden, samt löpande anpassningar till föränderliga algoritmer och konkurrens. Dessutom behöver man arbeta med både kortsiktig och långsiktig optimering för att skapa stabilitet och hållbar utveckling. Därför krävs ett starkt team av specialiserade experter för att uppnå de uppsatta målen. På Unikorn besitter vi den kunskap och expertis som krävs för att effektivt öka din organiska synlighet.
 
-
-        \
 
         [Läs mer om SEO >>](https://www.unikorn.se/sv/seo/seo/)
     - question: Vad är Sökkundresan?
