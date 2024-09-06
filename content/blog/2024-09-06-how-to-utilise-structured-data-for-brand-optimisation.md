@@ -5,8 +5,9 @@ description: With AI entering the search landscape, SEO is both changing and
   extending in more disciplines. One of these disciplines that will undergo
   massive changes especially from a technical SEO perspective is Digital
   Branding.
-canonical: /structured-data-optimisation
+canonical: /blog/structured-data-optimisation
 language: en
+original: /blog/structured-data-optimisation
 og_image:
   alt: Structured Data
   src: ../assets/content-marketing.jpg
