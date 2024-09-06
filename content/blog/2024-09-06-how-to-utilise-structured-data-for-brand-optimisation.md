@@ -10,7 +10,7 @@ language: en
 original: /blog/structured-data-optimisation
 og_image:
   alt: Structured Data
-  src: ../assets/content-marketing.jpg
+  src: ../assets/og.png
 date: 2024-09-06T11:53:58.059Z
 author: Ulrika Viberg
 author_page: /ulrika
