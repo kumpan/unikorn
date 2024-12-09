@@ -45,13 +45,13 @@ Jag har arbetat med digitala strategier och webbanalys sedan 2018. Innan jag bö
 ### Styrkor
 
 * Datadriven SEO
-*﻿ Teknisk SEO
-*﻿ Programmatisk SEO
-*﻿ Strategisk SEO och affärsutveckling
-* T﻿eknisk webbanalys
+* Teknisk SEO
+* ﻿Programmatisk SEO
+* Strategisk SEO och affärsutveckling
+* Webbanalys
 * Implementation av analysverktyg
 * Effektiv datavisualisering
-*﻿ Innehållsstrategi
+* Innehållsstrategi
 
 ### Drivkrafter
 
