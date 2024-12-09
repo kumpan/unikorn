@@ -45,10 +45,13 @@ I have been working with digital strategies and web analysis since 2018. Before 
 ## Strengths
 
 * Data-Driven SEO
+* Technical SEO
+* ﻿Programmatic SEO
+* Strategic SEO and Business Development
 * Technical Web Analysis 
-* Implementation of Analysis Tools
-* Effective Data Visualization
+* Implementation of Analytics Tools
+* Effective Data Visualisation
 
 ## Motivators
 
-> "Through access to reliable data, one can discern patterns and trends that were previously unknown, or merely speculated about. By identifying traffic flows, engaging content, and technical conditions for SEO and conversion, valuable insights are created for the path forward. Like a treasure hunt, I love the moment when one identifies the treasure and gets to see what it consist of." 
+> "With reliable data, we can uncover hidden patterns and trends that were once out of sight. By analyzing traffic flows, pinpointing what truly engages, and optimising the technical aspects, we gain actionable insights to the most value creating path forward."
