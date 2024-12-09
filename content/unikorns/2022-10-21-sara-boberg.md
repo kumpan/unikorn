@@ -48,6 +48,7 @@ I have been working with digital strategies and web analysis since 2018. Before 
 * Technical SEO
 * ﻿Programmatic SEO
 * Strategic SEO and Business Development
+* C﻿ontent Strategies
 * Technical Web Analysis 
 * Implementation of Analytics Tools
 * Effective Data Visualisation
