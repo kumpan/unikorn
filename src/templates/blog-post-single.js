@@ -60,7 +60,7 @@ class BlogTemplate extends Component {
 
     const currentCategory = post.frontmatter.category
     const currentId = post.id
-    const { title, description, canonical, og_image, author, author_page, date, featured_image, video_url, preamble, popup_btn, language } = this.props.data.currentPost.frontmatter
+    const { title, description, canonical, og_image, author, author_page, date, featured_image, preamble, popup_btn, language } = this.props.data.currentPost.frontmatter
 
     let relatedPosts
 
@@ -118,17 +118,6 @@ class BlogTemplate extends Component {
     }
   ]
 
-    if(video_url) {
-      const target = {
-        "@context": "https://schema.org",
-        "@type": "VideoObject",
-        "name": title,
-        "description": description,
-        "thumbnailUrl": featured_image.src.childImageSharp.fluid.src,
-        "embedUrl": video_url,
-      }
-      schema.push(target)
-    }
 
     const Subpage = (props) => {
     return (
@@ -137,14 +126,10 @@ class BlogTemplate extends Component {
           title={title}
           description={description}
           canonical={canonical}
-          video={video_url}
           schemaMarkup={schema}
           image={og_image.src}
           language={language}
         />
-        {this.state.showVideo && video_url &&
-          <VideoPopup url={video_url} title={title} handleVideo={this.handleVideo}/>
-        }
 
         <div className={Styles.single_hero + " " + this.state.activeClass}>
           <div className={Styles.single_hero_inner}>
@@ -160,19 +145,6 @@ class BlogTemplate extends Component {
 
         <div className={Styles.single_content_wrapper}>
           <div className={Styles.single_content_wrapper_inner}>
-            {video_url &&
-              <div className={Styles.single_content_video}>
-                <Img 
-                  fluid={{ ...featured_image.src.childImageSharp.fluid, aspectRatio: 2.125}}
-                  alt={featured_image.alt}
-                />
-                <div className="video-btn-wrapper" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0" aria-label="play">
-                  <div className="video-btn">
-                    <PlayCircleIcon />
-                  </div>
-                </div>
-              </div>
-            }
 
             <div className={Styles.single_content_body}>
               <MDXRenderer>{post.body}</MDXRenderer>
@@ -270,7 +242,6 @@ export const pageQuery = graphql`
         date(formatString: "DD/MM/YY")
         author
         author_page
-        video_url
         preamble
         popup_btn
         category
@@ -288,7 +259,7 @@ export const pageQuery = graphql`
     }
     relatedPosts: allMdx(
       filter: {
-        fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
+        fileAbsolutePath: { regex: "/(/blog/)/" }
         frontmatter: { language: { eq: "en" } }
       }
     ) {
@@ -302,7 +273,6 @@ export const pageQuery = graphql`
             category
             author
             author_page
-            video_url
             type
             featured_image {
               src {
@@ -320,7 +290,7 @@ export const pageQuery = graphql`
     }
     relatedPostsSwe: allMdx(
       filter: {
-        fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
+        fileAbsolutePath: { regex: "/(/blog/)/" }
         frontmatter: { language: { eq: "sv" } }
       }
     ) {
@@ -334,7 +304,6 @@ export const pageQuery = graphql`
             category
             author
             author_page
-            video_url
             type
             featured_image {
               src {

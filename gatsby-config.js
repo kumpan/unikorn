@@ -54,13 +54,13 @@ module.exports = {
         name: `about-page`,
       },
     },
-    {
+    /* {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/about`,
         name: `about`,
       },
-    },
+    }, */
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -68,13 +68,13 @@ module.exports = {
         name: `blog-page`,
       },
     },
-    {
+    /* {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/footer`,
         name: `footer`,
       },
-    },
+    }, */
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -89,13 +89,13 @@ module.exports = {
         name: `unikorns-page`,
       },
     },
-    {
+    /* {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/unikorns`,
         name: `unikorns`,
       },
-    },
+    }, */
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -131,13 +131,13 @@ module.exports = {
         name: `blog`,
       },
     },
-    {
+    /* {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/video`,
         name: `video`,
       },
-    },
+    }, */
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -276,76 +276,106 @@ module.exports = {
             }
 
             //Swedish subpages
-            if(language === 'sv') {
+            if (language === "sv") {
               return {
                 url: site.siteMetadata.siteUrl + node.path,
                 lastmodISO: lastmod,
                 links: [
-                  { lang: 'en', url: site.siteMetadata.siteUrl + original },
-                  { lang: 'sv', url: site.siteMetadata.siteUrl + node.path },
-                  { lang: 'x-default', url: site.siteMetadata.siteUrl + original }
-                ]
+                  { lang: "en", url: site.siteMetadata.siteUrl + original },
+                  { lang: "sv", url: site.siteMetadata.siteUrl + node.path },
+                  {
+                    lang: "x-default",
+                    url: site.siteMetadata.siteUrl + original,
+                  },
+                ],
               }
             }
 
             //English subpages
-            if(language === 'en') {
+            if (language === "en") {
               const swedish = allSitePage.edges.filter(
                 el => el.node.context.original === node.path
               )
 
-              if(swedish.length > 0) {
+              if (swedish.length > 0) {
                 return {
                   url: site.siteMetadata.siteUrl + node.path,
-                    lastmodISO: lastmod,
-                    links: [
-                      { lang: 'en', url: site.siteMetadata.siteUrl + node.path },
-                      { lang: 'sv', url: site.siteMetadata.siteUrl + swedish[0].node.path },
-                      { lang: 'x-default', url: site.siteMetadata.siteUrl + node.path }
-                    ]
+                  lastmodISO: lastmod,
+                  links: [
+                    { lang: "en", url: site.siteMetadata.siteUrl + node.path },
+                    {
+                      lang: "sv",
+                      url: site.siteMetadata.siteUrl + swedish[0].node.path,
+                    },
+                    {
+                      lang: "x-default",
+                      url: site.siteMetadata.siteUrl + node.path,
+                    },
+                  ],
                 }
               }
             }
 
-
-            if(language === null) {
+            if (language === null) {
               const match = allMarkdownRemark.edges.filter(
-                el => el.node.frontmatter.canonical == `${site.siteMetadata.siteUrl}${node.path}`
+                el =>
+                  el.node.frontmatter.canonical ==
+                  `${site.siteMetadata.siteUrl}${node.path}`
               )
 
-              if(match.length > 0) {
+              if (match.length > 0) {
                 const lang = match[0].node.frontmatter.language
 
-                if(lang == 'sv') {
+                if (lang == "sv") {
                   return {
                     url: site.siteMetadata.siteUrl + node.path,
                     lastmodISO: lastmod,
                     links: [
-                      { lang: 'en', url: site.siteMetadata.siteUrl + match[0].node.frontmatter.original },
-                      { lang: 'sv', url: site.siteMetadata.siteUrl + node.path },
-                      { lang: 'x-default', url: site.siteMetadata.siteUrl + match[0].node.frontmatter.original }
-                    ]
+                      {
+                        lang: "en",
+                        url:
+                          site.siteMetadata.siteUrl +
+                          match[0].node.frontmatter.original,
+                      },
+                      {
+                        lang: "sv",
+                        url: site.siteMetadata.siteUrl + node.path,
+                      },
+                      {
+                        lang: "x-default",
+                        url:
+                          site.siteMetadata.siteUrl +
+                          match[0].node.frontmatter.original,
+                      },
+                    ],
                   }
                 }
 
-                if(lang == 'en') {
+                if (lang == "en") {
                   const swedish = allMarkdownRemark.edges.filter(
                     el => el.node.frontmatter.original === node.path
                   )
-    
-                  if(swedish.length > 0) {
+
+                  if (swedish.length > 0) {
                     return {
                       url: site.siteMetadata.siteUrl + node.path,
-                        lastmodISO: lastmod,
-                        links: [
-                          { lang: 'en', url: site.siteMetadata.siteUrl + node.path },
-                          { lang: 'sv', url: swedish[0].node.frontmatter.canonical },
-                          { lang: 'x-default', url: site.siteMetadata.siteUrl + node.path }
-                        ]
+                      lastmodISO: lastmod,
+                      links: [
+                        {
+                          lang: "en",
+                          url: site.siteMetadata.siteUrl + node.path,
+                        },
+                        {
+                          lang: "sv",
+                          url: swedish[0].node.frontmatter.canonical,
+                        },
+                        {
+                          lang: "x-default",
+                          url: site.siteMetadata.siteUrl + node.path,
+                        },
+                      ],
                     }
                   }
-
-
                 }
               }
             }

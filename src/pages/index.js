@@ -282,7 +282,7 @@ export const data = graphql`
     }
     posts: allMdx(
       filter: { 
-        fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
+        fileAbsolutePath: { regex: "/(/blog/)/" }
         frontmatter: {language: {eq: "en"}}
       }
       sort: { fields: [frontmatter___date], order: DESC }
@@ -297,7 +297,6 @@ export const data = graphql`
             category
             author
             author_page
-            video_url
             type
             featured_image {
               src {

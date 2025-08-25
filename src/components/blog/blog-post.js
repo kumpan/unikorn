@@ -39,7 +39,7 @@ class BlogPost extends Component {
   }
 
   render() {
-    const { type, title, author, date, featured_image, video_url, path } = this.props.post
+    const { type, title, author, date, featured_image, path } = this.props.post
 
     let prefix
     if (this.props.language === "sv") {
@@ -88,19 +88,9 @@ class BlogPost extends Component {
               />
             </div>
 
-            {video_url &&
-              <div className="video-btn-wrapper" onClick={this.handleVideo} onKeyDown={this.handleVideo} role="button" tabIndex="0" aria-label="play">
-                <div className="video-btn">
-                  <PlayCircleIcon />
-                </div>
-              </div>
-            }
 
           </div>
         </Link>
-        {this.state.showVideo && video_url &&
-          <VideoPopup url={video_url} title={title} path={"blog/" + path} handleVideo={this.handleVideo} toArticleText={this.props.toArticleText}/>
-        }
       </div>
     )
   }

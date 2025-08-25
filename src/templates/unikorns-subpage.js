@@ -227,7 +227,7 @@ export const pageQuery = graphql`
     }
     relatedPosts: allMdx(
       filter: {
-        fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
+        fileAbsolutePath: { regex: "/(/blog/)/" }
         frontmatter: { language: { eq: "en" } }
       }
     ) {
@@ -241,7 +241,6 @@ export const pageQuery = graphql`
             category
             author
             author_page
-            video_url
             type
             featured_image {
               src {
@@ -259,7 +258,7 @@ export const pageQuery = graphql`
     }
     relatedPostsSwe: allMdx(
       filter: {
-        fileAbsolutePath: { regex: "/(/blog/|/video/)/" }
+        fileAbsolutePath: { regex: "/(/blog/)/" }
         frontmatter: { language: { eq: "sv" } }
       }
     ) {
@@ -273,7 +272,6 @@ export const pageQuery = graphql`
             category
             author
             author_page
-            video_url
             type
             featured_image {
               src {

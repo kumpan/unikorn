@@ -207,25 +207,15 @@ class Nav extends Component {
                     </Link>
                   }
                 </li>
-                <li className={Styles.has_submenu + " " + ( location.includes("/about") || location.includes("/om-unikorn") ? Styles.active : "")}>
+                <li className={location.includes("/about") ? Styles.active : ""}>
                   {prefix === '/' ?
                     <Link to="/about/">
                       About Unikorn
                     </Link>
-                  : <Link to="/sv/om-unikorn/">
+                  : <Link to="/about/">
                       Om Unikorn
                     </Link>
                   }
-                  <ChevronDownIcon />
-                  <ul className={Styles.submenu}>
-                    {aboutMenuItems}
-                    <li className={location.includes("/unikorns") || location.includes("/unikorns") ? Styles.active : ""}>
-                    {prefix === '/' ?
-                      <Link to={"/unikorns/"}>We are Unikorns</Link>
-                    : <Link to={"/sv/unikorns/"}>Vi är Unikorns</Link>
-                    }
-                    </li>
-                  </ul>
                 </li>
               </ul>
             </div>
@@ -237,8 +227,8 @@ class Nav extends Component {
                 <span>Get in touch now</span>
               </div>
             </Link>
-          : <Link to={"/sv/kontakt/"}>
-              <div id="nav-cta" className={Styles.nav_cta + " " + ( location.includes("/kontakt") ? Styles.active : "")} role="button" tabIndex="0">
+          : <Link to={"/contact/"}>
+              <div id="nav-cta" className={Styles.nav_cta + " " + ( location.includes("/contact") ? Styles.active : "")} role="button" tabIndex="0">
                 <span>Kom i kontakt nu</span>
               </div>
             </Link>
