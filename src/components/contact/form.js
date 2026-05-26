@@ -142,7 +142,7 @@ class Form extends Component {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ 
-          "form-name": "contact",
+          "form-name": "contact-v1",
          ...this.state
         })
       })
@@ -191,8 +191,8 @@ class Form extends Component {
       .toString()
 
     return (
-      <form id="contact-form" name="contact" method="POST" data-netlify="true" action="/thanks" onSubmit={this.handleSubmit}>
-        <input type="hidden" name="form-name" value="contact" />
+      <form id="contact-form" name="contact-v1" method="POST" data-netlify="true" action="/thanks" onSubmit={this.handleSubmit}>
+        <input type="hidden" name="form-name" value="contact-v1" />
         <p>{form_title}</p>
 
         <div className="input-container">
